@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "IntegersOutV2/1.0.0": {
+        "runtime": {
+          "IntegersOutV2.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "IntegersOutV2/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

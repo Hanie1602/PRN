@@ -1,0 +1,14 @@
+D:\Lession\Code\PRN212\Session02-Language\MyUtility\Bmi\bin\Debug\net8.0\Bmi.exe
+D:\Lession\Code\PRN212\Session02-Language\MyUtility\Bmi\bin\Debug\net8.0\Bmi.deps.json
+D:\Lession\Code\PRN212\Session02-Language\MyUtility\Bmi\bin\Debug\net8.0\Bmi.runtimeconfig.json
+D:\Lession\Code\PRN212\Session02-Language\MyUtility\Bmi\bin\Debug\net8.0\Bmi.dll
+D:\Lession\Code\PRN212\Session02-Language\MyUtility\Bmi\bin\Debug\net8.0\Bmi.pdb
+D:\Lession\Code\PRN212\Session02-Language\MyUtility\Bmi\obj\Debug\net8.0\Bmi.GeneratedMSBuildEditorConfig.editorconfig
+D:\Lession\Code\PRN212\Session02-Language\MyUtility\Bmi\obj\Debug\net8.0\Bmi.AssemblyInfoInputs.cache
+D:\Lession\Code\PRN212\Session02-Language\MyUtility\Bmi\obj\Debug\net8.0\Bmi.AssemblyInfo.cs
+D:\Lession\Code\PRN212\Session02-Language\MyUtility\Bmi\obj\Debug\net8.0\Bmi.csproj.CoreCompileInputs.cache
+D:\Lession\Code\PRN212\Session02-Language\MyUtility\Bmi\obj\Debug\net8.0\Bmi.dll
+D:\Lession\Code\PRN212\Session02-Language\MyUtility\Bmi\obj\Debug\net8.0\refint\Bmi.dll
+D:\Lession\Code\PRN212\Session02-Language\MyUtility\Bmi\obj\Debug\net8.0\Bmi.pdb
+D:\Lession\Code\PRN212\Session02-Language\MyUtility\Bmi\obj\Debug\net8.0\Bmi.genruntimeconfig.cache
+D:\Lession\Code\PRN212\Session02-Language\MyUtility\Bmi\obj\Debug\net8.0\ref\Bmi.dll

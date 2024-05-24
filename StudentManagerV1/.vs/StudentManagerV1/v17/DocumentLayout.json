@@ -1,0 +1,70 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Lession\\Code\\PRN212\\Session02-Language\\StudentManagerV1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{52EA1FD2-048E-4F22-B3FB-1CB6F8701B39}|StudentManagerV1\\StudentManagerV1.csproj|d:\\lession\\code\\prn212\\session02-language\\studentmanagerv1\\studentmanagerv1\\entities\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52EA1FD2-048E-4F22-B3FB-1CB6F8701B39}|StudentManagerV1\\StudentManagerV1.csproj|solutionrelative:studentmanagerv1\\entities\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52EA1FD2-048E-4F22-B3FB-1CB6F8701B39}|StudentManagerV1\\StudentManagerV1.csproj|d:\\lession\\code\\prn212\\session02-language\\studentmanagerv1\\studentmanagerv1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52EA1FD2-048E-4F22-B3FB-1CB6F8701B39}|StudentManagerV1\\StudentManagerV1.csproj|solutionrelative:studentmanagerv1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Student.cs",
+              "DocumentMoniker": "D:\\Lession\\Code\\PRN212\\Session02-Language\\StudentManagerV1\\StudentManagerV1\\Entities\\Student.cs",
+              "RelativeDocumentMoniker": "StudentManagerV1\\Entities\\Student.cs",
+              "ToolTip": "D:\\Lession\\Code\\PRN212\\Session02-Language\\StudentManagerV1\\StudentManagerV1\\Entities\\Student.cs",
+              "RelativeToolTip": "StudentManagerV1\\Entities\\Student.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T10:42:02.385Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Lession\\Code\\PRN212\\Session02-Language\\StudentManagerV1\\StudentManagerV1\\Program.cs",
+              "RelativeDocumentMoniker": "StudentManagerV1\\Program.cs",
+              "ToolTip": "D:\\Lession\\Code\\PRN212\\Session02-Language\\StudentManagerV1\\StudentManagerV1\\Program.cs",
+              "RelativeToolTip": "StudentManagerV1\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T10:08:05.239Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

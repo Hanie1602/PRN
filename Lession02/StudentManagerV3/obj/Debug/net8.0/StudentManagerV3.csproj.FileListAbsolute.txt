@@ -1,0 +1,14 @@
+D:\Lession\Code\PRN212\Session03-OOP\StudentManagerV3\bin\Debug\net8.0\StudentManagerV3.exe
+D:\Lession\Code\PRN212\Session03-OOP\StudentManagerV3\bin\Debug\net8.0\StudentManagerV3.deps.json
+D:\Lession\Code\PRN212\Session03-OOP\StudentManagerV3\bin\Debug\net8.0\StudentManagerV3.runtimeconfig.json
+D:\Lession\Code\PRN212\Session03-OOP\StudentManagerV3\bin\Debug\net8.0\StudentManagerV3.dll
+D:\Lession\Code\PRN212\Session03-OOP\StudentManagerV3\bin\Debug\net8.0\StudentManagerV3.pdb
+D:\Lession\Code\PRN212\Session03-OOP\StudentManagerV3\obj\Debug\net8.0\StudentManagerV3.GeneratedMSBuildEditorConfig.editorconfig
+D:\Lession\Code\PRN212\Session03-OOP\StudentManagerV3\obj\Debug\net8.0\StudentManagerV3.AssemblyInfoInputs.cache
+D:\Lession\Code\PRN212\Session03-OOP\StudentManagerV3\obj\Debug\net8.0\StudentManagerV3.AssemblyInfo.cs
+D:\Lession\Code\PRN212\Session03-OOP\StudentManagerV3\obj\Debug\net8.0\StudentManagerV3.csproj.CoreCompileInputs.cache
+D:\Lession\Code\PRN212\Session03-OOP\StudentManagerV3\obj\Debug\net8.0\StudentManagerV3.dll
+D:\Lession\Code\PRN212\Session03-OOP\StudentManagerV3\obj\Debug\net8.0\refint\StudentManagerV3.dll
+D:\Lession\Code\PRN212\Session03-OOP\StudentManagerV3\obj\Debug\net8.0\StudentManagerV3.pdb
+D:\Lession\Code\PRN212\Session03-OOP\StudentManagerV3\obj\Debug\net8.0\StudentManagerV3.genruntimeconfig.cache
+D:\Lession\Code\PRN212\Session03-OOP\StudentManagerV3\obj\Debug\net8.0\ref\StudentManagerV3.dll

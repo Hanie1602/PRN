@@ -233,7 +233,7 @@
 
             Student s4 = s2;
             //s4.ShowProfile();   //Toang lúc RUNTIME
-            if (s4 != null)         //!= == null để check 1 bie1en6 đang trỏ null hay ko
+            if (s4 != null)         //!= == null để check 1 biến đang trỏ null hay ko
                 s4.ShowProfile();
             else
                 Console.WriteLine("Please creatung a student object before printing the profile");

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Lession\\Code\\PRN212\\Session02-Language\\DataType\\NullValue\\NullValue.csproj": {}
+    "D:\\Github\\PRN212\\Lession01\\DataType\\NullValue\\NullValue.csproj": {}
   },
   "projects": {
-    "D:\\Lession\\Code\\PRN212\\Session02-Language\\DataType\\NullValue\\NullValue.csproj": {
+    "D:\\Github\\PRN212\\Lession01\\DataType\\NullValue\\NullValue.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Lession\\Code\\PRN212\\Session02-Language\\DataType\\NullValue\\NullValue.csproj",
+        "projectUniqueName": "D:\\Github\\PRN212\\Lession01\\DataType\\NullValue\\NullValue.csproj",
         "projectName": "NullValue",
-        "projectPath": "D:\\Lession\\Code\\PRN212\\Session02-Language\\DataType\\NullValue\\NullValue.csproj",
+        "projectPath": "D:\\Github\\PRN212\\Lession01\\DataType\\NullValue\\NullValue.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "D:\\Lession\\Code\\PRN212\\Session02-Language\\DataType\\NullValue\\obj\\",
+        "outputPath": "D:\\Github\\PRN212\\Lession01\\DataType\\NullValue\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",

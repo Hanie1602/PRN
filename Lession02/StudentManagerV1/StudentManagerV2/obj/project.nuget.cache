@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "w0P6cvipdhDTUWBwOtw7uJKCKdk8iV3YGar00hGRK3nzRUee4wdqu0s0NCTMcTYsn/nDfdCqJmlEi9fKS28ftg==",
+  "dgSpecHash": "CA89XALCmi3O4TAL+m19dwlCozKPbGieik/c/D9tUZ4OwNXqrkXgR6/SQx1G3SUWwIDWeMWSWn01rKyiv5qjNg==",
   "success": true,
-  "projectFilePath": "D:\\Lession\\Code\\PRN212\\Session03-OOP\\StudentManagerV2\\StudentManagerV2.csproj",
+  "projectFilePath": "D:\\Github\\PRN212\\Lession\\StudentManagerV1\\StudentManagerV2\\StudentManagerV2.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

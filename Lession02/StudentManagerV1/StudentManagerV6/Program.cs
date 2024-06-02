@@ -11,7 +11,7 @@
         {
             //Biến là 1 vùng RAM được đặt tên, chứa giá trị nào đó
             //Khi chơi với biến là ta  chơi với vùng RAM, chơi với giá trị, chơi thông qua tên biến
-            //Chơi với vùng AM/với biến ta làm được 2 việc sau:
+            //Chơi với vùng RAM/với biến ta làm được 2 việc sau:
             //READ VÙNG RAM, Read biến coi nó có value gì???
             //WRITE VÙNG RAM, thay đổi calue của vùng RAM, của biến
 

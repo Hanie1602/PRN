@@ -38,7 +38,7 @@ namespace StudentManagerV7
             };  //Kỹ thuật new kiểu này, new xong, rồi gán luôn SET()
             //Trên cùng 1 câu lệnh (đừng nhầm với NAMED-ARG New trong Constructor - Tham số Contructor)
             //Gọi hàm SET() lúc new
-            //Gọi là: Object Initializer
+            //Gọi là: Object Initializer.
 
             Console.WriteLine("s2 full");
             s2.ShowProfile();

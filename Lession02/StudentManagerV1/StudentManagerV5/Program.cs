@@ -26,7 +26,7 @@ namespace StudentManagerV5
 
             //New đủ nhưng.....
             var s3 = new Student(name: "Cuong", yob: 2005, gpa: 8.7, id: "SE3");
-            //Kỹ thuật truyền value vào hàm, vào constructor nhưng ko theo thứ tự khai báo biến của tên hàm
+            //Kỹ thuật truyền value vào hàm, vào Constructor nhưng ko theo thứ tự khai báo biến của tên hàm
             //Mà đảo thứ tự thoải mái value hàm thoải mái, miễn là ghi chú thêm tên biến đầu vào :
             //Giúp bạn truyền tham số theo cách bạn muốn, thứ tự bạn muốn mà ko gây báo lỗi tương thích tham số
             //Kỹ thuật này gọi là: Named Argument: truyền tham số

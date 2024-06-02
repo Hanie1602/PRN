@@ -11,7 +11,7 @@ namespace StudentManagerV8.Entities
 		//propfull tab
 		private string _id;
 		//KỸ THUẬT THIẾT KẾ CLASS MÀ XÀI BACKING FIELD
-		//Đi kèm GET SET kiểu mới gọi là Full Property
+		//Đi kèm GET SET kiểu mới gọi là Full Property.
 
 		private string _name;
         private int _yob;

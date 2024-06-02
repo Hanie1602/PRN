@@ -18,6 +18,6 @@ namespace StudentManagerV9.Entities
 
         //Lỡ quên cú pháp, gõ prop tab
         //public int MyProperty { get; set; }
-        //Bên Java ko có trò này, muốn làm trò này phải cài thêm Dependency bên ngoài, thư viên ngoài - thư viện LOMBOK
+        //Bên Java ko có trò này, muốn làm trò này phải cài thêm Dependency bên ngoài, thư viên ngoài - thư viện LOMBOK.
     }
 }

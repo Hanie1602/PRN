@@ -23,7 +23,7 @@ namespace StudentManagerV1
             //Điều gì xảy ra nếu ta ko thêm làm hàm ToString()
 
             //CÁCH TẠO OBJECT #2
-            Student s2 = new ("SE2", "Binh", 2004, 8.7);    //Sau new ko cần tên class vẫn giữ ý nhĩa gốc do khai báo là Student rồi
+            Student s2 = new("SE2", "Binh", 2004, 8.7);    //Sau new ko cần tên class vẫn giữ ý nhĩa gốc do khai báo là Student rồi
             s2.ShowProfile();
             Console.WriteLine(s2);  //Gọi thầm ToString()
             Console.WriteLine("");

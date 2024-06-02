@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Lession\\Code\\PRN212\\Session03-OOP\\StudentManagerV3\\StudentManagerV3.csproj",
+      "projectUniqueName": "D:\\Github\\PRN212\\Lession02\\StudentManagerV1\\StudentManagerV3\\StudentManagerV3.csproj",
       "projectName": "StudentManagerV3",
-      "projectPath": "D:\\Lession\\Code\\PRN212\\Session03-OOP\\StudentManagerV3\\StudentManagerV3.csproj",
+      "projectPath": "D:\\Github\\PRN212\\Lession02\\StudentManagerV1\\StudentManagerV3\\StudentManagerV3.csproj",
       "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "D:\\Lession\\Code\\PRN212\\Session03-OOP\\StudentManagerV3\\obj\\",
+      "outputPath": "D:\\Github\\PRN212\\Lession02\\StudentManagerV1\\StudentManagerV3\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",

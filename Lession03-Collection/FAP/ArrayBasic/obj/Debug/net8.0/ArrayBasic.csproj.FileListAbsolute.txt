@@ -1,0 +1,15 @@
+D:\Github\PRN212\Lession03-Collection\FAP\ArrayBasic\bin\Debug\net8.0\ArrayBasic.exe
+D:\Github\PRN212\Lession03-Collection\FAP\ArrayBasic\bin\Debug\net8.0\ArrayBasic.deps.json
+D:\Github\PRN212\Lession03-Collection\FAP\ArrayBasic\bin\Debug\net8.0\ArrayBasic.runtimeconfig.json
+D:\Github\PRN212\Lession03-Collection\FAP\ArrayBasic\bin\Debug\net8.0\ArrayBasic.dll
+D:\Github\PRN212\Lession03-Collection\FAP\ArrayBasic\bin\Debug\net8.0\ArrayBasic.pdb
+D:\Github\PRN212\Lession03-Collection\FAP\ArrayBasic\obj\Debug\net8.0\ArrayBasic.GeneratedMSBuildEditorConfig.editorconfig
+D:\Github\PRN212\Lession03-Collection\FAP\ArrayBasic\obj\Debug\net8.0\ArrayBasic.AssemblyInfoInputs.cache
+D:\Github\PRN212\Lession03-Collection\FAP\ArrayBasic\obj\Debug\net8.0\ArrayBasic.AssemblyInfo.cs
+D:\Github\PRN212\Lession03-Collection\FAP\ArrayBasic\obj\Debug\net8.0\ArrayBasic.csproj.CoreCompileInputs.cache
+D:\Github\PRN212\Lession03-Collection\FAP\ArrayBasic\obj\Debug\net8.0\ArrayBasic.sourcelink.json
+D:\Github\PRN212\Lession03-Collection\FAP\ArrayBasic\obj\Debug\net8.0\ArrayBasic.dll
+D:\Github\PRN212\Lession03-Collection\FAP\ArrayBasic\obj\Debug\net8.0\refint\ArrayBasic.dll
+D:\Github\PRN212\Lession03-Collection\FAP\ArrayBasic\obj\Debug\net8.0\ArrayBasic.pdb
+D:\Github\PRN212\Lession03-Collection\FAP\ArrayBasic\obj\Debug\net8.0\ArrayBasic.genruntimeconfig.cache
+D:\Github\PRN212\Lession03-Collection\FAP\ArrayBasic\obj\Debug\net8.0\ref\ArrayBasic.dll

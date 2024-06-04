@@ -21,7 +21,7 @@ namespace StudentManagerV7
             s1.ShowProfile();
             Console.WriteLine("");
 
-            //Viết tự nhiên hơn so voi 17 s1.SetName("An");
+            //Viết tự nhiên hơn so với s1.SetName("An");
             //Id, Name, yob, Gpa: được gọi là Property của 1 Object
             //Còn _id, _name, _yob, _gpa nay gọi là Backing Field
             //Đứa đứng sau, chống lưng cho Property, cho hàm GET SET

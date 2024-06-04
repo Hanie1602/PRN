@@ -13,11 +13,11 @@
             //Khi chơi với biến là ta  chơi với vùng RAM, chơi với giá trị, chơi thông qua tên biến
             //Chơi với vùng RAM/với biến ta làm được 2 việc sau:
             //READ VÙNG RAM, Read biến coi nó có value gì???
-            //WRITE VÙNG RAM, thay đổi calue của vùng RAM, của biến
+            //WRITE VÙNG RAM, thay đổi value của vùng RAM, của biến
 
             int x = 10;          //Vùng RAM, xx mang giá trị 10 khởi đầu
 
-            //Hãy in ra giá tr5i của biến, của vùng RAM, READ(), GET()
+            //Hãy in ra giá trị của biến, của vùng RAM, READ(), GET()
             //Sờ chạm tên biến, là sờ chạm value
             Console.WriteLine("x: " + x);   //GetX() được x
 

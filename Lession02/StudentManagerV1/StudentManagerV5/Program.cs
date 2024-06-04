@@ -72,7 +72,7 @@ namespace StudentManagerV5
         }
     }
 }
-//TRUYỀN 1 OBJECT VÀO HÀM CHÍNH LÀ TRUEY62N VÙNG NEW BÊN NGOÀI VÀO HÀM
+//TRUYỀN 1 OBJECT VÀO HÀM CHÍNH LÀ TRUYỀN VÙNG NEW BÊN NGOÀI VÀO HÀM
 //Chính là truyền tham chiếu, vì trong hàm mà SET() gì thì vùng new bên ngoài bị ảnh hưởng ngay, hiện tượng 2 chàng trỏ 1 nàng
 // Hàm nhận vào biến Object chính là truyền tham chiếu luôn rồi, trong hàm có thể thay đổi vùng new bên ngoài - ko cần REF OUT
 
@@ -103,7 +103,7 @@ namespace StudentManagerV5
 // Ta tạo Constructor đổ info vào object
 
 //4. Khi ta điền xong cái form, bài thi trắc nghiệm, cầm lên
-// Ta dòm nó, thấy nó, nhìn tấy nó -> GET()  VIEW()  SEE()
+// Ta dòm nó, thấy nó, nhìn thấy nó -> GET()  VIEW()  SEE()
 // Ta thấy có đáp án ko ổn, ta gôm/tẩy, sửa => SET()   SETTING()  SETTER()
 
 //5. Khi ta tạo xong Account trên mạng xã hội, ta sẽ show profile, show hết Info có thể

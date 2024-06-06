@@ -3,8 +3,28 @@
   "WorkspaceRootPath": "D:\\Github\\PRN212\\Lession03-Collection\\FAP\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{FE34BCA4-5B9E-4B68-911E-C2AD8DDCA584}|StudentManager\\StudentManager.csproj|d:\\github\\prn212\\lession03-collection\\fap\\studentmanager\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE34BCA4-5B9E-4B68-911E-C2AD8DDCA584}|StudentManager\\StudentManager.csproj|solutionrelative:studentmanager\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE34BCA4-5B9E-4B68-911E-C2AD8DDCA584}|StudentManager\\StudentManager.csproj|d:\\github\\prn212\\lession03-collection\\fap\\studentmanager\\services\\cabinet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE34BCA4-5B9E-4B68-911E-C2AD8DDCA584}|StudentManager\\StudentManager.csproj|solutionrelative:studentmanager\\services\\cabinet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE34BCA4-5B9E-4B68-911E-C2AD8DDCA584}|StudentManager\\StudentManager.csproj|d:\\github\\prn212\\lession03-collection\\fap\\studentmanager\\studentmanager.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{FE34BCA4-5B9E-4B68-911E-C2AD8DDCA584}|StudentManager\\StudentManager.csproj|solutionrelative:studentmanager\\studentmanager.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE34BCA4-5B9E-4B68-911E-C2AD8DDCA584}|StudentManager\\StudentManager.csproj|d:\\github\\prn212\\lession03-collection\\fap\\studentmanager\\entities\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE34BCA4-5B9E-4B68-911E-C2AD8DDCA584}|StudentManager\\StudentManager.csproj|solutionrelative:studentmanager\\entities\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{8A4A3365-B825-4F8B-AAB6-D36B55643D70}|ArrayStudent\\ArrayStudent.csproj|d:\\github\\prn212\\lession03-collection\\fap\\arraystudent\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8A4A3365-B825-4F8B-AAB6-D36B55643D70}|ArrayStudent\\ArrayStudent.csproj|solutionrelative:arraystudent\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D77139FE-AB6A-4984-8151-978F85ECD3A5}|ArrayBasic\\ArrayBasic.csproj|d:\\github\\prn212\\lession03-collection\\fap\\arraybasic\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D77139FE-AB6A-4984-8151-978F85ECD3A5}|ArrayBasic\\ArrayBasic.csproj|solutionrelative:arraybasic\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8A4A3365-B825-4F8B-AAB6-D36B55643D70}|ArrayStudent\\ArrayStudent.csproj|d:\\github\\prn212\\lession03-collection\\fap\\arraystudent\\entities\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -18,8 +38,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 7,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "StudentManager",
+              "DocumentMoniker": "D:\\Github\\PRN212\\Lession03-Collection\\FAP\\StudentManager\\StudentManager.csproj",
+              "RelativeDocumentMoniker": "StudentManager\\StudentManager.csproj",
+              "ToolTip": "D:\\Github\\PRN212\\Lession03-Collection\\FAP\\StudentManager\\StudentManager.csproj",
+              "RelativeToolTip": "StudentManager\\StudentManager.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-06-06T09:44:20.075Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
@@ -39,25 +72,76 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Student.cs",
-              "DocumentMoniker": "D:\\Github\\PRN212\\Lession03-Collection\\FAP\\ArrayStudent\\Entities\\Student.cs",
-              "RelativeDocumentMoniker": "ArrayStudent\\Entities\\Student.cs",
-              "ToolTip": "D:\\Github\\PRN212\\Lession03-Collection\\FAP\\ArrayStudent\\Entities\\Student.cs",
-              "RelativeToolTip": "ArrayStudent\\Entities\\Student.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAA8AAAA",
+              "Title": "Cabinet.cs",
+              "DocumentMoniker": "D:\\Github\\PRN212\\Lession03-Collection\\FAP\\StudentManager\\Services\\Cabinet.cs",
+              "RelativeDocumentMoniker": "StudentManager\\Services\\Cabinet.cs",
+              "ToolTip": "D:\\Github\\PRN212\\Lession03-Collection\\FAP\\StudentManager\\Services\\Cabinet.cs",
+              "RelativeToolTip": "StudentManager\\Services\\Cabinet.cs",
+              "ViewState": "AQIAAEMAAAAAAAAAAAAAwGUAAABAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-03T10:11:14.376Z",
+              "WhenOpened": "2024-06-06T09:46:21.975Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Student.cs",
+              "DocumentMoniker": "D:\\Github\\PRN212\\Lession03-Collection\\FAP\\StudentManager\\Entities\\Student.cs",
+              "RelativeDocumentMoniker": "StudentManager\\Entities\\Student.cs",
+              "ToolTip": "D:\\Github\\PRN212\\Lession03-Collection\\FAP\\StudentManager\\Entities\\Student.cs",
+              "RelativeToolTip": "StudentManager\\Entities\\Student.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAABIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-06T09:38:25.439Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Github\\PRN212\\Lession03-Collection\\FAP\\StudentManager\\Program.cs",
+              "RelativeDocumentMoniker": "StudentManager\\Program.cs",
+              "ToolTip": "D:\\Github\\PRN212\\Lession03-Collection\\FAP\\StudentManager\\Program.cs",
+              "RelativeToolTip": "StudentManager\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACYAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-06T09:37:28.704Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Github\\PRN212\\Lession03-Collection\\FAP\\ArrayBasic\\Program.cs",
+              "RelativeDocumentMoniker": "ArrayBasic\\Program.cs",
+              "ToolTip": "D:\\Github\\PRN212\\Lession03-Collection\\FAP\\ArrayBasic\\Program.cs",
+              "RelativeToolTip": "ArrayBasic\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T22:11:36.902Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Student.cs",
+              "DocumentMoniker": "D:\\Github\\PRN212\\Lession03-Collection\\FAP\\ArrayStudent\\Entities\\Student.cs",
+              "RelativeDocumentMoniker": "ArrayStudent\\Entities\\Student.cs",
+              "ToolTip": "D:\\Github\\PRN212\\Lession03-Collection\\FAP\\ArrayStudent\\Entities\\Student.cs",
+              "RelativeToolTip": "ArrayStudent\\Entities\\Student.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-03T10:11:14.376Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
               "DocumentMoniker": "D:\\Github\\PRN212\\Lession03-Collection\\FAP\\ArrayStudent\\Program.cs",
               "RelativeDocumentMoniker": "ArrayStudent\\Program.cs",
               "ToolTip": "D:\\Github\\PRN212\\Lession03-Collection\\FAP\\ArrayStudent\\Program.cs",
               "RelativeToolTip": "ArrayStudent\\Program.cs",
-              "ViewState": "AQIAABAAAAAAAAAAAAAQwCwAAAAYAAAA",
+              "ViewState": "AQIAACoAAAAAAAAAAAAYwEMAAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-03T10:10:49.012Z",
               "EditorCaption": ""

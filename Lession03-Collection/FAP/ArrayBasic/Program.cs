@@ -4,10 +4,36 @@
 	{
 		static void Main(string[] args)
 		{
-			PlayWithIntegerListV4();
+			PlayWithIntegerListV5();
 		}
 
 		//CHALLENGE 1: HÃY LƯU TRỮ DÃY SỐ 5 10 15 20 25 30 35 40 45 50,....VÀ IN RA MÀN HÌNH
+
+		static void PlayWithIntegerListV5()
+		{
+			int[] arr = new int[10];
+			arr[0] = 5;
+			arr[1] = 10;
+			arr[2] = 15;
+			arr[3] = 20;    //Gán 4, còn 6 biến chưa gán!!!
+
+            //ta mới xài, mới gán 4 phần tử (element) 4 biến có gí trị, biến trong mảng gọi là phần tử
+            //Vậy các biến còn lại mạng giá trị mấy???
+            //ĐỪNG QUÊN: Mảng là Object, là 1 vùng New chứa nhiều biến bên trong, cũng như new Student() chứa nhiều info bên trong
+            //in mảng
+
+            Console.WriteLine("The list of numbers printed by using for i");
+			for (int i = 0; i < arr.Length; i++)
+				Console.Write(arr[i] + " ");
+
+            Console.WriteLine();    //Sống có trách nhiệm
+            Console.WriteLine("\nThe list of numbers printed by using for each");
+			foreach (var x in arr)
+                Console.Write(x + " ");
+            Console.WriteLine();
+
+
+        }
 
 		static void PlayWithIntegerListV4()
 		{
@@ -49,7 +75,7 @@
 			//				[0] [1] [2] [3]....
 			//				các biến int như bt kèm theo value
 			//				int x = 5, x được gọi tên mới là arr
-			//				tên biến lẻ nay hơi dài về tên 1 chút
+			//				tên biến lẻ này hơi dài về tên 1 chút
 			// arr là BIẾN MÁ MÌ QUẢN LÝ DƯỚI TAY, DƯỚI TRƯỚNG 10 EM BIẾN IN LẺ [0] [1] [2]
 			// ARR LÀ BIẾN CON TRỎ TRỎ VÙNG NEW BỰ CHỨA 10 BIẾN INT
 			//Vậy arr có quyền chấm để đi vào vùng New
@@ -61,7 +87,7 @@
 
 		static void PlayWithIntegerListV2()
 		{
-			//CÁCH HIỆN ĐẠI, HIỆU QUẢ - KHAI BÁO SỈ - CÚ PHÁP CÁCH VIẾT SẼ RỐI HON 1 CHÚT
+			//CÁCH HIỆN ĐẠI, HIỆU QUẢ - KHAI BÁO SỈ - CÚ PHÁP CÁCH VIẾT SẼ RỐI HƠN 1 CHÚT
 			int a = 5, b = 10, c = 15, d = 20;  //....
 
 			int[] arr1 = { 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 };     //New ngầm, arr1 = new int[10]
@@ -82,13 +108,13 @@
 			arr5[4] = 25;
 			arr5[5] = 30;
 
-			//KHA BÁO MẢNG: MẢNG CHỈ LẢ KỸ THUẬT KHAI BÁO NHIỀU BIẾN (KHAI BÁO SỈ)
+			//KHAI BÁO MẢNG: MẢNG CHỈ LẢ KỸ THUẬT KHAI BÁO NHIỀU BIẾN (KHAI BÁO SỈ)
 			//CÙNG 1 LÚC, CÙNG 1 KIỂU, CÙNG 1 TÊN, Ở SÁT NHAU TRONG RAM
 
 			//Khai báo mảng là khai báo nhiều biến chứa nhiều giá trị trong RAM
 			//Một cách nhanh gọn hiệu quả
 
-			//Do mảng là đai diện cho nhiều biến trùng tên trùng kiểu,do đó để
+			//Do mảng là đại diện cho nhiều biến trùng tên trùng kiểu,do đó để
 			//Phân biệt từng biến lẻ, ta dùng [Index đếm từ 0]
 
 			//Biến thứ [0] biến thứ [1] biến thứ [2]

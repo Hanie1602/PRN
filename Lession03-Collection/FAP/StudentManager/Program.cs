@@ -11,6 +11,7 @@ namespace StudentManager
 			Cabinet tuSE = new Cabinet();   //Có sẵn ngăn 30 chỗ đựng hồ sơ
 											//Đang empty _count = 0;
 			Cabinet tuBiz = new Cabinet();
+
 			//Có thêm 30 ngăn khác, empty count = 0. 2 vùng new riêng biệt, 2 tủ riêng biệt
 			tuSE.AddAStudent(new Student() { Id = "SE1", Name = "An" });
 			tuSE.AddAStudent(new Student() { Id = "SE2", Name = "Bình" });

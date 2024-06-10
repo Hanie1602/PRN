@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ArrayBasic")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d2166da19ce5feb46bc9aae2446c34db126919e2")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5736d4acf792a65fb8a2eebdd7c4dedf1b8f40e1")]
 [assembly: System.Reflection.AssemblyProductAttribute("ArrayBasic")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ArrayBasic")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

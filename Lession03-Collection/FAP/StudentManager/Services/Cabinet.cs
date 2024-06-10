@@ -36,7 +36,7 @@ namespace StudentManager.Services
 
 		//Ta ko làm Get() Set() cho _arr: tại sao???
 		//Get() trả về mảng thô, có sao trả về vậy, ko ổn về mặt quản lý data
-		//Lẽ ra phải trả mãng đã sắp xếp theo...
+		//Lẽ ra phải trả mảng đã sắp xếp theo...
 		//Vậy trả về mảng phải qua xử lý tính toán rõ ràng -> Vậy phải là 1 hàm có tính toán, chứ ko phải get() thuần
 		//Ko làm hàm Get() là hợp lý
 
@@ -68,7 +68,7 @@ namespace StudentManager.Services
 
 		public void AddAStudent()
 		{
-			//Ta phải có code để nhập info snh viên ở đây!!!  thì mới new được
+			//Ta phải có code để nhập info sinh viên ở đây!!!  thì mới new được
 			//Nhập này: Console.ReadLine() => Trả về chuỗi => cần số thì convert từ chuỗi về số
 			//HÀM NÀY CHỈ CHƠI VỚI CONSOLE -> Kém linh hoạt!!!
 			//Vì việc nhập info có thể đến từ Web, WIN FORMS (UI DESKTOP), MOBILE

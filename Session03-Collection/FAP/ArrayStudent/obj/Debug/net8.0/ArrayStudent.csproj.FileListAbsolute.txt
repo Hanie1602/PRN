@@ -1,0 +1,15 @@
+D:\Github\PRN212\Lession03-Collection\FAP\ArrayStudent\bin\Debug\net8.0\ArrayStudent.exe
+D:\Github\PRN212\Lession03-Collection\FAP\ArrayStudent\bin\Debug\net8.0\ArrayStudent.deps.json
+D:\Github\PRN212\Lession03-Collection\FAP\ArrayStudent\bin\Debug\net8.0\ArrayStudent.runtimeconfig.json
+D:\Github\PRN212\Lession03-Collection\FAP\ArrayStudent\bin\Debug\net8.0\ArrayStudent.dll
+D:\Github\PRN212\Lession03-Collection\FAP\ArrayStudent\bin\Debug\net8.0\ArrayStudent.pdb
+D:\Github\PRN212\Lession03-Collection\FAP\ArrayStudent\obj\Debug\net8.0\ArrayStudent.GeneratedMSBuildEditorConfig.editorconfig
+D:\Github\PRN212\Lession03-Collection\FAP\ArrayStudent\obj\Debug\net8.0\ArrayStudent.AssemblyInfoInputs.cache
+D:\Github\PRN212\Lession03-Collection\FAP\ArrayStudent\obj\Debug\net8.0\ArrayStudent.AssemblyInfo.cs
+D:\Github\PRN212\Lession03-Collection\FAP\ArrayStudent\obj\Debug\net8.0\ArrayStudent.csproj.CoreCompileInputs.cache
+D:\Github\PRN212\Lession03-Collection\FAP\ArrayStudent\obj\Debug\net8.0\ArrayStudent.sourcelink.json
+D:\Github\PRN212\Lession03-Collection\FAP\ArrayStudent\obj\Debug\net8.0\ArrayStudent.dll
+D:\Github\PRN212\Lession03-Collection\FAP\ArrayStudent\obj\Debug\net8.0\refint\ArrayStudent.dll
+D:\Github\PRN212\Lession03-Collection\FAP\ArrayStudent\obj\Debug\net8.0\ArrayStudent.pdb
+D:\Github\PRN212\Lession03-Collection\FAP\ArrayStudent\obj\Debug\net8.0\ArrayStudent.genruntimeconfig.cache
+D:\Github\PRN212\Lession03-Collection\FAP\ArrayStudent\obj\Debug\net8.0\ref\ArrayStudent.dll

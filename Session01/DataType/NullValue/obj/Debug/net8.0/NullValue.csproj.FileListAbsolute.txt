@@ -1,0 +1,14 @@
+D:\Lession\Code\PRN212\Session02-Language\DataType\NullValue\bin\Debug\net8.0\NullValue.exe
+D:\Lession\Code\PRN212\Session02-Language\DataType\NullValue\bin\Debug\net8.0\NullValue.deps.json
+D:\Lession\Code\PRN212\Session02-Language\DataType\NullValue\bin\Debug\net8.0\NullValue.runtimeconfig.json
+D:\Lession\Code\PRN212\Session02-Language\DataType\NullValue\bin\Debug\net8.0\NullValue.dll
+D:\Lession\Code\PRN212\Session02-Language\DataType\NullValue\bin\Debug\net8.0\NullValue.pdb
+D:\Lession\Code\PRN212\Session02-Language\DataType\NullValue\obj\Debug\net8.0\NullValue.GeneratedMSBuildEditorConfig.editorconfig
+D:\Lession\Code\PRN212\Session02-Language\DataType\NullValue\obj\Debug\net8.0\NullValue.AssemblyInfoInputs.cache
+D:\Lession\Code\PRN212\Session02-Language\DataType\NullValue\obj\Debug\net8.0\NullValue.AssemblyInfo.cs
+D:\Lession\Code\PRN212\Session02-Language\DataType\NullValue\obj\Debug\net8.0\NullValue.csproj.CoreCompileInputs.cache
+D:\Lession\Code\PRN212\Session02-Language\DataType\NullValue\obj\Debug\net8.0\NullValue.dll
+D:\Lession\Code\PRN212\Session02-Language\DataType\NullValue\obj\Debug\net8.0\refint\NullValue.dll
+D:\Lession\Code\PRN212\Session02-Language\DataType\NullValue\obj\Debug\net8.0\NullValue.pdb
+D:\Lession\Code\PRN212\Session02-Language\DataType\NullValue\obj\Debug\net8.0\NullValue.genruntimeconfig.cache
+D:\Lession\Code\PRN212\Session02-Language\DataType\NullValue\obj\Debug\net8.0\ref\NullValue.dll

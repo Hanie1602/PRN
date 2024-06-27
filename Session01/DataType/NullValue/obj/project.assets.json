@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Github\\PRN212\\Lession01\\DataType\\NullValue\\NullValue.csproj",
+      "projectUniqueName": "D:\\Github\\PRN212\\Session01\\DataType\\NullValue\\NullValue.csproj",
       "projectName": "NullValue",
-      "projectPath": "D:\\Github\\PRN212\\Lession01\\DataType\\NullValue\\NullValue.csproj",
+      "projectPath": "D:\\Github\\PRN212\\Session01\\DataType\\NullValue\\NullValue.csproj",
       "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "D:\\Github\\PRN212\\Lession01\\DataType\\NullValue\\obj\\",
+      "outputPath": "D:\\Github\\PRN212\\Session01\\DataType\\NullValue\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",

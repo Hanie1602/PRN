@@ -146,7 +146,7 @@
             Student s6 = s5 ?? new Student("SE6", "SAU", 2006, 6.6);
             s6.ShowProfile();
 
-            //2 chàng trỏ 1 nàng
+            //2 chàng trỏ 1 nàng.
         }
 
         static void PlayWithNullV1()
@@ -171,7 +171,7 @@
             s3?.ShowProfile();
             //NULL CONDITION OPERATR
             //Là ký hiệu, phép toán, phép so sánh, kiểm tra 1 object có null hay ko trước khi gọi hàm của nó
-            //Viết gộp c ủa if và else
+            //Viết gộp của if và else
             //Tránh bị RUNTIME ERROR
 
             Console.WriteLine("");

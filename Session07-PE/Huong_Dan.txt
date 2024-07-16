@@ -1,0 +1,43 @@
+===========================
+Load Database lên
+===========================
+
+- Data Gird: 
++ Xóa từ: d:ItemsSource="{d:SampleData ItemCount=5}"
++ Thêm: AutoGenerateColumns="True"
+
+- Đổi Name cho từng cái: Button, DataGird
+- View -> SQL Sever Object Exployer -> Chọn Database -> New Query 
+- CÂU LỆNH TỰ ĐỘNG GENERATE ENTITY CLASS VÀ DBCONTEXT CLASS - CHỌN 1 TRONG CÁC CÁCH BÊN ĐÓ [Mở để xem đề và hướng dẫn]
+- Ấn phải chuột vào Dependencies -> Manage NuGet Packages -> Add 6 cái
+- Build -> Build Solution
+- Ấn phải chuột -> Open in Terminal
+- Dán: dotnet ef dbcontext scaffold "Server=(local);Database=LibraryDb;UID=sa;PWD=12345;TrustServerCertificate=True" "Microsoft.EntityFrameworkCore.SqlServer" --output-dir "Entities" --context-dir ".\"
+- Ấn phải chuột Project -> Add -> New Item -> gõ json -> tên: appsettings.json
+- Chọn appsettings.json trong Properties -> Coppy to Output Directory: Copy always
+- Dán:
+{
+"ConnectionStrings": {
+"DefaultConnectionStringDB": "server=(local); database=LibraryDb;uid=sa;pwd=12345; TrustServerCertificate=True"
+}
+}
+
+- vào LibraryDbContext.cs
+protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+{
+    optionsBuilder.UseSqlServer(GetConnectionString());
+}
+
+private string GetConnectionString()
+{
+	IConfiguration config = new ConfigurationBuilder()
+		 .SetBasePath(Directory.GetCurrentDirectory())
+				.AddJsonFile("appsettings.json", true, true)
+				.Build();
+	var strConn = config["ConnectionStrings:DefaultConnectionStringDB"];
+
+	return strConn;
+}
+
+- Chọn MainWindow.xaml -> Chọn Window -> Chọn biểu tượng sấm sét -> Tìm Loaded -> Nhấn 2 lần vào Loaded -> Code
+- 

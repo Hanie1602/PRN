@@ -1,0 +1,118 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Github\\PRN212\\Session07-PE\\LibraryManagement\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{33BAC7D8-8B29-4A6D-8D06-CF6E0EE23196}|LibraryManagement.GUI\\LibraryManagement.GUI.csproj|D:\\Github\\PRN212\\Session07-PE\\LibraryManagement\\librarymanagement.gui\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33BAC7D8-8B29-4A6D-8D06-CF6E0EE23196}|LibraryManagement.GUI\\LibraryManagement.GUI.csproj|solutionrelative:librarymanagement.gui\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33BAC7D8-8B29-4A6D-8D06-CF6E0EE23196}|LibraryManagement.GUI\\LibraryManagement.GUI.csproj|D:\\Github\\PRN212\\Session07-PE\\LibraryManagement\\librarymanagement.gui\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{33BAC7D8-8B29-4A6D-8D06-CF6E0EE23196}|LibraryManagement.GUI\\LibraryManagement.GUI.csproj|solutionrelative:librarymanagement.gui\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33BAC7D8-8B29-4A6D-8D06-CF6E0EE23196}|LibraryManagement.GUI\\LibraryManagement.GUI.csproj|d:\\github\\prn212\\session07-pe\\librarymanagement\\librarymanagement.gui\\librarydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33BAC7D8-8B29-4A6D-8D06-CF6E0EE23196}|LibraryManagement.GUI\\LibraryManagement.GUI.csproj|solutionrelative:librarymanagement.gui\\librarydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33BAC7D8-8B29-4A6D-8D06-CF6E0EE23196}|LibraryManagement.GUI\\LibraryManagement.GUI.csproj|D:\\Github\\PRN212\\Session07-PE\\LibraryManagement\\librarymanagement.gui\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{33BAC7D8-8B29-4A6D-8D06-CF6E0EE23196}|LibraryManagement.GUI\\LibraryManagement.GUI.csproj|solutionrelative:librarymanagement.gui\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33BAC7D8-8B29-4A6D-8D06-CF6E0EE23196}|LibraryManagement.GUI\\LibraryManagement.GUI.csproj|D:\\Github\\PRN212\\Session07-PE\\LibraryManagement\\librarymanagement.gui\\librarymanagement.gui.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{33BAC7D8-8B29-4A6D-8D06-CF6E0EE23196}|LibraryManagement.GUI\\LibraryManagement.GUI.csproj|solutionrelative:librarymanagement.gui\\librarymanagement.gui.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LibraryDbContext.cs",
+              "DocumentMoniker": "D:\\Github\\PRN212\\Session07-PE\\LibraryManagement\\LibraryManagement.GUI\\LibraryDbContext.cs",
+              "RelativeDocumentMoniker": "LibraryManagement.GUI\\LibraryDbContext.cs",
+              "ToolTip": "D:\\Github\\PRN212\\Session07-PE\\LibraryManagement\\LibraryManagement.GUI\\LibraryDbContext.cs",
+              "RelativeToolTip": "LibraryManagement.GUI\\LibraryDbContext.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAYwCUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-15T10:01:28.448Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "LibraryManagement.GUI",
+              "DocumentMoniker": "D:\\Github\\PRN212\\Session07-PE\\LibraryManagement\\LibraryManagement.GUI\\LibraryManagement.GUI.csproj",
+              "RelativeDocumentMoniker": "LibraryManagement.GUI\\LibraryManagement.GUI.csproj",
+              "ToolTip": "D:\\Github\\PRN212\\Session07-PE\\LibraryManagement\\LibraryManagement.GUI\\LibraryManagement.GUI.csproj",
+              "RelativeToolTip": "LibraryManagement.GUI\\LibraryManagement.GUI.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-07-15T09:51:30.624Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Github\\PRN212\\Session07-PE\\LibraryManagement\\LibraryManagement.GUI\\appsettings.json",
+              "RelativeDocumentMoniker": "LibraryManagement.GUI\\appsettings.json",
+              "ToolTip": "D:\\Github\\PRN212\\Session07-PE\\LibraryManagement\\LibraryManagement.GUI\\appsettings.json",
+              "RelativeToolTip": "LibraryManagement.GUI\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-07-15T09:57:02.43Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "D:\\Github\\PRN212\\Session07-PE\\LibraryManagement\\LibraryManagement.GUI\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "LibraryManagement.GUI\\MainWindow.xaml",
+              "ToolTip": "D:\\Github\\PRN212\\Session07-PE\\LibraryManagement\\LibraryManagement.GUI\\MainWindow.xaml",
+              "RelativeToolTip": "LibraryManagement.GUI\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-15T09:30:06.144Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "D:\\Github\\PRN212\\Session07-PE\\LibraryManagement\\LibraryManagement.GUI\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "LibraryManagement.GUI\\MainWindow.xaml.cs",
+              "ToolTip": "D:\\Github\\PRN212\\Session07-PE\\LibraryManagement\\LibraryManagement.GUI\\MainWindow.xaml.cs",
+              "RelativeToolTip": "LibraryManagement.GUI\\MainWindow.xaml.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAACwAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-15T09:30:03.912Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

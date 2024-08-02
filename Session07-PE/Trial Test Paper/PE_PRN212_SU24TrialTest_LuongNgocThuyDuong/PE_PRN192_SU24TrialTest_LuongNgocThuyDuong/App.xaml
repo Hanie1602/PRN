@@ -1,0 +1,9 @@
+﻿<Application x:Class="PE_PRN192_SU24TrialTest_LuongNgocThuyDuong.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:PE_PRN192_SU24TrialTest_LuongNgocThuyDuong"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+         
+    </Application.Resources>
+</Application>

@@ -1,0 +1,31 @@
+﻿<Application x:Class="AirConditionerShop_LuongNgocThuyDuong.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:AirConditionerShop_LuongNgocThuyDuong"
+             StartupUri="LoginWindow.xaml">
+    <Application.Resources>
+         <!-- Default Label Style: Chữ Đen, Nền Trong Suốt, Đậm, Size 18 -->
+        <Style TargetType="Label">
+            <Setter Property="Background" Value="Transparent"></Setter>
+            <Setter Property="Foreground" Value="Black"></Setter>
+            <Setter Property="FontSize" Value="18"></Setter>
+            <Setter Property="FontWeight" Value="Bold"></Setter>
+        </Style>
+
+        <!-- 2nd Default Label Style - Header của trang: Chữ Đen, Nền Trong Suốt, Đậm, Size 40 -->
+        <Style x:Key="HeaderLabelStyle" TargetType="Label">
+            <Setter Property="Background" Value="Transparent"></Setter>
+            <Setter Property="Foreground" Value="Black"></Setter>
+            <Setter Property="FontSize" Value="40"></Setter>
+            <Setter Property="FontWeight" Value="Bold"></Setter>
+        </Style>
+
+        <!-- 3nd Default Button: Chữ Vàng, Nền Đỏ Hồng, Đậm, Size 40 -->
+        <Style TargetType="Button">
+            <Setter Property="Background" Value="#fb607f"></Setter>
+            <Setter Property="Foreground" Value="Yellow"></Setter>
+            <Setter Property="FontSize" Value="18"></Setter>
+            <Setter Property="FontWeight" Value="Bold"></Setter>
+        </Style>
+    </Application.Resources>
+</Application>

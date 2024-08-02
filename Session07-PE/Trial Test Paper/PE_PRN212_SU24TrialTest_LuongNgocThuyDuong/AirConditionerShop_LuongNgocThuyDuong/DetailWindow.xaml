@@ -1,0 +1,13 @@
+﻿<Window x:Class="AirConditionerShop_LuongNgocThuyDuong.DetailWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AirConditionerShop_LuongNgocThuyDuong"
+        mc:Ignorable="d"
+        Title="Air Conditoner Detail..." Height="330" Width="700" Background="#FFD4F7D4" FontFamily="Arial" FontSize="14" WindowStartupLocation="CenterScreen" ResizeMode="NoResize">
+    <Grid>
+        <Label Content="Thêm Chỉnh sửa thông tin máy lạnh" HorizontalAlignment="Center" Height="80" VerticalAlignment="Top" Width="700" Style="{StaticResource HeaderLabelStyle}"/>
+
+    </Grid>
+</Window>

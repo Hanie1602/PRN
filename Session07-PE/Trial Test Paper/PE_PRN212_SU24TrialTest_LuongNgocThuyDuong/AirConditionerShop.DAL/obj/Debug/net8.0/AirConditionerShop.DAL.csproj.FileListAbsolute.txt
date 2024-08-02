@@ -1,0 +1,24 @@
+D:\Github\PRN212\Session07-PE\PE_PRN212_SU24TrialTest_LuongNgocThuyDuong\AirConditionerShop.DAL\bin\Debug\net8.0\AirConditionerShop.DAL.deps.json
+D:\Github\PRN212\Session07-PE\PE_PRN212_SU24TrialTest_LuongNgocThuyDuong\AirConditionerShop.DAL\bin\Debug\net8.0\AirConditionerShop.DAL.dll
+D:\Github\PRN212\Session07-PE\PE_PRN212_SU24TrialTest_LuongNgocThuyDuong\AirConditionerShop.DAL\bin\Debug\net8.0\AirConditionerShop.DAL.pdb
+D:\Github\PRN212\Session07-PE\PE_PRN212_SU24TrialTest_LuongNgocThuyDuong\AirConditionerShop.DAL\obj\Debug\net8.0\AirConditionerShop.DAL.GeneratedMSBuildEditorConfig.editorconfig
+D:\Github\PRN212\Session07-PE\PE_PRN212_SU24TrialTest_LuongNgocThuyDuong\AirConditionerShop.DAL\obj\Debug\net8.0\AirConditionerShop.DAL.AssemblyInfoInputs.cache
+D:\Github\PRN212\Session07-PE\PE_PRN212_SU24TrialTest_LuongNgocThuyDuong\AirConditionerShop.DAL\obj\Debug\net8.0\AirConditionerShop.DAL.AssemblyInfo.cs
+D:\Github\PRN212\Session07-PE\PE_PRN212_SU24TrialTest_LuongNgocThuyDuong\AirConditionerShop.DAL\obj\Debug\net8.0\AirConditionerShop.DAL.csproj.CoreCompileInputs.cache
+D:\Github\PRN212\Session07-PE\PE_PRN212_SU24TrialTest_LuongNgocThuyDuong\AirConditionerShop.DAL\obj\Debug\net8.0\AirConditionerShop.DAL.sourcelink.json
+D:\Github\PRN212\Session07-PE\PE_PRN212_SU24TrialTest_LuongNgocThuyDuong\AirConditionerShop.DAL\obj\Debug\net8.0\AirConditionerShop.DAL.dll
+D:\Github\PRN212\Session07-PE\PE_PRN212_SU24TrialTest_LuongNgocThuyDuong\AirConditionerShop.DAL\obj\Debug\net8.0\refint\AirConditionerShop.DAL.dll
+D:\Github\PRN212\Session07-PE\PE_PRN212_SU24TrialTest_LuongNgocThuyDuong\AirConditionerShop.DAL\obj\Debug\net8.0\AirConditionerShop.DAL.pdb
+D:\Github\PRN212\Session07-PE\PE_PRN212_SU24TrialTest_LuongNgocThuyDuong\AirConditionerShop.DAL\obj\Debug\net8.0\ref\AirConditionerShop.DAL.dll
+D:\Github\PRN212\Session07-PE\Trial Test Paper\PE_PRN212_SU24TrialTest_LuongNgocThuyDuong\AirConditionerShop.DAL\bin\Debug\net8.0\AirConditionerShop.DAL.deps.json
+D:\Github\PRN212\Session07-PE\Trial Test Paper\PE_PRN212_SU24TrialTest_LuongNgocThuyDuong\AirConditionerShop.DAL\bin\Debug\net8.0\AirConditionerShop.DAL.dll
+D:\Github\PRN212\Session07-PE\Trial Test Paper\PE_PRN212_SU24TrialTest_LuongNgocThuyDuong\AirConditionerShop.DAL\bin\Debug\net8.0\AirConditionerShop.DAL.pdb
+D:\Github\PRN212\Session07-PE\Trial Test Paper\PE_PRN212_SU24TrialTest_LuongNgocThuyDuong\AirConditionerShop.DAL\obj\Debug\net8.0\AirConditionerShop.DAL.GeneratedMSBuildEditorConfig.editorconfig
+D:\Github\PRN212\Session07-PE\Trial Test Paper\PE_PRN212_SU24TrialTest_LuongNgocThuyDuong\AirConditionerShop.DAL\obj\Debug\net8.0\AirConditionerShop.DAL.AssemblyInfoInputs.cache
+D:\Github\PRN212\Session07-PE\Trial Test Paper\PE_PRN212_SU24TrialTest_LuongNgocThuyDuong\AirConditionerShop.DAL\obj\Debug\net8.0\AirConditionerShop.DAL.AssemblyInfo.cs
+D:\Github\PRN212\Session07-PE\Trial Test Paper\PE_PRN212_SU24TrialTest_LuongNgocThuyDuong\AirConditionerShop.DAL\obj\Debug\net8.0\AirConditionerShop.DAL.csproj.CoreCompileInputs.cache
+D:\Github\PRN212\Session07-PE\Trial Test Paper\PE_PRN212_SU24TrialTest_LuongNgocThuyDuong\AirConditionerShop.DAL\obj\Debug\net8.0\AirConditionerShop.DAL.sourcelink.json
+D:\Github\PRN212\Session07-PE\Trial Test Paper\PE_PRN212_SU24TrialTest_LuongNgocThuyDuong\AirConditionerShop.DAL\obj\Debug\net8.0\AirConditionerShop.DAL.dll
+D:\Github\PRN212\Session07-PE\Trial Test Paper\PE_PRN212_SU24TrialTest_LuongNgocThuyDuong\AirConditionerShop.DAL\obj\Debug\net8.0\refint\AirConditionerShop.DAL.dll
+D:\Github\PRN212\Session07-PE\Trial Test Paper\PE_PRN212_SU24TrialTest_LuongNgocThuyDuong\AirConditionerShop.DAL\obj\Debug\net8.0\AirConditionerShop.DAL.pdb
+D:\Github\PRN212\Session07-PE\Trial Test Paper\PE_PRN212_SU24TrialTest_LuongNgocThuyDuong\AirConditionerShop.DAL\obj\Debug\net8.0\ref\AirConditionerShop.DAL.dll

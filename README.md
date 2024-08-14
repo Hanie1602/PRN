@@ -1,48 +1,33 @@
-# java-web-application-development🚀
+# Basic Cross-Platform Application Programming With .NET and WPF Application C#
 
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white)
-![MVC2](https://img.shields.io/badge/MVC2-Model--View--Controller-blue)
-![JSP](https://img.shields.io/badge/JSP-JavaServer%20Pages-green)
-![MySQL](https://img.shields.io/badge/Database-MySQL-orange)
+## 🌟 Overview
+Welcome to my repository for the **Basic Cross-Platform Application Programming With .NET** courses at FPT University. This repository contains my coursework, projects, and practical exercises designed to provide a solid understanding of cross-platform development using .NET and creating desktop applications with WPF.
 
-## Introduction🎓
-This project is part of my coursework at FPT University, where I'm learning about **Java Web Application Development**. The focus is on building web applications using the Java programming language, following the **MVC2 (Model-View-Controller)** architecture.
-
-## 📑 Table of Contents
+## 📚 Table of Contents
 - [Overview](#overview)
 - [Lessons](#lessons)
-  - [Introduction to MVC2](#introduction-to-mvc2)
-  - [Java Servlets](#java-servlets)
-  - [JavaServer Pages (JSP)](#javaserver-pages-jsp)
-  - [Connecting to a Database](#connecting-to-a-database)
+  - [WPF Application Development](#wpf-application-development)
+- [Technologies Used](#technologies-used)
 
-## Overview 🌐
-Java Web Application Development involves creating web applications using Java, which is known for its stability, security, and scalability. Key components include **Servlets**, **JSPs (JavaServer Pages)**, and the **MVC2 architecture**.
+## 📖 Lessons
 
-### Key Components ⚙️
-- **Servlets:** Java classes that handle HTTP requests and responses.
-- **JSPs:** Technology for embedding Java code within HTML to generate dynamic content.
-- **MVC2:** A software design pattern that separates an application into three interconnected components.
+### WPF Application Development
+This section focuses on Windows Presentation Foundation (WPF), a powerful UI framework for building rich desktop applications with C#. The lessons emphasize key concepts and practical application.
 
-## Lessons 📚
+- **[Introduction to WPF]**: Getting started with WPF, including an overview of its architecture and key components.
+- **[Creating First WPF App]**: Step-by-step guide to developing a simple WPF application.
+- **[Advanced WPF Techniques]**: Covering data binding, the MVVM pattern, and creating custom controls in WPF.
 
-### Introduction to MVC2 🛠️
-![MVC Diagram](https://afteracademy.com/images/mvc-architecture-in-web-applications-working-851592344a7c710d.gif)
-- **Objective:** Understand the basics of MVC2 architecture. 
-- **Technology:** Java, Servlet, JSP (JavaServer Pages).
-- **Key Concepts:** Model-View-Controller pattern.
+## 🔧 Technologies Used
+- **C#**" The programming language used throughout the projects.
+- **.NET Core**: Framework for developing cross-platform applications.
+- **WPF**: Windows Presentation Foundation for building desktop client applications.
+- **Visual Studio Code / Visual Studio**: Integrated development environments (IDEs) used for coding and debugging.
+- **Git**: Version control system for managing code changes and collaboration.
 
-### Java Servlets ✉️
-- **Objective:** Learn how to create and manage Servlets.
-- **Technology:** Java, HttpServlet.
-- **Key Concepts:** Request handling, response generation.
+## 📝 License
+This repository is licensed under the [MIT License](LICENSE).
 
-### JavaServer Pages (JSP) 🖥️
-- **Objective:** Understand how to generate dynamic content with JSP.
-- **Technology:** Java, JSP.
-- **Key Concepts:** Embedding Java in HTML, session management.
+---
 
-### Connecting to a Database 🗄️
-- **Objective:** Learn to connect a Java web application to a database.
-- **Technology:** JDBC, MySQL.
-- **Ket Concepts:** Database connections, CRUD operations.
+Feel free to explore the repository and contribute to the projects. Happy coding!

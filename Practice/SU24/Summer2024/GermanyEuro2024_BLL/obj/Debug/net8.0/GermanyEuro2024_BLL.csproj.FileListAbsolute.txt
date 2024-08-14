@@ -1,0 +1,16 @@
+D:\Github\PRN212\Practice\SU24\Summer2024\GermanyEuro2024_BLL\bin\Debug\net8.0\GermanyEuro2024_BLL.deps.json
+D:\Github\PRN212\Practice\SU24\Summer2024\GermanyEuro2024_BLL\bin\Debug\net8.0\GermanyEuro2024_BLL.dll
+D:\Github\PRN212\Practice\SU24\Summer2024\GermanyEuro2024_BLL\bin\Debug\net8.0\GermanyEuro2024_BLL.pdb
+D:\Github\PRN212\Practice\SU24\Summer2024\GermanyEuro2024_BLL\bin\Debug\net8.0\GermanyEuro2024_DAL.dll
+D:\Github\PRN212\Practice\SU24\Summer2024\GermanyEuro2024_BLL\bin\Debug\net8.0\GermanyEuro2024_DAL.pdb
+D:\Github\PRN212\Practice\SU24\Summer2024\GermanyEuro2024_BLL\obj\Debug\net8.0\GermanyEuro2024_BLL.csproj.AssemblyReference.cache
+D:\Github\PRN212\Practice\SU24\Summer2024\GermanyEuro2024_BLL\obj\Debug\net8.0\GermanyEuro2024_BLL.GeneratedMSBuildEditorConfig.editorconfig
+D:\Github\PRN212\Practice\SU24\Summer2024\GermanyEuro2024_BLL\obj\Debug\net8.0\GermanyEuro2024_BLL.AssemblyInfoInputs.cache
+D:\Github\PRN212\Practice\SU24\Summer2024\GermanyEuro2024_BLL\obj\Debug\net8.0\GermanyEuro2024_BLL.AssemblyInfo.cs
+D:\Github\PRN212\Practice\SU24\Summer2024\GermanyEuro2024_BLL\obj\Debug\net8.0\GermanyEuro2024_BLL.csproj.CoreCompileInputs.cache
+D:\Github\PRN212\Practice\SU24\Summer2024\GermanyEuro2024_BLL\obj\Debug\net8.0\GermanyEuro2024_BLL.sourcelink.json
+D:\Github\PRN212\Practice\SU24\Summer2024\GermanyEuro2024_BLL\obj\Debug\net8.0\GermanyE.7D712D82.Up2Date
+D:\Github\PRN212\Practice\SU24\Summer2024\GermanyEuro2024_BLL\obj\Debug\net8.0\GermanyEuro2024_BLL.dll
+D:\Github\PRN212\Practice\SU24\Summer2024\GermanyEuro2024_BLL\obj\Debug\net8.0\refint\GermanyEuro2024_BLL.dll
+D:\Github\PRN212\Practice\SU24\Summer2024\GermanyEuro2024_BLL\obj\Debug\net8.0\GermanyEuro2024_BLL.pdb
+D:\Github\PRN212\Practice\SU24\Summer2024\GermanyEuro2024_BLL\obj\Debug\net8.0\ref\GermanyEuro2024_BLL.dll

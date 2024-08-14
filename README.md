@@ -25,8 +25,6 @@ This section focuses on Windows Presentation Foundation (WPF), a powerful UI fra
 - **Visual Studio Code / Visual Studio**: Integrated development environments (IDEs) used for coding and debugging.
 - **Git**: Version control system for managing code changes and collaboration.
 
-## 📝 License
-This repository is licensed under the [MIT License](LICENSE).
 
 ---
 

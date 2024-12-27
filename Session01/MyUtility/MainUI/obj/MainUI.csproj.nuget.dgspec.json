@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Github\\PRN212\\Lession01\\MyUtility\\MainUI\\MainUI.csproj": {}
+    "D:\\Github\\PRN212\\Session01\\MyUtility\\MainUI\\MainUI.csproj": {}
   },
   "projects": {
-    "D:\\Github\\PRN212\\Lession01\\MyUtility\\MainUI\\MainUI.csproj": {
+    "D:\\Github\\PRN212\\Session01\\MyUtility\\MainUI\\MainUI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Github\\PRN212\\Lession01\\MyUtility\\MainUI\\MainUI.csproj",
+        "projectUniqueName": "D:\\Github\\PRN212\\Session01\\MyUtility\\MainUI\\MainUI.csproj",
         "projectName": "MainUI",
-        "projectPath": "D:\\Github\\PRN212\\Lession01\\MyUtility\\MainUI\\MainUI.csproj",
+        "projectPath": "D:\\Github\\PRN212\\Session01\\MyUtility\\MainUI\\MainUI.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "D:\\Github\\PRN212\\Lession01\\MyUtility\\MainUI\\obj\\",
+        "outputPath": "D:\\Github\\PRN212\\Session01\\MyUtility\\MainUI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",

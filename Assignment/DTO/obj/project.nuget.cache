@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "y1xRnIeEUmmqN73GwmsUVf1+tgh6hV8KgctFHEOho41iWpCnwLK+jfxJwKGW++e17i0R97Byn0gc8c8BNRyzmw==",
+  "dgSpecHash": "vUkDSZ9BxHfqNGsPQZsaSqcZahJMETnxJEKEbvzmUtAq3Jfp8STGd5fnVdgM5s88n85ruTHL4ASaI65SjZktrg==",
   "success": true,
-  "projectFilePath": "D:\\Github\\PRNAssigment\\DTO\\DTO.csproj",
+  "projectFilePath": "D:\\Github\\PRN212\\Assignment\\DTO\\DTO.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Admin\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

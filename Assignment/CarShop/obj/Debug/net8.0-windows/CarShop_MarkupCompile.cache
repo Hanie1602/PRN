@@ -4,16 +4,16 @@
 winexe
 C#
 .cs
-D:\Github\PRNAssigment\CarShop\obj\Debug\net8.0-windows\
+D:\Github\PRN212\Assignment\CarShop\obj\Debug\net8.0-windows\
 CarShop
 none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
-D:\Github\PRNAssigment\CarShop\App.xaml
+D:\Github\PRN212\Assignment\CarShop\App.xaml
 101634306529
 
 1363328034
-246-1836071287
+2461620207852
 AccountManagerWindow.xaml;CarDetailsWindow.xaml;DetailAccountWindow.xaml;DetailWindow.xaml;LoginWindow.xaml;MainWindow.xaml;ProductDetailsWindow.xaml;ProductsManagerWindow.xaml;RegisterWindow.xaml;ShopWindow.xaml;
 
 False

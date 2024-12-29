@@ -3138,11 +3138,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Github\\PRNAssigment\\DAO\\DAO.csproj",
+      "projectUniqueName": "D:\\Github\\PRN212\\Assignment\\DAO\\DAO.csproj",
       "projectName": "DAO",
-      "projectPath": "D:\\Github\\PRNAssigment\\DAO\\DAO.csproj",
+      "projectPath": "D:\\Github\\PRN212\\Assignment\\DAO\\DAO.csproj",
       "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "D:\\Github\\PRNAssigment\\DAO\\obj\\",
+      "outputPath": "D:\\Github\\PRN212\\Assignment\\DAO\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -3159,8 +3159,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\Github\\PRNAssigment\\DTO\\DTO.csproj": {
-              "projectPath": "D:\\Github\\PRNAssigment\\DTO\\DTO.csproj"
+            "D:\\Github\\PRN212\\Assignment\\DTO\\DTO.csproj": {
+              "projectPath": "D:\\Github\\PRN212\\Assignment\\DTO\\DTO.csproj"
             }
           }
         }

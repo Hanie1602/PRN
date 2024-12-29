@@ -133,7 +133,7 @@ namespace CarShop {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/CarShop;V1.0.0.0;component/cardetailswindow.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/CarShop;component/cardetailswindow.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\CarDetailsWindow.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

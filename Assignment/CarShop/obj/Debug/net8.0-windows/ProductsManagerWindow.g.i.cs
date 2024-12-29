@@ -125,7 +125,7 @@ namespace CarShop {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/CarShop;V1.0.0.0;component/productsmanagerwindow.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/CarShop;component/productsmanagerwindow.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\ProductsManagerWindow.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

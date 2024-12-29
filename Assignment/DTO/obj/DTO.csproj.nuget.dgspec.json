@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Github\\PRNAssigment\\DTO\\DTO.csproj": {}
+    "D:\\Github\\PRN212\\Assignment\\DTO\\DTO.csproj": {}
   },
   "projects": {
-    "D:\\Github\\PRNAssigment\\DTO\\DTO.csproj": {
+    "D:\\Github\\PRN212\\Assignment\\DTO\\DTO.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Github\\PRNAssigment\\DTO\\DTO.csproj",
+        "projectUniqueName": "D:\\Github\\PRN212\\Assignment\\DTO\\DTO.csproj",
         "projectName": "DTO",
-        "projectPath": "D:\\Github\\PRNAssigment\\DTO\\DTO.csproj",
+        "projectPath": "D:\\Github\\PRN212\\Assignment\\DTO\\DTO.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "D:\\Github\\PRNAssigment\\DTO\\obj\\",
+        "outputPath": "D:\\Github\\PRN212\\Assignment\\DTO\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",

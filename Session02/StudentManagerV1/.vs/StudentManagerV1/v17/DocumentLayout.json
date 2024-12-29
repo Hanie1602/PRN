@@ -1,53 +1,53 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Github\\PRN212\\Lession02\\StudentManagerV1\\",
+  "WorkspaceRootPath": "D:\\Github\\PRN212\\Session02\\StudentManagerV1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0F79F372-BD99-4302-AF61-A67D5B9CEBE4}|StudentManagerV5\\StudentManagerV5.csproj|d:\\github\\prn212\\lession02\\studentmanagerv1\\studentmanagerv5\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0F79F372-BD99-4302-AF61-A67D5B9CEBE4}|StudentManagerV5\\StudentManagerV5.csproj|d:\\github\\prn212\\session02\\studentmanagerv1\\studentmanagerv5\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0F79F372-BD99-4302-AF61-A67D5B9CEBE4}|StudentManagerV5\\StudentManagerV5.csproj|solutionrelative:studentmanagerv5\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0F79F372-BD99-4302-AF61-A67D5B9CEBE4}|StudentManagerV5\\StudentManagerV5.csproj|d:\\github\\prn212\\lession02\\studentmanagerv1\\studentmanagerv5\\entities\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0F79F372-BD99-4302-AF61-A67D5B9CEBE4}|StudentManagerV5\\StudentManagerV5.csproj|D:\\Github\\PRN212\\Session02\\StudentManagerV1\\studentmanagerv5\\entities\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0F79F372-BD99-4302-AF61-A67D5B9CEBE4}|StudentManagerV5\\StudentManagerV5.csproj|solutionrelative:studentmanagerv5\\entities\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7FF2B023-E51D-46BA-BE82-E2368CB562E9}|StudentManagerV2\\StudentManagerV2.csproj|d:\\github\\prn212\\lession02\\studentmanagerv1\\studentmanagerv2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7FF2B023-E51D-46BA-BE82-E2368CB562E9}|StudentManagerV2\\StudentManagerV2.csproj|D:\\Github\\PRN212\\Session02\\StudentManagerV1\\studentmanagerv2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7FF2B023-E51D-46BA-BE82-E2368CB562E9}|StudentManagerV2\\StudentManagerV2.csproj|solutionrelative:studentmanagerv2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C56A40F5-5E8F-4491-9D16-D46F8D498052}|StudentManagerV1\\StudentManagerV1.csproj|d:\\github\\prn212\\lession02\\studentmanagerv1\\studentmanagerv1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C56A40F5-5E8F-4491-9D16-D46F8D498052}|StudentManagerV1\\StudentManagerV1.csproj|D:\\Github\\PRN212\\Session02\\StudentManagerV1\\studentmanagerv1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C56A40F5-5E8F-4491-9D16-D46F8D498052}|StudentManagerV1\\StudentManagerV1.csproj|solutionrelative:studentmanagerv1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C56A40F5-5E8F-4491-9D16-D46F8D498052}|StudentManagerV1\\StudentManagerV1.csproj|d:\\github\\prn212\\lession02\\studentmanagerv1\\studentmanagerv1\\studentmanagerv1.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "AbsoluteMoniker": "D:0:0:{C56A40F5-5E8F-4491-9D16-D46F8D498052}|StudentManagerV1\\StudentManagerV1.csproj|D:\\Github\\PRN212\\Session02\\StudentManagerV1\\studentmanagerv1\\studentmanagerv1.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{C56A40F5-5E8F-4491-9D16-D46F8D498052}|StudentManagerV1\\StudentManagerV1.csproj|solutionrelative:studentmanagerv1\\studentmanagerv1.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BAA04488-9212-4D21-A2DC-00F655191002}|StudentManagerV9\\StudentManagerV9.csproj|d:\\github\\prn212\\lession02\\studentmanagerv1\\studentmanagerv9\\entities\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{BAA04488-9212-4D21-A2DC-00F655191002}|StudentManagerV9\\StudentManagerV9.csproj|D:\\Github\\PRN212\\Session02\\StudentManagerV1\\studentmanagerv9\\entities\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BAA04488-9212-4D21-A2DC-00F655191002}|StudentManagerV9\\StudentManagerV9.csproj|solutionrelative:studentmanagerv9\\entities\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{58B827EF-E554-454D-A770-D2A8B0466FDA}|StudentManagerV7\\StudentManagerV7.csproj|d:\\github\\prn212\\lession02\\studentmanagerv1\\studentmanagerv7\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{58B827EF-E554-454D-A770-D2A8B0466FDA}|StudentManagerV7\\StudentManagerV7.csproj|D:\\Github\\PRN212\\Session02\\StudentManagerV1\\studentmanagerv7\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{58B827EF-E554-454D-A770-D2A8B0466FDA}|StudentManagerV7\\StudentManagerV7.csproj|solutionrelative:studentmanagerv7\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{649AEEBD-4246-4F12-BD33-C0B365512254}|StudentManagerV8\\StudentManagerV8.csproj|d:\\github\\prn212\\lession02\\studentmanagerv1\\studentmanagerv8\\entities\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{649AEEBD-4246-4F12-BD33-C0B365512254}|StudentManagerV8\\StudentManagerV8.csproj|D:\\Github\\PRN212\\Session02\\StudentManagerV1\\studentmanagerv8\\entities\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{649AEEBD-4246-4F12-BD33-C0B365512254}|StudentManagerV8\\StudentManagerV8.csproj|solutionrelative:studentmanagerv8\\entities\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{58B827EF-E554-454D-A770-D2A8B0466FDA}|StudentManagerV7\\StudentManagerV7.csproj|d:\\github\\prn212\\lession02\\studentmanagerv1\\studentmanagerv7\\entities\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{58B827EF-E554-454D-A770-D2A8B0466FDA}|StudentManagerV7\\StudentManagerV7.csproj|D:\\Github\\PRN212\\Session02\\StudentManagerV1\\studentmanagerv7\\entities\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{58B827EF-E554-454D-A770-D2A8B0466FDA}|StudentManagerV7\\StudentManagerV7.csproj|solutionrelative:studentmanagerv7\\entities\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AFCCBB04-D7F0-42B3-A26E-4244749EB694}|StudentManagerV6\\StudentManagerV6.csproj|d:\\github\\prn212\\lession02\\studentmanagerv1\\studentmanagerv6\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{AFCCBB04-D7F0-42B3-A26E-4244749EB694}|StudentManagerV6\\StudentManagerV6.csproj|D:\\Github\\PRN212\\Session02\\StudentManagerV1\\studentmanagerv6\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AFCCBB04-D7F0-42B3-A26E-4244749EB694}|StudentManagerV6\\StudentManagerV6.csproj|solutionrelative:studentmanagerv6\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AFCCBB04-D7F0-42B3-A26E-4244749EB694}|StudentManagerV6\\StudentManagerV6.csproj|d:\\github\\prn212\\lession02\\studentmanagerv1\\studentmanagerv6\\studentmanagerv6.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "AbsoluteMoniker": "D:0:0:{AFCCBB04-D7F0-42B3-A26E-4244749EB694}|StudentManagerV6\\StudentManagerV6.csproj|D:\\Github\\PRN212\\Session02\\StudentManagerV1\\studentmanagerv6\\studentmanagerv6.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{AFCCBB04-D7F0-42B3-A26E-4244749EB694}|StudentManagerV6\\StudentManagerV6.csproj|solutionrelative:studentmanagerv6\\studentmanagerv6.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{58B827EF-E554-454D-A770-D2A8B0466FDA}|StudentManagerV7\\StudentManagerV7.csproj|d:\\github\\prn212\\lession02\\studentmanagerv1\\studentmanagerv7\\studentmanagerv7.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "AbsoluteMoniker": "D:0:0:{58B827EF-E554-454D-A770-D2A8B0466FDA}|StudentManagerV7\\StudentManagerV7.csproj|D:\\Github\\PRN212\\Session02\\StudentManagerV1\\studentmanagerv7\\studentmanagerv7.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{58B827EF-E554-454D-A770-D2A8B0466FDA}|StudentManagerV7\\StudentManagerV7.csproj|solutionrelative:studentmanagerv7\\studentmanagerv7.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
@@ -58,83 +58,51 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 11,
+          "SelectedChildIndex": 6,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:129:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Github\\PRN212\\Lession02\\StudentManagerV1\\StudentManagerV2\\Program.cs",
-              "RelativeDocumentMoniker": "StudentManagerV2\\Program.cs",
-              "ToolTip": "D:\\Github\\PRN212\\Lession02\\StudentManagerV1\\StudentManagerV2\\Program.cs",
-              "RelativeToolTip": "StudentManagerV2\\Program.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-05T22:12:14.338Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Github\\PRN212\\Lession02\\StudentManagerV1\\StudentManagerV1\\Program.cs",
+              "DocumentMoniker": "D:\\Github\\PRN212\\Session02\\StudentManagerV1\\StudentManagerV1\\Program.cs",
               "RelativeDocumentMoniker": "StudentManagerV1\\Program.cs",
-              "ToolTip": "D:\\Github\\PRN212\\Lession02\\StudentManagerV1\\StudentManagerV1\\Program.cs",
+              "ToolTip": "D:\\Github\\PRN212\\Session02\\StudentManagerV1\\StudentManagerV1\\Program.cs",
               "RelativeToolTip": "StudentManagerV1\\Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-05T22:12:07.395Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-05T22:12:07.395Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "StudentManagerV1",
-              "DocumentMoniker": "D:\\Github\\PRN212\\Lession02\\StudentManagerV1\\StudentManagerV1\\StudentManagerV1.csproj",
+              "DocumentMoniker": "D:\\Github\\PRN212\\Session02\\StudentManagerV1\\StudentManagerV1\\StudentManagerV1.csproj",
               "RelativeDocumentMoniker": "StudentManagerV1\\StudentManagerV1.csproj",
-              "ToolTip": "D:\\Github\\PRN212\\Lession02\\StudentManagerV1\\StudentManagerV1\\StudentManagerV1.csproj",
+              "ToolTip": "D:\\Github\\PRN212\\Session02\\StudentManagerV1\\StudentManagerV1\\StudentManagerV1.csproj",
               "RelativeToolTip": "StudentManagerV1\\StudentManagerV1.csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-06-05T22:12:05.395Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-05T22:12:05.395Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
               "Title": "Student.cs",
-              "DocumentMoniker": "D:\\Github\\PRN212\\Lession02\\StudentManagerV1\\StudentManagerV9\\Entities\\Student.cs",
+              "DocumentMoniker": "D:\\Github\\PRN212\\Session02\\StudentManagerV1\\StudentManagerV9\\Entities\\Student.cs",
               "RelativeDocumentMoniker": "StudentManagerV9\\Entities\\Student.cs",
-              "ToolTip": "D:\\Github\\PRN212\\Lession02\\StudentManagerV1\\StudentManagerV9\\Entities\\Student.cs",
+              "ToolTip": "D:\\Github\\PRN212\\Session02\\StudentManagerV1\\StudentManagerV9\\Entities\\Student.cs",
               "RelativeToolTip": "StudentManagerV9\\Entities\\Student.cs",
               "ViewState": "AQIAAA0AAAAAAAAAAAA1wC4AAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-02T01:41:27.226Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-02T01:41:27.226Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
               "Title": "Student.cs",
-              "DocumentMoniker": "D:\\Github\\PRN212\\Lession02\\StudentManagerV1\\StudentManagerV8\\Entities\\Student.cs",
+              "DocumentMoniker": "D:\\Github\\PRN212\\Session02\\StudentManagerV1\\StudentManagerV8\\Entities\\Student.cs",
               "RelativeDocumentMoniker": "StudentManagerV8\\Entities\\Student.cs",
-              "ToolTip": "D:\\Github\\PRN212\\Lession02\\StudentManagerV1\\StudentManagerV8\\Entities\\Student.cs",
+              "ToolTip": "D:\\Github\\PRN212\\Session02\\StudentManagerV1\\StudentManagerV8\\Entities\\Student.cs",
               "RelativeToolTip": "StudentManagerV8\\Entities\\Student.cs",
               "ViewState": "AQIAABEAAAAAAAAAAAAAwAoAAAAEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -144,9 +112,9 @@
               "$type": "Document",
               "DocumentIndex": 9,
               "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Github\\PRN212\\Lession02\\StudentManagerV1\\StudentManagerV6\\Program.cs",
+              "DocumentMoniker": "D:\\Github\\PRN212\\Session02\\StudentManagerV1\\StudentManagerV6\\Program.cs",
               "RelativeDocumentMoniker": "StudentManagerV6\\Program.cs",
-              "ToolTip": "D:\\Github\\PRN212\\Lession02\\StudentManagerV1\\StudentManagerV6\\Program.cs",
+              "ToolTip": "D:\\Github\\PRN212\\Session02\\StudentManagerV1\\StudentManagerV6\\Program.cs",
               "RelativeToolTip": "StudentManagerV6\\Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -156,48 +124,58 @@
               "$type": "Document",
               "DocumentIndex": 10,
               "Title": "StudentManagerV6.csproj",
-              "DocumentMoniker": "D:\\Github\\PRN212\\Lession02\\StudentManagerV1\\StudentManagerV6\\StudentManagerV6.csproj",
+              "DocumentMoniker": "D:\\Github\\PRN212\\Session02\\StudentManagerV1\\StudentManagerV6\\StudentManagerV6.csproj",
               "RelativeDocumentMoniker": "StudentManagerV6\\StudentManagerV6.csproj",
-              "ToolTip": "D:\\Github\\PRN212\\Lession02\\StudentManagerV1\\StudentManagerV6\\StudentManagerV6.csproj",
+              "ToolTip": "D:\\Github\\PRN212\\Session02\\StudentManagerV1\\StudentManagerV6\\StudentManagerV6.csproj",
               "RelativeToolTip": "StudentManagerV6\\StudentManagerV6.csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-06-02T01:40:44.498Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-02T01:40:44.498Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Github\\PRN212\\Lession02\\StudentManagerV1\\StudentManagerV5\\Program.cs",
+              "DocumentMoniker": "D:\\Github\\PRN212\\Session02\\StudentManagerV1\\StudentManagerV5\\Program.cs",
               "RelativeDocumentMoniker": "StudentManagerV5\\Program.cs",
-              "ToolTip": "D:\\Github\\PRN212\\Lession02\\StudentManagerV1\\StudentManagerV5\\Program.cs",
+              "ToolTip": "D:\\Github\\PRN212\\Session02\\StudentManagerV1\\StudentManagerV5\\Program.cs",
               "RelativeToolTip": "StudentManagerV5\\Program.cs",
-              "ViewState": "AQIAADwAAAAAAAAAAAAQwGkAAAA7AAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAGkAAAA7AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-02T01:40:26.913Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Github\\PRN212\\Session02\\StudentManagerV1\\StudentManagerV2\\Program.cs",
+              "RelativeDocumentMoniker": "StudentManagerV2\\Program.cs",
+              "ToolTip": "D:\\Github\\PRN212\\Session02\\StudentManagerV1\\StudentManagerV2\\Program.cs",
+              "RelativeToolTip": "StudentManagerV2\\Program.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T22:12:14.338Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Student.cs",
-              "DocumentMoniker": "D:\\Github\\PRN212\\Lession02\\StudentManagerV1\\StudentManagerV5\\Entities\\Student.cs",
+              "DocumentMoniker": "D:\\Github\\PRN212\\Session02\\StudentManagerV1\\StudentManagerV5\\Entities\\Student.cs",
               "RelativeDocumentMoniker": "StudentManagerV5\\Entities\\Student.cs",
-              "ToolTip": "D:\\Github\\PRN212\\Lession02\\StudentManagerV1\\StudentManagerV5\\Entities\\Student.cs",
+              "ToolTip": "D:\\Github\\PRN212\\Session02\\StudentManagerV1\\StudentManagerV5\\Entities\\Student.cs",
               "RelativeToolTip": "StudentManagerV5\\Entities\\Student.cs",
               "ViewState": "AQIAACMAAAAAAAAAAAAgwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-02T01:40:19.946Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-02T01:40:19.946Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
               "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Github\\PRN212\\Lession02\\StudentManagerV1\\StudentManagerV7\\Program.cs",
+              "DocumentMoniker": "D:\\Github\\PRN212\\Session02\\StudentManagerV1\\StudentManagerV7\\Program.cs",
               "RelativeDocumentMoniker": "StudentManagerV7\\Program.cs",
-              "ToolTip": "D:\\Github\\PRN212\\Lession02\\StudentManagerV1\\StudentManagerV7\\Program.cs",
+              "ToolTip": "D:\\Github\\PRN212\\Session02\\StudentManagerV1\\StudentManagerV7\\Program.cs",
               "RelativeToolTip": "StudentManagerV7\\Program.cs",
               "ViewState": "AQIAAAUAAAAAAAAAAAAAwA0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -207,9 +185,9 @@
               "$type": "Document",
               "DocumentIndex": 8,
               "Title": "Student.cs",
-              "DocumentMoniker": "D:\\Github\\PRN212\\Lession02\\StudentManagerV1\\StudentManagerV7\\Entities\\Student.cs",
+              "DocumentMoniker": "D:\\Github\\PRN212\\Session02\\StudentManagerV1\\StudentManagerV7\\Entities\\Student.cs",
               "RelativeDocumentMoniker": "StudentManagerV7\\Entities\\Student.cs",
-              "ToolTip": "D:\\Github\\PRN212\\Lession02\\StudentManagerV1\\StudentManagerV7\\Entities\\Student.cs",
+              "ToolTip": "D:\\Github\\PRN212\\Session02\\StudentManagerV1\\StudentManagerV7\\Entities\\Student.cs",
               "RelativeToolTip": "StudentManagerV7\\Entities\\Student.cs",
               "ViewState": "AQIAAAgAAAAAAAAAAAAxwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -219,14 +197,13 @@
               "$type": "Document",
               "DocumentIndex": 11,
               "Title": "StudentManagerV7.csproj",
-              "DocumentMoniker": "D:\\Github\\PRN212\\Lession02\\StudentManagerV1\\StudentManagerV7\\StudentManagerV7.csproj",
+              "DocumentMoniker": "D:\\Github\\PRN212\\Session02\\StudentManagerV1\\StudentManagerV7\\StudentManagerV7.csproj",
               "RelativeDocumentMoniker": "StudentManagerV7\\StudentManagerV7.csproj",
-              "ToolTip": "D:\\Github\\PRN212\\Lession02\\StudentManagerV1\\StudentManagerV7\\StudentManagerV7.csproj",
+              "ToolTip": "D:\\Github\\PRN212\\Session02\\StudentManagerV1\\StudentManagerV7\\StudentManagerV7.csproj",
               "RelativeToolTip": "StudentManagerV7\\StudentManagerV7.csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-06-02T01:39:13.586Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-02T01:39:13.586Z"
             }
           ]
         }

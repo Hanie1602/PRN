@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Github\\PRN212\\Lession01\\MyUtility\\BmiV2\\BmiV2.csproj": {}
+    "D:\\Github\\PRN212\\Session01\\MyUtility\\BmiV2\\BmiV2.csproj": {}
   },
   "projects": {
-    "D:\\Github\\PRN212\\Lession01\\MyUtility\\BmiV2\\BmiV2.csproj": {
+    "D:\\Github\\PRN212\\Session01\\MyUtility\\BmiV2\\BmiV2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Github\\PRN212\\Lession01\\MyUtility\\BmiV2\\BmiV2.csproj",
+        "projectUniqueName": "D:\\Github\\PRN212\\Session01\\MyUtility\\BmiV2\\BmiV2.csproj",
         "projectName": "BmiV2",
-        "projectPath": "D:\\Github\\PRN212\\Lession01\\MyUtility\\BmiV2\\BmiV2.csproj",
+        "projectPath": "D:\\Github\\PRN212\\Session01\\MyUtility\\BmiV2\\BmiV2.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "D:\\Github\\PRN212\\Lession01\\MyUtility\\BmiV2\\obj\\",
+        "outputPath": "D:\\Github\\PRN212\\Session01\\MyUtility\\BmiV2\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",

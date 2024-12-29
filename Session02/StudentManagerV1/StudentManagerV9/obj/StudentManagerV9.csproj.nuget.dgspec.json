@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Github\\PRN212\\Lession02\\StudentManagerV1\\StudentManagerV9\\StudentManagerV9.csproj": {}
+    "D:\\Github\\PRN212\\Session02\\StudentManagerV1\\StudentManagerV9\\StudentManagerV9.csproj": {}
   },
   "projects": {
-    "D:\\Github\\PRN212\\Lession02\\StudentManagerV1\\StudentManagerV9\\StudentManagerV9.csproj": {
+    "D:\\Github\\PRN212\\Session02\\StudentManagerV1\\StudentManagerV9\\StudentManagerV9.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Github\\PRN212\\Lession02\\StudentManagerV1\\StudentManagerV9\\StudentManagerV9.csproj",
+        "projectUniqueName": "D:\\Github\\PRN212\\Session02\\StudentManagerV1\\StudentManagerV9\\StudentManagerV9.csproj",
         "projectName": "StudentManagerV9",
-        "projectPath": "D:\\Github\\PRN212\\Lession02\\StudentManagerV1\\StudentManagerV9\\StudentManagerV9.csproj",
+        "projectPath": "D:\\Github\\PRN212\\Session02\\StudentManagerV1\\StudentManagerV9\\StudentManagerV9.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "D:\\Github\\PRN212\\Lession02\\StudentManagerV1\\StudentManagerV9\\obj\\",
+        "outputPath": "D:\\Github\\PRN212\\Session02\\StudentManagerV1\\StudentManagerV9\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",

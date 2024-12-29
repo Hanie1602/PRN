@@ -1,45 +1,45 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Github\\PRN212\\Lession01\\MyUtility\\",
+  "WorkspaceRootPath": "D:\\Github\\PRN212\\Session01\\MyUtility\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2BBD0383-13D0-4A88-A6CC-A3ABFE81562E}|MainUI\\MainUI.csproj|d:\\github\\prn212\\lession01\\myutility\\mainui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2BBD0383-13D0-4A88-A6CC-A3ABFE81562E}|MainUI\\MainUI.csproj|d:\\github\\prn212\\session01\\myutility\\mainui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2BBD0383-13D0-4A88-A6CC-A3ABFE81562E}|MainUI\\MainUI.csproj|solutionrelative:mainui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{314B5B57-A577-4CEB-B24B-6087135A6301}|Bmi\\Bmi.csproj|d:\\github\\prn212\\lession01\\myutility\\bmi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{314B5B57-A577-4CEB-B24B-6087135A6301}|Bmi\\Bmi.csproj|D:\\Github\\PRN212\\Session01\\MyUtility\\bmi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{314B5B57-A577-4CEB-B24B-6087135A6301}|Bmi\\Bmi.csproj|solutionrelative:bmi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DAD76637-8B15-413C-8FF4-8CED449ECBB2}|BmiV2\\BmiV2.csproj|d:\\github\\prn212\\lession01\\myutility\\bmiv2\\bmicalculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DAD76637-8B15-413C-8FF4-8CED449ECBB2}|BmiV2\\BmiV2.csproj|D:\\Github\\PRN212\\Session01\\MyUtility\\bmiv2\\bmicalculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DAD76637-8B15-413C-8FF4-8CED449ECBB2}|BmiV2\\BmiV2.csproj|solutionrelative:bmiv2\\bmicalculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DAD76637-8B15-413C-8FF4-8CED449ECBB2}|BmiV2\\BmiV2.csproj|d:\\github\\prn212\\lession01\\myutility\\bmiv2\\bmiv2.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "AbsoluteMoniker": "D:0:0:{DAD76637-8B15-413C-8FF4-8CED449ECBB2}|BmiV2\\BmiV2.csproj|D:\\Github\\PRN212\\Session01\\MyUtility\\bmiv2\\bmiv2.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{DAD76637-8B15-413C-8FF4-8CED449ECBB2}|BmiV2\\BmiV2.csproj|solutionrelative:bmiv2\\bmiv2.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{681A977B-4FD7-441E-90FB-B4F24A2FDF27}|LibrabyUsage\\LibrabyUsage.csproj|d:\\github\\prn212\\lession01\\myutility\\librabyusage\\librabyusage.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "AbsoluteMoniker": "D:0:0:{681A977B-4FD7-441E-90FB-B4F24A2FDF27}|LibrabyUsage\\LibrabyUsage.csproj|D:\\Github\\PRN212\\Session01\\MyUtility\\librabyusage\\librabyusage.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{681A977B-4FD7-441E-90FB-B4F24A2FDF27}|LibrabyUsage\\LibrabyUsage.csproj|solutionrelative:librabyusage\\librabyusage.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{681A977B-4FD7-441E-90FB-B4F24A2FDF27}|LibrabyUsage\\LibrabyUsage.csproj|d:\\github\\prn212\\lession01\\myutility\\librabyusage\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{681A977B-4FD7-441E-90FB-B4F24A2FDF27}|LibrabyUsage\\LibrabyUsage.csproj|D:\\Github\\PRN212\\Session01\\MyUtility\\librabyusage\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{681A977B-4FD7-441E-90FB-B4F24A2FDF27}|LibrabyUsage\\LibrabyUsage.csproj|solutionrelative:librabyusage\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2BBD0383-13D0-4A88-A6CC-A3ABFE81562E}|MainUI\\MainUI.csproj|d:\\github\\prn212\\lession01\\myutility\\mainui\\lyrics\\lyricslibrarys.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2BBD0383-13D0-4A88-A6CC-A3ABFE81562E}|MainUI\\MainUI.csproj|D:\\Github\\PRN212\\Session01\\MyUtility\\mainui\\lyrics\\lyricslibrarys.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2BBD0383-13D0-4A88-A6CC-A3ABFE81562E}|MainUI\\MainUI.csproj|solutionrelative:mainui\\lyrics\\lyricslibrarys.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2BBD0383-13D0-4A88-A6CC-A3ABFE81562E}|MainUI\\MainUI.csproj|d:\\github\\prn212\\lession01\\myutility\\mainui\\mainui.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "AbsoluteMoniker": "D:0:0:{2BBD0383-13D0-4A88-A6CC-A3ABFE81562E}|MainUI\\MainUI.csproj|D:\\Github\\PRN212\\Session01\\MyUtility\\mainui\\mainui.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{2BBD0383-13D0-4A88-A6CC-A3ABFE81562E}|MainUI\\MainUI.csproj|solutionrelative:mainui\\mainui.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DAD76637-8B15-413C-8FF4-8CED449ECBB2}|BmiV2\\BmiV2.csproj|d:\\github\\prn212\\lession01\\myutility\\bmiv2\\bmiv2.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "AbsoluteMoniker": "D:0:0:{DAD76637-8B15-413C-8FF4-8CED449ECBB2}|BmiV2\\BmiV2.csproj|D:\\Github\\PRN212\\Session01\\MyUtility\\bmiv2\\bmiv2.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
       "RelativeMoniker": "D:0:0:{DAD76637-8B15-413C-8FF4-8CED449ECBB2}|BmiV2\\BmiV2.csproj|solutionrelative:bmiv2\\bmiv2.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{314B5B57-A577-4CEB-B24B-6087135A6301}|Bmi\\Bmi.csproj|d:\\github\\prn212\\lession01\\myutility\\bmi\\bmi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "AbsoluteMoniker": "D:0:0:{314B5B57-A577-4CEB-B24B-6087135A6301}|Bmi\\Bmi.csproj|D:\\Github\\PRN212\\Session01\\MyUtility\\bmi\\bmi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{314B5B57-A577-4CEB-B24B-6087135A6301}|Bmi\\Bmi.csproj|solutionrelative:bmi\\bmi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
@@ -53,31 +53,15 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 3,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:129:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 5,
               "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Github\\PRN212\\Lession01\\MyUtility\\LibrabyUsage\\Program.cs",
+              "DocumentMoniker": "D:\\Github\\PRN212\\Session01\\MyUtility\\LibrabyUsage\\Program.cs",
               "RelativeDocumentMoniker": "LibrabyUsage\\Program.cs",
-              "ToolTip": "D:\\Github\\PRN212\\Lession01\\MyUtility\\LibrabyUsage\\Program.cs",
+              "ToolTip": "D:\\Github\\PRN212\\Session01\\MyUtility\\LibrabyUsage\\Program.cs",
               "RelativeToolTip": "LibrabyUsage\\Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAtAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -87,9 +71,9 @@
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "BmiCalculator.cs",
-              "DocumentMoniker": "D:\\Github\\PRN212\\Lession01\\MyUtility\\BmiV2\\BmiCalculator.cs",
+              "DocumentMoniker": "D:\\Github\\PRN212\\Session01\\MyUtility\\BmiV2\\BmiCalculator.cs",
               "RelativeDocumentMoniker": "BmiV2\\BmiCalculator.cs",
-              "ToolTip": "D:\\Github\\PRN212\\Lession01\\MyUtility\\BmiV2\\BmiCalculator.cs",
+              "ToolTip": "D:\\Github\\PRN212\\Session01\\MyUtility\\BmiV2\\BmiCalculator.cs",
               "RelativeToolTip": "BmiV2\\BmiCalculator.cs",
               "ViewState": "AQIAAAUAAAAAAAAAAAA+wBAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -111,11 +95,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Github\\PRN212\\Lession01\\MyUtility\\MainUI\\Program.cs",
+              "DocumentMoniker": "D:\\Github\\PRN212\\Session01\\MyUtility\\MainUI\\Program.cs",
               "RelativeDocumentMoniker": "MainUI\\Program.cs",
-              "ToolTip": "D:\\Github\\PRN212\\Lession01\\MyUtility\\MainUI\\Program.cs",
+              "ToolTip": "D:\\Github\\PRN212\\Session01\\MyUtility\\MainUI\\Program.cs",
               "RelativeToolTip": "MainUI\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAABSAAAA",
+              "ViewState": "AQIAAEMAAAAAAAAAAAAgwD0AAABJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-09T08:56:13.724Z",
               "EditorCaption": ""
@@ -124,22 +108,21 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Github\\PRN212\\Lession01\\MyUtility\\Bmi\\Program.cs",
+              "DocumentMoniker": "D:\\Github\\PRN212\\Session01\\MyUtility\\Bmi\\Program.cs",
               "RelativeDocumentMoniker": "Bmi\\Program.cs",
-              "ToolTip": "D:\\Github\\PRN212\\Lession01\\MyUtility\\Bmi\\Program.cs",
+              "ToolTip": "D:\\Github\\PRN212\\Session01\\MyUtility\\Bmi\\Program.cs",
               "RelativeToolTip": "Bmi\\Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-09T10:24:01.438Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-09T10:24:01.438Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "LibrabyUsage.csproj",
-              "DocumentMoniker": "D:\\Github\\PRN212\\Lession01\\MyUtility\\LibrabyUsage\\LibrabyUsage.csproj",
+              "DocumentMoniker": "D:\\Github\\PRN212\\Session01\\MyUtility\\LibrabyUsage\\LibrabyUsage.csproj",
               "RelativeDocumentMoniker": "LibrabyUsage\\LibrabyUsage.csproj",
-              "ToolTip": "D:\\Github\\PRN212\\Lession01\\MyUtility\\LibrabyUsage\\LibrabyUsage.csproj",
+              "ToolTip": "D:\\Github\\PRN212\\Session01\\MyUtility\\LibrabyUsage\\LibrabyUsage.csproj",
               "RelativeToolTip": "LibrabyUsage\\LibrabyUsage.csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
@@ -149,9 +132,9 @@
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "BmiV2.csproj",
-              "DocumentMoniker": "D:\\Github\\PRN212\\Lession01\\MyUtility\\BmiV2\\BmiV2.csproj",
+              "DocumentMoniker": "D:\\Github\\PRN212\\Session01\\MyUtility\\BmiV2\\BmiV2.csproj",
               "RelativeDocumentMoniker": "BmiV2\\BmiV2.csproj",
-              "ToolTip": "D:\\Github\\PRN212\\Lession01\\MyUtility\\BmiV2\\BmiV2.csproj",
+              "ToolTip": "D:\\Github\\PRN212\\Session01\\MyUtility\\BmiV2\\BmiV2.csproj",
               "RelativeToolTip": "BmiV2\\BmiV2.csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
@@ -161,9 +144,9 @@
               "$type": "Document",
               "DocumentIndex": 6,
               "Title": "LyricsLibrarys.cs",
-              "DocumentMoniker": "D:\\Github\\PRN212\\Lession01\\MyUtility\\MainUI\\Lyrics\\LyricsLibrarys.cs",
+              "DocumentMoniker": "D:\\Github\\PRN212\\Session01\\MyUtility\\MainUI\\Lyrics\\LyricsLibrarys.cs",
               "RelativeDocumentMoniker": "MainUI\\Lyrics\\LyricsLibrarys.cs",
-              "ToolTip": "D:\\Github\\PRN212\\Lession01\\MyUtility\\MainUI\\Lyrics\\LyricsLibrarys.cs",
+              "ToolTip": "D:\\Github\\PRN212\\Session01\\MyUtility\\MainUI\\Lyrics\\LyricsLibrarys.cs",
               "RelativeToolTip": "MainUI\\Lyrics\\LyricsLibrarys.cs",
               "ViewState": "AQIAABMAAAAAAAAAAAAAAAwAAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -173,9 +156,9 @@
               "$type": "Document",
               "DocumentIndex": 7,
               "Title": "MainUI.csproj",
-              "DocumentMoniker": "D:\\Github\\PRN212\\Lession01\\MyUtility\\MainUI\\MainUI.csproj",
+              "DocumentMoniker": "D:\\Github\\PRN212\\Session01\\MyUtility\\MainUI\\MainUI.csproj",
               "RelativeDocumentMoniker": "MainUI\\MainUI.csproj",
-              "ToolTip": "D:\\Github\\PRN212\\Lession01\\MyUtility\\MainUI\\MainUI.csproj",
+              "ToolTip": "D:\\Github\\PRN212\\Session01\\MyUtility\\MainUI\\MainUI.csproj",
               "RelativeToolTip": "MainUI\\MainUI.csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
@@ -185,9 +168,9 @@
               "$type": "Document",
               "DocumentIndex": 9,
               "Title": "Bmi.csproj",
-              "DocumentMoniker": "D:\\Github\\PRN212\\Lession01\\MyUtility\\Bmi\\Bmi.csproj",
+              "DocumentMoniker": "D:\\Github\\PRN212\\Session01\\MyUtility\\Bmi\\Bmi.csproj",
               "RelativeDocumentMoniker": "Bmi\\Bmi.csproj",
-              "ToolTip": "D:\\Github\\PRN212\\Lession01\\MyUtility\\Bmi\\Bmi.csproj",
+              "ToolTip": "D:\\Github\\PRN212\\Session01\\MyUtility\\Bmi\\Bmi.csproj",
               "RelativeToolTip": "Bmi\\Bmi.csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
@@ -197,9 +180,9 @@
               "$type": "Document",
               "DocumentIndex": 8,
               "Title": "BmiV2",
-              "DocumentMoniker": "D:\\Github\\PRN212\\Lession01\\MyUtility\\BmiV2\\BmiV2.csproj",
+              "DocumentMoniker": "D:\\Github\\PRN212\\Session01\\MyUtility\\BmiV2\\BmiV2.csproj",
               "RelativeDocumentMoniker": "BmiV2\\BmiV2.csproj",
-              "ToolTip": "D:\\Github\\PRN212\\Lession01\\MyUtility\\BmiV2\\BmiV2.csproj",
+              "ToolTip": "D:\\Github\\PRN212\\Session01\\MyUtility\\BmiV2\\BmiV2.csproj",
               "RelativeToolTip": "BmiV2\\BmiV2.csproj",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
               "WhenOpened": "2024-05-13T09:10:19.912Z"

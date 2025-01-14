@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TCPChatServerandClient")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+57c4c555d996f8fbe83abf6294d9410ffb46f269")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fc752b25f3f04aea86cf9c5bf5d15e7993a2f420")]
 [assembly: System.Reflection.AssemblyProductAttribute("TCPChatServerandClient")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TCPChatServerandClient")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

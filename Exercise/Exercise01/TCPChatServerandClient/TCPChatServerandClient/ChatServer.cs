@@ -9,16 +9,17 @@ namespace TCPChatServerandClient
 		private TcpListener _listener;
 		private List<TcpClient> _clients = new List<TcpClient>();
 
-		//Khởi động Server và lắng nghe kết nối từ Client
+		#region Khởi động Server và lắng nghe kết nối từ Client
 		public void StartServer(int port)
 		{
 			//Lắng nghe các kế nối từ mọi địa chỉ IP trên port
 			_listener = new TcpListener(IPAddress.Any, port);
-			_listener.Start();
+			_listener.Start();	//Bắt đầu lắng nghe từ Client
 			Console.WriteLine($"Server started on port {port}");
 
 			while (true)
 			{
+				//Chấp nhận kết nối từ Client vào _clients
 				TcpClient client = _listener.AcceptTcpClient();
 				_clients.Add(client);
 				Console.WriteLine("New client connted");
@@ -28,8 +29,9 @@ namespace TCPChatServerandClient
 				clientThread.Start(client);
 			}
 		}
+		#endregion
 
-		//Xử lý nhiều máy khách đồng thời
+		#region Xử lý nhiều máy khách đồng thời
 		private void HandleClient(object obj)
 		{
 			TcpClient client = (TcpClient)obj;
@@ -41,6 +43,8 @@ namespace TCPChatServerandClient
 
 				while (true)
 				{
+					//Đọc dữ liệu từ Client
+					//Số byte đọc được. Nếu = 0, nghĩa là Client đã ngắt kết nối
 					int byteRead = stream.Read(b, 0, b.Length);
 					if (byteRead == 0)
 					{
@@ -48,9 +52,20 @@ namespace TCPChatServerandClient
 						break;
 					}
 
+					//Chuyển data byte nhận được thành chuỗi UTF8
 					string message = Encoding.UTF8.GetString(b, 0, byteRead);
-					Console.WriteLine($"Received: {message}");
-					BroadcastMessage(message, client);
+
+					if (message.StartsWith("FILE"))
+					{
+						//Xử lý nhận file
+						ReceiveFile(client);
+					}
+					else
+					{
+						Console.WriteLine($"Received: {message}");
+						//Gửi tin nhắn tới tất cả Client khác
+						BroadcastMessage(message, client);
+					}
 				}
 			}
 			catch (Exception ex)
@@ -64,12 +79,15 @@ namespace TCPChatServerandClient
 				Console.WriteLine("Client connection closed");
 			}
 		}
+		#endregion
 
-		//Phát tin nhắn từ 1 máy khách đến nhiều máy khách khác
+		#region Gửi tin nhắn từ 1 Client đến nhiều Client khác
 		private void BroadcastMessage(string message, TcpClient sender)
 		{
+			//Chuyển chuỗi message thành dạng byte để gửi
 			byte[] data = Encoding.UTF8.GetBytes(message);
 
+			//Gửi data đến từng Client
 			foreach(TcpClient client in _clients)
 			{
 				if(client != sender)
@@ -79,6 +97,38 @@ namespace TCPChatServerandClient
 				}
 			}
 		}
+		#endregion
+
+		private void ReceiveFile(TcpClient client)
+		{
+			try
+			{
+				NetworkStream stream = client.GetStream();
+
+				//Đọc dữ liệu từ client
+				byte[] buffer = new byte[1024];
+				int bytesRead;
+
+				//Tạo tên file theo format YYYYMMddHHmmss.txt
+				string fileName = $"{DateTime.Now:yyyyMMddHHmmss}.txt";
+
+				//Tạo file stream để ghi dữ liệu
+				using (FileStream fs = new FileStream(fileName, FileMode.Create, FileAccess.Write))
+				{
+					while ((bytesRead = stream.Read(buffer, 0, buffer.Length)) > 0)
+					{
+						fs.Write(buffer, 0, bytesRead);
+					}
+				}
+
+				//Hiển thị thông báo khi file đã được lưu
+				Console.WriteLine($"File received and saved as {fileName}");
+			}
+			catch (Exception ex)
+			{
+				Console.WriteLine($"Error receiving file: {ex.Message}");
+			}
+		}
+
 	}
 }
-

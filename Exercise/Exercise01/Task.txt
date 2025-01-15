@@ -15,3 +15,8 @@ Hints:
 Use TcpListener for the server and TcpClient for the client.
 Use NetworkStream to read and write data between the server and clients.
 Consider implementing message framing or a simple delimiter for consistent communication.
+
+========Upgrade bài trên +3 ========
+Dùng TCPClient và TCPListener : Client gửi file txt chứa các con số đã sắp xếp (bài Day1)
+Bên nhận được lưu file chưa đầy đủ nội dung
+Tên file theo format mat YYYYMMddHHmmss.txt

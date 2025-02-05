@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SSLAndTLS")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8b6cdd045b298d7c0af46407a2bf6c09f00f65d5")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fd7f9bcd1ab5eed5a5895de463403b812470859f")]
 [assembly: System.Reflection.AssemblyProductAttribute("SSLAndTLS")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SSLAndTLS")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

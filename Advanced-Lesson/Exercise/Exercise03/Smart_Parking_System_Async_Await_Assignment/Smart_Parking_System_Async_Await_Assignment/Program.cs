@@ -11,17 +11,22 @@
 
 			foreach (string carItem in car)
 			{
-				await parking.CarEnterAsync("A123");
-			}
+				await parking.CarEnterAsync(carItem);
 
-			await Task.Delay(5000);
+				await Task.Delay(5000);
 
-			foreach (string carItem in car)
-			{
-				await parking.CarExitAsync("A123");
+				await parking.CarExitAsync(carItem);
 			}
 
 			Console.WriteLine("Parking system transaction completed!\n");
 		}
 	}
 }
+
+/* Note:
+ * [1] Mutex: Mutual exclisive
+ * object Labor = new lock()
+ * => Nếu 1 th` có lock rồi thì người tiếp theo phải chờ
+ * 
+ * Network Programming => Lập trình bất đồng bộ => Lập trình song song
+ */

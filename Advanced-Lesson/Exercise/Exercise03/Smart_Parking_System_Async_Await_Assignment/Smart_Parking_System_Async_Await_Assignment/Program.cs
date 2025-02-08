@@ -28,5 +28,5 @@
  * object Labor = new lock()
  * => Nếu 1 th` có lock rồi thì người tiếp theo phải chờ
  * 
- * Network Programming => Lập trình bất đồng bộ => Lập trình song song
+ * Network Programming => Lập trình bất đồng bộ Sync & Async => Lập trình song song Parallel
  */

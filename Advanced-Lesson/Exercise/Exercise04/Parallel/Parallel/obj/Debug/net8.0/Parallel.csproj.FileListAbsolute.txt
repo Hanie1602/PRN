@@ -1,0 +1,14 @@
+D:\PRN222\srcPractice\Parallel\Parallel\bin\Debug\net8.0\Parallel.exe
+D:\PRN222\srcPractice\Parallel\Parallel\bin\Debug\net8.0\Parallel.deps.json
+D:\PRN222\srcPractice\Parallel\Parallel\bin\Debug\net8.0\Parallel.runtimeconfig.json
+D:\PRN222\srcPractice\Parallel\Parallel\bin\Debug\net8.0\Parallel.dll
+D:\PRN222\srcPractice\Parallel\Parallel\bin\Debug\net8.0\Parallel.pdb
+D:\PRN222\srcPractice\Parallel\Parallel\obj\Debug\net8.0\Parallel.GeneratedMSBuildEditorConfig.editorconfig
+D:\PRN222\srcPractice\Parallel\Parallel\obj\Debug\net8.0\Parallel.AssemblyInfoInputs.cache
+D:\PRN222\srcPractice\Parallel\Parallel\obj\Debug\net8.0\Parallel.AssemblyInfo.cs
+D:\PRN222\srcPractice\Parallel\Parallel\obj\Debug\net8.0\Parallel.csproj.CoreCompileInputs.cache
+D:\PRN222\srcPractice\Parallel\Parallel\obj\Debug\net8.0\Parallel.dll
+D:\PRN222\srcPractice\Parallel\Parallel\obj\Debug\net8.0\refint\Parallel.dll
+D:\PRN222\srcPractice\Parallel\Parallel\obj\Debug\net8.0\Parallel.pdb
+D:\PRN222\srcPractice\Parallel\Parallel\obj\Debug\net8.0\Parallel.genruntimeconfig.cache
+D:\PRN222\srcPractice\Parallel\Parallel\obj\Debug\net8.0\ref\Parallel.dll

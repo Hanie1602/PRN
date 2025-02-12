@@ -86,7 +86,7 @@ namespace TCPChatServerandClient
 		}
 		#endregion
 
-		#region
+		#region Gửi file
 		public void SendFile(string filePath)
 		{
 			try

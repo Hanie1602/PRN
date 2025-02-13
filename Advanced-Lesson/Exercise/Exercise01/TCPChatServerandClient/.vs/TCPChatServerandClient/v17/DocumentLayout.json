@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "D:\\Github\\PRN212\\Advanced-Lesson\\Exercise\\Exercise01\\TCPChatServerandClient\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{04C09CDF-DBEE-4C2C-B23E-8302C4C7A496}|TCPChatServerandClient\\TCPChatServerandClient.csproj|d:\\github\\prn212\\advanced-lesson\\exercise\\exercise01\\tcpchatserverandclient\\tcpchatserverandclient\\chatserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{04C09CDF-DBEE-4C2C-B23E-8302C4C7A496}|TCPChatServerandClient\\TCPChatServerandClient.csproj|solutionrelative:tcpchatserverandclient\\chatserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{04C09CDF-DBEE-4C2C-B23E-8302C4C7A496}|TCPChatServerandClient\\TCPChatServerandClient.csproj|d:\\github\\prn212\\advanced-lesson\\exercise\\exercise01\\tcpchatserverandclient\\tcpchatserverandclient\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{04C09CDF-DBEE-4C2C-B23E-8302C4C7A496}|TCPChatServerandClient\\TCPChatServerandClient.csproj|solutionrelative:tcpchatserverandclient\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{04C09CDF-DBEE-4C2C-B23E-8302C4C7A496}|TCPChatServerandClient\\TCPChatServerandClient.csproj|d:\\github\\prn212\\advanced-lesson\\exercise\\exercise01\\tcpchatserverandclient\\tcpchatserverandclient\\chatclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{04C09CDF-DBEE-4C2C-B23E-8302C4C7A496}|TCPChatServerandClient\\TCPChatServerandClient.csproj|solutionrelative:tcpchatserverandclient\\chatclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{04C09CDF-DBEE-4C2C-B23E-8302C4C7A496}|TCPChatServerandClient\\TCPChatServerandClient.csproj|d:\\github\\prn212\\advanced-lesson\\exercise\\exercise01\\tcpchatserverandclient\\tcpchatserverandclient\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{04C09CDF-DBEE-4C2C-B23E-8302C4C7A496}|TCPChatServerandClient\\TCPChatServerandClient.csproj|solutionrelative:tcpchatserverandclient\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{04C09CDF-DBEE-4C2C-B23E-8302C4C7A496}|TCPChatServerandClient\\TCPChatServerandClient.csproj|d:\\github\\prn212\\advanced-lesson\\exercise\\exercise01\\tcpchatserverandclient\\tcpchatserverandclient\\chatserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{04C09CDF-DBEE-4C2C-B23E-8302C4C7A496}|TCPChatServerandClient\\TCPChatServerandClient.csproj|solutionrelative:tcpchatserverandclient\\chatserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,17 +22,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "ChatServer.cs",
               "DocumentMoniker": "D:\\Github\\PRN212\\Advanced-Lesson\\Exercise\\Exercise01\\TCPChatServerandClient\\TCPChatServerandClient\\ChatServer.cs",
               "RelativeDocumentMoniker": "TCPChatServerandClient\\ChatServer.cs",
               "ToolTip": "D:\\Github\\PRN212\\Advanced-Lesson\\Exercise\\Exercise01\\TCPChatServerandClient\\TCPChatServerandClient\\ChatServer.cs",
               "RelativeToolTip": "TCPChatServerandClient\\ChatServer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGQAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-13T14:38:14.356Z",
               "EditorCaption": ""
@@ -45,14 +45,14 @@
               "RelativeDocumentMoniker": "TCPChatServerandClient\\ChatClient.cs",
               "ToolTip": "D:\\Github\\PRN212\\Advanced-Lesson\\Exercise\\Exercise01\\TCPChatServerandClient\\TCPChatServerandClient\\ChatClient.cs",
               "RelativeToolTip": "TCPChatServerandClient\\ChatClient.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAADIAAAAAAAAAAAAQwDkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-13T14:37:43.497Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Github\\PRN212\\Advanced-Lesson\\Exercise\\Exercise01\\TCPChatServerandClient\\TCPChatServerandClient\\Program.cs",
               "RelativeDocumentMoniker": "TCPChatServerandClient\\Program.cs",
@@ -60,7 +60,8 @@
               "RelativeToolTip": "TCPChatServerandClient\\Program.cs",
               "ViewState": "AgIAAAIAAAAAAAAAAAAxwB4AAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-13T14:36:44.765Z"
+              "WhenOpened": "2025-01-13T14:36:44.765Z",
+              "EditorCaption": ""
             }
           ]
         }

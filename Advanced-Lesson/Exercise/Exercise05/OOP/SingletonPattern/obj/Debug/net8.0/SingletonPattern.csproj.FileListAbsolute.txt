@@ -1,0 +1,15 @@
+D:\Github\PRN212\Advanced-Lesson\Exercise\Exercise05\OOP\SingletonPattern\bin\Debug\net8.0\SingletonPattern.exe
+D:\Github\PRN212\Advanced-Lesson\Exercise\Exercise05\OOP\SingletonPattern\bin\Debug\net8.0\SingletonPattern.deps.json
+D:\Github\PRN212\Advanced-Lesson\Exercise\Exercise05\OOP\SingletonPattern\bin\Debug\net8.0\SingletonPattern.runtimeconfig.json
+D:\Github\PRN212\Advanced-Lesson\Exercise\Exercise05\OOP\SingletonPattern\bin\Debug\net8.0\SingletonPattern.dll
+D:\Github\PRN212\Advanced-Lesson\Exercise\Exercise05\OOP\SingletonPattern\bin\Debug\net8.0\SingletonPattern.pdb
+D:\Github\PRN212\Advanced-Lesson\Exercise\Exercise05\OOP\SingletonPattern\obj\Debug\net8.0\SingletonPattern.GeneratedMSBuildEditorConfig.editorconfig
+D:\Github\PRN212\Advanced-Lesson\Exercise\Exercise05\OOP\SingletonPattern\obj\Debug\net8.0\SingletonPattern.AssemblyInfoInputs.cache
+D:\Github\PRN212\Advanced-Lesson\Exercise\Exercise05\OOP\SingletonPattern\obj\Debug\net8.0\SingletonPattern.AssemblyInfo.cs
+D:\Github\PRN212\Advanced-Lesson\Exercise\Exercise05\OOP\SingletonPattern\obj\Debug\net8.0\SingletonPattern.csproj.CoreCompileInputs.cache
+D:\Github\PRN212\Advanced-Lesson\Exercise\Exercise05\OOP\SingletonPattern\obj\Debug\net8.0\SingletonPattern.sourcelink.json
+D:\Github\PRN212\Advanced-Lesson\Exercise\Exercise05\OOP\SingletonPattern\obj\Debug\net8.0\SingletonPattern.dll
+D:\Github\PRN212\Advanced-Lesson\Exercise\Exercise05\OOP\SingletonPattern\obj\Debug\net8.0\refint\SingletonPattern.dll
+D:\Github\PRN212\Advanced-Lesson\Exercise\Exercise05\OOP\SingletonPattern\obj\Debug\net8.0\SingletonPattern.pdb
+D:\Github\PRN212\Advanced-Lesson\Exercise\Exercise05\OOP\SingletonPattern\obj\Debug\net8.0\SingletonPattern.genruntimeconfig.cache
+D:\Github\PRN212\Advanced-Lesson\Exercise\Exercise05\OOP\SingletonPattern\obj\Debug\net8.0\ref\SingletonPattern.dll

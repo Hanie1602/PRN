@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Admin\\source\\repos\\OOP\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1CA8613E-029C-42D6-8505-DB367B2E84D1}|OOP\\OOP.csproj|c:\\users\\admin\\source\\repos\\oop\\oop\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1CA8613E-029C-42D6-8505-DB367B2E84D1}|OOP\\OOP.csproj|solutionrelative:oop\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3D5B5D8-0026-4CF0-9BB2-8375C7CA95B2}|SingletonPattern\\SingletonPattern.csproj|c:\\users\\admin\\source\\repos\\oop\\singletonpattern\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3D5B5D8-0026-4CF0-9BB2-8375C7CA95B2}|SingletonPattern\\SingletonPattern.csproj|solutionrelative:singletonpattern\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3D5B5D8-0026-4CF0-9BB2-8375C7CA95B2}|SingletonPattern\\SingletonPattern.csproj|c:\\users\\admin\\source\\repos\\oop\\singletonpattern\\superheavyclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3D5B5D8-0026-4CF0-9BB2-8375C7CA95B2}|SingletonPattern\\SingletonPattern.csproj|solutionrelative:singletonpattern\\superheavyclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3D5B5D8-0026-4CF0-9BB2-8375C7CA95B2}|SingletonPattern\\SingletonPattern.csproj|c:\\users\\admin\\source\\repos\\oop\\singletonpattern\\democlass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3D5B5D8-0026-4CF0-9BB2-8375C7CA95B2}|SingletonPattern\\SingletonPattern.csproj|solutionrelative:singletonpattern\\democlass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\OOP\\OOP\\Program.cs",
+              "RelativeDocumentMoniker": "OOP\\Program.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\OOP\\OOP\\Program.cs",
+              "RelativeToolTip": "OOP\\Program.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAcwCEAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-12T03:44:18.275Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DemoClass.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\OOP\\SingletonPattern\\DemoClass.cs",
+              "RelativeDocumentMoniker": "SingletonPattern\\DemoClass.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\OOP\\SingletonPattern\\DemoClass.cs",
+              "RelativeToolTip": "SingletonPattern\\DemoClass.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAAAoAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-12T03:37:34.891Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SuperHeavyClass.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\OOP\\SingletonPattern\\SuperHeavyClass.cs",
+              "RelativeDocumentMoniker": "SingletonPattern\\SuperHeavyClass.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\OOP\\SingletonPattern\\SuperHeavyClass.cs",
+              "RelativeToolTip": "SingletonPattern\\SuperHeavyClass.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwBsAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-12T03:21:26.104Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\OOP\\SingletonPattern\\Program.cs",
+              "RelativeDocumentMoniker": "SingletonPattern\\Program.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\OOP\\SingletonPattern\\Program.cs",
+              "RelativeToolTip": "SingletonPattern\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-12T03:21:06.046Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

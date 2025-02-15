@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "iwZ3XMUlFNI=",
+  "success": true,
+  "projectFilePath": "D:\\Github\\PRN212\\Advanced-Lesson\\Exercise\\Exercise05\\OOP\\DependencyInjectionDemo\\DependencyInjectionDemo.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Admin\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\8.0.1\\microsoft.extensions.dependencyinjection.8.0.1.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.2\\microsoft.extensions.dependencyinjection.abstractions.8.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}

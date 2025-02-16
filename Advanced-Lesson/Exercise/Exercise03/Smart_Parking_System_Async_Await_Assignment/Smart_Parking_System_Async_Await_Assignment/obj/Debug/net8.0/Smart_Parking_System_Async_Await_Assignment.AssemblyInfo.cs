@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Smart_Parking_System_Async_Await_Assignment")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e36c36a59f65eb2050cf986709474b0322deb304")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0c1e4c9ea68cdce80951e0570f3984749b415c64")]
 [assembly: System.Reflection.AssemblyProductAttribute("Smart_Parking_System_Async_Await_Assignment")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Smart_Parking_System_Async_Await_Assignment")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

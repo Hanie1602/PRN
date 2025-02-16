@@ -1,11 +1,4 @@
-﻿/* Pattern theo cấp độ
-1. System: phân tán, microservice,... ?
-2. Software: 3 layer...?
-3. Package 
-4. Class-Method 
-*/
-
-using System.Diagnostics;
+﻿using System.Diagnostics;
 
 namespace Parallel
 {
@@ -151,12 +144,8 @@ namespace Parallel
             Console.ReadKey();
         }
 
-        #region Sorting Algorithm Implementations
-
-        /// <summary>
-        /// Implements QuickSort on a List in place.
-        /// </summary>
-        static void QuickSort(List<int> list, int left, int right)
+		//Implements QuickSort on a List in place.
+		static void QuickSort(List<int> list, int left, int right)
         {
             if (left < right)
             {
@@ -182,10 +171,8 @@ namespace Parallel
             return i + 1;
         }
 
-        /// <summary>
-        /// Implements MergeSort and returns a new sorted list.
-        /// </summary>
-        static List<int> MergeSort(List<int> list)
+		//Implements MergeSort and returns a new sorted list.
+		static List<int> MergeSort(List<int> list)
         {
             if (list.Count <= 1)
                 return list;
@@ -216,16 +203,14 @@ namespace Parallel
                     j++;
                 }
             }
-            // Append remaining elements, if any
-            result.AddRange(left.Skip(i));
+			//Thêm các phần tử còn lại (Nếu có)
+			result.AddRange(left.Skip(i));
             result.AddRange(right.Skip(j));
             return result;
         }
 
-        /// <summary>
-        /// Implements HeapSort on a List in place.
-        /// </summary>
-        static void HeapSort(List<int> list)
+		//Implements HeapSort on a List in place.
+		static void HeapSort(List<int> list)
         {
             int n = list.Count;
 
@@ -263,10 +248,8 @@ namespace Parallel
             }
         }
 
-        /// <summary>
-        /// Implements BubbleSort on a List in place.
-        /// </summary>
-        static void BubbleSort(List<int> list)
+		//Implements BubbleSort on a List in place.
+		static void BubbleSort(List<int> list)
         {
             int n = list.Count;
             for (int i = 0; i < n - 1; i++)
@@ -280,22 +263,26 @@ namespace Parallel
                         swapped = true;
                     }
                 }
-                // If no two elements were swapped by inner loop, then break
-                if (!swapped)
+				//Nếu không có hai phần tử nào được hoán đổi bằng vòng lặp bên trong thì ngắt
+				if (!swapped)
                     break;
             }
         }
 
-        /// <summary>
-        /// Swaps two elements in a list.
-        /// </summary>
-        static void Swap(List<int> list, int i, int j)
+		//Swaps two elements in a list.
+		static void Swap(List<int> list, int i, int j)
         {
             int temp = list[i];
             list[i] = list[j];
             list[j] = temp;
         }
-
-        #endregion
     }
 }
+
+
+/* Pattern theo cấp độ
+1. System: phân tán, microservice,... ?
+2. Software: 3 layer...?
+3. Package 
+4. Class-Method 
+*/

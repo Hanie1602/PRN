@@ -1,5 +1,4 @@
-﻿using System.IO;
-using System.Net;
+﻿using System.Net;
 using System.Net.Sockets;
 using System.Text;
 
@@ -15,7 +14,7 @@ namespace Server
 		{
 			//Lắng nghe các kế nối từ mọi địa chỉ IP trên port
 			_listener = new TcpListener(IPAddress.Any, port);
-			_listener.Start();	//Bắt đầu lắng nghe từ Client
+			_listener.Start();  //Bắt đầu lắng nghe từ Client
 			Console.WriteLine($"Server started on port {port}");
 
 			while (true)
@@ -89,9 +88,9 @@ namespace Server
 			byte[] data = Encoding.UTF8.GetBytes(message);
 
 			//Gửi data đến từng Client
-			foreach(TcpClient client in _clients)
+			foreach (TcpClient client in _clients)
 			{
-				if(client != sender)
+				if (client != sender)
 				{
 					NetworkStream stream = client.GetStream();
 					stream.Write(data, 0, data.Length);

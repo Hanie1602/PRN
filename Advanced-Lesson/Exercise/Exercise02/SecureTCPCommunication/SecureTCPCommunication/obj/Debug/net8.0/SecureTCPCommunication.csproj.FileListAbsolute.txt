@@ -1,0 +1,15 @@
+D:\Github\PRN212\Advanced-Lesson\Exercise\Exercise02\SecureTCPCommunication\SecureTCPCommunication\obj\Debug\net8.0\SecureTCPCommunication.GeneratedMSBuildEditorConfig.editorconfig
+D:\Github\PRN212\Advanced-Lesson\Exercise\Exercise02\SecureTCPCommunication\SecureTCPCommunication\obj\Debug\net8.0\SecureTCPCommunication.AssemblyInfoInputs.cache
+D:\Github\PRN212\Advanced-Lesson\Exercise\Exercise02\SecureTCPCommunication\SecureTCPCommunication\obj\Debug\net8.0\SecureTCPCommunication.AssemblyInfo.cs
+D:\Github\PRN212\Advanced-Lesson\Exercise\Exercise02\SecureTCPCommunication\SecureTCPCommunication\obj\Debug\net8.0\SecureTCPCommunication.csproj.CoreCompileInputs.cache
+D:\Github\PRN212\Advanced-Lesson\Exercise\Exercise02\SecureTCPCommunication\SecureTCPCommunication\obj\Debug\net8.0\SecureTCPCommunication.sourcelink.json
+D:\Github\PRN212\Advanced-Lesson\Exercise\Exercise02\SecureTCPCommunication\SecureTCPCommunication\bin\Debug\net8.0\SecureTCPCommunication.exe
+D:\Github\PRN212\Advanced-Lesson\Exercise\Exercise02\SecureTCPCommunication\SecureTCPCommunication\bin\Debug\net8.0\SecureTCPCommunication.deps.json
+D:\Github\PRN212\Advanced-Lesson\Exercise\Exercise02\SecureTCPCommunication\SecureTCPCommunication\bin\Debug\net8.0\SecureTCPCommunication.runtimeconfig.json
+D:\Github\PRN212\Advanced-Lesson\Exercise\Exercise02\SecureTCPCommunication\SecureTCPCommunication\bin\Debug\net8.0\SecureTCPCommunication.dll
+D:\Github\PRN212\Advanced-Lesson\Exercise\Exercise02\SecureTCPCommunication\SecureTCPCommunication\bin\Debug\net8.0\SecureTCPCommunication.pdb
+D:\Github\PRN212\Advanced-Lesson\Exercise\Exercise02\SecureTCPCommunication\SecureTCPCommunication\obj\Debug\net8.0\SecureTCPCommunication.dll
+D:\Github\PRN212\Advanced-Lesson\Exercise\Exercise02\SecureTCPCommunication\SecureTCPCommunication\obj\Debug\net8.0\refint\SecureTCPCommunication.dll
+D:\Github\PRN212\Advanced-Lesson\Exercise\Exercise02\SecureTCPCommunication\SecureTCPCommunication\obj\Debug\net8.0\SecureTCPCommunication.pdb
+D:\Github\PRN212\Advanced-Lesson\Exercise\Exercise02\SecureTCPCommunication\SecureTCPCommunication\obj\Debug\net8.0\SecureTCPCommunication.genruntimeconfig.cache
+D:\Github\PRN212\Advanced-Lesson\Exercise\Exercise02\SecureTCPCommunication\SecureTCPCommunication\obj\Debug\net8.0\ref\SecureTCPCommunication.dll

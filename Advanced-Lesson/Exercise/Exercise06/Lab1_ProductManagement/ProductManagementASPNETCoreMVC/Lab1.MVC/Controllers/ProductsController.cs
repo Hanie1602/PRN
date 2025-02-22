@@ -10,31 +10,35 @@ namespace PRN222.Lab1.MVC.Controllers
 	{
 		private readonly IProductService _productService;
 		private readonly ICategoryService _categoryService;
+
 		public ProductsController(IProductService productService, ICategoryService categoryService)
 		{
 			_productService = productService;
 			_categoryService = categoryService;
 		}
 
+		#region Index
 		// GET: Products
 		public async Task<IActionResult> Index()
 		{
 			if (HttpContext.Session.GetString("UserId") == null)
 			{
-				// Redirect to the login page or display an error message
+				//Chuyển đến trang đăng nhập hoặc thông báo lỗi
 				return RedirectToAction("Login", "Account");
 			}
 
 			List<Product> myStoreDbContext = _productService.GetProducts();
 			return View(myStoreDbContext.ToList());
 		}
+		#endregion
 
-		// GET: Products/Details/5
+		#region Hiển thị thông tin chi tiết (Details)
+		//GET: Products/Details/5
 		public async Task<IActionResult> Details(int? id)
 		{
 			if (HttpContext.Session.GetString("UserId") == null)
 			{
-				// Redirect to the login page or display an error message
+				//Chuyển đến trang đăng nhập hoặc thông báo lỗi
 				return RedirectToAction("Login", "Account");
 			}
 			if (id == null)
@@ -50,23 +54,23 @@ namespace PRN222.Lab1.MVC.Controllers
 
 			return View(product);
 		}
+		#endregion
 
-		// GET: Products/Create
+		#region Tạo sản phẩm (Create)
+		//GET: Products/Create
 		public IActionResult Create()
 		{
 			if (HttpContext.Session.GetString("UserId") == null)
 			{
-				// Redirect to the login page or display an error message
+				//Chuyển đến trang đăng nhập hoặc thông báo lỗi
 				return RedirectToAction("Login", "Account");
 			}
 
 			ViewData["CategoryId"] = new SelectList(_categoryService.GetCategories(), "CategoryId", "CategoryName");
 			return View();
 		}
-
-		// POST: Products/Create
-		// To protect from overposting attacks, enable the specific properties you want to bind to.
-		// For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
+		
+		//POST: Products/Create
 		[HttpPost]
 		[ValidateAntiForgeryToken]
 		public async Task<IActionResult> Create([Bind("ProductId, ProductName,CategoryId,UnitsInStock,UnitPrice")] Product product)
@@ -81,13 +85,15 @@ namespace PRN222.Lab1.MVC.Controllers
 
 			return View(product);
 		}
+		#endregion
 
-		// GET: Products/Edit/5
+		#region Chính sửa thông tin sản phẩm (Edit)
+		//GET: Products/Edit/5
 		public async Task<IActionResult> Edit(int? id)
 		{
 			if (HttpContext.Session.GetString("UserId") == null)
 			{
-				// Redirect to the login page or display an error message
+				//Chuyển đến trang đăng nhập hoặc thông báo lỗi
 				return RedirectToAction("Login", "Account");
 			}
 			if (id == null)
@@ -106,9 +112,7 @@ namespace PRN222.Lab1.MVC.Controllers
 			return View(product);
 		}
 
-		// POST: Products/Edit/5
-		// To protect from overposting attacks, enable the specific properties you want to bind to.
-		// For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
+		//POST: Products/Edit/5
 		[HttpPost]
 		[ValidateAntiForgeryToken]
 		public async Task<IActionResult> Edit(int id, [Bind("ProductId,ProductName,CategoryId,UnitsInStock,UnitPrice")] Product product)
@@ -142,13 +146,15 @@ namespace PRN222.Lab1.MVC.Controllers
 
 			return View(product);
 		}
+		#endregion
 
-		// GET: Products/Delete/5
+		#region Xóa sản phẩm (Delete)
+		//GET: Products/Delete/5
 		public async Task<IActionResult> Delete(int? id)
 		{
 			if (HttpContext.Session.GetString("UserId") == null)
 			{
-				// Redirect to the login page or display an error message
+				//Chuyển đến trang đăng nhập hoặc thông báo lỗi
 				return RedirectToAction("Login", "Account");
 			}
 			if (id == null)
@@ -165,7 +171,7 @@ namespace PRN222.Lab1.MVC.Controllers
 			return View(product);
 		}
 
-		// POST: Products/Delete/5
+		//POST: Products/Delete/5
 		[HttpPost, ActionName("Delete")]
 		[ValidateAntiForgeryToken]
 		public async Task<IActionResult> DeleteConfirmed(int id)
@@ -183,5 +189,7 @@ namespace PRN222.Lab1.MVC.Controllers
 			Product tmp = _productService.GetProductById(id);
 			return (tmp != null) ? true : false;
 		}
+		#endregion
+
 	}
 }

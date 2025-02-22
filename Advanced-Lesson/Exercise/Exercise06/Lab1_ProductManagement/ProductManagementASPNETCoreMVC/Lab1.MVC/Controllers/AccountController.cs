@@ -31,8 +31,8 @@ namespace PRN222.Lab1.MVC.Controllers
                 HttpContext.Session.SetString("UserId", user.MemberId);
                 HttpContext.Session.SetString("Username", user.FullName);
 
-                return RedirectToAction("Index", "Products"); // Redirect to home page
-            }
+                return RedirectToAction("Index", "Products"); //Chuyển đến trang chủ
+			}
             else
             {
                 ModelState.AddModelError("", "Invalid username or password.");
@@ -44,7 +44,7 @@ namespace PRN222.Lab1.MVC.Controllers
 
         public IActionResult Logout()
         {
-            HttpContext.Session.Clear(); // Clear session data
+            HttpContext.Session.Clear();
             return RedirectToAction("Login");
         }
 

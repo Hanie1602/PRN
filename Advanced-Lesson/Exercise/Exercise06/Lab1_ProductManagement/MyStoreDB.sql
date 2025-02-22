@@ -8,7 +8,7 @@ GO
 CREATE TABLE AccountMember (
     MemberID NVARCHAR(20) PRIMARY KEY,
     MemberPassword NVARCHAR(80) NOT NULL,
-    FullName NVARCHAR(100) NOT NULL,
+    FullName NVARCHAR(80) NOT NULL,
     EmailAddress NVARCHAR(100) NOT NULL,
     MemberRole INT NOT NULL
 );
@@ -34,26 +34,31 @@ GO
 
 -- Thêm dữ liệu vào bảng Categories
 INSERT INTO Categories (CategoryName) VALUES
-('Electronics'),
+('Health'),
+('Beauty'),
+('Sports'),
+('Outdoors'),
 ('Clothing'),
-('Home Appliances'),
+('Electronics'),
 ('Books');
 
 -- Thêm dữ liệu vào bảng Products
 INSERT INTO Products (ProductName, CategoryID, UnitsInStock, UnitPrice) VALUES
-('Laptop', 1, 10, 1200.00),
-('Smartphone', 1, 15, 800.00),
-('T-shirt', 2, 50, 15.99),
-('Jeans', 2, 30, 39.99),
-('Microwave Oven', 3, 20, 150.00),
-('Refrigerator', 3, 5, 500.00),
-('Washing Machine', 3, 8, 700.00),
-('Fiction Novel', 4, 40, 12.99),
-('Science Book', 4, 25, 25.50),
-('Cooking Recipe Book', 4, 18, 18.99);
+('Smartphone', 9, 50, 699.99),
+('Laptop', 9, 30, 1299.99),
+('T-Shirt', 8, 100, 19.99),
+('Jeans', 8, 60, 49.99),
+('Blender', 11, 40, 89.99),
+('Yoga Mat', 11, 80, 29.99),
+('Dumbbells Set', 6, 20, 99.99),
+('Skincare Set', 5, 70, 39.99),
+('Fiction Book', 10, 200, 14.99),
+('Cookbook', 10, 120, 24.99);
 
 -- Thêm dữ liệu vào bảng AccountMember
 INSERT INTO AccountMember (MemberID, MemberPassword, FullName, EmailAddress, MemberRole) VALUES
-('M001', '123', 'John Doe', 'mem1@example.com', 1),
-('M002', '123', 'Jane Smith', 'mem2@example.com', 2),
-('M003', '123', 'Admin User', 'mem3@example.com', 0);
+('M001', '123', 'Nguyễn Văn A', 'nguyenvana@example.com', 1),
+('M002', '123', 'Trần Thị B', 'tranthib@example.com', 2),
+('M003', '123', 'Lê Văn C', 'levanc@example.com', 0),
+('M004', '123', 'Phạm Thị D', 'phamthid@example.com', 0),
+('M005', '123', 'Hoàng Văn E', 'hoangvane@example.com', 2);

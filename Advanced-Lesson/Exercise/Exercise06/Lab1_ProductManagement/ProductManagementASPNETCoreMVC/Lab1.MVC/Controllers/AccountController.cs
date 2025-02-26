@@ -1,10 +1,10 @@
-﻿using Lab1.Repositories.Entities;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
+using PRN222.Lab1.Repositories.Entities;
 using PRN222.Lab1.Services;
 
 namespace PRN222.Lab1.MVC.Controllers
 {
-    public class AccountController : Controller
+	public class AccountController : Controller
     {
         private readonly IAccountService _accountService;
 

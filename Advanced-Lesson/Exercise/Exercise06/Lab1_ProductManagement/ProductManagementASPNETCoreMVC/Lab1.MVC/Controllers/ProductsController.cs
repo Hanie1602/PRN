@@ -1,7 +1,7 @@
-﻿using Lab1.Repositories.Entities;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
+using PRN222.Lab1.Repositories.Entities;
 using PRN222.Lab1.Services;
 
 namespace PRN222.Lab1.MVC.Controllers

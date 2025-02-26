@@ -1,4 +1,4 @@
-﻿using Lab1.Repositories.Entities;
+﻿using PRN222.Lab1.Repositories.Entities;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 

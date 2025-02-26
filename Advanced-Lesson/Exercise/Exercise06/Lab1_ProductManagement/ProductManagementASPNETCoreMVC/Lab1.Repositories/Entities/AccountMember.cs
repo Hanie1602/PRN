@@ -1,4 +1,4 @@
-﻿namespace Lab1.Repositories.Entities;
+﻿namespace PRN222.Lab1.Repositories.Entities;
 
 public partial class AccountMember
 {

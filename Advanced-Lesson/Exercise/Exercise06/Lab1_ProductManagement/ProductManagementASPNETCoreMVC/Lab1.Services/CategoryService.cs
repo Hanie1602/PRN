@@ -5,12 +5,16 @@ namespace PRN222.Lab1.Services
 {
 	public class CategoryService : ICategoryService
     {
-        private readonly ICategoryRepository _repo;
+        private readonly IUnitOfWork _unitOfWork;
 
-        public CategoryService()
+        public CategoryService(IUnitOfWork unitOfWork)
         {
-            _repo = new CategoryRepository();
+            _unitOfWork = unitOfWork;
         }
-        public List<Category> GetCategories() => _repo.GetCategories();
-    }
+
+		public List<Category> GetCategories()
+		{
+			return _unitOfWork.GetRepository<Category>().Entities.ToList();
+		}
+	}
 }

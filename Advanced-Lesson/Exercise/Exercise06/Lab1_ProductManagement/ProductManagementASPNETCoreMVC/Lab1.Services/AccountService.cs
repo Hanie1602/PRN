@@ -5,16 +5,16 @@ namespace PRN222.Lab1.Services
 {
 	public class AccountService : IAccountService
     {
-        private readonly IAccountRepository _repo;
+		private readonly IUnitOfWork _unitOfWork;
 
-        public AccountService()
+		public AccountService(IUnitOfWork unitOfWork)
         {
-            _repo = new AccountRepository();
+            _unitOfWork = unitOfWork;
         }
 
         public AccountMember GetAccountByEmail(string email)
         {
-            return _repo.GetAccountByEmail(email);
-        }
+            return _unitOfWork.GetRepository<AccountMember>().Entities.FirstOrDefault(c => c.EmailAddress.Equals(email));
+		}
     }
 }

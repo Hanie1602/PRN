@@ -2,7 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 
-namespace Lab1.Repositories;
+namespace PRN222.Lab1.Repositories;
 
 public partial class MyStoreDbContext : DbContext
 {

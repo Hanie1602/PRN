@@ -1,5 +1,4 @@
-﻿using Lab1.Repositories;
-using PRN222.Lab1.Repositories.Entities;
+﻿using PRN222.Lab1.Repositories.Entities;
 
 namespace PRN222.Lab1.Repositories
 {

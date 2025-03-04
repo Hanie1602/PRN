@@ -1,3 +1,5 @@
+using Microsoft.EntityFrameworkCore;
+using PRN222.Lab1.Repositories;
 using PRN222.Lab1.Services;
 
 namespace Lab1.MVC
@@ -8,12 +10,17 @@ namespace Lab1.MVC
         {
             var builder = WebApplication.CreateBuilder(args);
 
-            // Add services to the container.
-            builder.Services.AddControllersWithViews();
+			builder.Services.AddDbContext<MyStoreDbContext>(options => options.UseSqlServer("DefaultConnectionString"));
+
+			// Add services to the container.
+			builder.Services.AddControllersWithViews();
             builder.Services.AddScoped<IProductService, ProductService>();
             builder.Services.AddScoped<ICategoryService, CategoryService>();
             builder.Services.AddScoped<IAccountService, AccountService>();
-            builder.Services.AddSession(options =>
+			builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
+			builder.Services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepository<>));
+
+			builder.Services.AddSession(options =>
             {
                 options.IdleTimeout = TimeSpan.FromMinutes(20); // Set sesion timeout
                 options.Cookie.HttpOnly = true; // For security

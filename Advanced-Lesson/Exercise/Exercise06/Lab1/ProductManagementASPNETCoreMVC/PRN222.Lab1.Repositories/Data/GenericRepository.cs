@@ -1,7 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using PRN222.Lab1.Repositories.Entities;
 
-namespace PRN222.Lab1.Repositories
+namespace PRN222.Lab1.Repositories.Data
 {
 	public class GenericRepository<TEntity> : IGenericRepository<TEntity> where TEntity : class
 	{

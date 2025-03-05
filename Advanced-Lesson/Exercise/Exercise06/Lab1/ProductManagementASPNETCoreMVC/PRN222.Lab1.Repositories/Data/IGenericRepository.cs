@@ -1,4 +1,4 @@
-﻿namespace PRN222.Lab1.Repositories
+﻿namespace PRN222.Lab1.Repositories.Data
 {
 	public interface IGenericRepository<TEntity> where TEntity : class
 	{
@@ -12,7 +12,7 @@
 
 		void Update(TEntity obj);
 
-		void Delete(Object id);
+		void Delete(object id);
 
 		void Save();
 	}

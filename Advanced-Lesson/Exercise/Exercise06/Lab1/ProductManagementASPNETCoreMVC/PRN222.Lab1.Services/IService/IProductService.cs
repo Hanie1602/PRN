@@ -1,6 +1,6 @@
 ﻿using PRN222.Lab1.Repositories.Entities;
 
-namespace PRN222.Lab1.Services
+namespace PRN222.Lab1.Services.IService
 {
 	public interface IProductService
 	{

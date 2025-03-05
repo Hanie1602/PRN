@@ -1,7 +1,8 @@
 ﻿using PRN222.Lab1.Repositories.Entities;
-using PRN222.Lab1.Repositories;
+using PRN222.Lab1.Services.IService;
+using PRN222.Lab1.Repositories.Data;
 
-namespace PRN222.Lab1.Services
+namespace PRN222.Lab1.Services.Service
 {
 	public class AccountService : IAccountService
 	{

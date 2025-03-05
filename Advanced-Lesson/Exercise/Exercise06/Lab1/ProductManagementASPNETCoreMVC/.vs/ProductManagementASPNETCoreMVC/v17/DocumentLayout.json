@@ -7,104 +7,40 @@
       "RelativeMoniker": "D:0:0:{27F69A18-0B22-4C2E-B4FB-89F5D2ACF34B}|PRN222.Lab1.MVC\\PRN222.Lab1.MVC.csproj|solutionrelative:prn222.lab1.mvc\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{27F69A18-0B22-4C2E-B4FB-89F5D2ACF34B}|PRN222.Lab1.MVC\\PRN222.Lab1.MVC.csproj|d:\\github\\prn212\\advanced-lesson\\exercise\\exercise06\\lab1\\productmanagementaspnetcoremvc\\prn222.lab1.mvc\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{27F69A18-0B22-4C2E-B4FB-89F5D2ACF34B}|PRN222.Lab1.MVC\\PRN222.Lab1.MVC.csproj|solutionrelative:prn222.lab1.mvc\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{27F69A18-0B22-4C2E-B4FB-89F5D2ACF34B}|PRN222.Lab1.MVC\\PRN222.Lab1.MVC.csproj|d:\\github\\prn212\\advanced-lesson\\exercise\\exercise06\\lab1\\productmanagementaspnetcoremvc\\prn222.lab1.mvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{27F69A18-0B22-4C2E-B4FB-89F5D2ACF34B}|PRN222.Lab1.MVC\\PRN222.Lab1.MVC.csproj|solutionrelative:prn222.lab1.mvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{27F69A18-0B22-4C2E-B4FB-89F5D2ACF34B}|PRN222.Lab1.MVC\\PRN222.Lab1.MVC.csproj|d:\\github\\prn212\\advanced-lesson\\exercise\\exercise06\\lab1\\productmanagementaspnetcoremvc\\prn222.lab1.mvc\\controllers\\accountmembercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{27F69A18-0B22-4C2E-B4FB-89F5D2ACF34B}|PRN222.Lab1.MVC\\PRN222.Lab1.MVC.csproj|solutionrelative:prn222.lab1.mvc\\controllers\\accountmembercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B81DFA67-C43F-4480-B6C4-02EFDCA583B5}|PRN222.Lab1.Services\\PRN222.Lab1.Services.csproj|d:\\github\\prn212\\advanced-lesson\\exercise\\exercise06\\lab1\\productmanagementaspnetcoremvc\\prn222.lab1.services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B81DFA67-C43F-4480-B6C4-02EFDCA583B5}|PRN222.Lab1.Services\\PRN222.Lab1.Services.csproj|solutionrelative:prn222.lab1.services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B81DFA67-C43F-4480-B6C4-02EFDCA583B5}|PRN222.Lab1.Services\\PRN222.Lab1.Services.csproj|d:\\github\\prn212\\advanced-lesson\\exercise\\exercise06\\lab1\\productmanagementaspnetcoremvc\\prn222.lab1.services\\service\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B81DFA67-C43F-4480-B6C4-02EFDCA583B5}|PRN222.Lab1.Services\\PRN222.Lab1.Services.csproj|solutionrelative:prn222.lab1.services\\service\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B81DFA67-C43F-4480-B6C4-02EFDCA583B5}|PRN222.Lab1.Services\\PRN222.Lab1.Services.csproj|d:\\github\\prn212\\advanced-lesson\\exercise\\exercise06\\lab1\\productmanagementaspnetcoremvc\\prn222.lab1.services\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B81DFA67-C43F-4480-B6C4-02EFDCA583B5}|PRN222.Lab1.Services\\PRN222.Lab1.Services.csproj|solutionrelative:prn222.lab1.services\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{27F69A18-0B22-4C2E-B4FB-89F5D2ACF34B}|PRN222.Lab1.MVC\\PRN222.Lab1.MVC.csproj|d:\\github\\prn212\\advanced-lesson\\exercise\\exercise06\\lab1\\productmanagementaspnetcoremvc\\prn222.lab1.mvc\\views\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{27F69A18-0B22-4C2E-B4FB-89F5D2ACF34B}|PRN222.Lab1.MVC\\PRN222.Lab1.MVC.csproj|solutionrelative:prn222.lab1.mvc\\views\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{27F69A18-0B22-4C2E-B4FB-89F5D2ACF34B}|PRN222.Lab1.MVC\\PRN222.Lab1.MVC.csproj|d:\\github\\prn212\\advanced-lesson\\exercise\\exercise06\\lab1\\productmanagementaspnetcoremvc\\prn222.lab1.mvc\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{27F69A18-0B22-4C2E-B4FB-89F5D2ACF34B}|PRN222.Lab1.MVC\\PRN222.Lab1.MVC.csproj|solutionrelative:prn222.lab1.mvc\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{27F69A18-0B22-4C2E-B4FB-89F5D2ACF34B}|PRN222.Lab1.MVC\\PRN222.Lab1.MVC.csproj|d:\\github\\prn212\\advanced-lesson\\exercise\\exercise06\\lab1\\productmanagementaspnetcoremvc\\prn222.lab1.mvc\\views\\accountmember\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{27F69A18-0B22-4C2E-B4FB-89F5D2ACF34B}|PRN222.Lab1.MVC\\PRN222.Lab1.MVC.csproj|solutionrelative:prn222.lab1.mvc\\views\\accountmember\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{27F69A18-0B22-4C2E-B4FB-89F5D2ACF34B}|PRN222.Lab1.MVC\\PRN222.Lab1.MVC.csproj|d:\\github\\prn212\\advanced-lesson\\exercise\\exercise06\\lab1\\productmanagementaspnetcoremvc\\prn222.lab1.mvc\\views\\products\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{27F69A18-0B22-4C2E-B4FB-89F5D2ACF34B}|PRN222.Lab1.MVC\\PRN222.Lab1.MVC.csproj|solutionrelative:prn222.lab1.mvc\\views\\products\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{B81DFA67-C43F-4480-B6C4-02EFDCA583B5}|PRN222.Lab1.Services\\PRN222.Lab1.Services.csproj|d:\\github\\prn212\\advanced-lesson\\exercise\\exercise06\\lab1\\productmanagementaspnetcoremvc\\prn222.lab1.services\\service\\accountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B81DFA67-C43F-4480-B6C4-02EFDCA583B5}|PRN222.Lab1.Services\\PRN222.Lab1.Services.csproj|solutionrelative:prn222.lab1.services\\service\\accountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{27F69A18-0B22-4C2E-B4FB-89F5D2ACF34B}|PRN222.Lab1.MVC\\PRN222.Lab1.MVC.csproj|d:\\github\\prn212\\advanced-lesson\\exercise\\exercise06\\lab1\\productmanagementaspnetcoremvc\\prn222.lab1.mvc\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{27F69A18-0B22-4C2E-B4FB-89F5D2ACF34B}|PRN222.Lab1.MVC\\PRN222.Lab1.MVC.csproj|solutionrelative:prn222.lab1.mvc\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B81DFA67-C43F-4480-B6C4-02EFDCA583B5}|PRN222.Lab1.Services\\PRN222.Lab1.Services.csproj|d:\\github\\prn212\\advanced-lesson\\exercise\\exercise06\\lab1\\productmanagementaspnetcoremvc\\prn222.lab1.services\\service\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B81DFA67-C43F-4480-B6C4-02EFDCA583B5}|PRN222.Lab1.Services\\PRN222.Lab1.Services.csproj|solutionrelative:prn222.lab1.services\\service\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{27F69A18-0B22-4C2E-B4FB-89F5D2ACF34B}|PRN222.Lab1.MVC\\PRN222.Lab1.MVC.csproj|d:\\github\\prn212\\advanced-lesson\\exercise\\exercise06\\lab1\\productmanagementaspnetcoremvc\\prn222.lab1.mvc\\views\\products\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{27F69A18-0B22-4C2E-B4FB-89F5D2ACF34B}|PRN222.Lab1.MVC\\PRN222.Lab1.MVC.csproj|solutionrelative:prn222.lab1.mvc\\views\\products\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{95BAD6B7-4411-4256-97F5-15E19FD3F6EF}|PRN222.Lab1.Repositories\\PRN222.Lab1.Repositories.csproj|d:\\github\\prn212\\advanced-lesson\\exercise\\exercise06\\lab1\\productmanagementaspnetcoremvc\\prn222.lab1.repositories\\data\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95BAD6B7-4411-4256-97F5-15E19FD3F6EF}|PRN222.Lab1.Repositories\\PRN222.Lab1.Repositories.csproj|solutionrelative:prn222.lab1.repositories\\data\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B81DFA67-C43F-4480-B6C4-02EFDCA583B5}|PRN222.Lab1.Services\\PRN222.Lab1.Services.csproj|d:\\github\\prn212\\advanced-lesson\\exercise\\exercise06\\lab1\\productmanagementaspnetcoremvc\\prn222.lab1.services\\accountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B81DFA67-C43F-4480-B6C4-02EFDCA583B5}|PRN222.Lab1.Services\\PRN222.Lab1.Services.csproj|solutionrelative:prn222.lab1.services\\accountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{95BAD6B7-4411-4256-97F5-15E19FD3F6EF}|PRN222.Lab1.Repositories\\PRN222.Lab1.Repositories.csproj|d:\\github\\prn212\\advanced-lesson\\exercise\\exercise06\\lab1\\productmanagementaspnetcoremvc\\prn222.lab1.repositories\\entities\\accountmember.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{95BAD6B7-4411-4256-97F5-15E19FD3F6EF}|PRN222.Lab1.Repositories\\PRN222.Lab1.Repositories.csproj|solutionrelative:prn222.lab1.repositories\\entities\\accountmember.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B81DFA67-C43F-4480-B6C4-02EFDCA583B5}|PRN222.Lab1.Services\\PRN222.Lab1.Services.csproj|d:\\github\\prn212\\advanced-lesson\\exercise\\exercise06\\lab1\\productmanagementaspnetcoremvc\\prn222.lab1.services\\iaccountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B81DFA67-C43F-4480-B6C4-02EFDCA583B5}|PRN222.Lab1.Services\\PRN222.Lab1.Services.csproj|solutionrelative:prn222.lab1.services\\iaccountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{27F69A18-0B22-4C2E-B4FB-89F5D2ACF34B}|PRN222.Lab1.MVC\\PRN222.Lab1.MVC.csproj|d:\\github\\prn212\\advanced-lesson\\exercise\\exercise06\\lab1\\productmanagementaspnetcoremvc\\prn222.lab1.mvc\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{27F69A18-0B22-4C2E-B4FB-89F5D2ACF34B}|PRN222.Lab1.MVC\\PRN222.Lab1.MVC.csproj|solutionrelative:prn222.lab1.mvc\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{27F69A18-0B22-4C2E-B4FB-89F5D2ACF34B}|PRN222.Lab1.MVC\\PRN222.Lab1.MVC.csproj|d:\\github\\prn212\\advanced-lesson\\exercise\\exercise06\\lab1\\productmanagementaspnetcoremvc\\prn222.lab1.mvc\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{27F69A18-0B22-4C2E-B4FB-89F5D2ACF34B}|PRN222.Lab1.MVC\\PRN222.Lab1.MVC.csproj|solutionrelative:prn222.lab1.mvc\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B81DFA67-C43F-4480-B6C4-02EFDCA583B5}|PRN222.Lab1.Services\\PRN222.Lab1.Services.csproj|d:\\github\\prn212\\advanced-lesson\\exercise\\exercise06\\lab1\\productmanagementaspnetcoremvc\\prn222.lab1.services\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B81DFA67-C43F-4480-B6C4-02EFDCA583B5}|PRN222.Lab1.Services\\PRN222.Lab1.Services.csproj|solutionrelative:prn222.lab1.services\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{95BAD6B7-4411-4256-97F5-15E19FD3F6EF}|PRN222.Lab1.Repositories\\PRN222.Lab1.Repositories.csproj|d:\\github\\prn212\\advanced-lesson\\exercise\\exercise06\\lab1\\productmanagementaspnetcoremvc\\prn222.lab1.repositories\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{95BAD6B7-4411-4256-97F5-15E19FD3F6EF}|PRN222.Lab1.Repositories\\PRN222.Lab1.Repositories.csproj|solutionrelative:prn222.lab1.repositories\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{95BAD6B7-4411-4256-97F5-15E19FD3F6EF}|PRN222.Lab1.Repositories\\PRN222.Lab1.Repositories.csproj|d:\\github\\prn212\\advanced-lesson\\exercise\\exercise06\\lab1\\productmanagementaspnetcoremvc\\prn222.lab1.repositories\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{95BAD6B7-4411-4256-97F5-15E19FD3F6EF}|PRN222.Lab1.Repositories\\PRN222.Lab1.Repositories.csproj|solutionrelative:prn222.lab1.repositories\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{95BAD6B7-4411-4256-97F5-15E19FD3F6EF}|PRN222.Lab1.Repositories\\PRN222.Lab1.Repositories.csproj|d:\\github\\prn212\\advanced-lesson\\exercise\\exercise06\\lab1\\productmanagementaspnetcoremvc\\prn222.lab1.repositories\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{95BAD6B7-4411-4256-97F5-15E19FD3F6EF}|PRN222.Lab1.Repositories\\PRN222.Lab1.Repositories.csproj|solutionrelative:prn222.lab1.repositories\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{95BAD6B7-4411-4256-97F5-15E19FD3F6EF}|PRN222.Lab1.Repositories\\PRN222.Lab1.Repositories.csproj|d:\\github\\prn212\\advanced-lesson\\exercise\\exercise06\\lab1\\productmanagementaspnetcoremvc\\prn222.lab1.repositories\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{95BAD6B7-4411-4256-97F5-15E19FD3F6EF}|PRN222.Lab1.Repositories\\PRN222.Lab1.Repositories.csproj|solutionrelative:prn222.lab1.repositories\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{27F69A18-0B22-4C2E-B4FB-89F5D2ACF34B}|PRN222.Lab1.MVC\\PRN222.Lab1.MVC.csproj|d:\\github\\prn212\\advanced-lesson\\exercise\\exercise06\\lab1\\productmanagementaspnetcoremvc\\prn222.lab1.mvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{27F69A18-0B22-4C2E-B4FB-89F5D2ACF34B}|PRN222.Lab1.MVC\\PRN222.Lab1.MVC.csproj|solutionrelative:prn222.lab1.mvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B81DFA67-C43F-4480-B6C4-02EFDCA583B5}|PRN222.Lab1.Services\\PRN222.Lab1.Services.csproj|d:\\github\\prn212\\advanced-lesson\\exercise\\exercise06\\lab1\\productmanagementaspnetcoremvc\\prn222.lab1.services\\icategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B81DFA67-C43F-4480-B6C4-02EFDCA583B5}|PRN222.Lab1.Services\\PRN222.Lab1.Services.csproj|solutionrelative:prn222.lab1.services\\icategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{95BAD6B7-4411-4256-97F5-15E19FD3F6EF}|PRN222.Lab1.Repositories\\PRN222.Lab1.Repositories.csproj|d:\\github\\prn212\\advanced-lesson\\exercise\\exercise06\\lab1\\productmanagementaspnetcoremvc\\prn222.lab1.repositories\\prn222.lab1.repositories.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{95BAD6B7-4411-4256-97F5-15E19FD3F6EF}|PRN222.Lab1.Repositories\\PRN222.Lab1.Repositories.csproj|solutionrelative:prn222.lab1.repositories\\prn222.lab1.repositories.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B81DFA67-C43F-4480-B6C4-02EFDCA583B5}|PRN222.Lab1.Services\\PRN222.Lab1.Services.csproj|d:\\github\\prn212\\advanced-lesson\\exercise\\exercise06\\lab1\\productmanagementaspnetcoremvc\\prn222.lab1.services\\prn222.lab1.services.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{B81DFA67-C43F-4480-B6C4-02EFDCA583B5}|PRN222.Lab1.Services\\PRN222.Lab1.Services.csproj|solutionrelative:prn222.lab1.services\\prn222.lab1.services.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{95BAD6B7-4411-4256-97F5-15E19FD3F6EF}|PRN222.Lab1.Repositories\\PRN222.Lab1.Repositories.csproj|d:\\github\\prn212\\advanced-lesson\\exercise\\exercise06\\lab1\\productmanagementaspnetcoremvc\\prn222.lab1.repositories\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{95BAD6B7-4411-4256-97F5-15E19FD3F6EF}|PRN222.Lab1.Repositories\\PRN222.Lab1.Repositories.csproj|solutionrelative:prn222.lab1.repositories\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{95BAD6B7-4411-4256-97F5-15E19FD3F6EF}|PRN222.Lab1.Repositories\\PRN222.Lab1.Repositories.csproj|d:\\github\\prn212\\advanced-lesson\\exercise\\exercise06\\lab1\\productmanagementaspnetcoremvc\\prn222.lab1.repositories\\entities\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{95BAD6B7-4411-4256-97F5-15E19FD3F6EF}|PRN222.Lab1.Repositories\\PRN222.Lab1.Repositories.csproj|solutionrelative:prn222.lab1.repositories\\entities\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{27F69A18-0B22-4C2E-B4FB-89F5D2ACF34B}|PRN222.Lab1.MVC\\PRN222.Lab1.MVC.csproj|d:\\github\\prn212\\advanced-lesson\\exercise\\exercise06\\lab1\\productmanagementaspnetcoremvc\\prn222.lab1.mvc\\views\\products\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{27F69A18-0B22-4C2E-B4FB-89F5D2ACF34B}|PRN222.Lab1.MVC\\PRN222.Lab1.MVC.csproj|solutionrelative:prn222.lab1.mvc\\views\\products\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{95BAD6B7-4411-4256-97F5-15E19FD3F6EF}|PRN222.Lab1.Repositories\\PRN222.Lab1.Repositories.csproj|d:\\github\\prn212\\advanced-lesson\\exercise\\exercise06\\lab1\\productmanagementaspnetcoremvc\\prn222.lab1.repositories\\entities\\mystoredbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -115,8 +51,12 @@
       "RelativeMoniker": "D:0:0:{27F69A18-0B22-4C2E-B4FB-89F5D2ACF34B}|PRN222.Lab1.MVC\\PRN222.Lab1.MVC.csproj|solutionrelative:prn222.lab1.mvc\\views\\products\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{27F69A18-0B22-4C2E-B4FB-89F5D2ACF34B}|PRN222.Lab1.MVC\\PRN222.Lab1.MVC.csproj|d:\\github\\prn212\\advanced-lesson\\exercise\\exercise06\\lab1\\productmanagementaspnetcoremvc\\prn222.lab1.mvc\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{27F69A18-0B22-4C2E-B4FB-89F5D2ACF34B}|PRN222.Lab1.MVC\\PRN222.Lab1.MVC.csproj|solutionrelative:prn222.lab1.mvc\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{95BAD6B7-4411-4256-97F5-15E19FD3F6EF}|PRN222.Lab1.Repositories\\PRN222.Lab1.Repositories.csproj|d:\\github\\prn212\\advanced-lesson\\exercise\\exercise06\\lab1\\productmanagementaspnetcoremvc\\prn222.lab1.repositories\\entities\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95BAD6B7-4411-4256-97F5-15E19FD3F6EF}|PRN222.Lab1.Repositories\\PRN222.Lab1.Repositories.csproj|solutionrelative:prn222.lab1.repositories\\entities\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95BAD6B7-4411-4256-97F5-15E19FD3F6EF}|PRN222.Lab1.Repositories\\PRN222.Lab1.Repositories.csproj|d:\\github\\prn212\\advanced-lesson\\exercise\\exercise06\\lab1\\productmanagementaspnetcoremvc\\prn222.lab1.repositories\\data\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95BAD6B7-4411-4256-97F5-15E19FD3F6EF}|PRN222.Lab1.Repositories\\PRN222.Lab1.Repositories.csproj|solutionrelative:prn222.lab1.repositories\\data\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -126,32 +66,45 @@
       "DocumentGroups": [
         {
           "DockedWidth": 1524,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "AccountMemberController.cs",
-              "DocumentMoniker": "D:\\Github\\PRN212\\Advanced-Lesson\\Exercise\\Exercise06\\Lab1\\ProductManagementASPNETCoreMVC\\PRN222.Lab1.MVC\\Controllers\\AccountMemberController.cs",
-              "RelativeDocumentMoniker": "PRN222.Lab1.MVC\\Controllers\\AccountMemberController.cs",
-              "ToolTip": "D:\\Github\\PRN212\\Advanced-Lesson\\Exercise\\Exercise06\\Lab1\\ProductManagementASPNETCoreMVC\\PRN222.Lab1.MVC\\Controllers\\AccountMemberController.cs",
-              "RelativeToolTip": "PRN222.Lab1.MVC\\Controllers\\AccountMemberController.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAQwBsAAAA3AAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Github\\PRN212\\Advanced-Lesson\\Exercise\\Exercise06\\Lab1\\ProductManagementASPNETCoreMVC\\PRN222.Lab1.MVC\\Program.cs",
+              "RelativeDocumentMoniker": "PRN222.Lab1.MVC\\Program.cs",
+              "ToolTip": "D:\\Github\\PRN212\\Advanced-Lesson\\Exercise\\Exercise06\\Lab1\\ProductManagementASPNETCoreMVC\\PRN222.Lab1.MVC\\Program.cs",
+              "RelativeToolTip": "PRN222.Lab1.MVC\\Program.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwC0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-04T07:37:20.697Z",
+              "WhenOpened": "2025-03-05T03:40:19.302Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\Github\\PRN212\\Advanced-Lesson\\Exercise\\Exercise06\\Lab1\\ProductManagementASPNETCoreMVC\\PRN222.Lab1.MVC\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "PRN222.Lab1.MVC\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\Github\\PRN212\\Advanced-Lesson\\Exercise\\Exercise06\\Lab1\\ProductManagementASPNETCoreMVC\\PRN222.Lab1.MVC\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "PRN222.Lab1.MVC\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-05T03:24:47.71Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\Github\\PRN212\\Advanced-Lesson\\Exercise\\Exercise06\\Lab1\\ProductManagementASPNETCoreMVC\\PRN222.Lab1.MVC\\Views\\Products\\Index.cshtml",
-              "RelativeDocumentMoniker": "PRN222.Lab1.MVC\\Views\\Products\\Index.cshtml",
-              "ToolTip": "D:\\Github\\PRN212\\Advanced-Lesson\\Exercise\\Exercise06\\Lab1\\ProductManagementASPNETCoreMVC\\PRN222.Lab1.MVC\\Views\\Products\\Index.cshtml",
-              "RelativeToolTip": "PRN222.Lab1.MVC\\Views\\Products\\Index.cshtml",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAA8AAAAZAAAAAAAAAA==",
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "D:\\Github\\PRN212\\Advanced-Lesson\\Exercise\\Exercise06\\Lab1\\ProductManagementASPNETCoreMVC\\PRN222.Lab1.MVC\\Views\\AccountMember\\Login.cshtml",
+              "RelativeDocumentMoniker": "PRN222.Lab1.MVC\\Views\\AccountMember\\Login.cshtml",
+              "ToolTip": "D:\\Github\\PRN212\\Advanced-Lesson\\Exercise\\Exercise06\\Lab1\\ProductManagementASPNETCoreMVC\\PRN222.Lab1.MVC\\Views\\AccountMember\\Login.cshtml",
+              "RelativeToolTip": "PRN222.Lab1.MVC\\Views\\AccountMember\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-04T13:01:45.359Z",
+              "WhenOpened": "2025-03-05T03:24:45.843Z",
               "EditorCaption": ""
             },
             {
@@ -162,332 +115,140 @@
               "RelativeDocumentMoniker": "PRN222.Lab1.MVC\\Controllers\\ProductsController.cs",
               "ToolTip": "D:\\Github\\PRN212\\Advanced-Lesson\\Exercise\\Exercise06\\Lab1\\ProductManagementASPNETCoreMVC\\PRN222.Lab1.MVC\\Controllers\\ProductsController.cs",
               "RelativeToolTip": "PRN222.Lab1.MVC\\Controllers\\ProductsController.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAA5wBwAAAA/AAAAAAAAAA==",
+              "ViewState": "AgIAAG8AAAAAAAAAAAAUwH4AAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-04T07:35:49.227Z",
+              "WhenOpened": "2025-03-05T03:12:28.701Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Login.cshtml",
-              "DocumentMoniker": "D:\\Github\\PRN212\\Advanced-Lesson\\Exercise\\Exercise06\\Lab1\\ProductManagementASPNETCoreMVC\\PRN222.Lab1.MVC\\Views\\AccountMember\\Login.cshtml",
-              "RelativeDocumentMoniker": "PRN222.Lab1.MVC\\Views\\AccountMember\\Login.cshtml",
-              "ToolTip": "D:\\Github\\PRN212\\Advanced-Lesson\\Exercise\\Exercise06\\Lab1\\ProductManagementASPNETCoreMVC\\PRN222.Lab1.MVC\\Views\\AccountMember\\Login.cshtml",
-              "RelativeToolTip": "PRN222.Lab1.MVC\\Views\\AccountMember\\Login.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-04T07:53:28.24Z",
+              "DocumentIndex": 7,
+              "Title": "CategoryService.cs",
+              "DocumentMoniker": "D:\\Github\\PRN212\\Advanced-Lesson\\Exercise\\Exercise06\\Lab1\\ProductManagementASPNETCoreMVC\\PRN222.Lab1.Services\\Service\\CategoryService.cs",
+              "RelativeDocumentMoniker": "PRN222.Lab1.Services\\Service\\CategoryService.cs",
+              "ToolTip": "D:\\Github\\PRN212\\Advanced-Lesson\\Exercise\\Exercise06\\Lab1\\ProductManagementASPNETCoreMVC\\PRN222.Lab1.Services\\Service\\CategoryService.cs",
+              "RelativeToolTip": "PRN222.Lab1.Services\\Service\\CategoryService.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwBgAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-05T03:11:54.616Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "IProductService.cs",
-              "DocumentMoniker": "D:\\Github\\PRN212\\Advanced-Lesson\\Exercise\\Exercise06\\Lab1\\ProductManagementASPNETCoreMVC\\PRN222.Lab1.Services\\IProductService.cs",
-              "RelativeDocumentMoniker": "PRN222.Lab1.Services\\IProductService.cs",
-              "ToolTip": "D:\\Github\\PRN212\\Advanced-Lesson\\Exercise\\Exercise06\\Lab1\\ProductManagementASPNETCoreMVC\\PRN222.Lab1.Services\\IProductService.cs",
-              "RelativeToolTip": "PRN222.Lab1.Services\\IProductService.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAlwAwAAAAQAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "AccountMemberController.cs",
+              "DocumentMoniker": "D:\\Github\\PRN212\\Advanced-Lesson\\Exercise\\Exercise06\\Lab1\\ProductManagementASPNETCoreMVC\\PRN222.Lab1.MVC\\Controllers\\AccountMemberController.cs",
+              "RelativeDocumentMoniker": "PRN222.Lab1.MVC\\Controllers\\AccountMemberController.cs",
+              "ToolTip": "D:\\Github\\PRN212\\Advanced-Lesson\\Exercise\\Exercise06\\Lab1\\ProductManagementASPNETCoreMVC\\PRN222.Lab1.MVC\\Controllers\\AccountMemberController.cs",
+              "RelativeToolTip": "PRN222.Lab1.MVC\\Controllers\\AccountMemberController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-04T07:19:30.918Z",
+              "WhenOpened": "2025-03-05T03:00:32.801Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "ProductService.cs",
-              "DocumentMoniker": "D:\\Github\\PRN212\\Advanced-Lesson\\Exercise\\Exercise06\\Lab1\\ProductManagementASPNETCoreMVC\\PRN222.Lab1.Services\\ProductService.cs",
-              "RelativeDocumentMoniker": "PRN222.Lab1.Services\\ProductService.cs",
-              "ToolTip": "D:\\Github\\PRN212\\Advanced-Lesson\\Exercise\\Exercise06\\Lab1\\ProductManagementASPNETCoreMVC\\PRN222.Lab1.Services\\ProductService.cs",
-              "RelativeToolTip": "PRN222.Lab1.Services\\ProductService.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAowDEAAAAPAAAAAAAAAA==",
+              "DocumentMoniker": "D:\\Github\\PRN212\\Advanced-Lesson\\Exercise\\Exercise06\\Lab1\\ProductManagementASPNETCoreMVC\\PRN222.Lab1.Services\\Service\\ProductService.cs",
+              "RelativeDocumentMoniker": "PRN222.Lab1.Services\\Service\\ProductService.cs",
+              "ToolTip": "D:\\Github\\PRN212\\Advanced-Lesson\\Exercise\\Exercise06\\Lab1\\ProductManagementASPNETCoreMVC\\PRN222.Lab1.Services\\Service\\ProductService.cs",
+              "RelativeToolTip": "PRN222.Lab1.Services\\Service\\ProductService.cs",
+              "ViewState": "AgIAADkAAAAAAAAAAAA7wE4AAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-04T07:24:06.924Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "D:\\Github\\PRN212\\Advanced-Lesson\\Exercise\\Exercise06\\Lab1\\ProductManagementASPNETCoreMVC\\PRN222.Lab1.MVC\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "PRN222.Lab1.MVC\\Controllers\\HomeController.cs",
-              "ToolTip": "D:\\Github\\PRN212\\Advanced-Lesson\\Exercise\\Exercise06\\Lab1\\ProductManagementASPNETCoreMVC\\PRN222.Lab1.MVC\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "PRN222.Lab1.MVC\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-04T07:27:55.769Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "D:\\Github\\PRN212\\Advanced-Lesson\\Exercise\\Exercise06\\Lab1\\ProductManagementASPNETCoreMVC\\PRN222.Lab1.MVC\\Views\\Products\\Create.cshtml",
-              "RelativeDocumentMoniker": "PRN222.Lab1.MVC\\Views\\Products\\Create.cshtml",
-              "ToolTip": "D:\\Github\\PRN212\\Advanced-Lesson\\Exercise\\Exercise06\\Lab1\\ProductManagementASPNETCoreMVC\\PRN222.Lab1.MVC\\Views\\Products\\Create.cshtml",
-              "RelativeToolTip": "PRN222.Lab1.MVC\\Views\\Products\\Create.cshtml",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-04T07:50:54.537Z",
+              "WhenOpened": "2025-03-05T03:11:47.023Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "ErrorViewModel.cs",
-              "DocumentMoniker": "D:\\Github\\PRN212\\Advanced-Lesson\\Exercise\\Exercise06\\Lab1\\ProductManagementASPNETCoreMVC\\PRN222.Lab1.MVC\\Models\\ErrorViewModel.cs",
-              "RelativeDocumentMoniker": "PRN222.Lab1.MVC\\Models\\ErrorViewModel.cs",
-              "ToolTip": "D:\\Github\\PRN212\\Advanced-Lesson\\Exercise\\Exercise06\\Lab1\\ProductManagementASPNETCoreMVC\\PRN222.Lab1.MVC\\Models\\ErrorViewModel.cs",
-              "RelativeToolTip": "PRN222.Lab1.MVC\\Models\\ErrorViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "GenericRepository.cs",
+              "DocumentMoniker": "D:\\Github\\PRN212\\Advanced-Lesson\\Exercise\\Exercise06\\Lab1\\ProductManagementASPNETCoreMVC\\PRN222.Lab1.Repositories\\Data\\GenericRepository.cs",
+              "RelativeDocumentMoniker": "PRN222.Lab1.Repositories\\Data\\GenericRepository.cs",
+              "ToolTip": "D:\\Github\\PRN212\\Advanced-Lesson\\Exercise\\Exercise06\\Lab1\\ProductManagementASPNETCoreMVC\\PRN222.Lab1.Repositories\\Data\\GenericRepository.cs",
+              "RelativeToolTip": "PRN222.Lab1.Repositories\\Data\\GenericRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-04T16:40:16.916Z",
+              "WhenOpened": "2025-03-05T03:22:14.496Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "D:\\Github\\PRN212\\Advanced-Lesson\\Exercise\\Exercise06\\Lab1\\ProductManagementASPNETCoreMVC\\PRN222.Lab1.MVC\\Views\\Products\\Edit.cshtml",
-              "RelativeDocumentMoniker": "PRN222.Lab1.MVC\\Views\\Products\\Edit.cshtml",
-              "ToolTip": "D:\\Github\\PRN212\\Advanced-Lesson\\Exercise\\Exercise06\\Lab1\\ProductManagementASPNETCoreMVC\\PRN222.Lab1.MVC\\Views\\Products\\Edit.cshtml",
-              "RelativeToolTip": "PRN222.Lab1.MVC\\Views\\Products\\Edit.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "D:\\Github\\PRN212\\Advanced-Lesson\\Exercise\\Exercise06\\Lab1\\ProductManagementASPNETCoreMVC\\PRN222.Lab1.MVC\\Views\\Products\\Details.cshtml",
+              "RelativeDocumentMoniker": "PRN222.Lab1.MVC\\Views\\Products\\Details.cshtml",
+              "ToolTip": "D:\\Github\\PRN212\\Advanced-Lesson\\Exercise\\Exercise06\\Lab1\\ProductManagementASPNETCoreMVC\\PRN222.Lab1.MVC\\Views\\Products\\Details.cshtml",
+              "RelativeToolTip": "PRN222.Lab1.MVC\\Views\\Products\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-04T13:35:56.711Z",
+              "WhenOpened": "2025-03-05T03:17:46.074Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AccountService.cs",
+              "DocumentMoniker": "D:\\Github\\PRN212\\Advanced-Lesson\\Exercise\\Exercise06\\Lab1\\ProductManagementASPNETCoreMVC\\PRN222.Lab1.Services\\Service\\AccountService.cs",
+              "RelativeDocumentMoniker": "PRN222.Lab1.Services\\Service\\AccountService.cs",
+              "ToolTip": "D:\\Github\\PRN212\\Advanced-Lesson\\Exercise\\Exercise06\\Lab1\\ProductManagementASPNETCoreMVC\\PRN222.Lab1.Services\\Service\\AccountService.cs",
+              "RelativeToolTip": "PRN222.Lab1.Services\\Service\\AccountService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-05T02:59:01.924Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
-              "Title": "AccountService.cs",
-              "DocumentMoniker": "D:\\Github\\PRN212\\Advanced-Lesson\\Exercise\\Exercise06\\Lab1\\ProductManagementASPNETCoreMVC\\PRN222.Lab1.Services\\AccountService.cs",
-              "RelativeDocumentMoniker": "PRN222.Lab1.Services\\AccountService.cs",
-              "ToolTip": "D:\\Github\\PRN212\\Advanced-Lesson\\Exercise\\Exercise06\\Lab1\\ProductManagementASPNETCoreMVC\\PRN222.Lab1.Services\\AccountService.cs",
-              "RelativeToolTip": "PRN222.Lab1.Services\\AccountService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-04T07:20:53.953Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "AccountMember.cs",
-              "DocumentMoniker": "D:\\Github\\PRN212\\Advanced-Lesson\\Exercise\\Exercise06\\Lab1\\ProductManagementASPNETCoreMVC\\PRN222.Lab1.Repositories\\Entities\\AccountMember.cs",
-              "RelativeDocumentMoniker": "PRN222.Lab1.Repositories\\Entities\\AccountMember.cs",
-              "ToolTip": "D:\\Github\\PRN212\\Advanced-Lesson\\Exercise\\Exercise06\\Lab1\\ProductManagementASPNETCoreMVC\\PRN222.Lab1.Repositories\\Entities\\AccountMember.cs",
-              "RelativeToolTip": "PRN222.Lab1.Repositories\\Entities\\AccountMember.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-04T06:44:10.301Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "IAccountService.cs",
-              "DocumentMoniker": "D:\\Github\\PRN212\\Advanced-Lesson\\Exercise\\Exercise06\\Lab1\\ProductManagementASPNETCoreMVC\\PRN222.Lab1.Services\\IAccountService.cs",
-              "RelativeDocumentMoniker": "PRN222.Lab1.Services\\IAccountService.cs",
-              "ToolTip": "D:\\Github\\PRN212\\Advanced-Lesson\\Exercise\\Exercise06\\Lab1\\ProductManagementASPNETCoreMVC\\PRN222.Lab1.Services\\IAccountService.cs",
-              "RelativeToolTip": "PRN222.Lab1.Services\\IAccountService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-04T07:20:12.365Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "UnitOfWork.cs",
-              "DocumentMoniker": "D:\\Github\\PRN212\\Advanced-Lesson\\Exercise\\Exercise06\\Lab1\\ProductManagementASPNETCoreMVC\\PRN222.Lab1.Repositories\\UnitOfWork.cs",
-              "RelativeDocumentMoniker": "PRN222.Lab1.Repositories\\UnitOfWork.cs",
-              "ToolTip": "D:\\Github\\PRN212\\Advanced-Lesson\\Exercise\\Exercise06\\Lab1\\ProductManagementASPNETCoreMVC\\PRN222.Lab1.Repositories\\UnitOfWork.cs",
-              "RelativeToolTip": "PRN222.Lab1.Repositories\\UnitOfWork.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAADAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-04T13:07:48.396Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "_ViewStart.cshtml",
-              "DocumentMoniker": "D:\\Github\\PRN212\\Advanced-Lesson\\Exercise\\Exercise06\\Lab1\\ProductManagementASPNETCoreMVC\\PRN222.Lab1.MVC\\Views\\_ViewStart.cshtml",
-              "RelativeDocumentMoniker": "PRN222.Lab1.MVC\\Views\\_ViewStart.cshtml",
-              "ToolTip": "D:\\Github\\PRN212\\Advanced-Lesson\\Exercise\\Exercise06\\Lab1\\ProductManagementASPNETCoreMVC\\PRN222.Lab1.MVC\\Views\\_ViewStart.cshtml",
-              "RelativeToolTip": "PRN222.Lab1.MVC\\Views\\_ViewStart.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-04T14:58:25.042Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "_ViewImports.cshtml",
-              "DocumentMoniker": "D:\\Github\\PRN212\\Advanced-Lesson\\Exercise\\Exercise06\\Lab1\\ProductManagementASPNETCoreMVC\\PRN222.Lab1.MVC\\Views\\_ViewImports.cshtml",
-              "RelativeDocumentMoniker": "PRN222.Lab1.MVC\\Views\\_ViewImports.cshtml",
-              "ToolTip": "D:\\Github\\PRN212\\Advanced-Lesson\\Exercise\\Exercise06\\Lab1\\ProductManagementASPNETCoreMVC\\PRN222.Lab1.MVC\\Views\\_ViewImports.cshtml",
-              "RelativeToolTip": "PRN222.Lab1.MVC\\Views\\_ViewImports.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-04T14:58:23.963Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "CategoryService.cs",
-              "DocumentMoniker": "D:\\Github\\PRN212\\Advanced-Lesson\\Exercise\\Exercise06\\Lab1\\ProductManagementASPNETCoreMVC\\PRN222.Lab1.Services\\CategoryService.cs",
-              "RelativeDocumentMoniker": "PRN222.Lab1.Services\\CategoryService.cs",
-              "ToolTip": "D:\\Github\\PRN212\\Advanced-Lesson\\Exercise\\Exercise06\\Lab1\\ProductManagementASPNETCoreMVC\\PRN222.Lab1.Services\\CategoryService.cs",
-              "RelativeToolTip": "PRN222.Lab1.Services\\CategoryService.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABoAAAADAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-04T07:22:38.493Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "IUnitOfWork.cs",
-              "DocumentMoniker": "D:\\Github\\PRN212\\Advanced-Lesson\\Exercise\\Exercise06\\Lab1\\ProductManagementASPNETCoreMVC\\PRN222.Lab1.Repositories\\IUnitOfWork.cs",
-              "RelativeDocumentMoniker": "PRN222.Lab1.Repositories\\IUnitOfWork.cs",
-              "ToolTip": "D:\\Github\\PRN212\\Advanced-Lesson\\Exercise\\Exercise06\\Lab1\\ProductManagementASPNETCoreMVC\\PRN222.Lab1.Repositories\\IUnitOfWork.cs",
-              "RelativeToolTip": "PRN222.Lab1.Repositories\\IUnitOfWork.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAACAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-04T13:06:59.632Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "IGenericRepository.cs",
-              "DocumentMoniker": "D:\\Github\\PRN212\\Advanced-Lesson\\Exercise\\Exercise06\\Lab1\\ProductManagementASPNETCoreMVC\\PRN222.Lab1.Repositories\\IGenericRepository.cs",
-              "RelativeDocumentMoniker": "PRN222.Lab1.Repositories\\IGenericRepository.cs",
-              "ToolTip": "D:\\Github\\PRN212\\Advanced-Lesson\\Exercise\\Exercise06\\Lab1\\ProductManagementASPNETCoreMVC\\PRN222.Lab1.Repositories\\IGenericRepository.cs",
-              "RelativeToolTip": "PRN222.Lab1.Repositories\\IGenericRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-04T13:04:39.551Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "GenericRepository.cs",
-              "DocumentMoniker": "D:\\Github\\PRN212\\Advanced-Lesson\\Exercise\\Exercise06\\Lab1\\ProductManagementASPNETCoreMVC\\PRN222.Lab1.Repositories\\GenericRepository.cs",
-              "RelativeDocumentMoniker": "PRN222.Lab1.Repositories\\GenericRepository.cs",
-              "ToolTip": "D:\\Github\\PRN212\\Advanced-Lesson\\Exercise\\Exercise06\\Lab1\\ProductManagementASPNETCoreMVC\\PRN222.Lab1.Repositories\\GenericRepository.cs",
-              "RelativeToolTip": "PRN222.Lab1.Repositories\\GenericRepository.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABQAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-04T13:10:47.017Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Github\\PRN212\\Advanced-Lesson\\Exercise\\Exercise06\\Lab1\\ProductManagementASPNETCoreMVC\\PRN222.Lab1.MVC\\Program.cs",
-              "RelativeDocumentMoniker": "PRN222.Lab1.MVC\\Program.cs",
-              "ToolTip": "D:\\Github\\PRN212\\Advanced-Lesson\\Exercise\\Exercise06\\Lab1\\ProductManagementASPNETCoreMVC\\PRN222.Lab1.MVC\\Program.cs",
-              "RelativeToolTip": "PRN222.Lab1.MVC\\Program.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAC0AAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-04T06:50:23.794Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "ICategoryService.cs",
-              "DocumentMoniker": "D:\\Github\\PRN212\\Advanced-Lesson\\Exercise\\Exercise06\\Lab1\\ProductManagementASPNETCoreMVC\\PRN222.Lab1.Services\\ICategoryService.cs",
-              "RelativeDocumentMoniker": "PRN222.Lab1.Services\\ICategoryService.cs",
-              "ToolTip": "D:\\Github\\PRN212\\Advanced-Lesson\\Exercise\\Exercise06\\Lab1\\ProductManagementASPNETCoreMVC\\PRN222.Lab1.Services\\ICategoryService.cs",
-              "RelativeToolTip": "PRN222.Lab1.Services\\ICategoryService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-04T06:42:17.804Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "PRN222.Lab1.Repositories.csproj",
-              "DocumentMoniker": "D:\\Github\\PRN212\\Advanced-Lesson\\Exercise\\Exercise06\\Lab1\\ProductManagementASPNETCoreMVC\\PRN222.Lab1.Repositories\\PRN222.Lab1.Repositories.csproj",
-              "RelativeDocumentMoniker": "PRN222.Lab1.Repositories\\PRN222.Lab1.Repositories.csproj",
-              "ToolTip": "D:\\Github\\PRN212\\Advanced-Lesson\\Exercise\\Exercise06\\Lab1\\ProductManagementASPNETCoreMVC\\PRN222.Lab1.Repositories\\PRN222.Lab1.Repositories.csproj",
-              "RelativeToolTip": "PRN222.Lab1.Repositories\\PRN222.Lab1.Repositories.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-03-04T06:42:49.7Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "PRN222.Lab1.Services.csproj",
-              "DocumentMoniker": "D:\\Github\\PRN212\\Advanced-Lesson\\Exercise\\Exercise06\\Lab1\\ProductManagementASPNETCoreMVC\\PRN222.Lab1.Services\\PRN222.Lab1.Services.csproj",
-              "RelativeDocumentMoniker": "PRN222.Lab1.Services\\PRN222.Lab1.Services.csproj",
-              "ToolTip": "D:\\Github\\PRN212\\Advanced-Lesson\\Exercise\\Exercise06\\Lab1\\ProductManagementASPNETCoreMVC\\PRN222.Lab1.Services\\PRN222.Lab1.Services.csproj",
-              "RelativeToolTip": "PRN222.Lab1.Services\\PRN222.Lab1.Services.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-03-04T07:17:38.731Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "Product.cs",
-              "DocumentMoniker": "D:\\Github\\PRN212\\Advanced-Lesson\\Exercise\\Exercise06\\Lab1\\ProductManagementASPNETCoreMVC\\PRN222.Lab1.Repositories\\Entities\\Product.cs",
-              "RelativeDocumentMoniker": "PRN222.Lab1.Repositories\\Entities\\Product.cs",
-              "ToolTip": "D:\\Github\\PRN212\\Advanced-Lesson\\Exercise\\Exercise06\\Lab1\\ProductManagementASPNETCoreMVC\\PRN222.Lab1.Repositories\\Entities\\Product.cs",
-              "RelativeToolTip": "PRN222.Lab1.Repositories\\Entities\\Product.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAACAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-04T06:47:32.154Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "Category.cs",
-              "DocumentMoniker": "D:\\Github\\PRN212\\Advanced-Lesson\\Exercise\\Exercise06\\Lab1\\ProductManagementASPNETCoreMVC\\PRN222.Lab1.Repositories\\Entities\\Category.cs",
-              "RelativeDocumentMoniker": "PRN222.Lab1.Repositories\\Entities\\Category.cs",
-              "ToolTip": "D:\\Github\\PRN212\\Advanced-Lesson\\Exercise\\Exercise06\\Lab1\\ProductManagementASPNETCoreMVC\\PRN222.Lab1.Repositories\\Entities\\Category.cs",
-              "RelativeToolTip": "PRN222.Lab1.Repositories\\Entities\\Category.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-04T06:45:36.612Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
               "Title": "MyStoreDbContext.cs",
               "DocumentMoniker": "D:\\Github\\PRN212\\Advanced-Lesson\\Exercise\\Exercise06\\Lab1\\ProductManagementASPNETCoreMVC\\PRN222.Lab1.Repositories\\Entities\\MyStoreDbContext.cs",
               "RelativeDocumentMoniker": "PRN222.Lab1.Repositories\\Entities\\MyStoreDbContext.cs",
               "ToolTip": "D:\\Github\\PRN212\\Advanced-Lesson\\Exercise\\Exercise06\\Lab1\\ProductManagementASPNETCoreMVC\\PRN222.Lab1.Repositories\\Entities\\MyStoreDbContext.cs",
               "RelativeToolTip": "PRN222.Lab1.Repositories\\Entities\\MyStoreDbContext.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAUAAAAOAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABYAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-04T06:49:13.615Z"
+              "WhenOpened": "2025-03-05T03:07:06.347Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 11,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "D:\\Github\\PRN212\\Advanced-Lesson\\Exercise\\Exercise06\\Lab1\\ProductManagementASPNETCoreMVC\\PRN222.Lab1.MVC\\Views\\Products\\Delete.cshtml",
               "RelativeDocumentMoniker": "PRN222.Lab1.MVC\\Views\\Products\\Delete.cshtml",
               "ToolTip": "D:\\Github\\PRN212\\Advanced-Lesson\\Exercise\\Exercise06\\Lab1\\ProductManagementASPNETCoreMVC\\PRN222.Lab1.MVC\\Views\\Products\\Delete.cshtml",
               "RelativeToolTip": "PRN222.Lab1.MVC\\Views\\Products\\Delete.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-04T07:53:54.872Z"
+              "WhenOpened": "2025-03-05T03:11:35.562Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\Github\\PRN212\\Advanced-Lesson\\Exercise\\Exercise06\\Lab1\\ProductManagementASPNETCoreMVC\\PRN222.Lab1.MVC\\appsettings.json",
-              "RelativeDocumentMoniker": "PRN222.Lab1.MVC\\appsettings.json",
-              "ToolTip": "D:\\Github\\PRN212\\Advanced-Lesson\\Exercise\\Exercise06\\Lab1\\ProductManagementASPNETCoreMVC\\PRN222.Lab1.MVC\\appsettings.json",
-              "RelativeToolTip": "PRN222.Lab1.MVC\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-03-04T06:50:25.965Z"
+              "DocumentIndex": 12,
+              "Title": "Category.cs",
+              "DocumentMoniker": "D:\\Github\\PRN212\\Advanced-Lesson\\Exercise\\Exercise06\\Lab1\\ProductManagementASPNETCoreMVC\\PRN222.Lab1.Repositories\\Entities\\Category.cs",
+              "RelativeDocumentMoniker": "PRN222.Lab1.Repositories\\Entities\\Category.cs",
+              "ToolTip": "D:\\Github\\PRN212\\Advanced-Lesson\\Exercise\\Exercise06\\Lab1\\ProductManagementASPNETCoreMVC\\PRN222.Lab1.Repositories\\Entities\\Category.cs",
+              "RelativeToolTip": "PRN222.Lab1.Repositories\\Entities\\Category.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-05T03:11:18.59Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "UnitOfWork.cs",
+              "DocumentMoniker": "D:\\Github\\PRN212\\Advanced-Lesson\\Exercise\\Exercise06\\Lab1\\ProductManagementASPNETCoreMVC\\PRN222.Lab1.Repositories\\Data\\UnitOfWork.cs",
+              "RelativeDocumentMoniker": "PRN222.Lab1.Repositories\\Data\\UnitOfWork.cs",
+              "ToolTip": "D:\\Github\\PRN212\\Advanced-Lesson\\Exercise\\Exercise06\\Lab1\\ProductManagementASPNETCoreMVC\\PRN222.Lab1.Repositories\\Data\\UnitOfWork.cs",
+              "RelativeToolTip": "PRN222.Lab1.Repositories\\Data\\UnitOfWork.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-05T02:59:27.227Z",
+              "EditorCaption": ""
             }
           ]
         },

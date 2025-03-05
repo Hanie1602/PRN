@@ -1,7 +1,8 @@
 using Microsoft.EntityFrameworkCore;
-using PRN222.Lab1.Repositories;
+using PRN222.Lab1.Repositories.Data;
 using PRN222.Lab1.Repositories.Entities;
-using PRN222.Lab1.Services;
+using PRN222.Lab1.Services.IService;
+using PRN222.Lab1.Services.Service;
 
 namespace PRN222.Lab1.MVC
 {

@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using PRN222.Lab1.Repositories.Entities;
-using PRN222.Lab1.Services;
+using PRN222.Lab1.Services.IService;
 
 namespace PRN222.Lab1.MVC.Controllers
 {

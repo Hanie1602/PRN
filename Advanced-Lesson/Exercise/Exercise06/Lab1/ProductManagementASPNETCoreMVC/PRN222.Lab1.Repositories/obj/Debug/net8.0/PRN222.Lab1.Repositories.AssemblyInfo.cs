@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PRN222.Lab1.Repositories")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6336c87325becfa55aee3f0c8f96c10f1fe9c64b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+711a57395772ff9432a8080d2563e422e2c949f4")]
 [assembly: System.Reflection.AssemblyProductAttribute("PRN222.Lab1.Repositories")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PRN222.Lab1.Repositories")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

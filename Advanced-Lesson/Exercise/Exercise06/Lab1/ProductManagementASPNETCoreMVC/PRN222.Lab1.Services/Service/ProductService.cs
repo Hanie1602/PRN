@@ -1,8 +1,9 @@
 ﻿using PRN222.Lab1.Repositories.Entities;
-using PRN222.Lab1.Repositories;
 using Microsoft.EntityFrameworkCore;
+using PRN222.Lab1.Services.IService;
+using PRN222.Lab1.Repositories.Data;
 
-namespace PRN222.Lab1.Services
+namespace PRN222.Lab1.Services.Service
 {
 	public class ProductService : IProductService
 	{
@@ -33,6 +34,7 @@ namespace PRN222.Lab1.Services
 		{
 			Product? product = _unitOfWork.GetRepository<Product>()
 				.Entities
+				.Include(p => p.Category)
 				.FirstOrDefault(p => p.ProductId == id)
 				?? throw new Exception("No products found");
 

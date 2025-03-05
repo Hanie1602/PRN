@@ -1,4 +1,4 @@
-﻿namespace PRN222.Lab1.Repositories
+﻿namespace PRN222.Lab1.Repositories.Data
 {
 	public interface IUnitOfWork : IDisposable
 	{

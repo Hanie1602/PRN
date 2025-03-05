@@ -1,6 +1,6 @@
 ﻿using PRN222.Lab1.Repositories.Entities;
 
-namespace PRN222.Lab1.Repositories
+namespace PRN222.Lab1.Repositories.Data
 {
 	public class UnitOfWork : IUnitOfWork
 	{

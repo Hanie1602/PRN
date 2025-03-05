@@ -2,7 +2,7 @@
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using PRN222.Lab1.Repositories.Entities;
-using PRN222.Lab1.Services;
+using PRN222.Lab1.Services.IService;
 
 namespace PRN222.Lab1.MVC.Controllers
 {

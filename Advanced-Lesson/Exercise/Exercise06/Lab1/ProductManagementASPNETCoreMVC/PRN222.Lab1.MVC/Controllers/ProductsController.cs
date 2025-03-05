@@ -73,6 +73,12 @@ namespace PRN222.Lab1.MVC.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("ProductId,ProductName,CategoryId,UnitsInStock,UnitPrice")] Product product)
         {
+			if (HttpContext.Request.Cookies["UserId"] == null)
+			{
+				//Chuyển đến trang đăng nhập hoặc thông báo lỗi
+				return RedirectToAction("Login", "AccountMember");
+			}
+
 			if (ModelState.IsValid)
 			{
 				_productService.SaveProduct(product);
@@ -117,6 +123,12 @@ namespace PRN222.Lab1.MVC.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Edit(int id, [Bind("ProductId,ProductName,CategoryId,UnitsInStock,UnitPrice")] Product product)
         {
+			if (HttpContext.Request.Cookies["UserId"] == null)
+			{
+				//Chuyển đến trang đăng nhập hoặc thông báo lỗi
+				return RedirectToAction("Login", "AccountMember");
+			}
+
 			if (id != product.ProductId)
 			{
 				return NotFound();
@@ -175,6 +187,12 @@ namespace PRN222.Lab1.MVC.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
+			if (HttpContext.Request.Cookies["UserId"] == null)
+			{
+				//Chuyển đến trang đăng nhập hoặc thông báo lỗi
+				return RedirectToAction("Login", "AccountMember");
+			}
+
 			Product product = _productService.GetProductById((int)id);
 			if (product != null)
 			{

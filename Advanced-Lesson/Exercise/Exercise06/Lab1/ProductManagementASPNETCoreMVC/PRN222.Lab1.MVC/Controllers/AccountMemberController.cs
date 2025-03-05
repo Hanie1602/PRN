@@ -38,7 +38,8 @@ namespace PRN222.Lab1.MVC.Controllers
 				//HttpContext.Session.SetString("UserId", user.MemberId);
 				//HttpContext.Session.SetString("Username", user.FullName);
 
-				return RedirectToAction("Index", "Products"); //Chuyển đến trang chủ
+				//Chuyển đến trang chủ
+				return RedirectToAction("Index", "Products"); 
 			}
 			else
 			{

@@ -18,7 +18,13 @@ namespace PRN222.Lab2.RazorPages.Pages.Products
 
         public async Task<IActionResult> OnGetAsync(int? id)
         {
-            if (id == null)
+			//Đọc Cookie xem User đã đăng nhập chưa
+			if (Request.Cookies["Account"] == null)
+			{
+				return RedirectToPage("/Login");
+			}
+
+			if (id == null)
             {
                 return NotFound();
             }

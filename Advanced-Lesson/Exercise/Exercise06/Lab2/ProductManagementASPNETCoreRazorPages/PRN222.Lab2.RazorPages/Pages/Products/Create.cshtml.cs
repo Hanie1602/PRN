@@ -23,7 +23,13 @@ namespace PRN222.Lab2.RazorPages.Pages.Products
 
         public IActionResult OnGet()
         {
-        ViewData["CategoryId"] = new SelectList(_categoryService.GetCategories(), "CategoryId", "CategoryName");
+			//Đọc Cookie xem User đã đăng nhập chưa
+			if (Request.Cookies["Account"] == null)
+			{
+				return RedirectToPage("/Login");
+			}
+
+			ViewData["CategoryId"] = new SelectList(_categoryService.GetCategories(), "CategoryId", "CategoryName");
             return Page();
         }
 
@@ -33,7 +39,13 @@ namespace PRN222.Lab2.RazorPages.Pages.Products
         // For more information, see https://aka.ms/RazorPagesCRUD.
         public async Task<IActionResult> OnPostAsync()
         {
-            if (!ModelState.IsValid)
+			//Đọc Cookie xem User đã đăng nhập chưa
+			if (Request.Cookies["Account"] == null)
+			{
+				return RedirectToPage("/Login");
+			}
+
+			if (!ModelState.IsValid)
             {
                 return Page();
             }

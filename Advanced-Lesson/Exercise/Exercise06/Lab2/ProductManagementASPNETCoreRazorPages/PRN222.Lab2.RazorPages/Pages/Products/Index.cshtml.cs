@@ -16,20 +16,41 @@ namespace PRN222.Lab2.RazorPages.Pages.Products
 
         public IList<Product> Product { get;set; } = default!;
 
-		public async Task<IActionResult> OnGet()
+		public async Task<IActionResult> OnGet(string? searchProductName, string? sortOption)
 		{
 			//Đọc Cookie xem User đã đăng nhập chưa
-			if (Request.Cookies["Account"] != null)
+			if (Request.Cookies["Account"] == null)
 			{
-				Product = _productService.GetProducts();
-				return Page();
+				return RedirectToPage("/Login");
 			}
 
-			return RedirectToPage("/Login");
+			//Xác định kiểu sắp xếp
+			bool? sortByName = null;
+			bool? sortByPrice = null;
+
+			if (!string.IsNullOrEmpty(sortOption))
+			{
+				switch (sortOption)
+				{
+					case "name_asc":
+						sortByName = true; break;
+					case "name_desc":
+						sortByName = false; break;
+					case "price_asc":
+						sortByPrice = true; break;
+					case "price_desc":
+						sortByPrice = false; break;
+				}
+			}
+
+			Product = _productService.GetProducts(searchProductName, sortByName, sortByPrice);
+
+			return Page();
 		}
 
 		public async Task<IActionResult> OnPostLogout()
 		{
+			Response.Cookies.Delete("UserId");
 			Response.Cookies.Delete("Username");
 			Response.Cookies.Delete("Account");
 

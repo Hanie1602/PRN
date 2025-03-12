@@ -16,14 +16,7 @@ namespace PRN222.Lab2.Services.Service
 		public List<Category> GetCategories()
 		{
 			List<Category> listCategories = new List<Category>();
-			try
-			{
-				listCategories = _unitOfWork.GetRepository<Category>().Entities.ToList();
-			}
-			catch (Exception ex)
-			{
-				throw new Exception(ex.Message);
-			}
+			listCategories = _unitOfWork.CategoryRepository.Entities.ToList();
 			return listCategories;
 		}
 

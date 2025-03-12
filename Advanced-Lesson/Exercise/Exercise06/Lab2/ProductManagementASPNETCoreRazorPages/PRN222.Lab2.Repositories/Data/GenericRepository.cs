@@ -22,16 +22,6 @@ namespace PRN222.Lab2.Repositories.Data
 			_dbSet.Remove(entity);
 		}
 
-		public IEnumerable<TEntity> GetAll()
-		{
-			return _dbSet.AsEnumerable();
-		}
-
-		public async Task<IList<TEntity>> GetAllAsync()
-		{
-			return await _dbSet.ToListAsync();
-		}
-
 		public void Insert(TEntity obj)
 		{
 			_dbSet.Add(obj);

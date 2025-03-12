@@ -16,7 +16,7 @@ namespace PRN222.Lab2.RazorPages.Pages
 
 		public async Task<IActionResult> OnGet()
 		{
-			//Đọc Cookie để kiểm tra xem user đã đăng nhập chưa
+			//Đọc Cookie để kiểm tra xem User đã đăng nhập chưa
 			if (Request.Cookies["Account"] != null)
 			{
 				return RedirectToPage("/Products/Index");
@@ -33,9 +33,9 @@ namespace PRN222.Lab2.RazorPages.Pages
 		// To protect from overposting attacks, see https://aka.ms/RazorPagesCRUD
 		public async Task<IActionResult> OnPost()
 		{
-			if (string.IsNullOrEmpty(AccountMember.EmailAddress))
+			if (string.IsNullOrEmpty(AccountMember.EmailAddress) || string.IsNullOrEmpty(AccountMember.MemberPassword))
 			{
-				ErrorMessage = "Email is required!";
+				ErrorMessage = "Email and Password are required!";
 				ModelState.AddModelError(string.Empty, ErrorMessage);
 				return Page();
 			}
@@ -44,32 +44,40 @@ namespace PRN222.Lab2.RazorPages.Pages
 
 			if (memberAccount == null)
 			{
-				ErrorMessage = "You do not have permission to do this function!";
+				ErrorMessage = "Invalid email or password!";
 				ModelState.AddModelError(string.Empty, ErrorMessage);
 
 				return Page();
 			}
-			else if (memberAccount.MemberRole == 1 || memberAccount.MemberRole == 2)
-			{
-				CookieOptions options = new CookieOptions
-				{
-					HttpOnly = true,  //Cookie chỉ đọc được từ server
-					Expires = DateTime.UtcNow.AddDays(7) //Thời hạn cookie 7 ngày
-				};
 
-				//Lưu thông tin User vào Cookie (role, id, name)
-				Response.Cookies.Append("Account", memberAccount.MemberRole.ToString(), options);
-				Response.Cookies.Append("UserId", memberAccount.MemberId.ToString(), options);
-				Response.Cookies.Append("Username", memberAccount.FullName, options);
-
-				return RedirectToPage("/Products/Index");
-			}
-			else
+			//Check mật khẩu
+			if (memberAccount.MemberPassword != AccountMember.MemberPassword)
 			{
-				ErrorMessage = "You do not have permission to do this function!";
+				ErrorMessage = "Invalid password!";
 				ModelState.AddModelError(string.Empty, ErrorMessage);
 				return Page();
 			}
+
+			//Check role
+			if (memberAccount.MemberRole != 1 && memberAccount.MemberRole != 2)
+			{
+				ErrorMessage = "You do not have permission to access!";
+				ModelState.AddModelError(string.Empty, ErrorMessage);
+				return Page();
+			}
+
+			//Lưu thông tin User vào Cookie
+			CookieOptions options = new CookieOptions
+			{
+				HttpOnly = true,
+				Expires = DateTime.UtcNow.AddDays(7) //Thời gian 7 ngày
+			};
+
+			Response.Cookies.Append("Account", memberAccount.MemberRole.ToString(), options);
+			Response.Cookies.Append("UserId", memberAccount.MemberId.ToString(), options);
+			Response.Cookies.Append("Username", memberAccount.FullName, options);
+
+			return RedirectToPage("/Products/Index");
 		}
 
 	}

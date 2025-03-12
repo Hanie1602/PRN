@@ -1,9 +1,15 @@
-﻿namespace PRN222.Lab2.Repositories.Data
+﻿using PRN222.Lab2.Repositories.Entities;
+
+namespace PRN222.Lab2.Repositories.Data
 {
 	public interface IUnitOfWork : IDisposable
 	{
 		void Save();
 
-		IGenericRepository<TEntity> GetRepository<TEntity>() where TEntity : class;
+		IGenericRepository<Product> ProductRepository { get; }
+
+		IGenericRepository<Category> CategoryRepository { get; }
+
+		IGenericRepository<AccountMember> AccountMemberRepository { get; }
 	}
 }

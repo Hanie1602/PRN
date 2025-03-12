@@ -23,7 +23,7 @@ namespace PRN222.Lab2.RazorPages.Pages.Products
                 return NotFound();
             }
 
-            var product = _productService.GetProductById((int)id);
+            Product product = _productService.GetProductById((int)id);
 			if (product == null)
             {
                 return NotFound();

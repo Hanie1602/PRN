@@ -10,7 +10,7 @@ namespace PRN222.Lab2.Services.IService
 
 		void UpdateProduct(Product p);
 
-		List<Product> GetProducts();
+		List<Product> GetProducts(string? searchProductName, bool? sortByName, bool? sortByPrice);
 
 		Product GetProductById(int id);
 	}

@@ -16,23 +16,17 @@ namespace PRN222.Lab2.Services.Service
 
 		public void DeleteProduct(Product p)
 		{
-			try
-			{
-				Product? p1 = _unitOfWork.GetRepository<Product>().Entities
-					.SingleOrDefault(c => c.ProductId == p.ProductId);
+			Product? p1 = _unitOfWork.ProductRepository.Entities
+				.SingleOrDefault(c => c.ProductId == p.ProductId)
+				?? throw new Exception("No products found");
 
-				_unitOfWork.GetRepository<Product>().Delete(p1.ProductId);
-				_unitOfWork.Save();
-			}
-			catch (Exception e)
-			{
-				Console.WriteLine($"Error Deleting product: {e.Message}");
-			}
+			_unitOfWork.ProductRepository.Delete(p1.ProductId);
+			_unitOfWork.Save();
 		}
 
 		public Product GetProductById(int id)
 		{
-			Product? product = _unitOfWork.GetRepository<Product>()
+			Product? product = _unitOfWork.ProductRepository
 				.Entities
 				.Include(p => p.Category)
 				.FirstOrDefault(p => p.ProductId == id)
@@ -41,44 +35,47 @@ namespace PRN222.Lab2.Services.Service
 			return product;
 		}
 
-		public List<Product> GetProducts()
+		public List<Product> GetProducts(string? searchProductName, bool? sortByName, bool? sortByPrice)
 		{
-			List<Product> listProducts = new List<Product>();
-			try
+			IQueryable<Product> query = _unitOfWork.ProductRepository
+				.Entities
+				.Include(p => p.Category);
+
+			//Lọc theo tên
+			if (!string.IsNullOrWhiteSpace(searchProductName))
 			{
-				listProducts = _unitOfWork.GetRepository<Product>()
-					.Entities
-					.Include(p => p.Category)
-					.ToList();
+				query = query.Where(p => p.ProductName.ToLower().Contains(searchProductName.Trim().ToLower()));
 			}
-			catch (Exception e) { }
-			return listProducts;
+
+			//Sắp xếp theo tên
+			if (sortByName.HasValue)
+			{
+				query = sortByName.Value 
+					? query.OrderBy(p => p.ProductName) 
+					: query.OrderByDescending(p => p.ProductName);
+			}
+			
+			//Sắp xếp theo giá
+			if (sortByPrice.HasValue)
+			{
+				query = sortByPrice.Value 
+					? query.OrderBy(p => p.UnitPrice) 
+					: query.OrderByDescending(p => p.UnitPrice);
+			}
+
+			return query.ToList();
 		}
 
 		public void SaveProduct(Product p)
 		{
-			try
-			{
-				_unitOfWork.GetRepository<Product>().Insert(p);
-				_unitOfWork.Save();
-			}
-			catch (Exception e)
-			{
-				Console.WriteLine($"Error Adding product: {e.Message}");
-			}
+			_unitOfWork.ProductRepository.Insert(p);
+			_unitOfWork.Save();
 		}
 
 		public void UpdateProduct(Product p)
 		{
-			try
-			{
-				_unitOfWork.GetRepository<Product>().Update(p);
-				_unitOfWork.Save();
-			}
-			catch (Exception e)
-			{
-				Console.WriteLine($"Error Updating product: {e.Message}");
-			}
+			_unitOfWork.ProductRepository.Update(p);
+			_unitOfWork.Save();
 		}
 	}
 }

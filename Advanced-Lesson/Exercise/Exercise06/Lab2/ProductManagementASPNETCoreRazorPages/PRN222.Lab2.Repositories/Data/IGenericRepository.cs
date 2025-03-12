@@ -4,10 +4,6 @@
 	{
 		IQueryable<TEntity> Entities { get; }
 
-		IEnumerable<TEntity> GetAll();
-
-		Task<IList<TEntity>> GetAllAsync();
-
 		void Insert(TEntity obj);
 
 		void Update(TEntity obj);

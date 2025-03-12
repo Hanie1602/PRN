@@ -15,7 +15,7 @@ namespace PRN222.Lab2.Services.Service
 
 		public AccountMember GetAccountByEmail(string email)
 		{
-			AccountMember? accountMember = _unitOfWork.GetRepository<AccountMember>()
+			AccountMember? accountMember = _unitOfWork.AccountMemberRepository
 				.Entities
 				.FirstOrDefault(c => c.EmailAddress.Equals(email))
 				?? throw new Exception("Account not found");

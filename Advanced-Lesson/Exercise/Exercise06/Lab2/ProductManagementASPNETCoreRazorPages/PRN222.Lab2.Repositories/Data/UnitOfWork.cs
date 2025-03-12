@@ -6,12 +6,13 @@ namespace PRN222.Lab2.Repositories.Data
 	{
 		private bool disposed = false;
 		private readonly MyStoreDbContext _dbContext;
-		private readonly Dictionary<Type, object> _repositories;
+		private IGenericRepository<Product>? _productRepository;
+		private IGenericRepository<Category>? _categoryRepository;
+		private IGenericRepository<AccountMember>? _accountMemberRepository;
 
 		public UnitOfWork(MyStoreDbContext dbContext)
 		{
 			_dbContext = dbContext;
-			_repositories = [];
 		}
 
 		public void Dispose()
@@ -33,17 +34,14 @@ namespace PRN222.Lab2.Repositories.Data
 			disposed = true;
 		}
 
-		public IGenericRepository<TEntity> GetRepository<TEntity>() where TEntity : class
-		{
-			if (_repositories.ContainsKey(typeof(TEntity)))
-			{
-				return (IGenericRepository<TEntity>)_repositories[typeof(TEntity)];
-			}
+		public IGenericRepository<Product> ProductRepository
+			=> _productRepository ??= new GenericRepository<Product>(_dbContext);
 
-			GenericRepository<TEntity> repository = new(_dbContext);
-			_repositories.Add(typeof(TEntity), repository);
-			return repository;
-		}
+		public IGenericRepository<Category> CategoryRepository
+			=> _categoryRepository ??= new GenericRepository<Category>(_dbContext);
+
+		public IGenericRepository<AccountMember> AccountMemberRepository
+			=> _accountMemberRepository ??= new GenericRepository<AccountMember>(_dbContext);
 
 		public void Save()
 		{

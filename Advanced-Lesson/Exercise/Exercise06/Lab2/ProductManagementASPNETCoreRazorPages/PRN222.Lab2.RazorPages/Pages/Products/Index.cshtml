@@ -13,11 +13,31 @@
     </form>
 }
 
-<h1>Index</h1>
+<h1>Product List</h1>
 
 <p>
     <a asp-page="Create">Create New</a>
 </p>
+
+<!-- Search & Sort -->
+<form method="get" class="d-flex mb-3">
+    <input type="text" name="searchProductName" class="form-control me-2"
+           value="@Request.Query["searchProductName"]" placeholder="Search product name...">
+
+    <div class="form-group">
+        <label>Sort By:</label>
+        <select name="sortOption" class="form-control">
+            <option value="">-- No Sort --</option>
+            <option value="name_asc" selected="@(Request.Query["sortOption"] == "name_asc")">Name (A-Z)</option>
+            <option value="name_desc" selected="@(Request.Query["sortOption"] == "name_desc")">Name (Z-A)</option>
+            <option value="price_asc" selected="@(Request.Query["sortOption"] == "price_asc")">Price (Low to High)</option>
+            <option value="price_desc" selected="@(Request.Query["sortOption"] == "price_desc")">Price (High to Low)</option>
+        </select>
+    </div>
+    <button type="submit" class="btn btn-primary">Search</button>
+</form>
+
+<!-- Hiển thị sản phẩm -->
 <table class="table">
     <thead>
         <tr>

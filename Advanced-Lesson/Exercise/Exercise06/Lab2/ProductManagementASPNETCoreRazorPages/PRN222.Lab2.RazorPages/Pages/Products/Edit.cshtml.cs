@@ -3,9 +3,9 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.AspNetCore.SignalR;
 using Microsoft.EntityFrameworkCore;
+using PRN222.Lab2.RazorPages.Hubs;
 using PRN222.Lab2.Repositories.Entities;
 using PRN222.Lab2.Services.IService;
-using PRN222.Lab2.Services.Service;
 
 namespace PRN222.Lab2.RazorPages.Pages.Products
 {

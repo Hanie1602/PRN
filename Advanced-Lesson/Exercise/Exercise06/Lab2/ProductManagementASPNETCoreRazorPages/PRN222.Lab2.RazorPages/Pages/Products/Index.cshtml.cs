@@ -15,8 +15,10 @@ namespace PRN222.Lab2.RazorPages.Pages.Products
         }
 
         public IList<Product> Product { get;set; } = default!;
+		public int CurrentPage { get; set; } = 1;
+		public int TotalPages { get; set; }
 
-		public async Task<IActionResult> OnGet(string? searchProductName, string? sortOption)
+		public async Task<IActionResult> OnGet(string? searchProductName, string? sortOption, int? pageIndex, int pageSize = 10)
 		{
 			//Đọc Cookie xem User đã đăng nhập chưa
 			if (Request.Cookies["Account"] == null)
@@ -43,7 +45,14 @@ namespace PRN222.Lab2.RazorPages.Pages.Products
 				}
 			}
 
-			Product = _productService.GetProducts(searchProductName, sortByName, sortByPrice);
+			//Lấy list Product có phân trang
+			int totalProducts = _productService.GetTotalProducts(searchProductName);
+			TotalPages = (int)Math.Ceiling((double)totalProducts / pageSize);
+
+			CurrentPage = pageIndex ?? 1;
+			CurrentPage = Math.Max(1, Math.Min(CurrentPage, TotalPages)); //Giới hạn trong phạm vi hợp lệ
+
+			Product = _productService.GetProducts(searchProductName, sortByName, sortByPrice, CurrentPage, pageSize);
 
 			return Page();
 		}

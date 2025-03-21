@@ -1,9 +1,9 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.AspNetCore.SignalR;
+using PRN222.Lab2.RazorPages.Hubs;
 using PRN222.Lab2.Repositories.Entities;
 using PRN222.Lab2.Services.IService;
-using PRN222.Lab2.Services.Service;
 
 namespace PRN222.Lab2.RazorPages.Pages.Products
 {
@@ -21,7 +21,7 @@ namespace PRN222.Lab2.RazorPages.Pages.Products
         [BindProperty]
         public Product Product { get; set; } = default!;
 
-        public async Task<IActionResult> OnGetAsync(int? id)
+        public async Task<IActionResult> OnGet(int? id)
         {
 			//Đọc Cookie xem User đã đăng nhập chưa
 			if (Request.Cookies["Account"] == null)
@@ -47,7 +47,7 @@ namespace PRN222.Lab2.RazorPages.Pages.Products
             return Page();
         }
 
-        public async Task<IActionResult> OnPostAsync(int? id)
+        public async Task<IActionResult> OnPost(int? id)
         {
 			//Đọc Cookie xem User đã đăng nhập chưa
 			if (Request.Cookies["Account"] == null)

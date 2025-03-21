@@ -33,6 +33,12 @@ namespace PRN222.Lab2.RazorPages.Pages
 		// To protect from overposting attacks, see https://aka.ms/RazorPagesCRUD
 		public async Task<IActionResult> OnPost()
 		{
+			//Đọc Cookie để kiểm tra xem User đã đăng nhập chưa
+			if (Request.Cookies["Account"] != null)
+			{
+				return RedirectToPage("/Products/Index");
+			}
+
 			if (string.IsNullOrEmpty(AccountMember.EmailAddress) || string.IsNullOrEmpty(AccountMember.MemberPassword))
 			{
 				ErrorMessage = "Email and Password are required!";

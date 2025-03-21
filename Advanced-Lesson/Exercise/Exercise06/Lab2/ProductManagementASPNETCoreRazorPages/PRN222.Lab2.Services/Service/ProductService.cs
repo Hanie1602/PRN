@@ -35,7 +35,7 @@ namespace PRN222.Lab2.Services.Service
 			return product;
 		}
 
-		public List<Product> GetProducts(string? searchProductName, bool? sortByName, bool? sortByPrice)
+		public List<Product> GetProducts(string? searchProductName, bool? sortByName, bool? sortByPrice, int? pageIndex = null, int? pageSize = null)
 		{
 			IQueryable<Product> query = _unitOfWork.ProductRepository
 				.Entities
@@ -63,7 +63,31 @@ namespace PRN222.Lab2.Services.Service
 					: query.OrderByDescending(p => p.UnitPrice);
 			}
 
+			//Phân trang
+			if (pageIndex.HasValue && pageSize.HasValue)
+			{
+				int validPageIndex = pageIndex.Value > 0 ? pageIndex.Value - 1 : 0;
+				int validPageSize = pageSize.Value > 0 ? pageSize.Value : 10;
+
+				query = query.Skip(validPageIndex * validPageSize).Take(validPageSize);
+			}
+
 			return query.ToList();
+		}
+
+		public int GetTotalProducts(string? searchProductName)
+		{
+			IQueryable<Product> query = _unitOfWork.ProductRepository
+				.Entities
+				.Include(p => p.Category);
+
+			//Lọc theo tên
+			if (!string.IsNullOrWhiteSpace(searchProductName))
+			{
+				query = query.Where(p => p.ProductName.ToLower().Contains(searchProductName.Trim().ToLower()));
+			}
+
+			return query.Count();
 		}
 
 		public void SaveProduct(Product p)

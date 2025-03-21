@@ -1,4 +1,5 @@
 using Microsoft.EntityFrameworkCore;
+using PRN222.Lab2.RazorPages.Hubs;
 using PRN222.Lab2.Repositories.Data;
 using PRN222.Lab2.Repositories.Entities;
 using PRN222.Lab2.Services.IService;

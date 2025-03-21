@@ -16,7 +16,7 @@ namespace PRN222.Lab2.RazorPages.Pages.Products
 
         public Product Product { get; set; } = default!;
 
-        public async Task<IActionResult> OnGetAsync(int? id)
+        public async Task<IActionResult> OnGet(int? id)
         {
 			//Đọc Cookie xem User đã đăng nhập chưa
 			if (Request.Cookies["Account"] == null)
@@ -37,7 +37,7 @@ namespace PRN222.Lab2.RazorPages.Pages.Products
             else
             {
                 Product = product;
-            }
+			}
             return Page();
         }
     }

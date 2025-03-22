@@ -1,0 +1,16 @@
+D:\Github\PRN212\Advanced-Lesson\Exercise\Exercise06\Lab2\ProductManagementASPNETCoreRazorPages\PRN222.Lab2.Services\bin\Debug\net8.0\PRN222.Lab2.Services.deps.json
+D:\Github\PRN212\Advanced-Lesson\Exercise\Exercise06\Lab2\ProductManagementASPNETCoreRazorPages\PRN222.Lab2.Services\bin\Debug\net8.0\PRN222.Lab2.Services.dll
+D:\Github\PRN212\Advanced-Lesson\Exercise\Exercise06\Lab2\ProductManagementASPNETCoreRazorPages\PRN222.Lab2.Services\bin\Debug\net8.0\PRN222.Lab2.Services.pdb
+D:\Github\PRN212\Advanced-Lesson\Exercise\Exercise06\Lab2\ProductManagementASPNETCoreRazorPages\PRN222.Lab2.Services\bin\Debug\net8.0\PRN222.Lab2.Repositories.dll
+D:\Github\PRN212\Advanced-Lesson\Exercise\Exercise06\Lab2\ProductManagementASPNETCoreRazorPages\PRN222.Lab2.Services\bin\Debug\net8.0\PRN222.Lab2.Repositories.pdb
+D:\Github\PRN212\Advanced-Lesson\Exercise\Exercise06\Lab2\ProductManagementASPNETCoreRazorPages\PRN222.Lab2.Services\obj\Debug\net8.0\PRN222.Lab2.Services.csproj.AssemblyReference.cache
+D:\Github\PRN212\Advanced-Lesson\Exercise\Exercise06\Lab2\ProductManagementASPNETCoreRazorPages\PRN222.Lab2.Services\obj\Debug\net8.0\PRN222.Lab2.Services.GeneratedMSBuildEditorConfig.editorconfig
+D:\Github\PRN212\Advanced-Lesson\Exercise\Exercise06\Lab2\ProductManagementASPNETCoreRazorPages\PRN222.Lab2.Services\obj\Debug\net8.0\PRN222.Lab2.Services.AssemblyInfoInputs.cache
+D:\Github\PRN212\Advanced-Lesson\Exercise\Exercise06\Lab2\ProductManagementASPNETCoreRazorPages\PRN222.Lab2.Services\obj\Debug\net8.0\PRN222.Lab2.Services.AssemblyInfo.cs
+D:\Github\PRN212\Advanced-Lesson\Exercise\Exercise06\Lab2\ProductManagementASPNETCoreRazorPages\PRN222.Lab2.Services\obj\Debug\net8.0\PRN222.Lab2.Services.csproj.CoreCompileInputs.cache
+D:\Github\PRN212\Advanced-Lesson\Exercise\Exercise06\Lab2\ProductManagementASPNETCoreRazorPages\PRN222.Lab2.Services\obj\Debug\net8.0\PRN222.Lab2.Services.sourcelink.json
+D:\Github\PRN212\Advanced-Lesson\Exercise\Exercise06\Lab2\ProductManagementASPNETCoreRazorPages\PRN222.Lab2.Services\obj\Debug\net8.0\PRN222.L.6CF9504C.Up2Date
+D:\Github\PRN212\Advanced-Lesson\Exercise\Exercise06\Lab2\ProductManagementASPNETCoreRazorPages\PRN222.Lab2.Services\obj\Debug\net8.0\PRN222.Lab2.Services.dll
+D:\Github\PRN212\Advanced-Lesson\Exercise\Exercise06\Lab2\ProductManagementASPNETCoreRazorPages\PRN222.Lab2.Services\obj\Debug\net8.0\refint\PRN222.Lab2.Services.dll
+D:\Github\PRN212\Advanced-Lesson\Exercise\Exercise06\Lab2\ProductManagementASPNETCoreRazorPages\PRN222.Lab2.Services\obj\Debug\net8.0\PRN222.Lab2.Services.pdb
+D:\Github\PRN212\Advanced-Lesson\Exercise\Exercise06\Lab2\ProductManagementASPNETCoreRazorPages\PRN222.Lab2.Services\obj\Debug\net8.0\ref\PRN222.Lab2.Services.dll

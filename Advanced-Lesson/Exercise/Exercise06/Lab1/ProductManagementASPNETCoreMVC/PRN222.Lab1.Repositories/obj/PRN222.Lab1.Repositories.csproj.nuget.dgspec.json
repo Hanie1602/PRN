@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Github\\PRN212\\Advanced-Lesson\\Exercise\\Exercise06\\Lab1\\ProductManagementASPNETCoreMVC\\PRN222.Lab1.Repositories\\PRN222.Lab1.Repositories.csproj": {}
+    "D:\\Submit\\ProductManagementASPNETCoreMVC\\PRN222.Lab1.Repositories\\PRN222.Lab1.Repositories.csproj": {}
   },
   "projects": {
-    "D:\\Github\\PRN212\\Advanced-Lesson\\Exercise\\Exercise06\\Lab1\\ProductManagementASPNETCoreMVC\\PRN222.Lab1.Repositories\\PRN222.Lab1.Repositories.csproj": {
+    "D:\\Submit\\ProductManagementASPNETCoreMVC\\PRN222.Lab1.Repositories\\PRN222.Lab1.Repositories.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Github\\PRN212\\Advanced-Lesson\\Exercise\\Exercise06\\Lab1\\ProductManagementASPNETCoreMVC\\PRN222.Lab1.Repositories\\PRN222.Lab1.Repositories.csproj",
+        "projectUniqueName": "D:\\Submit\\ProductManagementASPNETCoreMVC\\PRN222.Lab1.Repositories\\PRN222.Lab1.Repositories.csproj",
         "projectName": "PRN222.Lab1.Repositories",
-        "projectPath": "D:\\Github\\PRN212\\Advanced-Lesson\\Exercise\\Exercise06\\Lab1\\ProductManagementASPNETCoreMVC\\PRN222.Lab1.Repositories\\PRN222.Lab1.Repositories.csproj",
+        "projectPath": "D:\\Submit\\ProductManagementASPNETCoreMVC\\PRN222.Lab1.Repositories\\PRN222.Lab1.Repositories.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "D:\\Github\\PRN212\\Advanced-Lesson\\Exercise\\Exercise06\\Lab1\\ProductManagementASPNETCoreMVC\\PRN222.Lab1.Repositories\\obj\\",
+        "outputPath": "D:\\Submit\\ProductManagementASPNETCoreMVC\\PRN222.Lab1.Repositories\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

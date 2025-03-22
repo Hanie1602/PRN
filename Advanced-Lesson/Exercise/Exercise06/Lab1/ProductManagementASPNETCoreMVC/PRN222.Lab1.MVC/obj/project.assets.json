@@ -8065,11 +8065,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Github\\PRN212\\Advanced-Lesson\\Exercise\\Exercise06\\Lab1\\ProductManagementASPNETCoreMVC\\PRN222.Lab1.MVC\\PRN222.Lab1.MVC.csproj",
+      "projectUniqueName": "D:\\Submit\\ProductManagementASPNETCoreMVC\\PRN222.Lab1.MVC\\PRN222.Lab1.MVC.csproj",
       "projectName": "PRN222.Lab1.MVC",
-      "projectPath": "D:\\Github\\PRN212\\Advanced-Lesson\\Exercise\\Exercise06\\Lab1\\ProductManagementASPNETCoreMVC\\PRN222.Lab1.MVC\\PRN222.Lab1.MVC.csproj",
+      "projectPath": "D:\\Submit\\ProductManagementASPNETCoreMVC\\PRN222.Lab1.MVC\\PRN222.Lab1.MVC.csproj",
       "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "D:\\Github\\PRN212\\Advanced-Lesson\\Exercise\\Exercise06\\Lab1\\ProductManagementASPNETCoreMVC\\PRN222.Lab1.MVC\\obj\\",
+      "outputPath": "D:\\Submit\\ProductManagementASPNETCoreMVC\\PRN222.Lab1.MVC\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -8090,8 +8090,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\Github\\PRN212\\Advanced-Lesson\\Exercise\\Exercise06\\Lab1\\ProductManagementASPNETCoreMVC\\PRN222.Lab1.Services\\PRN222.Lab1.Services.csproj": {
-              "projectPath": "D:\\Github\\PRN212\\Advanced-Lesson\\Exercise\\Exercise06\\Lab1\\ProductManagementASPNETCoreMVC\\PRN222.Lab1.Services\\PRN222.Lab1.Services.csproj"
+            "D:\\Submit\\ProductManagementASPNETCoreMVC\\PRN222.Lab1.Services\\PRN222.Lab1.Services.csproj": {
+              "projectPath": "D:\\Submit\\ProductManagementASPNETCoreMVC\\PRN222.Lab1.Services\\PRN222.Lab1.Services.csproj"
             }
           }
         }
@@ -8145,5 +8145,13 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1900",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Error occurred while getting package vulnerability data: Unable to load the service index for source https://api.nuget.org/v3/index.json."
+    }
+  ]
 }

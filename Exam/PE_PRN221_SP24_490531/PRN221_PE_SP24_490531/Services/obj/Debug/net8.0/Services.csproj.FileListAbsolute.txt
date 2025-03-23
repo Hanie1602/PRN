@@ -1,0 +1,16 @@
+D:\Github\PRN212\Exam\PE_PRN221_SP24_490531\PRN221_PE_SP24_490531\Services\bin\Debug\net8.0\Services.deps.json
+D:\Github\PRN212\Exam\PE_PRN221_SP24_490531\PRN221_PE_SP24_490531\Services\bin\Debug\net8.0\Services.dll
+D:\Github\PRN212\Exam\PE_PRN221_SP24_490531\PRN221_PE_SP24_490531\Services\bin\Debug\net8.0\Services.pdb
+D:\Github\PRN212\Exam\PE_PRN221_SP24_490531\PRN221_PE_SP24_490531\Services\obj\Debug\net8.0\Services.GeneratedMSBuildEditorConfig.editorconfig
+D:\Github\PRN212\Exam\PE_PRN221_SP24_490531\PRN221_PE_SP24_490531\Services\obj\Debug\net8.0\Services.AssemblyInfoInputs.cache
+D:\Github\PRN212\Exam\PE_PRN221_SP24_490531\PRN221_PE_SP24_490531\Services\obj\Debug\net8.0\Services.AssemblyInfo.cs
+D:\Github\PRN212\Exam\PE_PRN221_SP24_490531\PRN221_PE_SP24_490531\Services\obj\Debug\net8.0\Services.csproj.CoreCompileInputs.cache
+D:\Github\PRN212\Exam\PE_PRN221_SP24_490531\PRN221_PE_SP24_490531\Services\obj\Debug\net8.0\Services.sourcelink.json
+D:\Github\PRN212\Exam\PE_PRN221_SP24_490531\PRN221_PE_SP24_490531\Services\obj\Debug\net8.0\Services.dll
+D:\Github\PRN212\Exam\PE_PRN221_SP24_490531\PRN221_PE_SP24_490531\Services\obj\Debug\net8.0\refint\Services.dll
+D:\Github\PRN212\Exam\PE_PRN221_SP24_490531\PRN221_PE_SP24_490531\Services\obj\Debug\net8.0\Services.pdb
+D:\Github\PRN212\Exam\PE_PRN221_SP24_490531\PRN221_PE_SP24_490531\Services\obj\Debug\net8.0\ref\Services.dll
+D:\Github\PRN212\Exam\PE_PRN221_SP24_490531\PRN221_PE_SP24_490531\Services\bin\Debug\net8.0\Repositories.dll
+D:\Github\PRN212\Exam\PE_PRN221_SP24_490531\PRN221_PE_SP24_490531\Services\bin\Debug\net8.0\Repositories.pdb
+D:\Github\PRN212\Exam\PE_PRN221_SP24_490531\PRN221_PE_SP24_490531\Services\obj\Debug\net8.0\Services.csproj.AssemblyReference.cache
+D:\Github\PRN212\Exam\PE_PRN221_SP24_490531\PRN221_PE_SP24_490531\Services\obj\Debug\net8.0\Services.csproj.Up2Date

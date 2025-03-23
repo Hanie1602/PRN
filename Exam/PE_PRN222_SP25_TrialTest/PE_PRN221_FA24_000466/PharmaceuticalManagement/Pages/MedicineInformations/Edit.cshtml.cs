@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.AspNetCore.SignalR;
 using Microsoft.EntityFrameworkCore;
+using PharmaceuticalManagement.Signalr;
 using Repositories.Entities;
 using Services.IService;
 
@@ -12,13 +13,13 @@ namespace PharmaceuticalManagement.Pages.MedicineInformations
     {
 		private readonly IMedicineInformationService _medicineInfoService;
 		private readonly IManufacturerService _manufacturerService;
-		//private readonly IHubContext<SignalrServer> _hubContext;
+		private readonly IHubContext<SignalrServer> _hubContext;
 
-		public EditModel(IMedicineInformationService medicineInfoService, IManufacturerService manufacturerService)
+		public EditModel(IMedicineInformationService medicineInfoService, IManufacturerService manufacturerService, IHubContext<SignalrServer> hubContext)
 		{
 			_medicineInfoService = medicineInfoService;
 			_manufacturerService = manufacturerService;
-			//_hubContext = hubContext;
+			_hubContext = hubContext;
 		}
 
 		[BindProperty]
@@ -79,7 +80,7 @@ namespace PharmaceuticalManagement.Pages.MedicineInformations
 			try
 			{
 				_medicineInfoService.Update(MedicineInformation);
-				//await _hubContext.Clients.All.SendAsync("LoadAllItems"); //Gửi tín hiệu cho All Client
+				await _hubContext.Clients.All.SendAsync("LoadAllItems"); //Gửi tín hiệu cho All Client
 			}
 			catch (DbUpdateConcurrencyException)
 			{

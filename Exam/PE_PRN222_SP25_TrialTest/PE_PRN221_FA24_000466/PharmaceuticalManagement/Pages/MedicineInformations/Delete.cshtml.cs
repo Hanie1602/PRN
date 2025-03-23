@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.AspNetCore.SignalR;
-using Microsoft.EntityFrameworkCore;
+using PharmaceuticalManagement.Signalr;
 using Repositories.Entities;
 using Services.IService;
 
@@ -10,11 +10,12 @@ namespace PharmaceuticalManagement.Pages.MedicineInformations
 	public class DeleteModel : PageModel
     {
 		private readonly IMedicineInformationService _medicineInfoService;
-		//private readonly IHubContext<SignalrServer> _hubContext;
+		private readonly IHubContext<SignalrServer> _hubContext;
 
-		public DeleteModel(IMedicineInformationService medicineInfoService)
+		public DeleteModel(IMedicineInformationService medicineInfoService, IHubContext<SignalrServer> hubContext)
 		{
 			_medicineInfoService = medicineInfoService;
+			_hubContext = hubContext;
 		}
 
 		[BindProperty]
@@ -78,7 +79,7 @@ namespace PharmaceuticalManagement.Pages.MedicineInformations
 			{
 				MedicineInformation = medicine;
 				_medicineInfoService.Delete(medicine);
-				//await _hubContext.Clients.All.SendAsync("LoadAllItems"); //Gửi tín hiệu cho All Client
+				await _hubContext.Clients.All.SendAsync("LoadAllItems"); //Gửi tín hiệu cho All Client
 			}
 
 			return RedirectToPage("./Index");

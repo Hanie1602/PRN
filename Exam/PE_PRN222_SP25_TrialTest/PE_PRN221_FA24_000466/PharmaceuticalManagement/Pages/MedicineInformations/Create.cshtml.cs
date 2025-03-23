@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.AspNetCore.SignalR;
+using PharmaceuticalManagement.Signalr;
 using Repositories.Entities;
 using Services.IService;
 
@@ -11,13 +12,13 @@ namespace PharmaceuticalManagement.Pages.MedicineInformations
     {
 		private readonly IMedicineInformationService _medicineInfoService;
 		private readonly IManufacturerService _manufacturerService;
-		//private readonly IHubContext<SignalrServer> _hubContext;
-		//IHubContext<SignalrServer> hubContext
+		private readonly IHubContext<SignalrServer> _hubContext;
 
-		public CreateModel(IMedicineInformationService medicineInfoService, IManufacturerService manufacturerService)
+		public CreateModel(IMedicineInformationService medicineInfoService, IManufacturerService manufacturerService, IHubContext<SignalrServer> hubContext)
 		{
 			_medicineInfoService = medicineInfoService;
 			_manufacturerService = manufacturerService;
+			_hubContext = hubContext;
 		}
 
 		public IActionResult OnGet()
@@ -64,7 +65,7 @@ namespace PharmaceuticalManagement.Pages.MedicineInformations
 			}
 			
 			_medicineInfoService.Save(MedicineInformation);
-			//await _hubContext.Clients.All.SendAsync("LoadAllItems"); //Gửi tín hiệu cho All Client
+			await _hubContext.Clients.All.SendAsync("LoadAllItems"); //Gửi tín hiệu cho All Client
 
 			return RedirectToPage("./Index");
 		}

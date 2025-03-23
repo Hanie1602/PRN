@@ -1,4 +1,5 @@
 using Microsoft.EntityFrameworkCore;
+using PharmaceuticalManagement.Signalr;
 using Repositories.Entities;
 using Repositories.Generic_Repositories;
 using Repositories.UOW;
@@ -17,6 +18,7 @@ namespace PharmaceuticalManagement
 
 			// Add services to the container.
 			builder.Services.AddRazorPages();
+			builder.Services.AddSignalR();
 
 			builder.Services.AddScoped<IManufacturerService, ManufacturerService>();
 			builder.Services.AddScoped<IMedicineInformationService, MedicineInformationService>();
@@ -38,8 +40,9 @@ namespace PharmaceuticalManagement
 			app.UseStaticFiles();
 
 			app.UseRouting();
-
 			app.UseAuthorization();
+
+			app.MapHub<SignalrServer>("/signalRServer");
 
 			app.MapRazorPages();
 

@@ -1,0 +1,15 @@
+D:\Github\PRN212\Advanced-Lesson\Exercise\Exercise06\Lab2\ProductManagementASPNETCoreRazorPages\PRN222.Lab2.Repositories\bin\Debug\net8.0\PRN222.Lab2.Repositories.deps.json
+D:\Github\PRN212\Advanced-Lesson\Exercise\Exercise06\Lab2\ProductManagementASPNETCoreRazorPages\PRN222.Lab2.Repositories\bin\Debug\net8.0\PRN222.Lab2.Repositories.runtimeconfig.json
+D:\Github\PRN212\Advanced-Lesson\Exercise\Exercise06\Lab2\ProductManagementASPNETCoreRazorPages\PRN222.Lab2.Repositories\bin\Debug\net8.0\PRN222.Lab2.Repositories.dll
+D:\Github\PRN212\Advanced-Lesson\Exercise\Exercise06\Lab2\ProductManagementASPNETCoreRazorPages\PRN222.Lab2.Repositories\bin\Debug\net8.0\PRN222.Lab2.Repositories.pdb
+D:\Github\PRN212\Advanced-Lesson\Exercise\Exercise06\Lab2\ProductManagementASPNETCoreRazorPages\PRN222.Lab2.Repositories\obj\Debug\net8.0\PRN222.Lab2.Repositories.csproj.AssemblyReference.cache
+D:\Github\PRN212\Advanced-Lesson\Exercise\Exercise06\Lab2\ProductManagementASPNETCoreRazorPages\PRN222.Lab2.Repositories\obj\Debug\net8.0\PRN222.Lab2.Repositories.GeneratedMSBuildEditorConfig.editorconfig
+D:\Github\PRN212\Advanced-Lesson\Exercise\Exercise06\Lab2\ProductManagementASPNETCoreRazorPages\PRN222.Lab2.Repositories\obj\Debug\net8.0\PRN222.Lab2.Repositories.AssemblyInfoInputs.cache
+D:\Github\PRN212\Advanced-Lesson\Exercise\Exercise06\Lab2\ProductManagementASPNETCoreRazorPages\PRN222.Lab2.Repositories\obj\Debug\net8.0\PRN222.Lab2.Repositories.AssemblyInfo.cs
+D:\Github\PRN212\Advanced-Lesson\Exercise\Exercise06\Lab2\ProductManagementASPNETCoreRazorPages\PRN222.Lab2.Repositories\obj\Debug\net8.0\PRN222.Lab2.Repositories.csproj.CoreCompileInputs.cache
+D:\Github\PRN212\Advanced-Lesson\Exercise\Exercise06\Lab2\ProductManagementASPNETCoreRazorPages\PRN222.Lab2.Repositories\obj\Debug\net8.0\PRN222.Lab2.Repositories.sourcelink.json
+D:\Github\PRN212\Advanced-Lesson\Exercise\Exercise06\Lab2\ProductManagementASPNETCoreRazorPages\PRN222.Lab2.Repositories\obj\Debug\net8.0\PRN222.Lab2.Repositories.dll
+D:\Github\PRN212\Advanced-Lesson\Exercise\Exercise06\Lab2\ProductManagementASPNETCoreRazorPages\PRN222.Lab2.Repositories\obj\Debug\net8.0\refint\PRN222.Lab2.Repositories.dll
+D:\Github\PRN212\Advanced-Lesson\Exercise\Exercise06\Lab2\ProductManagementASPNETCoreRazorPages\PRN222.Lab2.Repositories\obj\Debug\net8.0\PRN222.Lab2.Repositories.pdb
+D:\Github\PRN212\Advanced-Lesson\Exercise\Exercise06\Lab2\ProductManagementASPNETCoreRazorPages\PRN222.Lab2.Repositories\obj\Debug\net8.0\PRN222.Lab2.Repositories.genruntimeconfig.cache
+D:\Github\PRN212\Advanced-Lesson\Exercise\Exercise06\Lab2\ProductManagementASPNETCoreRazorPages\PRN222.Lab2.Repositories\obj\Debug\net8.0\ref\PRN222.Lab2.Repositories.dll

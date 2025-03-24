@@ -4,7 +4,6 @@ namespace Repositories.Entities
 {
 	public class MedicineInformation
 	{
-		[Required]
 		public string MedicineID { get; set; } = null!;
 
 		[Required]

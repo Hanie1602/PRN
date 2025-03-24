@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "V9vkSFOs79hJbJ/9DqHYMT9Wge+azfEtFmiMl0EQ0Mc=",
+  "Hash": "oJzPOaDduxrzGgFJiJU0xxWy0OlopUHjaGkhBT81dX8=",
   "Source": "PharmaceuticalManagement",
   "BasePath": "_content/PharmaceuticalManagement",
   "Mode": "Default",
@@ -3438,6 +3438,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\microsoft\\signalr\\package.json"
+    },
+    {
+      "Identity": "D:\\Github\\PRN212\\Exam\\PE_PRN222_SP25_TrialTest\\PE_PRN221_FA24_000466\\PharmaceuticalManagement\\wwwroot\\js\\microsoft\\signalr\\package-lock.json",
+      "SourceId": "PharmaceuticalManagement",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Github\\PRN212\\Exam\\PE_PRN222_SP25_TrialTest\\PE_PRN221_FA24_000466\\PharmaceuticalManagement\\wwwroot\\",
+      "BasePath": "_content/PharmaceuticalManagement",
+      "RelativePath": "js/microsoft/signalr/package-lock#[.{fingerprint}]?.json",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "g478jahnta",
+      "Integrity": "EAHke1fgiLs0XzAKYscWh1KSvtEbG2Brl/88Qo+blAI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\microsoft\\signalr\\package-lock.json"
     },
     {
       "Identity": "D:\\Github\\PRN212\\Exam\\PE_PRN222_SP25_TrialTest\\PE_PRN221_FA24_000466\\PharmaceuticalManagement\\wwwroot\\js\\microsoft\\signalr\\readme.md",
@@ -18534,6 +18555,88 @@
       ]
     },
     {
+      "Route": "js/microsoft/signalr/package-lock.g478jahnta.json",
+      "AssetFile": "D:\\Github\\PRN212\\Exam\\PE_PRN222_SP25_TrialTest\\PE_PRN221_FA24_000466\\PharmaceuticalManagement\\wwwroot\\js\\microsoft\\signalr\\package-lock.json",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "15686"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"EAHke1fgiLs0XzAKYscWh1KSvtEbG2Brl/88Qo+blAI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 24 Mar 2025 06:10:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "g478jahnta"
+        },
+        {
+          "Name": "label",
+          "Value": "js/microsoft/signalr/package-lock.json"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-EAHke1fgiLs0XzAKYscWh1KSvtEbG2Brl/88Qo+blAI="
+        }
+      ]
+    },
+    {
+      "Route": "js/microsoft/signalr/package-lock.json",
+      "AssetFile": "D:\\Github\\PRN212\\Exam\\PE_PRN222_SP25_TrialTest\\PE_PRN221_FA24_000466\\PharmaceuticalManagement\\wwwroot\\js\\microsoft\\signalr\\package-lock.json",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "15686"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"EAHke1fgiLs0XzAKYscWh1KSvtEbG2Brl/88Qo+blAI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 24 Mar 2025 06:10:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-EAHke1fgiLs0XzAKYscWh1KSvtEbG2Brl/88Qo+blAI="
+        }
+      ]
+    },
+    {
       "Route": "js/microsoft/signalr/readme.i879j83anj.md",
       "AssetFile": "D:\\Github\\PRN212\\Exam\\PE_PRN222_SP25_TrialTest\\PE_PRN221_FA24_000466\\PharmaceuticalManagement\\wwwroot\\js\\microsoft\\signalr\\readme.md",
       "Selectors": [],
@@ -25936,7 +26039,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 23 Mar 2025 11:10:57 GMT"
+          "Value": "Mon, 24 Mar 2025 10:43:23 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -25981,7 +26084,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 23 Mar 2025 11:10:57 GMT"
+          "Value": "Mon, 24 Mar 2025 10:43:23 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -26026,7 +26129,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 23 Mar 2025 11:10:57 GMT"
+          "Value": "Mon, 24 Mar 2025 10:43:23 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -26063,7 +26166,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 23 Mar 2025 11:10:57 GMT"
+          "Value": "Mon, 24 Mar 2025 10:43:23 GMT"
         },
         {
           "Name": "Cache-Control",

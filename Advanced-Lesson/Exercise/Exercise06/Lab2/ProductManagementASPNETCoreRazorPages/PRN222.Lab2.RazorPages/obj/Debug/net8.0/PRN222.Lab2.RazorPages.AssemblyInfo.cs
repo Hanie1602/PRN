@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PRN222.Lab2.RazorPages")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2cb7427925f5d178cfc566efedf75b7d0eddd9d3")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+26bd7ca97fa45aa86279f9d93c3738d2c160cdd7")]
 [assembly: System.Reflection.AssemblyProductAttribute("PRN222.Lab2.RazorPages")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PRN222.Lab2.RazorPages")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

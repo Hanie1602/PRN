@@ -159,6 +159,7 @@ wwwroot\js\microsoft\signalr\dist\webworker\signalr.js.map
 wwwroot\js\microsoft\signalr\dist\webworker\signalr.min.js
 wwwroot\js\microsoft\signalr\dist\webworker\signalr.min.js.map
 wwwroot\js\microsoft\signalr\package.json
+wwwroot\js\microsoft\signalr\package-lock.json
 wwwroot\js\microsoft\signalr\readme.md
 wwwroot\js\microsoft\signalr\src\abortcontroller.ts
 wwwroot\js\microsoft\signalr\src\browser-index.ts

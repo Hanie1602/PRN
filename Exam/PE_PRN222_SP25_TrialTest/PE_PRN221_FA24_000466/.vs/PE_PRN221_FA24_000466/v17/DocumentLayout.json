@@ -3,10 +3,6 @@
   "WorkspaceRootPath": "D:\\Github\\PRN212\\Exam\\PE_PRN222_SP25_TrialTest\\PE_PRN221_FA24_000466\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BF370EA0-34DF-41A8-9F39-CEC3099C7553}|PharmaceuticalManagement\\PharmaceuticalManagement.csproj|d:\\github\\prn212\\exam\\pe_prn222_sp25_trialtest\\pe_prn221_fa24_000466\\pharmaceuticalmanagement\\pages\\medicineinformations\\create.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BF370EA0-34DF-41A8-9F39-CEC3099C7553}|PharmaceuticalManagement\\PharmaceuticalManagement.csproj|solutionrelative:pharmaceuticalmanagement\\pages\\medicineinformations\\create.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{BF370EA0-34DF-41A8-9F39-CEC3099C7553}|PharmaceuticalManagement\\PharmaceuticalManagement.csproj|d:\\github\\prn212\\exam\\pe_prn222_sp25_trialtest\\pe_prn221_fa24_000466\\pharmaceuticalmanagement\\pages\\medicineinformations\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BF370EA0-34DF-41A8-9F39-CEC3099C7553}|PharmaceuticalManagement\\PharmaceuticalManagement.csproj|solutionrelative:pharmaceuticalmanagement\\pages\\medicineinformations\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -15,24 +11,80 @@
       "RelativeMoniker": "D:0:0:{BF370EA0-34DF-41A8-9F39-CEC3099C7553}|PharmaceuticalManagement\\PharmaceuticalManagement.csproj|solutionrelative:pharmaceuticalmanagement\\pages\\medicineinformations\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{BF370EA0-34DF-41A8-9F39-CEC3099C7553}|PharmaceuticalManagement\\PharmaceuticalManagement.csproj|d:\\github\\prn212\\exam\\pe_prn222_sp25_trialtest\\pe_prn221_fa24_000466\\pharmaceuticalmanagement\\pages\\medicineinformations\\create.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF370EA0-34DF-41A8-9F39-CEC3099C7553}|PharmaceuticalManagement\\PharmaceuticalManagement.csproj|solutionrelative:pharmaceuticalmanagement\\pages\\medicineinformations\\create.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01CC96F4-E7BF-4C6C-AD27-E88934EABF06}|Repositories\\Repositories.csproj|d:\\github\\prn212\\exam\\pe_prn222_sp25_trialtest\\pe_prn221_fa24_000466\\repositories\\entities\\sp25pharmaceuticaldbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01CC96F4-E7BF-4C6C-AD27-E88934EABF06}|Repositories\\Repositories.csproj|solutionrelative:repositories\\entities\\sp25pharmaceuticaldbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{BF370EA0-34DF-41A8-9F39-CEC3099C7553}|PharmaceuticalManagement\\PharmaceuticalManagement.csproj|d:\\github\\prn212\\exam\\pe_prn222_sp25_trialtest\\pe_prn221_fa24_000466\\pharmaceuticalmanagement\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{BF370EA0-34DF-41A8-9F39-CEC3099C7553}|PharmaceuticalManagement\\PharmaceuticalManagement.csproj|solutionrelative:pharmaceuticalmanagement\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF370EA0-34DF-41A8-9F39-CEC3099C7553}|PharmaceuticalManagement\\PharmaceuticalManagement.csproj|d:\\github\\prn212\\exam\\pe_prn222_sp25_trialtest\\pe_prn221_fa24_000466\\pharmaceuticalmanagement\\libman.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{BF370EA0-34DF-41A8-9F39-CEC3099C7553}|PharmaceuticalManagement\\PharmaceuticalManagement.csproj|solutionrelative:pharmaceuticalmanagement\\libman.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BF370EA0-34DF-41A8-9F39-CEC3099C7553}|PharmaceuticalManagement\\PharmaceuticalManagement.csproj|d:\\github\\prn212\\exam\\pe_prn222_sp25_trialtest\\pe_prn221_fa24_000466\\pharmaceuticalmanagement\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BF370EA0-34DF-41A8-9F39-CEC3099C7553}|PharmaceuticalManagement\\PharmaceuticalManagement.csproj|solutionrelative:pharmaceuticalmanagement\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{6958299E-8322-47D0-A07B-60AC01684F3E}|Services\\Services.csproj|d:\\github\\prn212\\exam\\pe_prn222_sp25_trialtest\\pe_prn221_fa24_000466\\services\\service\\medicineinformationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6958299E-8322-47D0-A07B-60AC01684F3E}|Services\\Services.csproj|solutionrelative:services\\service\\medicineinformationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6958299E-8322-47D0-A07B-60AC01684F3E}|Services\\Services.csproj|d:\\github\\prn212\\exam\\pe_prn222_sp25_trialtest\\pe_prn221_fa24_000466\\services\\iservice\\imedicineinformationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6958299E-8322-47D0-A07B-60AC01684F3E}|Services\\Services.csproj|solutionrelative:services\\iservice\\imedicineinformationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF370EA0-34DF-41A8-9F39-CEC3099C7553}|PharmaceuticalManagement\\PharmaceuticalManagement.csproj|d:\\github\\prn212\\exam\\pe_prn222_sp25_trialtest\\pe_prn221_fa24_000466\\pharmaceuticalmanagement\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BF370EA0-34DF-41A8-9F39-CEC3099C7553}|PharmaceuticalManagement\\PharmaceuticalManagement.csproj|solutionrelative:pharmaceuticalmanagement\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF370EA0-34DF-41A8-9F39-CEC3099C7553}|PharmaceuticalManagement\\PharmaceuticalManagement.csproj|d:\\github\\prn212\\exam\\pe_prn222_sp25_trialtest\\pe_prn221_fa24_000466\\pharmaceuticalmanagement\\pages\\medicineinformations\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BF370EA0-34DF-41A8-9F39-CEC3099C7553}|PharmaceuticalManagement\\PharmaceuticalManagement.csproj|solutionrelative:pharmaceuticalmanagement\\pages\\medicineinformations\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF370EA0-34DF-41A8-9F39-CEC3099C7553}|PharmaceuticalManagement\\PharmaceuticalManagement.csproj|d:\\github\\prn212\\exam\\pe_prn222_sp25_trialtest\\pe_prn221_fa24_000466\\pharmaceuticalmanagement\\pages\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BF370EA0-34DF-41A8-9F39-CEC3099C7553}|PharmaceuticalManagement\\PharmaceuticalManagement.csproj|solutionrelative:pharmaceuticalmanagement\\pages\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF370EA0-34DF-41A8-9F39-CEC3099C7553}|PharmaceuticalManagement\\PharmaceuticalManagement.csproj|d:\\github\\prn212\\exam\\pe_prn222_sp25_trialtest\\pe_prn221_fa24_000466\\pharmaceuticalmanagement\\pages\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BF370EA0-34DF-41A8-9F39-CEC3099C7553}|PharmaceuticalManagement\\PharmaceuticalManagement.csproj|solutionrelative:pharmaceuticalmanagement\\pages\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{BF370EA0-34DF-41A8-9F39-CEC3099C7553}|PharmaceuticalManagement\\PharmaceuticalManagement.csproj|d:\\github\\prn212\\exam\\pe_prn222_sp25_trialtest\\pe_prn221_fa24_000466\\pharmaceuticalmanagement\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{BF370EA0-34DF-41A8-9F39-CEC3099C7553}|PharmaceuticalManagement\\PharmaceuticalManagement.csproj|solutionrelative:pharmaceuticalmanagement\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF370EA0-34DF-41A8-9F39-CEC3099C7553}|PharmaceuticalManagement\\PharmaceuticalManagement.csproj|d:\\github\\prn212\\exam\\pe_prn222_sp25_trialtest\\pe_prn221_fa24_000466\\pharmaceuticalmanagement\\pages\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BF370EA0-34DF-41A8-9F39-CEC3099C7553}|PharmaceuticalManagement\\PharmaceuticalManagement.csproj|solutionrelative:pharmaceuticalmanagement\\pages\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF370EA0-34DF-41A8-9F39-CEC3099C7553}|PharmaceuticalManagement\\PharmaceuticalManagement.csproj|d:\\github\\prn212\\exam\\pe_prn222_sp25_trialtest\\pe_prn221_fa24_000466\\pharmaceuticalmanagement\\pages\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BF370EA0-34DF-41A8-9F39-CEC3099C7553}|PharmaceuticalManagement\\PharmaceuticalManagement.csproj|solutionrelative:pharmaceuticalmanagement\\pages\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF370EA0-34DF-41A8-9F39-CEC3099C7553}|PharmaceuticalManagement\\PharmaceuticalManagement.csproj|d:\\github\\prn212\\exam\\pe_prn222_sp25_trialtest\\pe_prn221_fa24_000466\\pharmaceuticalmanagement\\pages\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BF370EA0-34DF-41A8-9F39-CEC3099C7553}|PharmaceuticalManagement\\PharmaceuticalManagement.csproj|solutionrelative:pharmaceuticalmanagement\\pages\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF370EA0-34DF-41A8-9F39-CEC3099C7553}|PharmaceuticalManagement\\PharmaceuticalManagement.csproj|d:\\github\\prn212\\exam\\pe_prn222_sp25_trialtest\\pe_prn221_fa24_000466\\pharmaceuticalmanagement\\signalr\\signalrserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF370EA0-34DF-41A8-9F39-CEC3099C7553}|PharmaceuticalManagement\\PharmaceuticalManagement.csproj|solutionrelative:pharmaceuticalmanagement\\signalr\\signalrserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF370EA0-34DF-41A8-9F39-CEC3099C7553}|PharmaceuticalManagement\\PharmaceuticalManagement.csproj|d:\\github\\prn212\\exam\\pe_prn222_sp25_trialtest\\pe_prn221_fa24_000466\\pharmaceuticalmanagement\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{BF370EA0-34DF-41A8-9F39-CEC3099C7553}|PharmaceuticalManagement\\PharmaceuticalManagement.csproj|solutionrelative:pharmaceuticalmanagement\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{01CC96F4-E7BF-4C6C-AD27-E88934EABF06}|Repositories\\Repositories.csproj|d:\\github\\prn212\\exam\\pe_prn222_sp25_trialtest\\pe_prn221_fa24_000466\\repositories\\entities\\medicineinformation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{01CC96F4-E7BF-4C6C-AD27-E88934EABF06}|Repositories\\Repositories.csproj|solutionrelative:repositories\\entities\\medicineinformation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BF370EA0-34DF-41A8-9F39-CEC3099C7553}|PharmaceuticalManagement\\PharmaceuticalManagement.csproj|d:\\github\\prn212\\exam\\pe_prn222_sp25_trialtest\\pe_prn221_fa24_000466\\pharmaceuticalmanagement\\pages\\medicineinformations\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{BF370EA0-34DF-41A8-9F39-CEC3099C7553}|PharmaceuticalManagement\\PharmaceuticalManagement.csproj|solutionrelative:pharmaceuticalmanagement\\pages\\medicineinformations\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{BF370EA0-34DF-41A8-9F39-CEC3099C7553}|PharmaceuticalManagement\\PharmaceuticalManagement.csproj|d:\\github\\prn212\\exam\\pe_prn222_sp25_trialtest\\pe_prn221_fa24_000466\\pharmaceuticalmanagement\\pages\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF370EA0-34DF-41A8-9F39-CEC3099C7553}|PharmaceuticalManagement\\PharmaceuticalManagement.csproj|solutionrelative:pharmaceuticalmanagement\\pages\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BF370EA0-34DF-41A8-9F39-CEC3099C7553}|PharmaceuticalManagement\\PharmaceuticalManagement.csproj|d:\\github\\prn212\\exam\\pe_prn222_sp25_trialtest\\pe_prn221_fa24_000466\\pharmaceuticalmanagement\\pages\\medicineinformations\\edit.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -49,34 +101,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{BF370EA0-34DF-41A8-9F39-CEC3099C7553}|PharmaceuticalManagement\\PharmaceuticalManagement.csproj|d:\\github\\prn212\\exam\\pe_prn222_sp25_trialtest\\pe_prn221_fa24_000466\\pharmaceuticalmanagement\\pages\\medicineinformations\\delete.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BF370EA0-34DF-41A8-9F39-CEC3099C7553}|PharmaceuticalManagement\\PharmaceuticalManagement.csproj|solutionrelative:pharmaceuticalmanagement\\pages\\medicineinformations\\delete.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BF370EA0-34DF-41A8-9F39-CEC3099C7553}|PharmaceuticalManagement\\PharmaceuticalManagement.csproj|d:\\github\\prn212\\exam\\pe_prn222_sp25_trialtest\\pe_prn221_fa24_000466\\pharmaceuticalmanagement\\pages\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{BF370EA0-34DF-41A8-9F39-CEC3099C7553}|PharmaceuticalManagement\\PharmaceuticalManagement.csproj|solutionrelative:pharmaceuticalmanagement\\pages\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BF370EA0-34DF-41A8-9F39-CEC3099C7553}|PharmaceuticalManagement\\PharmaceuticalManagement.csproj|d:\\github\\prn212\\exam\\pe_prn222_sp25_trialtest\\pe_prn221_fa24_000466\\pharmaceuticalmanagement\\pages\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BF370EA0-34DF-41A8-9F39-CEC3099C7553}|PharmaceuticalManagement\\PharmaceuticalManagement.csproj|solutionrelative:pharmaceuticalmanagement\\pages\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BF370EA0-34DF-41A8-9F39-CEC3099C7553}|PharmaceuticalManagement\\PharmaceuticalManagement.csproj|d:\\github\\prn212\\exam\\pe_prn222_sp25_trialtest\\pe_prn221_fa24_000466\\pharmaceuticalmanagement\\pages\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{BF370EA0-34DF-41A8-9F39-CEC3099C7553}|PharmaceuticalManagement\\PharmaceuticalManagement.csproj|solutionrelative:pharmaceuticalmanagement\\pages\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BF370EA0-34DF-41A8-9F39-CEC3099C7553}|PharmaceuticalManagement\\PharmaceuticalManagement.csproj|d:\\github\\prn212\\exam\\pe_prn222_sp25_trialtest\\pe_prn221_fa24_000466\\pharmaceuticalmanagement\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{BF370EA0-34DF-41A8-9F39-CEC3099C7553}|PharmaceuticalManagement\\PharmaceuticalManagement.csproj|solutionrelative:pharmaceuticalmanagement\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6958299E-8322-47D0-A07B-60AC01684F3E}|Services\\Services.csproj|d:\\github\\prn212\\exam\\pe_prn222_sp25_trialtest\\pe_prn221_fa24_000466\\services\\service\\medicineinformationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6958299E-8322-47D0-A07B-60AC01684F3E}|Services\\Services.csproj|solutionrelative:services\\service\\medicineinformationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6958299E-8322-47D0-A07B-60AC01684F3E}|Services\\Services.csproj|d:\\github\\prn212\\exam\\pe_prn222_sp25_trialtest\\pe_prn221_fa24_000466\\services\\iservice\\imedicineinformationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6958299E-8322-47D0-A07B-60AC01684F3E}|Services\\Services.csproj|solutionrelative:services\\iservice\\imedicineinformationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{01CC96F4-E7BF-4C6C-AD27-E88934EABF06}|Repositories\\Repositories.csproj|d:\\github\\prn212\\exam\\pe_prn222_sp25_trialtest\\pe_prn221_fa24_000466\\repositories\\entities\\sp25pharmaceuticaldbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{01CC96F4-E7BF-4C6C-AD27-E88934EABF06}|Repositories\\Repositories.csproj|solutionrelative:repositories\\entities\\sp25pharmaceuticaldbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{01CC96F4-E7BF-4C6C-AD27-E88934EABF06}|Repositories\\Repositories.csproj|d:\\github\\prn212\\exam\\pe_prn222_sp25_trialtest\\pe_prn221_fa24_000466\\repositories\\entities\\manufacturer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -126,61 +150,76 @@
       "DocumentGroups": [
         {
           "DockedHeight": 315,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
+              "Title": "libman.json",
+              "DocumentMoniker": "D:\\Github\\PRN212\\Exam\\PE_PRN222_SP25_TrialTest\\PE_PRN221_FA24_000466\\PharmaceuticalManagement\\libman.json",
+              "RelativeDocumentMoniker": "PharmaceuticalManagement\\libman.json",
+              "ToolTip": "D:\\Github\\PRN212\\Exam\\PE_PRN222_SP25_TrialTest\\PE_PRN221_FA24_000466\\PharmaceuticalManagement\\libman.json",
+              "RelativeToolTip": "PharmaceuticalManagement\\libman.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-24T12:46:06.268Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Github\\PRN212\\Exam\\PE_PRN222_SP25_TrialTest\\PE_PRN221_FA24_000466\\PharmaceuticalManagement\\appsettings.json",
+              "RelativeDocumentMoniker": "PharmaceuticalManagement\\appsettings.json",
+              "ToolTip": "D:\\Github\\PRN212\\Exam\\PE_PRN222_SP25_TrialTest\\PE_PRN221_FA24_000466\\PharmaceuticalManagement\\appsettings.json",
+              "RelativeToolTip": "PharmaceuticalManagement\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-23T14:16:42.868Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Github\\PRN212\\Exam\\PE_PRN222_SP25_TrialTest\\PE_PRN221_FA24_000466\\PharmaceuticalManagement\\Program.cs",
+              "RelativeDocumentMoniker": "PharmaceuticalManagement\\Program.cs",
+              "ToolTip": "D:\\Github\\PRN212\\Exam\\PE_PRN222_SP25_TrialTest\\PE_PRN221_FA24_000466\\PharmaceuticalManagement\\Program.cs",
+              "RelativeToolTip": "PharmaceuticalManagement\\Program.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAAAC4AAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-23T14:18:24.351Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Create.cshtml.cs",
               "DocumentMoniker": "D:\\Github\\PRN212\\Exam\\PE_PRN222_SP25_TrialTest\\PE_PRN221_FA24_000466\\PharmaceuticalManagement\\Pages\\MedicineInformations\\Create.cshtml.cs",
               "RelativeDocumentMoniker": "PharmaceuticalManagement\\Pages\\MedicineInformations\\Create.cshtml.cs",
               "ToolTip": "D:\\Github\\PRN212\\Exam\\PE_PRN222_SP25_TrialTest\\PE_PRN221_FA24_000466\\PharmaceuticalManagement\\Pages\\MedicineInformations\\Create.cshtml.cs",
               "RelativeToolTip": "PharmaceuticalManagement\\Pages\\MedicineInformations\\Create.cshtml.cs",
-              "ViewState": "AgIAAC8AAAAAAAAAAAAkwEIAAAAyAAAAAAAAAA==",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAAD8AAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-23T15:57:59.117Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "D:\\Github\\PRN212\\Exam\\PE_PRN222_SP25_TrialTest\\PE_PRN221_FA24_000466\\PharmaceuticalManagement\\Pages\\MedicineInformations\\Create.cshtml",
-              "RelativeDocumentMoniker": "PharmaceuticalManagement\\Pages\\MedicineInformations\\Create.cshtml",
-              "ToolTip": "D:\\Github\\PRN212\\Exam\\PE_PRN222_SP25_TrialTest\\PE_PRN221_FA24_000466\\PharmaceuticalManagement\\Pages\\MedicineInformations\\Create.cshtml",
-              "RelativeToolTip": "PharmaceuticalManagement\\Pages\\MedicineInformations\\Create.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAzAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-23T15:57:53.877Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Index.cshtml.cs",
-              "DocumentMoniker": "D:\\Github\\PRN212\\Exam\\PE_PRN222_SP25_TrialTest\\PE_PRN221_FA24_000466\\PharmaceuticalManagement\\Pages\\MedicineInformations\\Index.cshtml.cs",
-              "RelativeDocumentMoniker": "PharmaceuticalManagement\\Pages\\MedicineInformations\\Index.cshtml.cs",
-              "ToolTip": "D:\\Github\\PRN212\\Exam\\PE_PRN222_SP25_TrialTest\\PE_PRN221_FA24_000466\\PharmaceuticalManagement\\Pages\\MedicineInformations\\Index.cshtml.cs",
-              "RelativeToolTip": "PharmaceuticalManagement\\Pages\\MedicineInformations\\Index.cshtml.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAowDgAAAAEAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "Sp25PharmaceuticalDBContext.cs",
+              "DocumentMoniker": "D:\\Github\\PRN212\\Exam\\PE_PRN222_SP25_TrialTest\\PE_PRN221_FA24_000466\\Repositories\\Entities\\Sp25PharmaceuticalDBContext.cs",
+              "RelativeDocumentMoniker": "Repositories\\Entities\\Sp25PharmaceuticalDBContext.cs",
+              "ToolTip": "D:\\Github\\PRN212\\Exam\\PE_PRN222_SP25_TrialTest\\PE_PRN221_FA24_000466\\Repositories\\Entities\\Sp25PharmaceuticalDBContext.cs",
+              "RelativeToolTip": "Repositories\\Entities\\Sp25PharmaceuticalDBContext.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAAowE4AAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-23T14:28:32.853Z",
+              "WhenOpened": "2025-03-23T11:29:20.827Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "D:\\Github\\PRN212\\Exam\\PE_PRN222_SP25_TrialTest\\PE_PRN221_FA24_000466\\PharmaceuticalManagement\\Pages\\MedicineInformations\\Edit.cshtml",
-              "RelativeDocumentMoniker": "PharmaceuticalManagement\\Pages\\MedicineInformations\\Edit.cshtml",
-              "ToolTip": "D:\\Github\\PRN212\\Exam\\PE_PRN222_SP25_TrialTest\\PE_PRN221_FA24_000466\\PharmaceuticalManagement\\Pages\\MedicineInformations\\Edit.cshtml",
-              "RelativeToolTip": "PharmaceuticalManagement\\Pages\\MedicineInformations\\Edit.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-23T14:28:20.333Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\Github\\PRN212\\Exam\\PE_PRN222_SP25_TrialTest\\PE_PRN221_FA24_000466\\PharmaceuticalManagement\\Pages\\MedicineInformations\\Index.cshtml",
               "RelativeDocumentMoniker": "PharmaceuticalManagement\\Pages\\MedicineInformations\\Index.cshtml",
@@ -193,57 +232,95 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Details.cshtml.cs",
-              "DocumentMoniker": "D:\\Github\\PRN212\\Exam\\PE_PRN222_SP25_TrialTest\\PE_PRN221_FA24_000466\\PharmaceuticalManagement\\Pages\\MedicineInformations\\Details.cshtml.cs",
-              "RelativeDocumentMoniker": "PharmaceuticalManagement\\Pages\\MedicineInformations\\Details.cshtml.cs",
-              "ToolTip": "D:\\Github\\PRN212\\Exam\\PE_PRN222_SP25_TrialTest\\PE_PRN221_FA24_000466\\PharmaceuticalManagement\\Pages\\MedicineInformations\\Details.cshtml.cs",
-              "RelativeToolTip": "PharmaceuticalManagement\\Pages\\MedicineInformations\\Details.cshtml.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAYwCkAAAARAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml.cs",
+              "DocumentMoniker": "D:\\Github\\PRN212\\Exam\\PE_PRN222_SP25_TrialTest\\PE_PRN221_FA24_000466\\PharmaceuticalManagement\\Pages\\MedicineInformations\\Index.cshtml.cs",
+              "RelativeDocumentMoniker": "PharmaceuticalManagement\\Pages\\MedicineInformations\\Index.cshtml.cs",
+              "ToolTip": "D:\\Github\\PRN212\\Exam\\PE_PRN222_SP25_TrialTest\\PE_PRN221_FA24_000466\\PharmaceuticalManagement\\Pages\\MedicineInformations\\Index.cshtml.cs",
+              "RelativeToolTip": "PharmaceuticalManagement\\Pages\\MedicineInformations\\Index.cshtml.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAAABQAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-23T16:04:47.768Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Github\\PRN212\\Exam\\PE_PRN222_SP25_TrialTest\\PE_PRN221_FA24_000466\\PharmaceuticalManagement\\Program.cs",
-              "RelativeDocumentMoniker": "PharmaceuticalManagement\\Program.cs",
-              "ToolTip": "D:\\Github\\PRN212\\Exam\\PE_PRN222_SP25_TrialTest\\PE_PRN221_FA24_000466\\PharmaceuticalManagement\\Program.cs",
-              "RelativeToolTip": "PharmaceuticalManagement\\Program.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABoAAABZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-23T14:18:24.351Z",
+              "WhenOpened": "2025-03-23T14:28:32.853Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\Github\\PRN212\\Exam\\PE_PRN222_SP25_TrialTest\\PE_PRN221_FA24_000466\\PharmaceuticalManagement\\appsettings.json",
-              "RelativeDocumentMoniker": "PharmaceuticalManagement\\appsettings.json",
-              "ToolTip": "D:\\Github\\PRN212\\Exam\\PE_PRN222_SP25_TrialTest\\PE_PRN221_FA24_000466\\PharmaceuticalManagement\\appsettings.json",
-              "RelativeToolTip": "PharmaceuticalManagement\\appsettings.json",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAiwAIAAABiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-03-23T14:16:42.868Z",
+              "DocumentIndex": 7,
+              "Title": "MedicineInformationService.cs",
+              "DocumentMoniker": "D:\\Github\\PRN212\\Exam\\PE_PRN222_SP25_TrialTest\\PE_PRN221_FA24_000466\\Services\\Service\\MedicineInformationService.cs",
+              "RelativeDocumentMoniker": "Services\\Service\\MedicineInformationService.cs",
+              "ToolTip": "D:\\Github\\PRN212\\Exam\\PE_PRN222_SP25_TrialTest\\PE_PRN221_FA24_000466\\Services\\Service\\MedicineInformationService.cs",
+              "RelativeToolTip": "Services\\Service\\MedicineInformationService.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAYwD0AAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-23T13:12:05.267Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Github\\PRN212\\Exam\\PE_PRN222_SP25_TrialTest\\PE_PRN221_FA24_000466\\PharmaceuticalManagement\\Pages\\Index.cshtml",
+              "RelativeDocumentMoniker": "PharmaceuticalManagement\\Pages\\Index.cshtml",
+              "ToolTip": "D:\\Github\\PRN212\\Exam\\PE_PRN222_SP25_TrialTest\\PE_PRN221_FA24_000466\\PharmaceuticalManagement\\Pages\\Index.cshtml",
+              "RelativeToolTip": "PharmaceuticalManagement\\Pages\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-23T14:22:38.375Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "Edit.cshtml.cs",
-              "DocumentMoniker": "D:\\Github\\PRN212\\Exam\\PE_PRN222_SP25_TrialTest\\PE_PRN221_FA24_000466\\PharmaceuticalManagement\\Pages\\MedicineInformations\\Edit.cshtml.cs",
-              "RelativeDocumentMoniker": "PharmaceuticalManagement\\Pages\\MedicineInformations\\Edit.cshtml.cs",
-              "ToolTip": "D:\\Github\\PRN212\\Exam\\PE_PRN222_SP25_TrialTest\\PE_PRN221_FA24_000466\\PharmaceuticalManagement\\Pages\\MedicineInformations\\Edit.cshtml.cs",
-              "RelativeToolTip": "PharmaceuticalManagement\\Pages\\MedicineInformations\\Edit.cshtml.cs",
-              "ViewState": "AgIAAFYAAAAAAAAAAAAkwGUAAABfAAAAAAAAAA==",
+              "Title": "IMedicineInformationService.cs",
+              "DocumentMoniker": "D:\\Github\\PRN212\\Exam\\PE_PRN222_SP25_TrialTest\\PE_PRN221_FA24_000466\\Services\\IService\\IMedicineInformationService.cs",
+              "RelativeDocumentMoniker": "Services\\IService\\IMedicineInformationService.cs",
+              "ToolTip": "D:\\Github\\PRN212\\Exam\\PE_PRN222_SP25_TrialTest\\PE_PRN221_FA24_000466\\Services\\IService\\IMedicineInformationService.cs",
+              "RelativeToolTip": "Services\\IService\\IMedicineInformationService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-23T16:07:01.17Z"
+              "WhenOpened": "2025-03-23T13:58:37.462Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 10,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\Github\\PRN212\\Exam\\PE_PRN222_SP25_TrialTest\\PE_PRN221_FA24_000466\\PharmaceuticalManagement\\Pages\\MedicineInformations\\Create.cshtml",
+              "RelativeDocumentMoniker": "PharmaceuticalManagement\\Pages\\MedicineInformations\\Create.cshtml",
+              "ToolTip": "D:\\Github\\PRN212\\Exam\\PE_PRN222_SP25_TrialTest\\PE_PRN221_FA24_000466\\PharmaceuticalManagement\\Pages\\MedicineInformations\\Create.cshtml",
+              "RelativeToolTip": "PharmaceuticalManagement\\Pages\\MedicineInformations\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-23T15:57:53.877Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "D:\\Github\\PRN212\\Exam\\PE_PRN222_SP25_TrialTest\\PE_PRN221_FA24_000466\\PharmaceuticalManagement\\Pages\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "PharmaceuticalManagement\\Pages\\_ViewStart.cshtml",
+              "ToolTip": "D:\\Github\\PRN212\\Exam\\PE_PRN222_SP25_TrialTest\\PE_PRN221_FA24_000466\\PharmaceuticalManagement\\Pages\\_ViewStart.cshtml",
+              "RelativeToolTip": "PharmaceuticalManagement\\Pages\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-24T10:52:26.294Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "D:\\Github\\PRN212\\Exam\\PE_PRN222_SP25_TrialTest\\PE_PRN221_FA24_000466\\PharmaceuticalManagement\\Pages\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "PharmaceuticalManagement\\Pages\\_ViewImports.cshtml",
+              "ToolTip": "D:\\Github\\PRN212\\Exam\\PE_PRN222_SP25_TrialTest\\PE_PRN221_FA24_000466\\PharmaceuticalManagement\\Pages\\_ViewImports.cshtml",
+              "RelativeToolTip": "PharmaceuticalManagement\\Pages\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-24T10:52:24.799Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "D:\\Github\\PRN212\\Exam\\PE_PRN222_SP25_TrialTest\\PE_PRN221_FA24_000466\\PharmaceuticalManagement\\Pages\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "PharmaceuticalManagement\\Pages\\Shared\\_Layout.cshtml",
@@ -255,39 +332,27 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "MedicineInformation.cs",
-              "DocumentMoniker": "D:\\Github\\PRN212\\Exam\\PE_PRN222_SP25_TrialTest\\PE_PRN221_FA24_000466\\Repositories\\Entities\\MedicineInformation.cs",
-              "RelativeDocumentMoniker": "Repositories\\Entities\\MedicineInformation.cs",
-              "ToolTip": "D:\\Github\\PRN212\\Exam\\PE_PRN222_SP25_TrialTest\\PE_PRN221_FA24_000466\\Repositories\\Entities\\MedicineInformation.cs",
-              "RelativeToolTip": "Repositories\\Entities\\MedicineInformation.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAcwBIAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-23T11:42:03.974Z"
+              "DocumentIndex": 16,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "D:\\Github\\PRN212\\Exam\\PE_PRN222_SP25_TrialTest\\PE_PRN221_FA24_000466\\PharmaceuticalManagement\\Pages\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "PharmaceuticalManagement\\Pages\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "D:\\Github\\PRN212\\Exam\\PE_PRN222_SP25_TrialTest\\PE_PRN221_FA24_000466\\PharmaceuticalManagement\\Pages\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "PharmaceuticalManagement\\Pages\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-24T10:51:18.506Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Delete.cshtml.cs",
-              "DocumentMoniker": "D:\\Github\\PRN212\\Exam\\PE_PRN222_SP25_TrialTest\\PE_PRN221_FA24_000466\\PharmaceuticalManagement\\Pages\\MedicineInformations\\Delete.cshtml.cs",
-              "RelativeDocumentMoniker": "PharmaceuticalManagement\\Pages\\MedicineInformations\\Delete.cshtml.cs",
-              "ToolTip": "D:\\Github\\PRN212\\Exam\\PE_PRN222_SP25_TrialTest\\PE_PRN221_FA24_000466\\PharmaceuticalManagement\\Pages\\MedicineInformations\\Delete.cshtml.cs",
-              "RelativeToolTip": "PharmaceuticalManagement\\Pages\\MedicineInformations\\Delete.cshtml.cs",
-              "ViewState": "AgIAADkAAAAAAAAAAAAkwFMAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 17,
+              "Title": "SignalrServer.cs",
+              "DocumentMoniker": "D:\\Github\\PRN212\\Exam\\PE_PRN222_SP25_TrialTest\\PE_PRN221_FA24_000466\\PharmaceuticalManagement\\Signalr\\SignalrServer.cs",
+              "RelativeDocumentMoniker": "PharmaceuticalManagement\\Signalr\\SignalrServer.cs",
+              "ToolTip": "D:\\Github\\PRN212\\Exam\\PE_PRN222_SP25_TrialTest\\PE_PRN221_FA24_000466\\PharmaceuticalManagement\\Signalr\\SignalrServer.cs",
+              "RelativeToolTip": "PharmaceuticalManagement\\Signalr\\SignalrServer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-23T16:01:06.687Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Login.cshtml.cs",
-              "DocumentMoniker": "D:\\Github\\PRN212\\Exam\\PE_PRN222_SP25_TrialTest\\PE_PRN221_FA24_000466\\PharmaceuticalManagement\\Pages\\Login.cshtml.cs",
-              "RelativeDocumentMoniker": "PharmaceuticalManagement\\Pages\\Login.cshtml.cs",
-              "ToolTip": "D:\\Github\\PRN212\\Exam\\PE_PRN222_SP25_TrialTest\\PE_PRN221_FA24_000466\\PharmaceuticalManagement\\Pages\\Login.cshtml.cs",
-              "RelativeToolTip": "PharmaceuticalManagement\\Pages\\Login.cshtml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-23T14:23:31.773Z"
+              "WhenOpened": "2025-03-24T10:41:58.261Z"
             },
             {
               "$type": "Document",
@@ -303,43 +368,103 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 15,
               "Title": "Login.cshtml",
               "DocumentMoniker": "D:\\Github\\PRN212\\Exam\\PE_PRN222_SP25_TrialTest\\PE_PRN221_FA24_000466\\PharmaceuticalManagement\\Pages\\Login.cshtml",
               "RelativeDocumentMoniker": "PharmaceuticalManagement\\Pages\\Login.cshtml",
               "ToolTip": "D:\\Github\\PRN212\\Exam\\PE_PRN222_SP25_TrialTest\\PE_PRN221_FA24_000466\\PharmaceuticalManagement\\Pages\\Login.cshtml",
               "RelativeToolTip": "PharmaceuticalManagement\\Pages\\Login.cshtml",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAABsAAABOAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAABOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-03-23T14:22:39.995Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\Github\\PRN212\\Exam\\PE_PRN222_SP25_TrialTest\\PE_PRN221_FA24_000466\\PharmaceuticalManagement\\Pages\\Index.cshtml",
-              "RelativeDocumentMoniker": "PharmaceuticalManagement\\Pages\\Index.cshtml",
-              "ToolTip": "D:\\Github\\PRN212\\Exam\\PE_PRN222_SP25_TrialTest\\PE_PRN221_FA24_000466\\PharmaceuticalManagement\\Pages\\Index.cshtml",
-              "RelativeToolTip": "PharmaceuticalManagement\\Pages\\Index.cshtml",
+              "DocumentIndex": 19,
+              "Title": "MedicineInformation.cs",
+              "DocumentMoniker": "D:\\Github\\PRN212\\Exam\\PE_PRN222_SP25_TrialTest\\PE_PRN221_FA24_000466\\Repositories\\Entities\\MedicineInformation.cs",
+              "RelativeDocumentMoniker": "Repositories\\Entities\\MedicineInformation.cs",
+              "ToolTip": "D:\\Github\\PRN212\\Exam\\PE_PRN222_SP25_TrialTest\\PE_PRN221_FA24_000466\\Repositories\\Entities\\MedicineInformation.cs",
+              "RelativeToolTip": "Repositories\\Entities\\MedicineInformation.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-23T11:42:03.974Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "site.js",
+              "DocumentMoniker": "D:\\Github\\PRN212\\Exam\\PE_PRN222_SP25_TrialTest\\PE_PRN221_FA24_000466\\PharmaceuticalManagement\\wwwroot\\js\\site.js",
+              "RelativeDocumentMoniker": "PharmaceuticalManagement\\wwwroot\\js\\site.js",
+              "ToolTip": "D:\\Github\\PRN212\\Exam\\PE_PRN222_SP25_TrialTest\\PE_PRN221_FA24_000466\\PharmaceuticalManagement\\wwwroot\\js\\site.js",
+              "RelativeToolTip": "PharmaceuticalManagement\\wwwroot\\js\\site.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-03-24T10:39:53.121Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Login.cshtml.cs",
+              "DocumentMoniker": "D:\\Github\\PRN212\\Exam\\PE_PRN222_SP25_TrialTest\\PE_PRN221_FA24_000466\\PharmaceuticalManagement\\Pages\\Login.cshtml.cs",
+              "RelativeDocumentMoniker": "PharmaceuticalManagement\\Pages\\Login.cshtml.cs",
+              "ToolTip": "D:\\Github\\PRN212\\Exam\\PE_PRN222_SP25_TrialTest\\PE_PRN221_FA24_000466\\PharmaceuticalManagement\\Pages\\Login.cshtml.cs",
+              "RelativeToolTip": "PharmaceuticalManagement\\Pages\\Login.cshtml.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAowEIAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-23T14:23:31.773Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Details.cshtml.cs",
+              "DocumentMoniker": "D:\\Github\\PRN212\\Exam\\PE_PRN222_SP25_TrialTest\\PE_PRN221_FA24_000466\\PharmaceuticalManagement\\Pages\\MedicineInformations\\Details.cshtml.cs",
+              "RelativeDocumentMoniker": "PharmaceuticalManagement\\Pages\\MedicineInformations\\Details.cshtml.cs",
+              "ToolTip": "D:\\Github\\PRN212\\Exam\\PE_PRN222_SP25_TrialTest\\PE_PRN221_FA24_000466\\PharmaceuticalManagement\\Pages\\MedicineInformations\\Details.cshtml.cs",
+              "RelativeToolTip": "PharmaceuticalManagement\\Pages\\MedicineInformations\\Details.cshtml.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAYwCkAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-23T16:04:47.768Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\Github\\PRN212\\Exam\\PE_PRN222_SP25_TrialTest\\PE_PRN221_FA24_000466\\PharmaceuticalManagement\\Pages\\MedicineInformations\\Edit.cshtml",
+              "RelativeDocumentMoniker": "PharmaceuticalManagement\\Pages\\MedicineInformations\\Edit.cshtml",
+              "ToolTip": "D:\\Github\\PRN212\\Exam\\PE_PRN222_SP25_TrialTest\\PE_PRN221_FA24_000466\\PharmaceuticalManagement\\Pages\\MedicineInformations\\Edit.cshtml",
+              "RelativeToolTip": "PharmaceuticalManagement\\Pages\\MedicineInformations\\Edit.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-23T14:22:38.375Z"
+              "WhenOpened": "2025-03-23T14:28:20.333Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "IMedicineInformationService.cs",
-              "DocumentMoniker": "D:\\Github\\PRN212\\Exam\\PE_PRN222_SP25_TrialTest\\PE_PRN221_FA24_000466\\Services\\IService\\IMedicineInformationService.cs",
-              "RelativeDocumentMoniker": "Services\\IService\\IMedicineInformationService.cs",
-              "ToolTip": "D:\\Github\\PRN212\\Exam\\PE_PRN222_SP25_TrialTest\\PE_PRN221_FA24_000466\\Services\\IService\\IMedicineInformationService.cs",
-              "RelativeToolTip": "Services\\IService\\IMedicineInformationService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAACAAAAAAAAAA==",
+              "DocumentIndex": 21,
+              "Title": "Edit.cshtml.cs",
+              "DocumentMoniker": "D:\\Github\\PRN212\\Exam\\PE_PRN222_SP25_TrialTest\\PE_PRN221_FA24_000466\\PharmaceuticalManagement\\Pages\\MedicineInformations\\Edit.cshtml.cs",
+              "RelativeDocumentMoniker": "PharmaceuticalManagement\\Pages\\MedicineInformations\\Edit.cshtml.cs",
+              "ToolTip": "D:\\Github\\PRN212\\Exam\\PE_PRN222_SP25_TrialTest\\PE_PRN221_FA24_000466\\PharmaceuticalManagement\\Pages\\MedicineInformations\\Edit.cshtml.cs",
+              "RelativeToolTip": "PharmaceuticalManagement\\Pages\\MedicineInformations\\Edit.cshtml.cs",
+              "ViewState": "AgIAAFYAAAAAAAAAAAAkwGUAAABfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-23T13:58:37.462Z"
+              "WhenOpened": "2025-03-23T16:07:01.17Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 24,
+              "Title": "Delete.cshtml.cs",
+              "DocumentMoniker": "D:\\Github\\PRN212\\Exam\\PE_PRN222_SP25_TrialTest\\PE_PRN221_FA24_000466\\PharmaceuticalManagement\\Pages\\MedicineInformations\\Delete.cshtml.cs",
+              "RelativeDocumentMoniker": "PharmaceuticalManagement\\Pages\\MedicineInformations\\Delete.cshtml.cs",
+              "ToolTip": "D:\\Github\\PRN212\\Exam\\PE_PRN222_SP25_TrialTest\\PE_PRN221_FA24_000466\\PharmaceuticalManagement\\Pages\\MedicineInformations\\Delete.cshtml.cs",
+              "RelativeToolTip": "PharmaceuticalManagement\\Pages\\MedicineInformations\\Delete.cshtml.cs",
+              "ViewState": "AgIAADkAAAAAAAAAAAAkwFMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-23T16:01:06.687Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
               "Title": "Manufacturer.cs",
               "DocumentMoniker": "D:\\Github\\PRN212\\Exam\\PE_PRN222_SP25_TrialTest\\PE_PRN221_FA24_000466\\Repositories\\Entities\\Manufacturer.cs",
               "RelativeDocumentMoniker": "Repositories\\Entities\\Manufacturer.cs",
@@ -351,31 +476,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "Sp25PharmaceuticalDBContext.cs",
-              "DocumentMoniker": "D:\\Github\\PRN212\\Exam\\PE_PRN222_SP25_TrialTest\\PE_PRN221_FA24_000466\\Repositories\\Entities\\Sp25PharmaceuticalDBContext.cs",
-              "RelativeDocumentMoniker": "Repositories\\Entities\\Sp25PharmaceuticalDBContext.cs",
-              "ToolTip": "D:\\Github\\PRN212\\Exam\\PE_PRN222_SP25_TrialTest\\PE_PRN221_FA24_000466\\Repositories\\Entities\\Sp25PharmaceuticalDBContext.cs",
-              "RelativeToolTip": "Repositories\\Entities\\Sp25PharmaceuticalDBContext.cs",
-              "ViewState": "AgIAACcAAAAAAAAAAAAAADsAAAA+AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-23T11:29:20.827Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "MedicineInformationService.cs",
-              "DocumentMoniker": "D:\\Github\\PRN212\\Exam\\PE_PRN222_SP25_TrialTest\\PE_PRN221_FA24_000466\\Services\\Service\\MedicineInformationService.cs",
-              "RelativeDocumentMoniker": "Services\\Service\\MedicineInformationService.cs",
-              "ToolTip": "D:\\Github\\PRN212\\Exam\\PE_PRN222_SP25_TrialTest\\PE_PRN221_FA24_000466\\Services\\Service\\MedicineInformationService.cs",
-              "RelativeToolTip": "Services\\Service\\MedicineInformationService.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAAwB4AAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-23T13:12:05.267Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 27,
               "Title": "IManufacturerService.cs",
               "DocumentMoniker": "D:\\Github\\PRN212\\Exam\\PE_PRN222_SP25_TrialTest\\PE_PRN221_FA24_000466\\Services\\IService\\IManufacturerService.cs",
               "RelativeDocumentMoniker": "Services\\IService\\IManufacturerService.cs",
@@ -387,7 +488,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 28,
               "Title": "StoreAccountService.cs",
               "DocumentMoniker": "D:\\Github\\PRN212\\Exam\\PE_PRN222_SP25_TrialTest\\PE_PRN221_FA24_000466\\Services\\Service\\StoreAccountService.cs",
               "RelativeDocumentMoniker": "Services\\Service\\StoreAccountService.cs",
@@ -399,7 +500,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 29,
               "Title": "IStoreAccountService.cs",
               "DocumentMoniker": "D:\\Github\\PRN212\\Exam\\PE_PRN222_SP25_TrialTest\\PE_PRN221_FA24_000466\\Services\\IService\\IStoreAccountService.cs",
               "RelativeDocumentMoniker": "Services\\IService\\IStoreAccountService.cs",
@@ -411,7 +512,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 26,
               "Title": "ManufacturerService.cs",
               "DocumentMoniker": "D:\\Github\\PRN212\\Exam\\PE_PRN222_SP25_TrialTest\\PE_PRN221_FA24_000466\\Services\\Service\\ManufacturerService.cs",
               "RelativeDocumentMoniker": "Services\\Service\\ManufacturerService.cs",
@@ -423,7 +524,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 31,
               "Title": "IGenericRepository.cs",
               "DocumentMoniker": "D:\\Github\\PRN212\\Exam\\PE_PRN222_SP25_TrialTest\\PE_PRN221_FA24_000466\\Repositories\\Generic Repositories\\IGenericRepository.cs",
               "RelativeDocumentMoniker": "Repositories\\Generic Repositories\\IGenericRepository.cs",
@@ -435,7 +536,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 30,
               "Title": "GenericRepository.cs",
               "DocumentMoniker": "D:\\Github\\PRN212\\Exam\\PE_PRN222_SP25_TrialTest\\PE_PRN221_FA24_000466\\Repositories\\Generic Repositories\\GenericRepository.cs",
               "RelativeDocumentMoniker": "Repositories\\Generic Repositories\\GenericRepository.cs",
@@ -447,7 +548,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 33,
               "Title": "IUnitOfWork.cs",
               "DocumentMoniker": "D:\\Github\\PRN212\\Exam\\PE_PRN222_SP25_TrialTest\\PE_PRN221_FA24_000466\\Repositories\\UOW\\IUnitOfWork.cs",
               "RelativeDocumentMoniker": "Repositories\\UOW\\IUnitOfWork.cs",
@@ -459,7 +560,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 34,
               "Title": "StoreAccount.cs",
               "DocumentMoniker": "D:\\Github\\PRN212\\Exam\\PE_PRN222_SP25_TrialTest\\PE_PRN221_FA24_000466\\Repositories\\Entities\\StoreAccount.cs",
               "RelativeDocumentMoniker": "Repositories\\Entities\\StoreAccount.cs",
@@ -471,7 +572,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 32,
               "Title": "UnitOfWork.cs",
               "DocumentMoniker": "D:\\Github\\PRN212\\Exam\\PE_PRN222_SP25_TrialTest\\PE_PRN221_FA24_000466\\Repositories\\UOW\\UnitOfWork.cs",
               "RelativeDocumentMoniker": "Repositories\\UOW\\UnitOfWork.cs",

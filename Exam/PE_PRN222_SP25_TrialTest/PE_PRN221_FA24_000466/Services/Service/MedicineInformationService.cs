@@ -18,7 +18,8 @@ namespace Services.Service
 		{
 			IQueryable<MedicineInformation> query = _unitOfWork.GetRepository<MedicineInformation>()
 				.Entities
-				.Include(m => m.Manufacturer);
+				.Include(m => m.Manufacturer)
+				.OrderByDescending(m => m.MedicineID);
 
 			//Tìm kiếm OR
 			if (!string.IsNullOrEmpty(activeIngredients) ||
@@ -101,6 +102,21 @@ namespace Services.Service
 
 		public void Save(MedicineInformation m)
 		{
+			//Lấy MedicineID lớn nhất hiện có
+			string? lastId = _unitOfWork.GetRepository<MedicineInformation>()
+				.Entities
+				.OrderByDescending(m => m.MedicineID)
+				.Select(m => m.MedicineID)
+				.FirstOrDefault();
+
+			//Tách phần số: "MI000120" → 120
+			int lastNumber = int.TryParse(lastId?.Substring(2), out int num) ? num : 0;
+			int newNumber = lastNumber + 1;
+
+			//Sinh MedicineID mới
+			m.MedicineID = "MI" + newNumber.ToString("D6"); // D6 = padding 0 đến 6 chữ số
+
+
 			_unitOfWork.GetRepository<MedicineInformation>().Insert(m);
 			_unitOfWork.Save();
 		}

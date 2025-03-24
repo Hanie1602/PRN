@@ -36,6 +36,16 @@ namespace PharmaceuticalManagement
 				app.UseHsts();
 			}
 
+			app.Use(async (context, next) =>
+			{
+				if (context.Request.Path == "/")
+				{
+					context.Response.Redirect("/Login");
+					return;
+				}
+				await next();
+			});
+
 			app.UseHttpsRedirection();
 			app.UseStaticFiles();
 

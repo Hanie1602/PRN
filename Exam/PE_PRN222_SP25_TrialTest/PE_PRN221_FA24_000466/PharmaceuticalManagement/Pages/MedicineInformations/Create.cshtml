@@ -14,8 +14,7 @@
         <form method="post">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <div class="form-group">
-                <label asp-for="MedicineInformation.MedicineID" class="control-label"></label>
-                <input asp-for="MedicineInformation.MedicineID" class="form-control" />
+                <input asp-for="MedicineInformation.MedicineID" type="hidden" value="temp" />
                 <span asp-validation-for="MedicineInformation.MedicineID" class="text-danger"></span>
             </div>
             <div class="form-group">

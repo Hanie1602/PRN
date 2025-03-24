@@ -29,7 +29,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 23 Mar 2025 11:10:57 GMT"
+          "Value": "Mon, 24 Mar 2025 10:43:23 GMT"
         }
       ],
       "EndpointProperties": [
@@ -74,7 +74,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 23 Mar 2025 11:10:57 GMT"
+          "Value": "Mon, 24 Mar 2025 10:43:23 GMT"
         }
       ],
       "EndpointProperties": [
@@ -13201,6 +13201,88 @@
         {
           "Name": "label",
           "Value": "js/microsoft/signalr/dist/webworker/signalr.min.js"
+        }
+      ]
+    },
+    {
+      "Route": "js/microsoft/signalr/package-lock.g478jahnta.json",
+      "AssetFile": "js/microsoft/signalr/package-lock.json",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "15686"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"EAHke1fgiLs0XzAKYscWh1KSvtEbG2Brl/88Qo+blAI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 24 Mar 2025 06:10:25 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "g478jahnta"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-EAHke1fgiLs0XzAKYscWh1KSvtEbG2Brl/88Qo+blAI="
+        },
+        {
+          "Name": "label",
+          "Value": "js/microsoft/signalr/package-lock.json"
+        }
+      ]
+    },
+    {
+      "Route": "js/microsoft/signalr/package-lock.json",
+      "AssetFile": "js/microsoft/signalr/package-lock.json",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "15686"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"EAHke1fgiLs0XzAKYscWh1KSvtEbG2Brl/88Qo+blAI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 24 Mar 2025 06:10:25 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-EAHke1fgiLs0XzAKYscWh1KSvtEbG2Brl/88Qo+blAI="
         }
       ]
     },

@@ -4,7 +4,6 @@ namespace Repositories.Entities
 {
 	public class Equipment
 	{
-		[Required]
 		public int EqID { get; set; }
 
 		[Required]

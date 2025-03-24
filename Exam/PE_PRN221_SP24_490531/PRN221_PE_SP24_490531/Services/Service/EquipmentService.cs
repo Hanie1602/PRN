@@ -19,7 +19,7 @@ namespace Services.Service
 			IQueryable<Equipment> query = _unitOfWork.GetRepository<Equipment>()
 				.Entities
 				.Include(e => e.Rooms)
-				.OrderByDescending(e => e.CreatedAt);
+				.OrderByDescending(e => e.EqID);
 
 			//Tìm kiếm AND
 			if (!string.IsNullOrEmpty(eqName) && quantity.HasValue)
@@ -77,6 +77,11 @@ namespace Services.Service
 
 		public void Save(Equipment e)
 		{
+			int maxId = _unitOfWork.GetRepository<Equipment>()
+				.Entities
+				.Max(e => (int?)e.EqID) ?? 0;
+
+			e.EqID = maxId + 1;
 			e.CreatedAt = DateTime.Now;
 			e.UpdatedAt = DateTime.Now;
 

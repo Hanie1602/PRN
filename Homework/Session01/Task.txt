@@ -1,2 +1,0 @@
-Secure TCP Communication with SSL/TLS
-Nội dung: Xây dựng ứng dụng TCP client-server sử dụng giao thức SSL/TLS để mã hóa dữ liệu truyền qua mạng.

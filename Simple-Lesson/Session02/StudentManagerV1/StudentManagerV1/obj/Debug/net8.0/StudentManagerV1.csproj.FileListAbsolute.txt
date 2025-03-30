@@ -1,0 +1,15 @@
+D:\Github\PRN212\Lession\StudentManagerV1\StudentManagerV1\obj\Debug\net8.0\StudentManagerV1.GeneratedMSBuildEditorConfig.editorconfig
+D:\Github\PRN212\Lession\StudentManagerV1\StudentManagerV1\obj\Debug\net8.0\StudentManagerV1.AssemblyInfoInputs.cache
+D:\Github\PRN212\Lession\StudentManagerV1\StudentManagerV1\obj\Debug\net8.0\StudentManagerV1.AssemblyInfo.cs
+D:\Github\PRN212\Lession\StudentManagerV1\StudentManagerV1\obj\Debug\net8.0\StudentManagerV1.csproj.CoreCompileInputs.cache
+D:\Github\PRN212\Lession\StudentManagerV1\StudentManagerV1\obj\Debug\net8.0\StudentManagerV1.sourcelink.json
+D:\Github\PRN212\Lession\StudentManagerV1\StudentManagerV1\bin\Debug\net8.0\StudentManagerV1.exe
+D:\Github\PRN212\Lession\StudentManagerV1\StudentManagerV1\bin\Debug\net8.0\StudentManagerV1.deps.json
+D:\Github\PRN212\Lession\StudentManagerV1\StudentManagerV1\bin\Debug\net8.0\StudentManagerV1.runtimeconfig.json
+D:\Github\PRN212\Lession\StudentManagerV1\StudentManagerV1\bin\Debug\net8.0\StudentManagerV1.dll
+D:\Github\PRN212\Lession\StudentManagerV1\StudentManagerV1\bin\Debug\net8.0\StudentManagerV1.pdb
+D:\Github\PRN212\Lession\StudentManagerV1\StudentManagerV1\obj\Debug\net8.0\StudentManagerV1.dll
+D:\Github\PRN212\Lession\StudentManagerV1\StudentManagerV1\obj\Debug\net8.0\refint\StudentManagerV1.dll
+D:\Github\PRN212\Lession\StudentManagerV1\StudentManagerV1\obj\Debug\net8.0\StudentManagerV1.pdb
+D:\Github\PRN212\Lession\StudentManagerV1\StudentManagerV1\obj\Debug\net8.0\StudentManagerV1.genruntimeconfig.cache
+D:\Github\PRN212\Lession\StudentManagerV1\StudentManagerV1\obj\Debug\net8.0\ref\StudentManagerV1.dll

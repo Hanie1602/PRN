@@ -19,16 +19,16 @@ namespace PRN222.Lab2.Repositories.Entities
 
 		public virtual DbSet<Product> Products { get; set; } = null!;
 
-		string GetConnectionString()
-		{
-			IConfiguration configuration = new ConfigurationBuilder()
-					.SetBasePath(Directory.GetCurrentDirectory())
-					.AddJsonFile("appsettings.json", true, true).Build();
-			return configuration["ConnectionStrings:DefaultConnectionString"];
-		}
+		//string GetConnectionString()
+		//{
+		//	IConfiguration configuration = new ConfigurationBuilder()
+		//			.SetBasePath(Directory.GetCurrentDirectory())
+		//			.AddJsonFile("appsettings.json", true, true).Build();
+		//	return configuration["ConnectionStrings:DefaultConnectionString"];
+		//}
 
-		protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-			=> optionsBuilder.UseSqlServer(GetConnectionString());
+		//protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+		//	=> optionsBuilder.UseSqlServer(GetConnectionString());
 
 		protected override void OnModelCreating(ModelBuilder modelBuilder)
 		{

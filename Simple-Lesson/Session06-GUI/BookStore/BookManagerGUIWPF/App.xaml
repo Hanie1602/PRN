@@ -1,0 +1,14 @@
+﻿<Application x:Class="BookManagerGUIWPF.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:BookManagerGUIWPF"
+             StartupUri="Login.xaml">
+    <Application.Resources>
+        <Style TargetType="Button">
+            <Setter Property="Background" Value="#FFEE9090"></Setter>
+            <Setter Property="Foreground" Value="#000000"></Setter>
+            <Setter Property="FontWeight" Value="ExtraBold"></Setter>
+            <Setter Property="FontSize" Value="14"></Setter>
+        </Style>
+    </Application.Resources>
+</Application>

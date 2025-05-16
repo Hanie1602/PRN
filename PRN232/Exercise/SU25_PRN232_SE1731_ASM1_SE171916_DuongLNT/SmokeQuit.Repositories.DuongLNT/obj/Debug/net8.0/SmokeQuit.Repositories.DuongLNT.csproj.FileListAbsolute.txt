@@ -1,0 +1,15 @@
+D:\Github\PRN212\PRN232\Exercise\SU25_PRN232_SE1731_ASM1_SE171916_DuongLNT\SmokeQuit.Repositories.DuongLNT\bin\Debug\net8.0\SmokeQuit.Repositories.DuongLNT.deps.json
+D:\Github\PRN212\PRN232\Exercise\SU25_PRN232_SE1731_ASM1_SE171916_DuongLNT\SmokeQuit.Repositories.DuongLNT\bin\Debug\net8.0\SmokeQuit.Repositories.DuongLNT.dll
+D:\Github\PRN212\PRN232\Exercise\SU25_PRN232_SE1731_ASM1_SE171916_DuongLNT\SmokeQuit.Repositories.DuongLNT\bin\Debug\net8.0\SmokeQuit.Repositories.DuongLNT.pdb
+D:\Github\PRN212\PRN232\Exercise\SU25_PRN232_SE1731_ASM1_SE171916_DuongLNT\SmokeQuit.Repositories.DuongLNT\obj\Debug\net8.0\SmokeQuit.Repositories.DuongLNT.GeneratedMSBuildEditorConfig.editorconfig
+D:\Github\PRN212\PRN232\Exercise\SU25_PRN232_SE1731_ASM1_SE171916_DuongLNT\SmokeQuit.Repositories.DuongLNT\obj\Debug\net8.0\SmokeQuit.Repositories.DuongLNT.AssemblyInfoInputs.cache
+D:\Github\PRN212\PRN232\Exercise\SU25_PRN232_SE1731_ASM1_SE171916_DuongLNT\SmokeQuit.Repositories.DuongLNT\obj\Debug\net8.0\SmokeQuit.Repositories.DuongLNT.AssemblyInfo.cs
+D:\Github\PRN212\PRN232\Exercise\SU25_PRN232_SE1731_ASM1_SE171916_DuongLNT\SmokeQuit.Repositories.DuongLNT\obj\Debug\net8.0\SmokeQuit.Repositories.DuongLNT.csproj.CoreCompileInputs.cache
+D:\Github\PRN212\PRN232\Exercise\SU25_PRN232_SE1731_ASM1_SE171916_DuongLNT\SmokeQuit.Repositories.DuongLNT\obj\Debug\net8.0\SmokeQuit.Repositories.DuongLNT.sourcelink.json
+D:\Github\PRN212\PRN232\Exercise\SU25_PRN232_SE1731_ASM1_SE171916_DuongLNT\SmokeQuit.Repositories.DuongLNT\obj\Debug\net8.0\SmokeQuit.Repositories.DuongLNT.dll
+D:\Github\PRN212\PRN232\Exercise\SU25_PRN232_SE1731_ASM1_SE171916_DuongLNT\SmokeQuit.Repositories.DuongLNT\obj\Debug\net8.0\refint\SmokeQuit.Repositories.DuongLNT.dll
+D:\Github\PRN212\PRN232\Exercise\SU25_PRN232_SE1731_ASM1_SE171916_DuongLNT\SmokeQuit.Repositories.DuongLNT\obj\Debug\net8.0\SmokeQuit.Repositories.DuongLNT.pdb
+D:\Github\PRN212\PRN232\Exercise\SU25_PRN232_SE1731_ASM1_SE171916_DuongLNT\SmokeQuit.Repositories.DuongLNT\obj\Debug\net8.0\ref\SmokeQuit.Repositories.DuongLNT.dll
+D:\Github\PRN212\PRN232\Exercise\SU25_PRN232_SE1731_ASM1_SE171916_DuongLNT\SmokeQuit.Repositories.DuongLNT\bin\Debug\net8.0\SmokeQuit.Repositories.DuongLNT.runtimeconfig.json
+D:\Github\PRN212\PRN232\Exercise\SU25_PRN232_SE1731_ASM1_SE171916_DuongLNT\SmokeQuit.Repositories.DuongLNT\obj\Debug\net8.0\SmokeQuit.Repositories.DuongLNT.csproj.AssemblyReference.cache
+D:\Github\PRN212\PRN232\Exercise\SU25_PRN232_SE1731_ASM1_SE171916_DuongLNT\SmokeQuit.Repositories.DuongLNT\obj\Debug\net8.0\SmokeQuit.Repositories.DuongLNT.genruntimeconfig.cache

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SmokeQuit.Repositories.DuongLNT")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+69628dbf152da2fafe85c26fab161ab762340ccd")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0300f51fb5347c455d96934bd70ec47140a69faf")]
 [assembly: System.Reflection.AssemblyProductAttribute("SmokeQuit.Repositories.DuongLNT")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SmokeQuit.Repositories.DuongLNT")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

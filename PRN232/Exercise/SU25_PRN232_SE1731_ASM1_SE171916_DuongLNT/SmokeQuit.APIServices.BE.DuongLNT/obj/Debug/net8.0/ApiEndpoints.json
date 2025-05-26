@@ -1,5 +1,166 @@
 [
   {
+    "ContainingType": "SmokeQuit.APIServices.BE.DuongLNT.Controllers.LeaderboardsDuongLntController",
+    "Method": "Get",
+    "RelativePath": "api/LeaderboardsDuongLnt",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[SmokeQuit.Repositories.DuongLNT.Models.LeaderboardsDuongLnt, SmokeQuit.Repositories.DuongLNT, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SmokeQuit.APIServices.BE.DuongLNT.Controllers.LeaderboardsDuongLntController",
+    "Method": "Post",
+    "RelativePath": "api/LeaderboardsDuongLnt",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "leaderboards",
+        "Type": "SmokeQuit.Repositories.DuongLNT.Models.LeaderboardsDuongLnt",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Int32",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SmokeQuit.APIServices.BE.DuongLNT.Controllers.LeaderboardsDuongLntController",
+    "Method": "Put",
+    "RelativePath": "api/LeaderboardsDuongLnt",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "leaderboards",
+        "Type": "SmokeQuit.Repositories.DuongLNT.Models.LeaderboardsDuongLnt",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Int32",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SmokeQuit.APIServices.BE.DuongLNT.Controllers.LeaderboardsDuongLntController",
+    "Method": "Get",
+    "RelativePath": "api/LeaderboardsDuongLnt/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SmokeQuit.Repositories.DuongLNT.Models.LeaderboardsDuongLnt",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SmokeQuit.APIServices.BE.DuongLNT.Controllers.LeaderboardsDuongLntController",
+    "Method": "Delete",
+    "RelativePath": "api/LeaderboardsDuongLnt/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Boolean",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SmokeQuit.APIServices.BE.DuongLNT.Controllers.LeaderboardsDuongLntController",
+    "Method": "Get",
+    "RelativePath": "api/LeaderboardsDuongLnt/{page}/{pageSize}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "page",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "pageSize",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SmokeQuit.APIServices.BE.DuongLNT.Controllers.SystemUserAccountsController",
+    "Method": "Login",
+    "RelativePath": "Login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "SmokeQuit.APIServices.BE.DuongLNT.Controllers.SystemUserAccountsController\u002BLoginRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "SmokeQuit.APIServices.BE.DuongLNT.Controllers.WeatherForecastController",
     "Method": "Get",
     "RelativePath": "WeatherForecast",

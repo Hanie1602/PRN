@@ -10,3 +10,7 @@ D:\Github\PRN212\PRN232\Exercise\SU25_PRN232_SE1731_ASM1_SE171916_DuongLNT\Smoke
 D:\Github\PRN212\PRN232\Exercise\SU25_PRN232_SE1731_ASM1_SE171916_DuongLNT\SmokeQuit.Services.DuongLNT\obj\Debug\net8.0\refint\SmokeQuit.Services.DuongLNT.dll
 D:\Github\PRN212\PRN232\Exercise\SU25_PRN232_SE1731_ASM1_SE171916_DuongLNT\SmokeQuit.Services.DuongLNT\obj\Debug\net8.0\SmokeQuit.Services.DuongLNT.pdb
 D:\Github\PRN212\PRN232\Exercise\SU25_PRN232_SE1731_ASM1_SE171916_DuongLNT\SmokeQuit.Services.DuongLNT\obj\Debug\net8.0\ref\SmokeQuit.Services.DuongLNT.dll
+D:\Github\PRN212\PRN232\Exercise\SU25_PRN232_SE1731_ASM1_SE171916_DuongLNT\SmokeQuit.Services.DuongLNT\bin\Debug\net8.0\SmokeQuit.Repositories.DuongLNT.dll
+D:\Github\PRN212\PRN232\Exercise\SU25_PRN232_SE1731_ASM1_SE171916_DuongLNT\SmokeQuit.Services.DuongLNT\bin\Debug\net8.0\SmokeQuit.Repositories.DuongLNT.pdb
+D:\Github\PRN212\PRN232\Exercise\SU25_PRN232_SE1731_ASM1_SE171916_DuongLNT\SmokeQuit.Services.DuongLNT\obj\Debug\net8.0\SmokeQuit.Services.DuongLNT.csproj.AssemblyReference.cache
+D:\Github\PRN212\PRN232\Exercise\SU25_PRN232_SE1731_ASM1_SE171916_DuongLNT\SmokeQuit.Services.DuongLNT\obj\Debug\net8.0\SmokeQui.396C9A36.Up2Date

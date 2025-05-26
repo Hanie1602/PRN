@@ -213,3 +213,36 @@ CREATE TABLE LeaderboardsDuongLNT (
 	FOREIGN KEY ([UserId]) REFERENCES [System.UserAccount] ([UserAccountID])
 );
 GO
+
+
+
+
+
+
+INSERT INTO MembershipPlansAnhDTN (PlanName, Description, Price, DurationDays, CreatedAt) VALUES (N'Basic', N'Access to community features', 0.0, 30, '2025-05-23');
+INSERT INTO MembershipPlansAnhDTN (PlanName, Description, Price, DurationDays, CreatedAt) VALUES (N'Premium', N'1-on-1 coaching included', 199000.0, 90, '2025-05-23');
+INSERT INTO MembershipPlansAnhDTN (PlanName, Description, Price, DurationDays, CreatedAt) VALUES (N'VIP', N'Full access + advanced reports', 499000.0, 180, '2025-05-23');
+INSERT INTO CoachesLocDPX (FullName, Email, PhoneNumber, Bio, CreatedAt) VALUES (N'Nguyen Van A', 'coachA@example.com', '0909123456', N'Certified health coach', '2025-05-23');
+INSERT INTO CoachesLocDPX (FullName, Email, PhoneNumber, Bio, CreatedAt) VALUES (N'Tran Thi B', 'coachB@example.com', '0911987654', N'10+ years experience in addiction therapy', '2025-05-23');
+INSERT INTO AchievementNhuNQ (AchievementName, Description, CriteriaType, CriteriaValue, CreatedAt) VALUES (N'First Day', N'Completed the first smoke-free day', 'Days_Smoke_Free', 1, '2025-05-23');
+INSERT INTO AchievementNhuNQ (AchievementName, Description, CriteriaType, CriteriaValue, CreatedAt) VALUES (N'Money Saver', N'Saved 100,000 VND', 'Money_Saved', 100000, '2025-05-23');
+INSERT INTO AchievementNhuNQ (AchievementName, Description, CriteriaType, CriteriaValue, CreatedAt) VALUES (N'One Week Champion', N'7 days smoke-free', 'Days_Smoke_Free', 7, '2025-05-23');
+INSERT INTO SupportMethodsHoangPX (MethodName, Description) VALUES (N'Nicotine Patches', N'Helps reduce withdrawal symptoms');
+INSERT INTO SupportMethodsHoangPX (MethodName, Description) VALUES (N'Counseling', N'Regular consultation with a coach');
+INSERT INTO QuitPlansAnhDTN (UserId, MembershipPlanId, Reason, StartDate, ExpectedQuitDate, DailyCigaretteTarget, WeeklyCheckinFrequency, MotivationalMessage, HealthGoals, BudgetSavingGoal, ReceiveMotivationReminder, IsCustomizedPlan, CreatedAt, UpdatedAt) VALUES (1, 1, N'To live a healthier life', '2025-05-23', '2025-06-22', 5, 2, N'You can do it!', N'Run 5km', 200000, 1, 1, '2025-05-23', '2025-05-23');
+INSERT INTO QuitPlansAnhDTN (UserId, MembershipPlanId, Reason, StartDate, ExpectedQuitDate, DailyCigaretteTarget, WeeklyCheckinFrequency, MotivationalMessage, HealthGoals, BudgetSavingGoal, ReceiveMotivationReminder, IsCustomizedPlan, CreatedAt, UpdatedAt) VALUES (2, 2, N'To live a healthier life', '2025-05-23', '2025-06-22', 5, 2, N'You can do it!', N'Run 5km', 200000, 1, 1, '2025-05-23', '2025-05-23');
+INSERT INTO QuitPlansAnhDTN (UserId, MembershipPlanId, Reason, StartDate, ExpectedQuitDate, DailyCigaretteTarget, WeeklyCheckinFrequency, MotivationalMessage, HealthGoals, BudgetSavingGoal, ReceiveMotivationReminder, IsCustomizedPlan, CreatedAt, UpdatedAt) VALUES (3, 3, N'To live a healthier life', '2025-05-23', '2025-06-22', 5, 2, N'You can do it!', N'Run 5km', 200000, 1, 1, '2025-05-23', '2025-05-23');
+INSERT INTO ProgressRecordsHoangPX (UserId, SupportMethodId, CigarettesSmoked, HealthStatus, MoneySaved, DaysSmokeFree, RecordedAt, Mood, HadCraving, CravingLevel, Notes, ModifiedAt) VALUES (1, 1, 4, N'Feeling better', 28437, 2, '2025-05-23', 'Positive', 0, 2, N'No cravings today', '2025-05-23');
+INSERT INTO ProgressRecordsHoangPX (UserId, SupportMethodId, CigarettesSmoked, HealthStatus, MoneySaved, DaysSmokeFree, RecordedAt, Mood, HadCraving, CravingLevel, Notes, ModifiedAt) VALUES (2, 1, 1, N'Feeling better', 18441, 9, '2025-05-23', 'Positive', 0, 2, N'No cravings today', '2025-05-23');
+INSERT INTO ProgressRecordsHoangPX (UserId, SupportMethodId, CigarettesSmoked, HealthStatus, MoneySaved, DaysSmokeFree, RecordedAt, Mood, HadCraving, CravingLevel, Notes, ModifiedAt) VALUES (3, 2, 4, N'Feeling better', 43991, 9, '2025-05-23', 'Positive', 0, 2, N'No cravings today', '2025-05-23');
+INSERT INTO BlogPostsAnVT (UserId, PlanId, Title, Content, Category, Tags, IsPublic, ViewsCount, LikesCount, CommentsCount, CreatedAt, UpdatedAt) VALUES (1, 1, N'My journey to quit', N'I want to share my experience...', 'Experience', N'quit, motivation', 1, 50, 10, 3, '2025-05-23 06:02:34.479056', '2025-05-23');
+INSERT INTO BlogPostsAnVT (UserId, PlanId, Title, Content, Category, Tags, IsPublic, ViewsCount, LikesCount, CommentsCount, CreatedAt, UpdatedAt) VALUES (2, 2, N'My journey to quit', N'I want to share my experience...', 'Experience', N'quit, motivation', 1, 50, 10, 3, '2025-05-23 06:02:34.479056', '2025-05-23');
+INSERT INTO BlogPostsAnVT (UserId, PlanId, Title, Content, Category, Tags, IsPublic, ViewsCount, LikesCount, CommentsCount, CreatedAt, UpdatedAt) VALUES (3, 3, N'My journey to quit', N'I want to share my experience...', 'Experience', N'quit, motivation', 1, 50, 10, 3, '2025-05-23 06:02:34.479056', '2025-05-23');
+INSERT INTO ChatsLocDPX (UserId, CoachId, Message, SentBy, MessageType, IsRead, AttachmentUrl, ResponseTime, CreatedAt) VALUES (1, 1, N'How should I deal with cravings?', 'User', 'Text', 0, NULL, '2025-05-23', '2025-05-23');
+INSERT INTO ChatsLocDPX (UserId, CoachId, Message, SentBy, MessageType, IsRead, AttachmentUrl, ResponseTime, CreatedAt) VALUES (2, 2, N'How should I deal with cravings?', 'User', 'Text', 0, NULL, '2025-05-23', '2025-05-23');
+INSERT INTO UserAchievementNhuNQ (UserId, AchievementId, AchievedAt, Shared, NotificationSent, RewardPoints, CommentCount, LikeCount, CreatedAt) VALUES (1, 1, '2025-05-23 06:02:34.479056', 1, 1, 100, 2, 5, '2025-05-23');
+INSERT INTO UserAchievementNhuNQ (UserId, AchievementId, AchievedAt, Shared, NotificationSent, RewardPoints, CommentCount, LikeCount, CreatedAt) VALUES (2, 2, '2025-05-23 06:02:34.479056', 1, 1, 100, 2, 5, '2025-05-23');
+INSERT INTO UserAchievementNhuNQ (UserId, AchievementId, AchievedAt, Shared, NotificationSent, RewardPoints, CommentCount, LikeCount, CreatedAt) VALUES (3, 3, '2025-05-23 06:02:34.479056', 1, 1, 100, 2, 5, '2025-05-23');
+INSERT INTO LeaderboardsDuongLNT (UserId, PlanId, DaySmokeFree, MoneySave, RankPosition, TotalAchievements, ProgressScore, Note, StreakCount, CommunityContribution, IsTopRanked, LastUpdate) VALUES (1, 1, 11, 212391.39, 1, 3, 70.67, N'Consistent effort', 1, 3, 0, '2025-05-23');
+INSERT INTO LeaderboardsDuongLNT (UserId, PlanId, DaySmokeFree, MoneySave, RankPosition, TotalAchievements, ProgressScore, Note, StreakCount, CommunityContribution, IsTopRanked, LastUpdate) VALUES (2, 2, 12, 429156.21, 2, 3, 74.47, N'Consistent effort', 10, 5, 0, '2025-05-23');
+INSERT INTO LeaderboardsDuongLNT (UserId, PlanId, DaySmokeFree, MoneySave, RankPosition, TotalAchievements, ProgressScore, Note, StreakCount, CommunityContribution, IsTopRanked, LastUpdate) VALUES (3, 3, 25, 371251.99, 3, 3, 88.81, N'Consistent effort', 4, 5, 0, '2025-05-23');

@@ -1,0 +1,35 @@
+﻿<Window x:Class="CarShop.LoginWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CarShop"
+        mc:Ignorable="d"
+        Title="LoginWindow" Height="450" Width="800" Background="#b8edff" WindowStartupLocation="CenterScreen" ResizeMode="NoResize" Loaded="Window_Loaded"  >
+    <Grid>
+
+        <Grid.RowDefinitions>
+            <RowDefinition />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="93.55" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="Auto" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+
+        <StackPanel Grid.Column="1" Width="300" Margin="0,65,0,31" Grid.RowSpan="2">
+            <Label Content="Log in" Height="80" Width="300" FontWeight="Heavy" FontSize="50"  HorizontalContentAlignment="Center"/>
+            <TextBlock Text="Username" Margin="0,0,0,5" FontSize="18" Foreground="Blue" FontWeight="Bold"/>
+            <TextBox x:Name="usernameTextBox" Margin="0,0,0,20" Height="30" FontSize="15"/>
+
+            <TextBlock Text="Password" Margin="0,0,0,5" FontSize="18" Foreground="Blue" FontWeight="Bold"/>
+            <PasswordBox x:Name="passwordBox" Margin="0,0,0,20" Height="30" FontSize="15"/>
+        </StackPanel>
+
+        <Button Content="Quit" Click="QuitButton_Click" Margin="0,10,176,47" Grid.Row="2" Grid.Column="1"/>
+        <Button Content="Login" Click="LoginButton_Click" Grid.Column="1" Margin="176,10,0,47" Grid.Row="2"/>
+        <Button Content="Register" Click="RegisterButton_Click" Grid.Column="2" Margin="116,10,10,259"/>
+    </Grid>
+</Window>

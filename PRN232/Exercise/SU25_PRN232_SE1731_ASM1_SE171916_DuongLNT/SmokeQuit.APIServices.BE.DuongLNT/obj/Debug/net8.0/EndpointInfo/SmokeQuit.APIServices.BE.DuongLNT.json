@@ -219,14 +219,39 @@
         }
       }
     },
-    "/api/LeaderboardsDuongLnt/{page}/{pageSize}": {
+    "/api/LeaderboardsDuongLnt/{note}/{money}/{reason}/{currentPage}/{pageSize}": {
       "get": {
         "tags": [
           "LeaderboardsDuongLnt"
         ],
         "parameters": [
           {
-            "name": "page",
+            "name": "note",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "money",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "number",
+              "format": "double"
+            }
+          },
+          {
+            "name": "reason",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "currentPage",
             "in": "path",
             "required": true,
             "schema": {
@@ -246,7 +271,73 @@
         ],
         "responses": {
           "200": {
-            "description": "OK"
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/LeaderboardsDuongLntListPaginationResult"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/LeaderboardsDuongLntListPaginationResult"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/LeaderboardsDuongLntListPaginationResult"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/LeaderboardsDuongLnt/{currentPage}/{pageSize}": {
+      "get": {
+        "tags": [
+          "LeaderboardsDuongLnt"
+        ],
+        "parameters": [
+          {
+            "name": "currentPage",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "pageSize",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/LeaderboardsDuongLntListPaginationResult"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/LeaderboardsDuongLntListPaginationResult"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/LeaderboardsDuongLntListPaginationResult"
+                }
+              }
+            }
           }
         }
       }
@@ -596,6 +687,35 @@
           },
           "user": {
             "$ref": "#/components/schemas/SystemUserAccount"
+          }
+        },
+        "additionalProperties": false
+      },
+      "LeaderboardsDuongLntListPaginationResult": {
+        "type": "object",
+        "properties": {
+          "totalItems": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "totalPages": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "currentPage": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "pageSize": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "items": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/LeaderboardsDuongLnt"
+            },
+            "nullable": true
           }
         },
         "additionalProperties": false

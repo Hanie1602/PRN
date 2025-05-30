@@ -74,6 +74,37 @@
   {
     "ContainingType": "SmokeQuit.APIServices.BE.DuongLNT.Controllers.LeaderboardsDuongLntController",
     "Method": "Get",
+    "RelativePath": "api/LeaderboardsDuongLnt/{currentPage}/{pageSize}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "currentPage",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "pageSize",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SmokeQuit.Repositories.DuongLNT.ModelExtensions.PaginationResult\u00601[[System.Collections.Generic.List\u00601[[SmokeQuit.Repositories.DuongLNT.Models.LeaderboardsDuongLnt, SmokeQuit.Repositories.DuongLNT, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SmokeQuit.APIServices.BE.DuongLNT.Controllers.LeaderboardsDuongLntController",
+    "Method": "Get",
     "RelativePath": "api/LeaderboardsDuongLnt/{id}",
     "HttpMethod": "GET",
     "IsController": true,
@@ -126,13 +157,28 @@
   {
     "ContainingType": "SmokeQuit.APIServices.BE.DuongLNT.Controllers.LeaderboardsDuongLntController",
     "Method": "Get",
-    "RelativePath": "api/LeaderboardsDuongLnt/{page}/{pageSize}",
+    "RelativePath": "api/LeaderboardsDuongLnt/{note}/{money}/{reason}/{currentPage}/{pageSize}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "page",
+        "Name": "note",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "money",
+        "Type": "System.Double",
+        "IsRequired": true
+      },
+      {
+        "Name": "reason",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "currentPage",
         "Type": "System.Int32",
         "IsRequired": true
       },
@@ -142,7 +188,17 @@
         "IsRequired": true
       }
     ],
-    "ReturnTypes": []
+    "ReturnTypes": [
+      {
+        "Type": "SmokeQuit.Repositories.DuongLNT.ModelExtensions.PaginationResult\u00601[[System.Collections.Generic.List\u00601[[SmokeQuit.Repositories.DuongLNT.Models.LeaderboardsDuongLnt, SmokeQuit.Repositories.DuongLNT, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
   },
   {
     "ContainingType": "SmokeQuit.APIServices.BE.DuongLNT.Controllers.SystemUserAccountsController",

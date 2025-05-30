@@ -1,0 +1,107 @@
+﻿@model IEnumerable<SmokeQuit.Repositories.DuongLNT.Models.LeaderboardsDuongLnt>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.DaySmokeFree)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.MoneySave)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.RankPosition)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TotalAchievements)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ProgressScore)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Note)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.StreakCount)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CommunityContribution)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.IsTopRanked)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.LastUpdate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CreatedTime)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Plan)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.User)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.DaySmokeFree)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.MoneySave)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.RankPosition)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TotalAchievements)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ProgressScore)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Note)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.StreakCount)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CommunityContribution)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.IsTopRanked)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.LastUpdate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CreatedTime)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Plan.Reason)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.User.Email)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.LeaderboardsDuongLntid">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.LeaderboardsDuongLntid">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.LeaderboardsDuongLntid">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

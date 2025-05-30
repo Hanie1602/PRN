@@ -1,4 +1,5 @@
 ﻿using SmokeQuit.Repositories.DuongLNT;
+using SmokeQuit.Repositories.DuongLNT.ModelExtensions;
 using SmokeQuit.Repositories.DuongLNT.Models;
 
 namespace SmokeQuit.Services.DuongLNT
@@ -48,5 +49,18 @@ namespace SmokeQuit.Services.DuongLNT
 			return await _repository.UpdateAsync(leaderboards);
 		}
 
+		public async Task<PaginationResult<List<LeaderboardsDuongLnt>>> SearchWithPagingAsync(string note, double money, string reason, int currentPage, int pageSize)
+		{
+			var paginationResult = await _repository.SearchWithPagingAsync(note, money, reason, currentPage, pageSize);
+
+			return paginationResult ?? new PaginationResult<List<LeaderboardsDuongLnt>>();
+		}
+
+		public async Task<PaginationResult<List<LeaderboardsDuongLnt>>> GetAllWithPagingAsync(int currentPage, int pageSize)
+		{
+			var paginationResult = await _repository.GetAllWithPagingAsync(currentPage, pageSize);
+
+			return paginationResult ?? new PaginationResult<List<LeaderboardsDuongLnt>>();
+		}
 	}
 }

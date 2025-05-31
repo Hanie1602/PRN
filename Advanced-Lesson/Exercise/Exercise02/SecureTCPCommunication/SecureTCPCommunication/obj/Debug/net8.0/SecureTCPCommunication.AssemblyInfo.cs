@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SecureTCPCommunication")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d4d7d1611b1f05687d9c6dc8023f41c017dcee5c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+62a7c7c7c049eada22fa3cbab316a57e8312210e")]
 [assembly: System.Reflection.AssemblyProductAttribute("SecureTCPCommunication")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SecureTCPCommunication")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

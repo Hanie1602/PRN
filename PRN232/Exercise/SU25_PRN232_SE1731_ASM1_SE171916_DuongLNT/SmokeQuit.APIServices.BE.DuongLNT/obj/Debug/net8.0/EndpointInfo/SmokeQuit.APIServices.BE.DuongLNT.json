@@ -342,7 +342,45 @@
         }
       }
     },
-    "/Login": {
+    "/api/QuitPlansAnhDtn": {
+      "get": {
+        "tags": [
+          "QuitPlansAnhDtn"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/QuitPlansAnhDtn"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/QuitPlansAnhDtn"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/QuitPlansAnhDtn"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/SystemUserAccounts/Login": {
       "post": {
         "tags": [
           "SystemUserAccounts"
@@ -369,6 +407,44 @@
         "responses": {
           "200": {
             "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/SystemUserAccounts": {
+      "get": {
+        "tags": [
+          "SystemUserAccounts"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/SystemUserAccount"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/SystemUserAccount"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/SystemUserAccount"
+                  }
+                }
+              }
+            }
           }
         }
       }
@@ -669,8 +745,7 @@
             "nullable": true
           },
           "isTopRanked": {
-            "type": "boolean",
-            "nullable": true
+            "type": "boolean"
           },
           "lastUpdate": {
             "type": "string",

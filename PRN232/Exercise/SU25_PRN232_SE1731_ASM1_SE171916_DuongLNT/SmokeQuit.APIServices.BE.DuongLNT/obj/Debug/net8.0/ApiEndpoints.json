@@ -201,9 +201,49 @@
     ]
   },
   {
+    "ContainingType": "SmokeQuit.APIServices.BE.DuongLNT.Controllers.QuitPlansAnhDtnController",
+    "Method": "Get",
+    "RelativePath": "api/QuitPlansAnhDtn",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[SmokeQuit.Repositories.DuongLNT.Models.QuitPlansAnhDtn, SmokeQuit.Repositories.DuongLNT, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SmokeQuit.APIServices.BE.DuongLNT.Controllers.SystemUserAccountsController",
+    "Method": "Get",
+    "RelativePath": "api/SystemUserAccounts",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[SmokeQuit.Repositories.DuongLNT.Models.SystemUserAccount, SmokeQuit.Repositories.DuongLNT, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
     "ContainingType": "SmokeQuit.APIServices.BE.DuongLNT.Controllers.SystemUserAccountsController",
     "Method": "Login",
-    "RelativePath": "Login",
+    "RelativePath": "api/SystemUserAccounts/Login",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,

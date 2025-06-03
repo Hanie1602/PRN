@@ -13,6 +13,9 @@ namespace SmokeQuit.Services.DuongLNT
 			return await _repository.GetUserAccount(username, password);
 		}
 
-		
+		public async Task<List<SystemUserAccount>> GetAllUserAsync()
+		{
+			return await _repository.GetAllAsync();
+		}
 	}
 }

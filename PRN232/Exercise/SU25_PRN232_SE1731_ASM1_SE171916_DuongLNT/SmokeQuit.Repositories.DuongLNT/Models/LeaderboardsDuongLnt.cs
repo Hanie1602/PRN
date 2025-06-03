@@ -29,7 +29,7 @@ public partial class LeaderboardsDuongLnt
 
     public int? CommunityContribution { get; set; }
 
-    public bool? IsTopRanked { get; set; }
+    public bool IsTopRanked { get; set; }
 
     public DateTime? LastUpdate { get; set; }
 

@@ -8,6 +8,8 @@ using System.Text;
 
 namespace SmokeQuit.APIServices.BE.DuongLNT.Controllers
 {
+	[Route("api/[controller]")]
+	[ApiController]
 	public class SystemUserAccountsController : Controller
 	{
 		private readonly IConfiguration _config;
@@ -55,5 +57,13 @@ namespace SmokeQuit.APIServices.BE.DuongLNT.Controllers
 		}
 
 		public sealed record LoginRequest(string UserName, string Password);
+
+
+		// GET: api/<SystemUserAccountsController>
+		[HttpGet]
+		public async Task<IEnumerable<SystemUserAccount>> Get()
+		{
+			return await _userAccountsService.GetAllUserAsync();
+		}
 	}
 }

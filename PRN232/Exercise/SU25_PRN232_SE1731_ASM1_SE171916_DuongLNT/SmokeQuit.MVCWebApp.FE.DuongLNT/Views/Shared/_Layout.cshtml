@@ -30,6 +30,12 @@
                         </li>
                     </ul>
                 </div>
+                <div class="nav-item text-nowrap text-success">
+                    Welcome
+                    <strong>@Context.Request.Cookies["UserName"]?.ToString()</strong>
+                    | @* <a href="/Account/Logout">LogOut</a> *@
+                    <a asp-controller="Account" asp-action="Logout" class="text-danger">Logout</a>
+                </div>
             </div>
         </nav>
     </header>

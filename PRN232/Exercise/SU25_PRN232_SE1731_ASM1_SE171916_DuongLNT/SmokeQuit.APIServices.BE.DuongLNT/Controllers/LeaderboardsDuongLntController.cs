@@ -107,11 +107,26 @@ namespace SmokeQuit.APIServices.BE.DuongLNT.Controllers
 			return await _leaderboardsDuongLntService.SearchWithPagingAsync(note, money, reason, currentPage, pageSize);
 		}
 
+		[HttpGet("{note}/{money}/{reason}")]
+		//[HttpGet("Search")]
+		[Authorize(Roles = "1,2")]
+		public async Task<List<LeaderboardsDuongLnt>> Get(string? note, double money, string? reason)
+		{
+			return await _leaderboardsDuongLntService.SearchAsync(note, money, reason);
+		}
+
 		[HttpGet("{currentPage}/{pageSize}")]
 		[Authorize(Roles = "1,2")]
 		public async Task<PaginationResult<List<LeaderboardsDuongLnt>>> Get(int currentPage, int pageSize)
 		{
 			return await _leaderboardsDuongLntService.GetAllWithPagingAsync(currentPage, pageSize);
+		}
+
+		[HttpPost("Search")]
+		//[Authorize(Roles = "1,2")]
+		public async Task<PaginationResult<List<LeaderboardsDuongLnt>>> Get(SearchLeaderboardsRequest request)
+		{
+			return await _leaderboardsDuongLntService.SearchWithPagingAsync(request.Note ?? "", request.Money ?? 0, request.Reason ?? "", request.CurrentPage, request.PageSize);
 		}
 
 	}

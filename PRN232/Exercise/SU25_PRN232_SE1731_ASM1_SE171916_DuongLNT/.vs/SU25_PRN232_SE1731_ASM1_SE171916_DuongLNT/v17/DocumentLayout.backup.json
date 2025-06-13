@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "D:\\Github\\PRN212\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM1_SE171916_DuongLNT\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EE27A7E7-CF9E-42DA-BB2B-4B0940B86159}|SmokeQuit.MVCWebApp.FE.DuongLNT\\SmokeQuit.MVCWebApp.FE.DuongLNT.csproj|d:\\github\\prn212\\prn232\\exercise\\su25_prn232_se1731_asm1_se171916_duonglnt\\smokequit.mvcwebapp.fe.duonglnt\\views\\leaderboardsduonglnts\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{EE27A7E7-CF9E-42DA-BB2B-4B0940B86159}|SmokeQuit.MVCWebApp.FE.DuongLNT\\SmokeQuit.MVCWebApp.FE.DuongLNT.csproj|solutionrelative:smokequit.mvcwebapp.fe.duonglnt\\views\\leaderboardsduonglnts\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{EE27A7E7-CF9E-42DA-BB2B-4B0940B86159}|SmokeQuit.MVCWebApp.FE.DuongLNT\\SmokeQuit.MVCWebApp.FE.DuongLNT.csproj|d:\\github\\prn212\\prn232\\exercise\\su25_prn232_se1731_asm1_se171916_duonglnt\\smokequit.mvcwebapp.fe.duonglnt\\controllers\\leaderboardsduonglntscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE27A7E7-CF9E-42DA-BB2B-4B0940B86159}|SmokeQuit.MVCWebApp.FE.DuongLNT\\SmokeQuit.MVCWebApp.FE.DuongLNT.csproj|solutionrelative:smokequit.mvcwebapp.fe.duonglnt\\controllers\\leaderboardsduonglntscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C237292C-E50B-4CCE-9D83-EB4786461B04}|SmokeQuit.Repositories.DuongLNT\\SmokeQuit.Repositories.DuongLNT.csproj|d:\\github\\prn212\\prn232\\exercise\\su25_prn232_se1731_asm1_se171916_duonglnt\\smokequit.repositories.duonglnt\\models\\leaderboardsduonglnt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C237292C-E50B-4CCE-9D83-EB4786461B04}|SmokeQuit.Repositories.DuongLNT\\SmokeQuit.Repositories.DuongLNT.csproj|solutionrelative:smokequit.repositories.duonglnt\\models\\leaderboardsduonglnt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6D58AA32-A2E4-41CA-8383-68CE64E4EE54}|SmokeQuit.APIServices.BE.DuongLNT\\SmokeQuit.APIServices.BE.DuongLNT.csproj|d:\\github\\prn212\\prn232\\exercise\\su25_prn232_se1731_asm1_se171916_duonglnt\\smokequit.apiservices.be.duonglnt\\controllers\\leaderboardsduonglntcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D58AA32-A2E4-41CA-8383-68CE64E4EE54}|SmokeQuit.APIServices.BE.DuongLNT\\SmokeQuit.APIServices.BE.DuongLNT.csproj|solutionrelative:smokequit.apiservices.be.duonglnt\\controllers\\leaderboardsduonglntcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE27A7E7-CF9E-42DA-BB2B-4B0940B86159}|SmokeQuit.MVCWebApp.FE.DuongLNT\\SmokeQuit.MVCWebApp.FE.DuongLNT.csproj|d:\\github\\prn212\\prn232\\exercise\\su25_prn232_se1731_asm1_se171916_duonglnt\\smokequit.mvcwebapp.fe.duonglnt\\views\\leaderboardsduonglnts\\quitplansduonglnt.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EE27A7E7-CF9E-42DA-BB2B-4B0940B86159}|SmokeQuit.MVCWebApp.FE.DuongLNT\\SmokeQuit.MVCWebApp.FE.DuongLNT.csproj|solutionrelative:smokequit.mvcwebapp.fe.duonglnt\\views\\leaderboardsduonglnts\\quitplansduonglnt.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6D58AA32-A2E4-41CA-8383-68CE64E4EE54}|SmokeQuit.APIServices.BE.DuongLNT\\SmokeQuit.APIServices.BE.DuongLNT.csproj|d:\\github\\prn212\\prn232\\exercise\\su25_prn232_se1731_asm1_se171916_duonglnt\\smokequit.apiservices.be.duonglnt\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -19,84 +23,136 @@
       "RelativeMoniker": "D:0:0:{EE27A7E7-CF9E-42DA-BB2B-4B0940B86159}|SmokeQuit.MVCWebApp.FE.DuongLNT\\SmokeQuit.MVCWebApp.FE.DuongLNT.csproj|solutionrelative:smokequit.mvcwebapp.fe.duonglnt\\views\\leaderboardsduonglnts\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EE27A7E7-CF9E-42DA-BB2B-4B0940B86159}|SmokeQuit.MVCWebApp.FE.DuongLNT\\SmokeQuit.MVCWebApp.FE.DuongLNT.csproj|d:\\github\\prn212\\prn232\\exercise\\su25_prn232_se1731_asm1_se171916_duonglnt\\smokequit.mvcwebapp.fe.duonglnt\\controllers\\leaderboardsduonglntscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EE27A7E7-CF9E-42DA-BB2B-4B0940B86159}|SmokeQuit.MVCWebApp.FE.DuongLNT\\SmokeQuit.MVCWebApp.FE.DuongLNT.csproj|solutionrelative:smokequit.mvcwebapp.fe.duonglnt\\controllers\\leaderboardsduonglntscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EE27A7E7-CF9E-42DA-BB2B-4B0940B86159}|SmokeQuit.MVCWebApp.FE.DuongLNT\\SmokeQuit.MVCWebApp.FE.DuongLNT.csproj|d:\\github\\prn212\\prn232\\exercise\\su25_prn232_se1731_asm1_se171916_duonglnt\\smokequit.mvcwebapp.fe.duonglnt\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EE27A7E7-CF9E-42DA-BB2B-4B0940B86159}|SmokeQuit.MVCWebApp.FE.DuongLNT\\SmokeQuit.MVCWebApp.FE.DuongLNT.csproj|solutionrelative:smokequit.mvcwebapp.fe.duonglnt\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EE27A7E7-CF9E-42DA-BB2B-4B0940B86159}|SmokeQuit.MVCWebApp.FE.DuongLNT\\SmokeQuit.MVCWebApp.FE.DuongLNT.csproj|d:\\github\\prn212\\prn232\\exercise\\su25_prn232_se1731_asm1_se171916_duonglnt\\smokequit.mvcwebapp.fe.duonglnt\\models\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EE27A7E7-CF9E-42DA-BB2B-4B0940B86159}|SmokeQuit.MVCWebApp.FE.DuongLNT\\SmokeQuit.MVCWebApp.FE.DuongLNT.csproj|solutionrelative:smokequit.mvcwebapp.fe.duonglnt\\models\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C237292C-E50B-4CCE-9D83-EB4786461B04}|SmokeQuit.Repositories.DuongLNT\\SmokeQuit.Repositories.DuongLNT.csproj|d:\\github\\prn212\\prn232\\exercise\\su25_prn232_se1731_asm1_se171916_duonglnt\\smokequit.repositories.duonglnt\\models\\systemuseraccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C237292C-E50B-4CCE-9D83-EB4786461B04}|SmokeQuit.Repositories.DuongLNT\\SmokeQuit.Repositories.DuongLNT.csproj|solutionrelative:smokequit.repositories.duonglnt\\models\\systemuseraccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C237292C-E50B-4CCE-9D83-EB4786461B04}|SmokeQuit.Repositories.DuongLNT\\SmokeQuit.Repositories.DuongLNT.csproj|d:\\github\\prn212\\prn232\\exercise\\su25_prn232_se1731_asm1_se171916_duonglnt\\smokequit.repositories.duonglnt\\models\\quitplansanhdtn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C237292C-E50B-4CCE-9D83-EB4786461B04}|SmokeQuit.Repositories.DuongLNT\\SmokeQuit.Repositories.DuongLNT.csproj|solutionrelative:smokequit.repositories.duonglnt\\models\\quitplansanhdtn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE27A7E7-CF9E-42DA-BB2B-4B0940B86159}|SmokeQuit.MVCWebApp.FE.DuongLNT\\SmokeQuit.MVCWebApp.FE.DuongLNT.csproj|d:\\github\\prn212\\prn232\\exercise\\su25_prn232_se1731_asm1_se171916_duonglnt\\smokequit.mvcwebapp.fe.duonglnt\\views\\leaderboardsduonglnts\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EE27A7E7-CF9E-42DA-BB2B-4B0940B86159}|SmokeQuit.MVCWebApp.FE.DuongLNT\\SmokeQuit.MVCWebApp.FE.DuongLNT.csproj|solutionrelative:smokequit.mvcwebapp.fe.duonglnt\\views\\leaderboardsduonglnts\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C237292C-E50B-4CCE-9D83-EB4786461B04}|SmokeQuit.Repositories.DuongLNT\\SmokeQuit.Repositories.DuongLNT.csproj|d:\\github\\prn212\\prn232\\exercise\\su25_prn232_se1731_asm1_se171916_duonglnt\\smokequit.repositories.duonglnt\\models\\membershipplansanhdtn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C237292C-E50B-4CCE-9D83-EB4786461B04}|SmokeQuit.Repositories.DuongLNT\\SmokeQuit.Repositories.DuongLNT.csproj|solutionrelative:smokequit.repositories.duonglnt\\models\\membershipplansanhdtn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C237292C-E50B-4CCE-9D83-EB4786461B04}|SmokeQuit.Repositories.DuongLNT\\SmokeQuit.Repositories.DuongLNT.csproj|d:\\github\\prn212\\prn232\\exercise\\su25_prn232_se1731_asm1_se171916_duonglnt\\smokequit.repositories.duonglnt\\models\\leaderboardsduonglnt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C237292C-E50B-4CCE-9D83-EB4786461B04}|SmokeQuit.Repositories.DuongLNT\\SmokeQuit.Repositories.DuongLNT.csproj|solutionrelative:smokequit.repositories.duonglnt\\models\\leaderboardsduonglnt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EE27A7E7-CF9E-42DA-BB2B-4B0940B86159}|SmokeQuit.MVCWebApp.FE.DuongLNT\\SmokeQuit.MVCWebApp.FE.DuongLNT.csproj|d:\\github\\prn212\\prn232\\exercise\\su25_prn232_se1731_asm1_se171916_duonglnt\\smokequit.mvcwebapp.fe.duonglnt\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{EE27A7E7-CF9E-42DA-BB2B-4B0940B86159}|SmokeQuit.MVCWebApp.FE.DuongLNT\\SmokeQuit.MVCWebApp.FE.DuongLNT.csproj|solutionrelative:smokequit.mvcwebapp.fe.duonglnt\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EE27A7E7-CF9E-42DA-BB2B-4B0940B86159}|SmokeQuit.MVCWebApp.FE.DuongLNT\\SmokeQuit.MVCWebApp.FE.DuongLNT.csproj|d:\\github\\prn212\\prn232\\exercise\\su25_prn232_se1731_asm1_se171916_duonglnt\\smokequit.mvcwebapp.fe.duonglnt\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EE27A7E7-CF9E-42DA-BB2B-4B0940B86159}|SmokeQuit.MVCWebApp.FE.DuongLNT\\SmokeQuit.MVCWebApp.FE.DuongLNT.csproj|solutionrelative:smokequit.mvcwebapp.fe.duonglnt\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6D58AA32-A2E4-41CA-8383-68CE64E4EE54}|SmokeQuit.APIServices.BE.DuongLNT\\SmokeQuit.APIServices.BE.DuongLNT.csproj|d:\\github\\prn212\\prn232\\exercise\\su25_prn232_se1731_asm1_se171916_duonglnt\\smokequit.apiservices.be.duonglnt\\controllers\\systemuseraccountscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6D58AA32-A2E4-41CA-8383-68CE64E4EE54}|SmokeQuit.APIServices.BE.DuongLNT\\SmokeQuit.APIServices.BE.DuongLNT.csproj|solutionrelative:smokequit.apiservices.be.duonglnt\\controllers\\systemuseraccountscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6F99A14D-4EB7-4698-B5BB-22D1E79DC6EF}|SmokeQuit.Services.DuongLNT\\SmokeQuit.Services.DuongLNT.csproj|d:\\github\\prn212\\prn232\\exercise\\su25_prn232_se1731_asm1_se171916_duonglnt\\smokequit.services.duonglnt\\systemuseraccountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6F99A14D-4EB7-4698-B5BB-22D1E79DC6EF}|SmokeQuit.Services.DuongLNT\\SmokeQuit.Services.DuongLNT.csproj|solutionrelative:smokequit.services.duonglnt\\systemuseraccountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6D58AA32-A2E4-41CA-8383-68CE64E4EE54}|SmokeQuit.APIServices.BE.DuongLNT\\SmokeQuit.APIServices.BE.DuongLNT.csproj|d:\\github\\prn212\\prn232\\exercise\\su25_prn232_se1731_asm1_se171916_duonglnt\\smokequit.apiservices.be.duonglnt\\controllers\\quitplansanhdtncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6D58AA32-A2E4-41CA-8383-68CE64E4EE54}|SmokeQuit.APIServices.BE.DuongLNT\\SmokeQuit.APIServices.BE.DuongLNT.csproj|solutionrelative:smokequit.apiservices.be.duonglnt\\controllers\\quitplansanhdtncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6F99A14D-4EB7-4698-B5BB-22D1E79DC6EF}|SmokeQuit.Services.DuongLNT\\SmokeQuit.Services.DuongLNT.csproj|d:\\github\\prn212\\prn232\\exercise\\su25_prn232_se1731_asm1_se171916_duonglnt\\smokequit.services.duonglnt\\quitplansanhdtnduonglntservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6F99A14D-4EB7-4698-B5BB-22D1E79DC6EF}|SmokeQuit.Services.DuongLNT\\SmokeQuit.Services.DuongLNT.csproj|solutionrelative:smokequit.services.duonglnt\\quitplansanhdtnduonglntservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6D58AA32-A2E4-41CA-8383-68CE64E4EE54}|SmokeQuit.APIServices.BE.DuongLNT\\SmokeQuit.APIServices.BE.DuongLNT.csproj|d:\\github\\prn212\\prn232\\exercise\\su25_prn232_se1731_asm1_se171916_duonglnt\\smokequit.apiservices.be.duonglnt\\controllers\\leaderboardsduonglntcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6D58AA32-A2E4-41CA-8383-68CE64E4EE54}|SmokeQuit.APIServices.BE.DuongLNT\\SmokeQuit.APIServices.BE.DuongLNT.csproj|solutionrelative:smokequit.apiservices.be.duonglnt\\controllers\\leaderboardsduonglntcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{EE27A7E7-CF9E-42DA-BB2B-4B0940B86159}|SmokeQuit.MVCWebApp.FE.DuongLNT\\SmokeQuit.MVCWebApp.FE.DuongLNT.csproj|d:\\github\\prn212\\prn232\\exercise\\su25_prn232_se1731_asm1_se171916_duonglnt\\smokequit.mvcwebapp.fe.duonglnt\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EE27A7E7-CF9E-42DA-BB2B-4B0940B86159}|SmokeQuit.MVCWebApp.FE.DuongLNT\\SmokeQuit.MVCWebApp.FE.DuongLNT.csproj|solutionrelative:smokequit.mvcwebapp.fe.duonglnt\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6D58AA32-A2E4-41CA-8383-68CE64E4EE54}|SmokeQuit.APIServices.BE.DuongLNT\\SmokeQuit.APIServices.BE.DuongLNT.csproj|d:\\github\\prn212\\prn232\\exercise\\su25_prn232_se1731_asm1_se171916_duonglnt\\smokequit.apiservices.be.duonglnt\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6D58AA32-A2E4-41CA-8383-68CE64E4EE54}|SmokeQuit.APIServices.BE.DuongLNT\\SmokeQuit.APIServices.BE.DuongLNT.csproj|solutionrelative:smokequit.apiservices.be.duonglnt\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6F99A14D-4EB7-4698-B5BB-22D1E79DC6EF}|SmokeQuit.Services.DuongLNT\\SmokeQuit.Services.DuongLNT.csproj|d:\\github\\prn212\\prn232\\exercise\\su25_prn232_se1731_asm1_se171916_duonglnt\\smokequit.services.duonglnt\\ileaderboardsduonglntservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F99A14D-4EB7-4698-B5BB-22D1E79DC6EF}|SmokeQuit.Services.DuongLNT\\SmokeQuit.Services.DuongLNT.csproj|solutionrelative:smokequit.services.duonglnt\\ileaderboardsduonglntservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6F99A14D-4EB7-4698-B5BB-22D1E79DC6EF}|SmokeQuit.Services.DuongLNT\\SmokeQuit.Services.DuongLNT.csproj|d:\\github\\prn212\\prn232\\exercise\\su25_prn232_se1731_asm1_se171916_duonglnt\\smokequit.services.duonglnt\\leaderboardsduonglntservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6F99A14D-4EB7-4698-B5BB-22D1E79DC6EF}|SmokeQuit.Services.DuongLNT\\SmokeQuit.Services.DuongLNT.csproj|solutionrelative:smokequit.services.duonglnt\\leaderboardsduonglntservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{C237292C-E50B-4CCE-9D83-EB4786461B04}|SmokeQuit.Repositories.DuongLNT\\SmokeQuit.Repositories.DuongLNT.csproj|d:\\github\\prn212\\prn232\\exercise\\su25_prn232_se1731_asm1_se171916_duonglnt\\smokequit.repositories.duonglnt\\smokequit.repositories.duonglnt.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{C237292C-E50B-4CCE-9D83-EB4786461B04}|SmokeQuit.Repositories.DuongLNT\\SmokeQuit.Repositories.DuongLNT.csproj|solutionrelative:smokequit.repositories.duonglnt\\smokequit.repositories.duonglnt.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE27A7E7-CF9E-42DA-BB2B-4B0940B86159}|SmokeQuit.MVCWebApp.FE.DuongLNT\\SmokeQuit.MVCWebApp.FE.DuongLNT.csproj|d:\\github\\prn212\\prn232\\exercise\\su25_prn232_se1731_asm1_se171916_duonglnt\\smokequit.mvcwebapp.fe.duonglnt\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{EE27A7E7-CF9E-42DA-BB2B-4B0940B86159}|SmokeQuit.MVCWebApp.FE.DuongLNT\\SmokeQuit.MVCWebApp.FE.DuongLNT.csproj|solutionrelative:smokequit.mvcwebapp.fe.duonglnt\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE27A7E7-CF9E-42DA-BB2B-4B0940B86159}|SmokeQuit.MVCWebApp.FE.DuongLNT\\SmokeQuit.MVCWebApp.FE.DuongLNT.csproj|d:\\github\\prn212\\prn232\\exercise\\su25_prn232_se1731_asm1_se171916_duonglnt\\smokequit.mvcwebapp.fe.duonglnt\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE27A7E7-CF9E-42DA-BB2B-4B0940B86159}|SmokeQuit.MVCWebApp.FE.DuongLNT\\SmokeQuit.MVCWebApp.FE.DuongLNT.csproj|solutionrelative:smokequit.mvcwebapp.fe.duonglnt\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE27A7E7-CF9E-42DA-BB2B-4B0940B86159}|SmokeQuit.MVCWebApp.FE.DuongLNT\\SmokeQuit.MVCWebApp.FE.DuongLNT.csproj|d:\\github\\prn212\\prn232\\exercise\\su25_prn232_se1731_asm1_se171916_duonglnt\\smokequit.mvcwebapp.fe.duonglnt\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE27A7E7-CF9E-42DA-BB2B-4B0940B86159}|SmokeQuit.MVCWebApp.FE.DuongLNT\\SmokeQuit.MVCWebApp.FE.DuongLNT.csproj|solutionrelative:smokequit.mvcwebapp.fe.duonglnt\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{EE27A7E7-CF9E-42DA-BB2B-4B0940B86159}|SmokeQuit.MVCWebApp.FE.DuongLNT\\SmokeQuit.MVCWebApp.FE.DuongLNT.csproj|d:\\github\\prn212\\prn232\\exercise\\su25_prn232_se1731_asm1_se171916_duonglnt\\smokequit.mvcwebapp.fe.duonglnt\\views\\leaderboardsduonglnts\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{EE27A7E7-CF9E-42DA-BB2B-4B0940B86159}|SmokeQuit.MVCWebApp.FE.DuongLNT\\SmokeQuit.MVCWebApp.FE.DuongLNT.csproj|solutionrelative:smokequit.mvcwebapp.fe.duonglnt\\views\\leaderboardsduonglnts\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EE27A7E7-CF9E-42DA-BB2B-4B0940B86159}|SmokeQuit.MVCWebApp.FE.DuongLNT\\SmokeQuit.MVCWebApp.FE.DuongLNT.csproj|d:\\github\\prn212\\prn232\\exercise\\su25_prn232_se1731_asm1_se171916_duonglnt\\smokequit.mvcwebapp.fe.duonglnt\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EE27A7E7-CF9E-42DA-BB2B-4B0940B86159}|SmokeQuit.MVCWebApp.FE.DuongLNT\\SmokeQuit.MVCWebApp.FE.DuongLNT.csproj|solutionrelative:smokequit.mvcwebapp.fe.duonglnt\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EE27A7E7-CF9E-42DA-BB2B-4B0940B86159}|SmokeQuit.MVCWebApp.FE.DuongLNT\\SmokeQuit.MVCWebApp.FE.DuongLNT.csproj|d:\\github\\prn212\\prn232\\exercise\\su25_prn232_se1731_asm1_se171916_duonglnt\\smokequit.mvcwebapp.fe.duonglnt\\views\\leaderboardsduonglnts\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EE27A7E7-CF9E-42DA-BB2B-4B0940B86159}|SmokeQuit.MVCWebApp.FE.DuongLNT\\SmokeQuit.MVCWebApp.FE.DuongLNT.csproj|solutionrelative:smokequit.mvcwebapp.fe.duonglnt\\views\\leaderboardsduonglnts\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE27A7E7-CF9E-42DA-BB2B-4B0940B86159}|SmokeQuit.MVCWebApp.FE.DuongLNT\\SmokeQuit.MVCWebApp.FE.DuongLNT.csproj|d:\\github\\prn212\\prn232\\exercise\\su25_prn232_se1731_asm1_se171916_duonglnt\\smokequit.mvcwebapp.fe.duonglnt\\views\\account\\forbidden.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EE27A7E7-CF9E-42DA-BB2B-4B0940B86159}|SmokeQuit.MVCWebApp.FE.DuongLNT\\SmokeQuit.MVCWebApp.FE.DuongLNT.csproj|solutionrelative:smokequit.mvcwebapp.fe.duonglnt\\views\\account\\forbidden.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE27A7E7-CF9E-42DA-BB2B-4B0940B86159}|SmokeQuit.MVCWebApp.FE.DuongLNT\\SmokeQuit.MVCWebApp.FE.DuongLNT.csproj|d:\\github\\prn212\\prn232\\exercise\\su25_prn232_se1731_asm1_se171916_duonglnt\\smokequit.mvcwebapp.fe.duonglnt\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EE27A7E7-CF9E-42DA-BB2B-4B0940B86159}|SmokeQuit.MVCWebApp.FE.DuongLNT\\SmokeQuit.MVCWebApp.FE.DuongLNT.csproj|solutionrelative:smokequit.mvcwebapp.fe.duonglnt\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C237292C-E50B-4CCE-9D83-EB4786461B04}|SmokeQuit.Repositories.DuongLNT\\SmokeQuit.Repositories.DuongLNT.csproj|d:\\github\\prn212\\prn232\\exercise\\su25_prn232_se1731_asm1_se171916_duonglnt\\smokequit.repositories.duonglnt\\modelextensions\\searchrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C237292C-E50B-4CCE-9D83-EB4786461B04}|SmokeQuit.Repositories.DuongLNT\\SmokeQuit.Repositories.DuongLNT.csproj|solutionrelative:smokequit.repositories.duonglnt\\modelextensions\\searchrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C237292C-E50B-4CCE-9D83-EB4786461B04}|SmokeQuit.Repositories.DuongLNT\\SmokeQuit.Repositories.DuongLNT.csproj|d:\\github\\prn212\\prn232\\exercise\\su25_prn232_se1731_asm1_se171916_duonglnt\\smokequit.repositories.duonglnt\\leaderboardsduonglntrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C237292C-E50B-4CCE-9D83-EB4786461B04}|SmokeQuit.Repositories.DuongLNT\\SmokeQuit.Repositories.DuongLNT.csproj|solutionrelative:smokequit.repositories.duonglnt\\leaderboardsduonglntrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C237292C-E50B-4CCE-9D83-EB4786461B04}|SmokeQuit.Repositories.DuongLNT\\SmokeQuit.Repositories.DuongLNT.csproj|d:\\github\\prn212\\prn232\\exercise\\su25_prn232_se1731_asm1_se171916_duonglnt\\smokequit.repositories.duonglnt\\quitplansanhdtnduonglntrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C237292C-E50B-4CCE-9D83-EB4786461B04}|SmokeQuit.Repositories.DuongLNT\\SmokeQuit.Repositories.DuongLNT.csproj|solutionrelative:smokequit.repositories.duonglnt\\quitplansanhdtnduonglntrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C237292C-E50B-4CCE-9D83-EB4786461B04}|SmokeQuit.Repositories.DuongLNT\\SmokeQuit.Repositories.DuongLNT.csproj|d:\\github\\prn212\\prn232\\exercise\\su25_prn232_se1731_asm1_se171916_duonglnt\\smokequit.repositories.duonglnt\\systemuseraccountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C237292C-E50B-4CCE-9D83-EB4786461B04}|SmokeQuit.Repositories.DuongLNT\\SmokeQuit.Repositories.DuongLNT.csproj|solutionrelative:smokequit.repositories.duonglnt\\systemuseraccountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F99A14D-4EB7-4698-B5BB-22D1E79DC6EF}|SmokeQuit.Services.DuongLNT\\SmokeQuit.Services.DuongLNT.csproj|d:\\github\\prn212\\prn232\\exercise\\su25_prn232_se1731_asm1_se171916_duonglnt\\smokequit.services.duonglnt\\smokequit.services.duonglnt.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{6F99A14D-4EB7-4698-B5BB-22D1E79DC6EF}|SmokeQuit.Services.DuongLNT\\SmokeQuit.Services.DuongLNT.csproj|solutionrelative:smokequit.services.duonglnt\\smokequit.services.duonglnt.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D58AA32-A2E4-41CA-8383-68CE64E4EE54}|SmokeQuit.APIServices.BE.DuongLNT\\SmokeQuit.APIServices.BE.DuongLNT.csproj|d:\\github\\prn212\\prn232\\exercise\\su25_prn232_se1731_asm1_se171916_duonglnt\\smokequit.apiservices.be.duonglnt\\controllers\\quitplansanhdtncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D58AA32-A2E4-41CA-8383-68CE64E4EE54}|SmokeQuit.APIServices.BE.DuongLNT\\SmokeQuit.APIServices.BE.DuongLNT.csproj|solutionrelative:smokequit.apiservices.be.duonglnt\\controllers\\quitplansanhdtncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F99A14D-4EB7-4698-B5BB-22D1E79DC6EF}|SmokeQuit.Services.DuongLNT\\SmokeQuit.Services.DuongLNT.csproj|d:\\github\\prn212\\prn232\\exercise\\su25_prn232_se1731_asm1_se171916_duonglnt\\smokequit.services.duonglnt\\systemuseraccountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F99A14D-4EB7-4698-B5BB-22D1E79DC6EF}|SmokeQuit.Services.DuongLNT\\SmokeQuit.Services.DuongLNT.csproj|solutionrelative:smokequit.services.duonglnt\\systemuseraccountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE27A7E7-CF9E-42DA-BB2B-4B0940B86159}|SmokeQuit.MVCWebApp.FE.DuongLNT\\SmokeQuit.MVCWebApp.FE.DuongLNT.csproj|d:\\github\\prn212\\prn232\\exercise\\su25_prn232_se1731_asm1_se171916_duonglnt\\smokequit.mvcwebapp.fe.duonglnt\\models\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE27A7E7-CF9E-42DA-BB2B-4B0940B86159}|SmokeQuit.MVCWebApp.FE.DuongLNT\\SmokeQuit.MVCWebApp.FE.DuongLNT.csproj|solutionrelative:smokequit.mvcwebapp.fe.duonglnt\\models\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C237292C-E50B-4CCE-9D83-EB4786461B04}|SmokeQuit.Repositories.DuongLNT\\SmokeQuit.Repositories.DuongLNT.csproj|d:\\github\\prn212\\prn232\\exercise\\su25_prn232_se1731_asm1_se171916_duonglnt\\smokequit.repositories.duonglnt\\modelextensions\\paginationresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C237292C-E50B-4CCE-9D83-EB4786461B04}|SmokeQuit.Repositories.DuongLNT\\SmokeQuit.Repositories.DuongLNT.csproj|solutionrelative:smokequit.repositories.duonglnt\\modelextensions\\paginationresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D58AA32-A2E4-41CA-8383-68CE64E4EE54}|SmokeQuit.APIServices.BE.DuongLNT\\SmokeQuit.APIServices.BE.DuongLNT.csproj|d:\\github\\prn212\\prn232\\exercise\\su25_prn232_se1731_asm1_se171916_duonglnt\\smokequit.apiservices.be.duonglnt\\controllers\\systemuseraccountscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D58AA32-A2E4-41CA-8383-68CE64E4EE54}|SmokeQuit.APIServices.BE.DuongLNT\\SmokeQuit.APIServices.BE.DuongLNT.csproj|solutionrelative:smokequit.apiservices.be.duonglnt\\controllers\\systemuseraccountscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE27A7E7-CF9E-42DA-BB2B-4B0940B86159}|SmokeQuit.MVCWebApp.FE.DuongLNT\\SmokeQuit.MVCWebApp.FE.DuongLNT.csproj|d:\\github\\prn212\\prn232\\exercise\\su25_prn232_se1731_asm1_se171916_duonglnt\\smokequit.mvcwebapp.fe.duonglnt\\views\\leaderboardsduonglnts\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EE27A7E7-CF9E-42DA-BB2B-4B0940B86159}|SmokeQuit.MVCWebApp.FE.DuongLNT\\SmokeQuit.MVCWebApp.FE.DuongLNT.csproj|solutionrelative:smokequit.mvcwebapp.fe.duonglnt\\views\\leaderboardsduonglnts\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EE27A7E7-CF9E-42DA-BB2B-4B0940B86159}|SmokeQuit.MVCWebApp.FE.DuongLNT\\SmokeQuit.MVCWebApp.FE.DuongLNT.csproj|d:\\github\\prn212\\prn232\\exercise\\su25_prn232_se1731_asm1_se171916_duonglnt\\smokequit.mvcwebapp.fe.duonglnt\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{EE27A7E7-CF9E-42DA-BB2B-4B0940B86159}|SmokeQuit.MVCWebApp.FE.DuongLNT\\SmokeQuit.MVCWebApp.FE.DuongLNT.csproj|solutionrelative:smokequit.mvcwebapp.fe.duonglnt\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6D58AA32-A2E4-41CA-8383-68CE64E4EE54}|SmokeQuit.APIServices.BE.DuongLNT\\SmokeQuit.APIServices.BE.DuongLNT.csproj|d:\\github\\prn212\\prn232\\exercise\\su25_prn232_se1731_asm1_se171916_duonglnt\\smokequit.apiservices.be.duonglnt\\smokequit.apiservices.be.duonglnt.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{6D58AA32-A2E4-41CA-8383-68CE64E4EE54}|SmokeQuit.APIServices.BE.DuongLNT\\SmokeQuit.APIServices.BE.DuongLNT.csproj|solutionrelative:smokequit.apiservices.be.duonglnt\\smokequit.apiservices.be.duonglnt.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{C237292C-E50B-4CCE-9D83-EB4786461B04}|SmokeQuit.Repositories.DuongLNT\\SmokeQuit.Repositories.DuongLNT.csproj|d:\\github\\prn212\\prn232\\exercise\\su25_prn232_se1731_asm1_se171916_duonglnt\\smokequit.repositories.duonglnt\\models\\systemuseraccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C237292C-E50B-4CCE-9D83-EB4786461B04}|SmokeQuit.Repositories.DuongLNT\\SmokeQuit.Repositories.DuongLNT.csproj|solutionrelative:smokequit.repositories.duonglnt\\models\\systemuseraccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EE27A7E7-CF9E-42DA-BB2B-4B0940B86159}|SmokeQuit.MVCWebApp.FE.DuongLNT\\SmokeQuit.MVCWebApp.FE.DuongLNT.csproj|d:\\github\\prn212\\prn232\\exercise\\su25_prn232_se1731_asm1_se171916_duonglnt\\smokequit.mvcwebapp.fe.duonglnt\\views\\account\\forbidden.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{EE27A7E7-CF9E-42DA-BB2B-4B0940B86159}|SmokeQuit.MVCWebApp.FE.DuongLNT\\SmokeQuit.MVCWebApp.FE.DuongLNT.csproj|solutionrelative:smokequit.mvcwebapp.fe.duonglnt\\views\\account\\forbidden.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{6F99A14D-4EB7-4698-B5BB-22D1E79DC6EF}|SmokeQuit.Services.DuongLNT\\SmokeQuit.Services.DuongLNT.csproj|d:\\github\\prn212\\prn232\\exercise\\su25_prn232_se1731_asm1_se171916_duonglnt\\smokequit.services.duonglnt\\quitplansanhdtnduonglntservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F99A14D-4EB7-4698-B5BB-22D1E79DC6EF}|SmokeQuit.Services.DuongLNT\\SmokeQuit.Services.DuongLNT.csproj|solutionrelative:smokequit.services.duonglnt\\quitplansanhdtnduonglntservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D58AA32-A2E4-41CA-8383-68CE64E4EE54}|SmokeQuit.APIServices.BE.DuongLNT\\SmokeQuit.APIServices.BE.DuongLNT.csproj|d:\\github\\prn212\\prn232\\exercise\\su25_prn232_se1731_asm1_se171916_duonglnt\\smokequit.apiservices.be.duonglnt\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D58AA32-A2E4-41CA-8383-68CE64E4EE54}|SmokeQuit.APIServices.BE.DuongLNT\\SmokeQuit.APIServices.BE.DuongLNT.csproj|solutionrelative:smokequit.apiservices.be.duonglnt\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE27A7E7-CF9E-42DA-BB2B-4B0940B86159}|SmokeQuit.MVCWebApp.FE.DuongLNT\\SmokeQuit.MVCWebApp.FE.DuongLNT.csproj|d:\\github\\prn212\\prn232\\exercise\\su25_prn232_se1731_asm1_se171916_duonglnt\\smokequit.mvcwebapp.fe.duonglnt\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE27A7E7-CF9E-42DA-BB2B-4B0940B86159}|SmokeQuit.MVCWebApp.FE.DuongLNT\\SmokeQuit.MVCWebApp.FE.DuongLNT.csproj|solutionrelative:smokequit.mvcwebapp.fe.duonglnt\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D58AA32-A2E4-41CA-8383-68CE64E4EE54}|SmokeQuit.APIServices.BE.DuongLNT\\SmokeQuit.APIServices.BE.DuongLNT.csproj|d:\\github\\prn212\\prn232\\exercise\\su25_prn232_se1731_asm1_se171916_duonglnt\\smokequit.apiservices.be.duonglnt\\smokequit.apiservices.be.duonglnt.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{6D58AA32-A2E4-41CA-8383-68CE64E4EE54}|SmokeQuit.APIServices.BE.DuongLNT\\SmokeQuit.APIServices.BE.DuongLNT.csproj|solutionrelative:smokequit.apiservices.be.duonglnt\\smokequit.apiservices.be.duonglnt.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/LAPTOP_9HDJDBQK_THUYDUONG/SU25_PRN232_SE1731_G6_SmokeQuit/sa/SqlTable/dbo.System.UserAccount.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
@@ -110,36 +166,12 @@
       "RelativeMoniker": "D:0:0:{EE27A7E7-CF9E-42DA-BB2B-4B0940B86159}|SmokeQuit.MVCWebApp.FE.DuongLNT\\SmokeQuit.MVCWebApp.FE.DuongLNT.csproj|solutionrelative:smokequit.mvcwebapp.fe.duonglnt\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EE27A7E7-CF9E-42DA-BB2B-4B0940B86159}|SmokeQuit.MVCWebApp.FE.DuongLNT\\SmokeQuit.MVCWebApp.FE.DuongLNT.csproj|d:\\github\\prn212\\prn232\\exercise\\su25_prn232_se1731_asm1_se171916_duonglnt\\smokequit.mvcwebapp.fe.duonglnt\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{EE27A7E7-CF9E-42DA-BB2B-4B0940B86159}|SmokeQuit.MVCWebApp.FE.DuongLNT\\SmokeQuit.MVCWebApp.FE.DuongLNT.csproj|solutionrelative:smokequit.mvcwebapp.fe.duonglnt\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EE27A7E7-CF9E-42DA-BB2B-4B0940B86159}|SmokeQuit.MVCWebApp.FE.DuongLNT\\SmokeQuit.MVCWebApp.FE.DuongLNT.csproj|d:\\github\\prn212\\prn232\\exercise\\su25_prn232_se1731_asm1_se171916_duonglnt\\smokequit.mvcwebapp.fe.duonglnt\\views\\leaderboardsduonglnts\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{EE27A7E7-CF9E-42DA-BB2B-4B0940B86159}|SmokeQuit.MVCWebApp.FE.DuongLNT\\SmokeQuit.MVCWebApp.FE.DuongLNT.csproj|solutionrelative:smokequit.mvcwebapp.fe.duonglnt\\views\\leaderboardsduonglnts\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C237292C-E50B-4CCE-9D83-EB4786461B04}|SmokeQuit.Repositories.DuongLNT\\SmokeQuit.Repositories.DuongLNT.csproj|d:\\github\\prn212\\prn232\\exercise\\su25_prn232_se1731_asm1_se171916_duonglnt\\smokequit.repositories.duonglnt\\leaderboardsduonglntrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C237292C-E50B-4CCE-9D83-EB4786461B04}|SmokeQuit.Repositories.DuongLNT\\SmokeQuit.Repositories.DuongLNT.csproj|solutionrelative:smokequit.repositories.duonglnt\\leaderboardsduonglntrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{6D58AA32-A2E4-41CA-8383-68CE64E4EE54}|SmokeQuit.APIServices.BE.DuongLNT\\SmokeQuit.APIServices.BE.DuongLNT.csproj|d:\\github\\prn212\\prn232\\exercise\\su25_prn232_se1731_asm1_se171916_duonglnt\\smokequit.apiservices.be.duonglnt\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{6D58AA32-A2E4-41CA-8383-68CE64E4EE54}|SmokeQuit.APIServices.BE.DuongLNT\\SmokeQuit.APIServices.BE.DuongLNT.csproj|solutionrelative:smokequit.apiservices.be.duonglnt\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6F99A14D-4EB7-4698-B5BB-22D1E79DC6EF}|SmokeQuit.Services.DuongLNT\\SmokeQuit.Services.DuongLNT.csproj|d:\\github\\prn212\\prn232\\exercise\\su25_prn232_se1731_asm1_se171916_duonglnt\\smokequit.services.duonglnt\\ileaderboardsduonglntservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6F99A14D-4EB7-4698-B5BB-22D1E79DC6EF}|SmokeQuit.Services.DuongLNT\\SmokeQuit.Services.DuongLNT.csproj|solutionrelative:smokequit.services.duonglnt\\ileaderboardsduonglntservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6F99A14D-4EB7-4698-B5BB-22D1E79DC6EF}|SmokeQuit.Services.DuongLNT\\SmokeQuit.Services.DuongLNT.csproj|d:\\github\\prn212\\prn232\\exercise\\su25_prn232_se1731_asm1_se171916_duonglnt\\smokequit.services.duonglnt\\smokequit.services.duonglnt.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{6F99A14D-4EB7-4698-B5BB-22D1E79DC6EF}|SmokeQuit.Services.DuongLNT\\SmokeQuit.Services.DuongLNT.csproj|solutionrelative:smokequit.services.duonglnt\\smokequit.services.duonglnt.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C237292C-E50B-4CCE-9D83-EB4786461B04}|SmokeQuit.Repositories.DuongLNT\\SmokeQuit.Repositories.DuongLNT.csproj|d:\\github\\prn212\\prn232\\exercise\\su25_prn232_se1731_asm1_se171916_duonglnt\\smokequit.repositories.duonglnt\\basic\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C237292C-E50B-4CCE-9D83-EB4786461B04}|SmokeQuit.Repositories.DuongLNT\\SmokeQuit.Repositories.DuongLNT.csproj|solutionrelative:smokequit.repositories.duonglnt\\basic\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C237292C-E50B-4CCE-9D83-EB4786461B04}|SmokeQuit.Repositories.DuongLNT\\SmokeQuit.Repositories.DuongLNT.csproj|d:\\github\\prn212\\prn232\\exercise\\su25_prn232_se1731_asm1_se171916_duonglnt\\smokequit.repositories.duonglnt\\modelextensions\\paginationresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C237292C-E50B-4CCE-9D83-EB4786461B04}|SmokeQuit.Repositories.DuongLNT\\SmokeQuit.Repositories.DuongLNT.csproj|solutionrelative:smokequit.repositories.duonglnt\\modelextensions\\paginationresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C237292C-E50B-4CCE-9D83-EB4786461B04}|SmokeQuit.Repositories.DuongLNT\\SmokeQuit.Repositories.DuongLNT.csproj|d:\\github\\prn212\\prn232\\exercise\\su25_prn232_se1731_asm1_se171916_duonglnt\\smokequit.repositories.duonglnt\\dbcontext\\su25_prn232_se1731_g6_smokequitcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -148,14 +180,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{EE27A7E7-CF9E-42DA-BB2B-4B0940B86159}|SmokeQuit.MVCWebApp.FE.DuongLNT\\SmokeQuit.MVCWebApp.FE.DuongLNT.csproj|d:\\github\\prn212\\prn232\\exercise\\su25_prn232_se1731_asm1_se171916_duonglnt\\smokequit.mvcwebapp.fe.duonglnt\\smokequit.mvcwebapp.fe.duonglnt.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{EE27A7E7-CF9E-42DA-BB2B-4B0940B86159}|SmokeQuit.MVCWebApp.FE.DuongLNT\\SmokeQuit.MVCWebApp.FE.DuongLNT.csproj|solutionrelative:smokequit.mvcwebapp.fe.duonglnt\\smokequit.mvcwebapp.fe.duonglnt.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C237292C-E50B-4CCE-9D83-EB4786461B04}|SmokeQuit.Repositories.DuongLNT\\SmokeQuit.Repositories.DuongLNT.csproj|d:\\github\\prn212\\prn232\\exercise\\su25_prn232_se1731_asm1_se171916_duonglnt\\smokequit.repositories.duonglnt\\quitplansanhdtnduonglntrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C237292C-E50B-4CCE-9D83-EB4786461B04}|SmokeQuit.Repositories.DuongLNT\\SmokeQuit.Repositories.DuongLNT.csproj|solutionrelative:smokequit.repositories.duonglnt\\quitplansanhdtnduonglntrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C237292C-E50B-4CCE-9D83-EB4786461B04}|SmokeQuit.Repositories.DuongLNT\\SmokeQuit.Repositories.DuongLNT.csproj|d:\\github\\prn212\\prn232\\exercise\\su25_prn232_se1731_asm1_se171916_duonglnt\\smokequit.repositories.duonglnt\\systemuseraccountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C237292C-E50B-4CCE-9D83-EB4786461B04}|SmokeQuit.Repositories.DuongLNT\\SmokeQuit.Repositories.DuongLNT.csproj|solutionrelative:smokequit.repositories.duonglnt\\systemuseraccountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6D58AA32-A2E4-41CA-8383-68CE64E4EE54}|SmokeQuit.APIServices.BE.DuongLNT\\SmokeQuit.APIServices.BE.DuongLNT.csproj|d:\\github\\prn212\\prn232\\exercise\\su25_prn232_se1731_asm1_se171916_duonglnt\\smokequit.apiservices.be.duonglnt\\smokequit.apiservices.be.duonglnt.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
@@ -170,20 +194,12 @@
       "RelativeMoniker": "D:0:0:{C237292C-E50B-4CCE-9D83-EB4786461B04}|SmokeQuit.Repositories.DuongLNT\\SmokeQuit.Repositories.DuongLNT.csproj|solutionrelative:smokequit.repositories.duonglnt\\models\\supportmethodshoangpx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C237292C-E50B-4CCE-9D83-EB4786461B04}|SmokeQuit.Repositories.DuongLNT\\SmokeQuit.Repositories.DuongLNT.csproj|d:\\github\\prn212\\prn232\\exercise\\su25_prn232_se1731_asm1_se171916_duonglnt\\smokequit.repositories.duonglnt\\smokequit.repositories.duonglnt.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{C237292C-E50B-4CCE-9D83-EB4786461B04}|SmokeQuit.Repositories.DuongLNT\\SmokeQuit.Repositories.DuongLNT.csproj|solutionrelative:smokequit.repositories.duonglnt\\smokequit.repositories.duonglnt.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{6D58AA32-A2E4-41CA-8383-68CE64E4EE54}|SmokeQuit.APIServices.BE.DuongLNT\\SmokeQuit.APIServices.BE.DuongLNT.csproj|d:\\github\\prn212\\prn232\\exercise\\su25_prn232_se1731_asm1_se171916_duonglnt\\smokequit.apiservices.be.duonglnt\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6D58AA32-A2E4-41CA-8383-68CE64E4EE54}|SmokeQuit.APIServices.BE.DuongLNT\\SmokeQuit.APIServices.BE.DuongLNT.csproj|solutionrelative:smokequit.apiservices.be.duonglnt\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C237292C-E50B-4CCE-9D83-EB4786461B04}|SmokeQuit.Repositories.DuongLNT\\SmokeQuit.Repositories.DuongLNT.csproj|d:\\github\\prn212\\prn232\\exercise\\su25_prn232_se1731_asm1_se171916_duonglnt\\smokequit.repositories.duonglnt\\efpt.config.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{C237292C-E50B-4CCE-9D83-EB4786461B04}|SmokeQuit.Repositories.DuongLNT\\SmokeQuit.Repositories.DuongLNT.csproj|solutionrelative:smokequit.repositories.duonglnt\\efpt.config.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C237292C-E50B-4CCE-9D83-EB4786461B04}|SmokeQuit.Repositories.DuongLNT\\SmokeQuit.Repositories.DuongLNT.csproj|d:\\github\\prn212\\prn232\\exercise\\su25_prn232_se1731_asm1_se171916_duonglnt\\smokequit.repositories.duonglnt\\models\\membershipplansanhdtn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C237292C-E50B-4CCE-9D83-EB4786461B04}|SmokeQuit.Repositories.DuongLNT\\SmokeQuit.Repositories.DuongLNT.csproj|solutionrelative:smokequit.repositories.duonglnt\\models\\membershipplansanhdtn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -193,8 +209,35 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 10,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "QuitPlansAnhDtn.cs",
+              "DocumentMoniker": "D:\\Github\\PRN212\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM1_SE171916_DuongLNT\\SmokeQuit.Repositories.DuongLNT\\Models\\QuitPlansAnhDtn.cs",
+              "RelativeDocumentMoniker": "SmokeQuit.Repositories.DuongLNT\\Models\\QuitPlansAnhDtn.cs",
+              "ToolTip": "D:\\Github\\PRN212\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM1_SE171916_DuongLNT\\SmokeQuit.Repositories.DuongLNT\\Models\\QuitPlansAnhDtn.cs",
+              "RelativeToolTip": "SmokeQuit.Repositories.DuongLNT\\Models\\QuitPlansAnhDtn.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAswBcAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T05:53:05.905Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "QuitPlansDuongLnt.cshtml",
+              "DocumentMoniker": "D:\\Github\\PRN212\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM1_SE171916_DuongLNT\\SmokeQuit.MVCWebApp.FE.DuongLNT\\Views\\LeaderboardsDuongLnts\\QuitPlansDuongLnt.cshtml",
+              "RelativeDocumentMoniker": "SmokeQuit.MVCWebApp.FE.DuongLNT\\Views\\LeaderboardsDuongLnts\\QuitPlansDuongLnt.cshtml",
+              "ToolTip": "D:\\Github\\PRN212\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM1_SE171916_DuongLNT\\SmokeQuit.MVCWebApp.FE.DuongLNT\\Views\\LeaderboardsDuongLnts\\QuitPlansDuongLnt.cshtml",
+              "RelativeToolTip": "SmokeQuit.MVCWebApp.FE.DuongLNT\\Views\\LeaderboardsDuongLnts\\QuitPlansDuongLnt.cshtml",
+              "ViewState": "AgIAAKYAAAAAAAAAAAAmwL8AAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-06T07:32:25.214Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
@@ -225,120 +268,91 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "D:\\Github\\PRN212\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM1_SE171916_DuongLNT\\SmokeQuit.MVCWebApp.FE.DuongLNT\\Views\\LeaderboardsDuongLnts\\Create.cshtml",
-              "RelativeDocumentMoniker": "SmokeQuit.MVCWebApp.FE.DuongLNT\\Views\\LeaderboardsDuongLnts\\Create.cshtml",
-              "ToolTip": "D:\\Github\\PRN212\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM1_SE171916_DuongLNT\\SmokeQuit.MVCWebApp.FE.DuongLNT\\Views\\LeaderboardsDuongLnts\\Create.cshtml",
-              "RelativeToolTip": "SmokeQuit.MVCWebApp.FE.DuongLNT\\Views\\LeaderboardsDuongLnts\\Create.cshtml",
-              "ViewState": "AgIAACEAAAAAAAAAAAAAADYAAABZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-27T07:40:55.145Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "LoginRequest.cs",
-              "DocumentMoniker": "D:\\Github\\PRN212\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM1_SE171916_DuongLNT\\SmokeQuit.MVCWebApp.FE.DuongLNT\\Models\\LoginRequest.cs",
-              "RelativeDocumentMoniker": "SmokeQuit.MVCWebApp.FE.DuongLNT\\Models\\LoginRequest.cs",
-              "ToolTip": "D:\\Github\\PRN212\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM1_SE171916_DuongLNT\\SmokeQuit.MVCWebApp.FE.DuongLNT\\Models\\LoginRequest.cs",
-              "RelativeToolTip": "SmokeQuit.MVCWebApp.FE.DuongLNT\\Models\\LoginRequest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-02T13:24:40.337Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "AccountController.cs",
-              "DocumentMoniker": "D:\\Github\\PRN212\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM1_SE171916_DuongLNT\\SmokeQuit.MVCWebApp.FE.DuongLNT\\Controllers\\AccountController.cs",
-              "RelativeDocumentMoniker": "SmokeQuit.MVCWebApp.FE.DuongLNT\\Controllers\\AccountController.cs",
-              "ToolTip": "D:\\Github\\PRN212\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM1_SE171916_DuongLNT\\SmokeQuit.MVCWebApp.FE.DuongLNT\\Controllers\\AccountController.cs",
-              "RelativeToolTip": "SmokeQuit.MVCWebApp.FE.DuongLNT\\Controllers\\AccountController.cs",
-              "ViewState": "AgIAAEwAAAAAAAAAAAAkwBgAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-02T13:25:26.876Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\Github\\PRN212\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM1_SE171916_DuongLNT\\SmokeQuit.MVCWebApp.FE.DuongLNT\\Views\\LeaderboardsDuongLnts\\Index.cshtml",
-              "RelativeDocumentMoniker": "SmokeQuit.MVCWebApp.FE.DuongLNT\\Views\\LeaderboardsDuongLnts\\Index.cshtml",
-              "ToolTip": "D:\\Github\\PRN212\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM1_SE171916_DuongLNT\\SmokeQuit.MVCWebApp.FE.DuongLNT\\Views\\LeaderboardsDuongLnts\\Index.cshtml",
-              "RelativeToolTip": "SmokeQuit.MVCWebApp.FE.DuongLNT\\Views\\LeaderboardsDuongLnts\\Index.cshtml",
-              "ViewState": "AgIAAEgAAAAAAAAAAAAAAGEAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-30T02:46:53.456Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Github\\PRN212\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM1_SE171916_DuongLNT\\SmokeQuit.APIServices.BE.DuongLNT\\Program.cs",
               "RelativeDocumentMoniker": "SmokeQuit.APIServices.BE.DuongLNT\\Program.cs",
               "ToolTip": "D:\\Github\\PRN212\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM1_SE171916_DuongLNT\\SmokeQuit.APIServices.BE.DuongLNT\\Program.cs",
               "RelativeToolTip": "SmokeQuit.APIServices.BE.DuongLNT\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAmwFUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-17T02:48:14.213Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "LeaderboardsDuongLnt.cs",
-              "DocumentMoniker": "D:\\Github\\PRN212\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM1_SE171916_DuongLNT\\SmokeQuit.Repositories.DuongLNT\\Models\\LeaderboardsDuongLnt.cs",
-              "RelativeDocumentMoniker": "SmokeQuit.Repositories.DuongLNT\\Models\\LeaderboardsDuongLnt.cs",
-              "ToolTip": "D:\\Github\\PRN212\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM1_SE171916_DuongLNT\\SmokeQuit.Repositories.DuongLNT\\Models\\LeaderboardsDuongLnt.cs",
-              "RelativeToolTip": "SmokeQuit.Repositories.DuongLNT\\Models\\LeaderboardsDuongLnt.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAxwB8AAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-16T07:02:47.007Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "LeaderboardsDuongLntsController.cs",
               "DocumentMoniker": "D:\\Github\\PRN212\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM1_SE171916_DuongLNT\\SmokeQuit.MVCWebApp.FE.DuongLNT\\Controllers\\LeaderboardsDuongLntsController.cs",
               "RelativeDocumentMoniker": "SmokeQuit.MVCWebApp.FE.DuongLNT\\Controllers\\LeaderboardsDuongLntsController.cs",
               "ToolTip": "D:\\Github\\PRN212\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM1_SE171916_DuongLNT\\SmokeQuit.MVCWebApp.FE.DuongLNT\\Controllers\\LeaderboardsDuongLntsController.cs",
               "RelativeToolTip": "SmokeQuit.MVCWebApp.FE.DuongLNT\\Controllers\\LeaderboardsDuongLntsController.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAYwCMAAABKAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAANEAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-27T07:40:10.132Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "SystemUserAccount.cs",
-              "DocumentMoniker": "D:\\Github\\PRN212\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM1_SE171916_DuongLNT\\SmokeQuit.Repositories.DuongLNT\\Models\\SystemUserAccount.cs",
-              "RelativeDocumentMoniker": "SmokeQuit.Repositories.DuongLNT\\Models\\SystemUserAccount.cs",
-              "ToolTip": "D:\\Github\\PRN212\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM1_SE171916_DuongLNT\\SmokeQuit.Repositories.DuongLNT\\Models\\SystemUserAccount.cs",
-              "RelativeToolTip": "SmokeQuit.Repositories.DuongLNT\\Models\\SystemUserAccount.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAaAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "LeaderboardsDuongLntController.cs",
+              "DocumentMoniker": "D:\\Github\\PRN212\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM1_SE171916_DuongLNT\\SmokeQuit.APIServices.BE.DuongLNT\\Controllers\\LeaderboardsDuongLntController.cs",
+              "RelativeDocumentMoniker": "SmokeQuit.APIServices.BE.DuongLNT\\Controllers\\LeaderboardsDuongLntController.cs",
+              "ToolTip": "D:\\Github\\PRN212\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM1_SE171916_DuongLNT\\SmokeQuit.APIServices.BE.DuongLNT\\Controllers\\LeaderboardsDuongLntController.cs",
+              "RelativeToolTip": "SmokeQuit.APIServices.BE.DuongLNT\\Controllers\\LeaderboardsDuongLntController.cs",
+              "ViewState": "AgIAAGoAAAAAAAAAAAAUwIAAAACLAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-16T07:03:11.253Z",
+              "WhenOpened": "2025-05-20T07:22:32.555Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "QuitPlansAnhDtn.cs",
-              "DocumentMoniker": "D:\\Github\\PRN212\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM1_SE171916_DuongLNT\\SmokeQuit.Repositories.DuongLNT\\Models\\QuitPlansAnhDtn.cs",
-              "RelativeDocumentMoniker": "SmokeQuit.Repositories.DuongLNT\\Models\\QuitPlansAnhDtn.cs",
-              "ToolTip": "D:\\Github\\PRN212\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM1_SE171916_DuongLNT\\SmokeQuit.Repositories.DuongLNT\\Models\\QuitPlansAnhDtn.cs",
-              "RelativeToolTip": "SmokeQuit.Repositories.DuongLNT\\Models\\QuitPlansAnhDtn.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAcAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-20T05:53:05.905Z",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Github\\PRN212\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM1_SE171916_DuongLNT\\SmokeQuit.MVCWebApp.FE.DuongLNT\\Views\\LeaderboardsDuongLnts\\Index.cshtml",
+              "RelativeDocumentMoniker": "SmokeQuit.MVCWebApp.FE.DuongLNT\\Views\\LeaderboardsDuongLnts\\Index.cshtml",
+              "ToolTip": "D:\\Github\\PRN212\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM1_SE171916_DuongLNT\\SmokeQuit.MVCWebApp.FE.DuongLNT\\Views\\LeaderboardsDuongLnts\\Index.cshtml",
+              "RelativeToolTip": "SmokeQuit.MVCWebApp.FE.DuongLNT\\Views\\LeaderboardsDuongLnts\\Index.cshtml",
+              "ViewState": "AgIAADMAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-30T02:46:53.456Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\Github\\PRN212\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM1_SE171916_DuongLNT\\SmokeQuit.MVCWebApp.FE.DuongLNT\\Views\\LeaderboardsDuongLnts\\Edit.cshtml",
+              "RelativeDocumentMoniker": "SmokeQuit.MVCWebApp.FE.DuongLNT\\Views\\LeaderboardsDuongLnts\\Edit.cshtml",
+              "ToolTip": "D:\\Github\\PRN212\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM1_SE171916_DuongLNT\\SmokeQuit.MVCWebApp.FE.DuongLNT\\Views\\LeaderboardsDuongLnts\\Edit.cshtml",
+              "RelativeToolTip": "SmokeQuit.MVCWebApp.FE.DuongLNT\\Views\\LeaderboardsDuongLnts\\Edit.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABEAAABWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-30T02:46:54.072Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MembershipPlansAnhDtn.cs",
+              "DocumentMoniker": "D:\\Github\\PRN212\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM1_SE171916_DuongLNT\\SmokeQuit.Repositories.DuongLNT\\Models\\MembershipPlansAnhDtn.cs",
+              "RelativeDocumentMoniker": "SmokeQuit.Repositories.DuongLNT\\Models\\MembershipPlansAnhDtn.cs",
+              "ToolTip": "D:\\Github\\PRN212\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM1_SE171916_DuongLNT\\SmokeQuit.Repositories.DuongLNT\\Models\\MembershipPlansAnhDtn.cs",
+              "RelativeToolTip": "SmokeQuit.Repositories.DuongLNT\\Models\\MembershipPlansAnhDtn.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-17T03:00:23.189Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "LeaderboardsDuongLnt.cs",
+              "DocumentMoniker": "D:\\Github\\PRN212\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM1_SE171916_DuongLNT\\SmokeQuit.Repositories.DuongLNT\\Models\\LeaderboardsDuongLnt.cs",
+              "RelativeDocumentMoniker": "SmokeQuit.Repositories.DuongLNT\\Models\\LeaderboardsDuongLnt.cs",
+              "ToolTip": "D:\\Github\\PRN212\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM1_SE171916_DuongLNT\\SmokeQuit.Repositories.DuongLNT\\Models\\LeaderboardsDuongLnt.cs",
+              "RelativeToolTip": "SmokeQuit.Repositories.DuongLNT\\Models\\LeaderboardsDuongLnt.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABsAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T07:02:47.007Z"
             },
             {
               "$type": "Document",
@@ -348,407 +362,49 @@
               "RelativeDocumentMoniker": "SmokeQuit.MVCWebApp.FE.DuongLNT\\Views\\Shared\\_Layout.cshtml",
               "ToolTip": "D:\\Github\\PRN212\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM1_SE171916_DuongLNT\\SmokeQuit.MVCWebApp.FE.DuongLNT\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "SmokeQuit.MVCWebApp.FE.DuongLNT\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAmwBQAAAA3AAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAkwB0AAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-29T14:18:01.667Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-29T14:18:01.667Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "D:\\Github\\PRN212\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM1_SE171916_DuongLNT\\SmokeQuit.MVCWebApp.FE.DuongLNT\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "SmokeQuit.MVCWebApp.FE.DuongLNT\\Controllers\\HomeController.cs",
-              "ToolTip": "D:\\Github\\PRN212\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM1_SE171916_DuongLNT\\SmokeQuit.MVCWebApp.FE.DuongLNT\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "SmokeQuit.MVCWebApp.FE.DuongLNT\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAQwB4AAAACAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-29T14:15:15.808Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "SystemUserAccountsController.cs",
-              "DocumentMoniker": "D:\\Github\\PRN212\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM1_SE171916_DuongLNT\\SmokeQuit.APIServices.BE.DuongLNT\\Controllers\\SystemUserAccountsController.cs",
-              "RelativeDocumentMoniker": "SmokeQuit.APIServices.BE.DuongLNT\\Controllers\\SystemUserAccountsController.cs",
-              "ToolTip": "D:\\Github\\PRN212\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM1_SE171916_DuongLNT\\SmokeQuit.APIServices.BE.DuongLNT\\Controllers\\SystemUserAccountsController.cs",
-              "RelativeToolTip": "SmokeQuit.APIServices.BE.DuongLNT\\Controllers\\SystemUserAccountsController.cs",
-              "ViewState": "AgIAACsAAAAAAAAAAAAgwD8AAAA5AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-23T06:57:35.34Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "SystemUserAccountService.cs",
-              "DocumentMoniker": "D:\\Github\\PRN212\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM1_SE171916_DuongLNT\\SmokeQuit.Services.DuongLNT\\SystemUserAccountService.cs",
-              "RelativeDocumentMoniker": "SmokeQuit.Services.DuongLNT\\SystemUserAccountService.cs",
-              "ToolTip": "D:\\Github\\PRN212\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM1_SE171916_DuongLNT\\SmokeQuit.Services.DuongLNT\\SystemUserAccountService.cs",
-              "RelativeToolTip": "SmokeQuit.Services.DuongLNT\\SystemUserAccountService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-20T06:55:15.278Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "QuitPlansAnhDtnController.cs",
-              "DocumentMoniker": "D:\\Github\\PRN212\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM1_SE171916_DuongLNT\\SmokeQuit.APIServices.BE.DuongLNT\\Controllers\\QuitPlansAnhDtnController.cs",
-              "RelativeDocumentMoniker": "SmokeQuit.APIServices.BE.DuongLNT\\Controllers\\QuitPlansAnhDtnController.cs",
-              "ToolTip": "D:\\Github\\PRN212\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM1_SE171916_DuongLNT\\SmokeQuit.APIServices.BE.DuongLNT\\Controllers\\QuitPlansAnhDtnController.cs",
-              "RelativeToolTip": "SmokeQuit.APIServices.BE.DuongLNT\\Controllers\\QuitPlansAnhDtnController.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABUAAAADAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-03T03:24:09.789Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "QuitPlansAnhDtnDuongLNTService.cs",
-              "DocumentMoniker": "D:\\Github\\PRN212\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM1_SE171916_DuongLNT\\SmokeQuit.Services.DuongLNT\\QuitPlansAnhDtnDuongLNTService.cs",
-              "RelativeDocumentMoniker": "SmokeQuit.Services.DuongLNT\\QuitPlansAnhDtnDuongLNTService.cs",
-              "ToolTip": "D:\\Github\\PRN212\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM1_SE171916_DuongLNT\\SmokeQuit.Services.DuongLNT\\QuitPlansAnhDtnDuongLNTService.cs",
-              "RelativeToolTip": "SmokeQuit.Services.DuongLNT\\QuitPlansAnhDtnDuongLNTService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-20T06:48:37.912Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "LeaderboardsDuongLntController.cs",
-              "DocumentMoniker": "D:\\Github\\PRN212\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM1_SE171916_DuongLNT\\SmokeQuit.APIServices.BE.DuongLNT\\Controllers\\LeaderboardsDuongLntController.cs",
-              "RelativeDocumentMoniker": "SmokeQuit.APIServices.BE.DuongLNT\\Controllers\\LeaderboardsDuongLntController.cs",
-              "ToolTip": "D:\\Github\\PRN212\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM1_SE171916_DuongLNT\\SmokeQuit.APIServices.BE.DuongLNT\\Controllers\\LeaderboardsDuongLntController.cs",
-              "RelativeToolTip": "SmokeQuit.APIServices.BE.DuongLNT\\Controllers\\LeaderboardsDuongLntController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGcAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-20T07:22:32.555Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "WeatherForecastController.cs",
-              "DocumentMoniker": "D:\\Github\\PRN212\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM1_SE171916_DuongLNT\\SmokeQuit.APIServices.BE.DuongLNT\\Controllers\\WeatherForecastController.cs",
-              "RelativeDocumentMoniker": "SmokeQuit.APIServices.BE.DuongLNT\\Controllers\\WeatherForecastController.cs",
-              "ToolTip": "D:\\Github\\PRN212\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM1_SE171916_DuongLNT\\SmokeQuit.APIServices.BE.DuongLNT\\Controllers\\WeatherForecastController.cs",
-              "RelativeToolTip": "SmokeQuit.APIServices.BE.DuongLNT\\Controllers\\WeatherForecastController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAADAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-20T05:36:14.587Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Github\\PRN212\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM1_SE171916_DuongLNT\\SmokeQuit.MVCWebApp.FE.DuongLNT\\Program.cs",
               "RelativeDocumentMoniker": "SmokeQuit.MVCWebApp.FE.DuongLNT\\Program.cs",
               "ToolTip": "D:\\Github\\PRN212\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM1_SE171916_DuongLNT\\SmokeQuit.MVCWebApp.FE.DuongLNT\\Program.cs",
               "RelativeToolTip": "SmokeQuit.MVCWebApp.FE.DuongLNT\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-02T13:23:23.389Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-02T13:23:23.389Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "LeaderboardsDuongLntService.cs",
-              "DocumentMoniker": "D:\\Github\\PRN212\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM1_SE171916_DuongLNT\\SmokeQuit.Services.DuongLNT\\LeaderboardsDuongLntService.cs",
-              "RelativeDocumentMoniker": "SmokeQuit.Services.DuongLNT\\LeaderboardsDuongLntService.cs",
-              "ToolTip": "D:\\Github\\PRN212\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM1_SE171916_DuongLNT\\SmokeQuit.Services.DuongLNT\\LeaderboardsDuongLntService.cs",
-              "RelativeToolTip": "SmokeQuit.Services.DuongLNT\\LeaderboardsDuongLntService.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAxwEIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-20T06:22:47.317Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "Delete.cshtml",
-              "DocumentMoniker": "D:\\Github\\PRN212\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM1_SE171916_DuongLNT\\SmokeQuit.MVCWebApp.FE.DuongLNT\\Views\\LeaderboardsDuongLnts\\Delete.cshtml",
-              "RelativeDocumentMoniker": "SmokeQuit.MVCWebApp.FE.DuongLNT\\Views\\LeaderboardsDuongLnts\\Delete.cshtml",
-              "ToolTip": "D:\\Github\\PRN212\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM1_SE171916_DuongLNT\\SmokeQuit.MVCWebApp.FE.DuongLNT\\Views\\LeaderboardsDuongLnts\\Delete.cshtml",
-              "RelativeToolTip": "SmokeQuit.MVCWebApp.FE.DuongLNT\\Views\\LeaderboardsDuongLnts\\Delete.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-03T02:48:50.465Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "ErrorViewModel.cs",
-              "DocumentMoniker": "D:\\Github\\PRN212\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM1_SE171916_DuongLNT\\SmokeQuit.MVCWebApp.FE.DuongLNT\\Models\\ErrorViewModel.cs",
-              "RelativeDocumentMoniker": "SmokeQuit.MVCWebApp.FE.DuongLNT\\Models\\ErrorViewModel.cs",
-              "ToolTip": "D:\\Github\\PRN212\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM1_SE171916_DuongLNT\\SmokeQuit.MVCWebApp.FE.DuongLNT\\Models\\ErrorViewModel.cs",
-              "RelativeToolTip": "SmokeQuit.MVCWebApp.FE.DuongLNT\\Models\\ErrorViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-02T13:24:19.995Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "Login.cshtml",
-              "DocumentMoniker": "D:\\Github\\PRN212\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM1_SE171916_DuongLNT\\SmokeQuit.MVCWebApp.FE.DuongLNT\\Views\\Account\\Login.cshtml",
-              "RelativeDocumentMoniker": "SmokeQuit.MVCWebApp.FE.DuongLNT\\Views\\Account\\Login.cshtml",
-              "ToolTip": "D:\\Github\\PRN212\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM1_SE171916_DuongLNT\\SmokeQuit.MVCWebApp.FE.DuongLNT\\Views\\Account\\Login.cshtml",
-              "RelativeToolTip": "SmokeQuit.MVCWebApp.FE.DuongLNT\\Views\\Account\\Login.cshtml",
-              "ViewState": "AgIAABwAAAAAAAAAAAAAACwAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-02T13:30:49.874Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "SmokeQuit.APIServices.BE.DuongLNT.csproj",
-              "DocumentMoniker": "D:\\Github\\PRN212\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM1_SE171916_DuongLNT\\SmokeQuit.APIServices.BE.DuongLNT\\SmokeQuit.APIServices.BE.DuongLNT.csproj",
-              "RelativeDocumentMoniker": "SmokeQuit.APIServices.BE.DuongLNT\\SmokeQuit.APIServices.BE.DuongLNT.csproj",
-              "ToolTip": "D:\\Github\\PRN212\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM1_SE171916_DuongLNT\\SmokeQuit.APIServices.BE.DuongLNT\\SmokeQuit.APIServices.BE.DuongLNT.csproj",
-              "RelativeToolTip": "SmokeQuit.APIServices.BE.DuongLNT\\SmokeQuit.APIServices.BE.DuongLNT.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-05-16T06:31:13.467Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "Forbidden.cshtml",
-              "DocumentMoniker": "D:\\Github\\PRN212\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM1_SE171916_DuongLNT\\SmokeQuit.MVCWebApp.FE.DuongLNT\\Views\\Account\\Forbidden.cshtml",
-              "RelativeDocumentMoniker": "SmokeQuit.MVCWebApp.FE.DuongLNT\\Views\\Account\\Forbidden.cshtml",
-              "ToolTip": "D:\\Github\\PRN212\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM1_SE171916_DuongLNT\\SmokeQuit.MVCWebApp.FE.DuongLNT\\Views\\Account\\Forbidden.cshtml",
-              "RelativeToolTip": "SmokeQuit.MVCWebApp.FE.DuongLNT\\Views\\Account\\Forbidden.cshtml",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-02T13:30:48.038Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "dbo.System.UserAccount.sql",
-              "DocumentMoniker": "ViewDataWindow_MSSQL__/LAPTOP_9HDJDBQK_THUYDUONG/SU25_PRN232_SE1731_G6_SmokeQuit/sa/SqlTable/dbo.System.UserAccount.sql",
-              "ToolTip": "ViewDataWindow_MSSQL__/LAPTOP_9HDJDBQK_THUYDUONG/SU25_PRN232_SE1731_G6_SmokeQuit/sa/SqlTable/dbo.System.UserAccount.sql",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2025-06-02T13:35:44.642Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\Github\\PRN212\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM1_SE171916_DuongLNT\\SmokeQuit.MVCWebApp.FE.DuongLNT\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "SmokeQuit.MVCWebApp.FE.DuongLNT\\Views\\Home\\Index.cshtml",
-              "ToolTip": "D:\\Github\\PRN212\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM1_SE171916_DuongLNT\\SmokeQuit.MVCWebApp.FE.DuongLNT\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "SmokeQuit.MVCWebApp.FE.DuongLNT\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-29T14:16:20.895Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "D:\\Github\\PRN212\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM1_SE171916_DuongLNT\\SmokeQuit.MVCWebApp.FE.DuongLNT\\Views\\LeaderboardsDuongLnts\\Edit.cshtml",
-              "RelativeDocumentMoniker": "SmokeQuit.MVCWebApp.FE.DuongLNT\\Views\\LeaderboardsDuongLnts\\Edit.cshtml",
-              "ToolTip": "D:\\Github\\PRN212\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM1_SE171916_DuongLNT\\SmokeQuit.MVCWebApp.FE.DuongLNT\\Views\\LeaderboardsDuongLnts\\Edit.cshtml",
-              "RelativeToolTip": "SmokeQuit.MVCWebApp.FE.DuongLNT\\Views\\LeaderboardsDuongLnts\\Edit.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-30T02:46:54.072Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "Privacy.cshtml",
-              "DocumentMoniker": "D:\\Github\\PRN212\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM1_SE171916_DuongLNT\\SmokeQuit.MVCWebApp.FE.DuongLNT\\Views\\Home\\Privacy.cshtml",
-              "RelativeDocumentMoniker": "SmokeQuit.MVCWebApp.FE.DuongLNT\\Views\\Home\\Privacy.cshtml",
-              "ToolTip": "D:\\Github\\PRN212\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM1_SE171916_DuongLNT\\SmokeQuit.MVCWebApp.FE.DuongLNT\\Views\\Home\\Privacy.cshtml",
-              "RelativeToolTip": "SmokeQuit.MVCWebApp.FE.DuongLNT\\Views\\Home\\Privacy.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-29T14:16:23.438Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "_ValidationScriptsPartial.cshtml",
-              "DocumentMoniker": "D:\\Github\\PRN212\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM1_SE171916_DuongLNT\\SmokeQuit.MVCWebApp.FE.DuongLNT\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-              "RelativeDocumentMoniker": "SmokeQuit.MVCWebApp.FE.DuongLNT\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-              "ToolTip": "D:\\Github\\PRN212\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM1_SE171916_DuongLNT\\SmokeQuit.MVCWebApp.FE.DuongLNT\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-              "RelativeToolTip": "SmokeQuit.MVCWebApp.FE.DuongLNT\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-30T02:46:55.366Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "LeaderboardsDuongLNTRepository.cs",
-              "DocumentMoniker": "D:\\Github\\PRN212\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM1_SE171916_DuongLNT\\SmokeQuit.Repositories.DuongLNT\\LeaderboardsDuongLNTRepository.cs",
-              "RelativeDocumentMoniker": "SmokeQuit.Repositories.DuongLNT\\LeaderboardsDuongLNTRepository.cs",
-              "ToolTip": "D:\\Github\\PRN212\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM1_SE171916_DuongLNT\\SmokeQuit.Repositories.DuongLNT\\LeaderboardsDuongLNTRepository.cs",
-              "RelativeToolTip": "SmokeQuit.Repositories.DuongLNT\\LeaderboardsDuongLNTRepository.cs",
-              "ViewState": "AgIAAEgAAAAAAAAAAAAAwIIAAAADAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-16T07:33:57.985Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 11,
               "Title": "ILeaderboardsDuongLntService.cs",
               "DocumentMoniker": "D:\\Github\\PRN212\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM1_SE171916_DuongLNT\\SmokeQuit.Services.DuongLNT\\ILeaderboardsDuongLntService.cs",
               "RelativeDocumentMoniker": "SmokeQuit.Services.DuongLNT\\ILeaderboardsDuongLntService.cs",
               "ToolTip": "D:\\Github\\PRN212\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM1_SE171916_DuongLNT\\SmokeQuit.Services.DuongLNT\\ILeaderboardsDuongLntService.cs",
               "RelativeToolTip": "SmokeQuit.Services.DuongLNT\\ILeaderboardsDuongLntService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABqAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAtwBEAAABjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-20T06:27:31.183Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\Github\\PRN212\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM1_SE171916_DuongLNT\\SmokeQuit.APIServices.BE.DuongLNT\\appsettings.json",
-              "RelativeDocumentMoniker": "SmokeQuit.APIServices.BE.DuongLNT\\appsettings.json",
-              "ToolTip": "D:\\Github\\PRN212\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM1_SE171916_DuongLNT\\SmokeQuit.APIServices.BE.DuongLNT\\appsettings.json",
-              "RelativeToolTip": "SmokeQuit.APIServices.BE.DuongLNT\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-05-17T02:48:18.337Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "SmokeQuit.Services.DuongLNT.csproj",
-              "DocumentMoniker": "D:\\Github\\PRN212\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM1_SE171916_DuongLNT\\SmokeQuit.Services.DuongLNT\\SmokeQuit.Services.DuongLNT.csproj",
-              "RelativeDocumentMoniker": "SmokeQuit.Services.DuongLNT\\SmokeQuit.Services.DuongLNT.csproj",
-              "ToolTip": "D:\\Github\\PRN212\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM1_SE171916_DuongLNT\\SmokeQuit.Services.DuongLNT\\SmokeQuit.Services.DuongLNT.csproj",
-              "RelativeToolTip": "SmokeQuit.Services.DuongLNT\\SmokeQuit.Services.DuongLNT.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-05-16T06:25:57.187Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 33,
-              "Title": "GenericRepository.cs",
-              "DocumentMoniker": "D:\\Github\\PRN212\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM1_SE171916_DuongLNT\\SmokeQuit.Repositories.DuongLNT\\Basic\\GenericRepository.cs",
-              "RelativeDocumentMoniker": "SmokeQuit.Repositories.DuongLNT\\Basic\\GenericRepository.cs",
-              "ToolTip": "D:\\Github\\PRN212\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM1_SE171916_DuongLNT\\SmokeQuit.Repositories.DuongLNT\\Basic\\GenericRepository.cs",
-              "RelativeToolTip": "SmokeQuit.Repositories.DuongLNT\\Basic\\GenericRepository.cs",
-              "ViewState": "AgIAAD0AAAAAAAAAAADwv3AAAAAlAAAAAAAAAA==",
+              "DocumentIndex": 12,
+              "Title": "LeaderboardsDuongLntService.cs",
+              "DocumentMoniker": "D:\\Github\\PRN212\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM1_SE171916_DuongLNT\\SmokeQuit.Services.DuongLNT\\LeaderboardsDuongLntService.cs",
+              "RelativeDocumentMoniker": "SmokeQuit.Services.DuongLNT\\LeaderboardsDuongLntService.cs",
+              "ToolTip": "D:\\Github\\PRN212\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM1_SE171916_DuongLNT\\SmokeQuit.Services.DuongLNT\\LeaderboardsDuongLntService.cs",
+              "RelativeToolTip": "SmokeQuit.Services.DuongLNT\\LeaderboardsDuongLntService.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAkwEQAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-16T07:09:38.42Z"
+              "WhenOpened": "2025-05-20T06:22:47.317Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
-              "Title": "PaginationResult.cs",
-              "DocumentMoniker": "D:\\Github\\PRN212\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM1_SE171916_DuongLNT\\SmokeQuit.Repositories.DuongLNT\\ModelExtensions\\PaginationResult.cs",
-              "RelativeDocumentMoniker": "SmokeQuit.Repositories.DuongLNT\\ModelExtensions\\PaginationResult.cs",
-              "ToolTip": "D:\\Github\\PRN212\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM1_SE171916_DuongLNT\\SmokeQuit.Repositories.DuongLNT\\ModelExtensions\\PaginationResult.cs",
-              "RelativeToolTip": "SmokeQuit.Repositories.DuongLNT\\ModelExtensions\\PaginationResult.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-27T06:10:08.432Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 35,
-              "Title": "SU25_PRN232_SE1731_G6_SmokeQuitContext.cs",
-              "DocumentMoniker": "D:\\Github\\PRN212\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM1_SE171916_DuongLNT\\SmokeQuit.Repositories.DuongLNT\\DBContext\\SU25_PRN232_SE1731_G6_SmokeQuitContext.cs",
-              "RelativeDocumentMoniker": "SmokeQuit.Repositories.DuongLNT\\DBContext\\SU25_PRN232_SE1731_G6_SmokeQuitContext.cs",
-              "ToolTip": "D:\\Github\\PRN212\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM1_SE171916_DuongLNT\\SmokeQuit.Repositories.DuongLNT\\DBContext\\SU25_PRN232_SE1731_G6_SmokeQuitContext.cs",
-              "RelativeToolTip": "SmokeQuit.Repositories.DuongLNT\\DBContext\\SU25_PRN232_SE1731_G6_SmokeQuitContext.cs",
-              "ViewState": "AgIAACgAAAAAAAAAAAAcwDwAAACBAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-16T06:57:26.394Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 36,
-              "Title": "SmokeQuit.MVCWebApp.FE.DuongLNT.csproj",
-              "DocumentMoniker": "D:\\Github\\PRN212\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM1_SE171916_DuongLNT\\SmokeQuit.MVCWebApp.FE.DuongLNT\\SmokeQuit.MVCWebApp.FE.DuongLNT.csproj",
-              "RelativeDocumentMoniker": "SmokeQuit.MVCWebApp.FE.DuongLNT\\SmokeQuit.MVCWebApp.FE.DuongLNT.csproj",
-              "ToolTip": "D:\\Github\\PRN212\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM1_SE171916_DuongLNT\\SmokeQuit.MVCWebApp.FE.DuongLNT\\SmokeQuit.MVCWebApp.FE.DuongLNT.csproj",
-              "RelativeToolTip": "SmokeQuit.MVCWebApp.FE.DuongLNT\\SmokeQuit.MVCWebApp.FE.DuongLNT.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-05-27T07:31:14.087Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 37,
-              "Title": "QuitPlansAnhDtnDuongLNTRepository.cs",
-              "DocumentMoniker": "D:\\Github\\PRN212\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM1_SE171916_DuongLNT\\SmokeQuit.Repositories.DuongLNT\\QuitPlansAnhDtnDuongLNTRepository.cs",
-              "RelativeDocumentMoniker": "SmokeQuit.Repositories.DuongLNT\\QuitPlansAnhDtnDuongLNTRepository.cs",
-              "ToolTip": "D:\\Github\\PRN212\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM1_SE171916_DuongLNT\\SmokeQuit.Repositories.DuongLNT\\QuitPlansAnhDtnDuongLNTRepository.cs",
-              "RelativeToolTip": "SmokeQuit.Repositories.DuongLNT\\QuitPlansAnhDtnDuongLNTRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-20T06:08:01.405Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 38,
-              "Title": "SystemUserAccountRepository.cs",
-              "DocumentMoniker": "D:\\Github\\PRN212\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM1_SE171916_DuongLNT\\SmokeQuit.Repositories.DuongLNT\\SystemUserAccountRepository.cs",
-              "RelativeDocumentMoniker": "SmokeQuit.Repositories.DuongLNT\\SystemUserAccountRepository.cs",
-              "ToolTip": "D:\\Github\\PRN212\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM1_SE171916_DuongLNT\\SmokeQuit.Repositories.DuongLNT\\SystemUserAccountRepository.cs",
-              "RelativeToolTip": "SmokeQuit.Repositories.DuongLNT\\SystemUserAccountRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-20T06:11:58.401Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 39,
-              "Title": "SmokeQuit.APIServices.BE.DuongLNT.http",
-              "DocumentMoniker": "D:\\Github\\PRN212\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM1_SE171916_DuongLNT\\SmokeQuit.APIServices.BE.DuongLNT\\SmokeQuit.APIServices.BE.DuongLNT.http",
-              "RelativeDocumentMoniker": "SmokeQuit.APIServices.BE.DuongLNT\\SmokeQuit.APIServices.BE.DuongLNT.http",
-              "ToolTip": "D:\\Github\\PRN212\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM1_SE171916_DuongLNT\\SmokeQuit.APIServices.BE.DuongLNT\\SmokeQuit.APIServices.BE.DuongLNT.http",
-              "RelativeToolTip": "SmokeQuit.APIServices.BE.DuongLNT\\SmokeQuit.APIServices.BE.DuongLNT.http",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
-              "WhenOpened": "2025-05-20T07:42:19.903Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 40,
-              "Title": "UserAchievementNhuNq.cs",
-              "DocumentMoniker": "D:\\Github\\PRN212\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM1_SE171916_DuongLNT\\SmokeQuit.Repositories.DuongLNT\\Models\\UserAchievementNhuNq.cs",
-              "RelativeDocumentMoniker": "SmokeQuit.Repositories.DuongLNT\\Models\\UserAchievementNhuNq.cs",
-              "ToolTip": "D:\\Github\\PRN212\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM1_SE171916_DuongLNT\\SmokeQuit.Repositories.DuongLNT\\Models\\UserAchievementNhuNq.cs",
-              "RelativeToolTip": "SmokeQuit.Repositories.DuongLNT\\Models\\UserAchievementNhuNq.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-17T03:00:29.093Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 41,
-              "Title": "SupportMethodsHoangPx.cs",
-              "DocumentMoniker": "D:\\Github\\PRN212\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM1_SE171916_DuongLNT\\SmokeQuit.Repositories.DuongLNT\\Models\\SupportMethodsHoangPx.cs",
-              "RelativeDocumentMoniker": "SmokeQuit.Repositories.DuongLNT\\Models\\SupportMethodsHoangPx.cs",
-              "ToolTip": "D:\\Github\\PRN212\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM1_SE171916_DuongLNT\\SmokeQuit.Repositories.DuongLNT\\Models\\SupportMethodsHoangPx.cs",
-              "RelativeToolTip": "SmokeQuit.Repositories.DuongLNT\\Models\\SupportMethodsHoangPx.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-17T03:00:27.316Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 13,
               "Title": "SmokeQuit.Repositories.DuongLNT.csproj",
               "DocumentMoniker": "D:\\Github\\PRN212\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM1_SE171916_DuongLNT\\SmokeQuit.Repositories.DuongLNT\\SmokeQuit.Repositories.DuongLNT.csproj",
               "RelativeDocumentMoniker": "SmokeQuit.Repositories.DuongLNT\\SmokeQuit.Repositories.DuongLNT.csproj",
@@ -760,7 +416,412 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Github\\PRN212\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM1_SE171916_DuongLNT\\SmokeQuit.MVCWebApp.FE.DuongLNT\\appsettings.json",
+              "RelativeDocumentMoniker": "SmokeQuit.MVCWebApp.FE.DuongLNT\\appsettings.json",
+              "ToolTip": "D:\\Github\\PRN212\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM1_SE171916_DuongLNT\\SmokeQuit.MVCWebApp.FE.DuongLNT\\appsettings.json",
+              "RelativeToolTip": "SmokeQuit.MVCWebApp.FE.DuongLNT\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-06T07:40:54.703Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "D:\\Github\\PRN212\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM1_SE171916_DuongLNT\\SmokeQuit.MVCWebApp.FE.DuongLNT\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "SmokeQuit.MVCWebApp.FE.DuongLNT\\Controllers\\AccountController.cs",
+              "ToolTip": "D:\\Github\\PRN212\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM1_SE171916_DuongLNT\\SmokeQuit.MVCWebApp.FE.DuongLNT\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "SmokeQuit.MVCWebApp.FE.DuongLNT\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAAEwAAAAAAAAAAAAkwBgAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T13:25:26.876Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\Github\\PRN212\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM1_SE171916_DuongLNT\\SmokeQuit.MVCWebApp.FE.DuongLNT\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "SmokeQuit.MVCWebApp.FE.DuongLNT\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\Github\\PRN212\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM1_SE171916_DuongLNT\\SmokeQuit.MVCWebApp.FE.DuongLNT\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "SmokeQuit.MVCWebApp.FE.DuongLNT\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwB4AAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T14:15:15.808Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "D:\\Github\\PRN212\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM1_SE171916_DuongLNT\\SmokeQuit.MVCWebApp.FE.DuongLNT\\Views\\LeaderboardsDuongLnts\\Delete.cshtml",
+              "RelativeDocumentMoniker": "SmokeQuit.MVCWebApp.FE.DuongLNT\\Views\\LeaderboardsDuongLnts\\Delete.cshtml",
+              "ToolTip": "D:\\Github\\PRN212\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM1_SE171916_DuongLNT\\SmokeQuit.MVCWebApp.FE.DuongLNT\\Views\\LeaderboardsDuongLnts\\Delete.cshtml",
+              "RelativeToolTip": "SmokeQuit.MVCWebApp.FE.DuongLNT\\Views\\LeaderboardsDuongLnts\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-03T02:48:50.465Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\Github\\PRN212\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM1_SE171916_DuongLNT\\SmokeQuit.MVCWebApp.FE.DuongLNT\\Views\\LeaderboardsDuongLnts\\Create.cshtml",
+              "RelativeDocumentMoniker": "SmokeQuit.MVCWebApp.FE.DuongLNT\\Views\\LeaderboardsDuongLnts\\Create.cshtml",
+              "ToolTip": "D:\\Github\\PRN212\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM1_SE171916_DuongLNT\\SmokeQuit.MVCWebApp.FE.DuongLNT\\Views\\LeaderboardsDuongLnts\\Create.cshtml",
+              "RelativeToolTip": "SmokeQuit.MVCWebApp.FE.DuongLNT\\Views\\LeaderboardsDuongLnts\\Create.cshtml",
+              "ViewState": "AgIAADAAAAAAAAAAAAAAADoAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-27T07:40:55.145Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "D:\\Github\\PRN212\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM1_SE171916_DuongLNT\\SmokeQuit.MVCWebApp.FE.DuongLNT\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "SmokeQuit.MVCWebApp.FE.DuongLNT\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "D:\\Github\\PRN212\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM1_SE171916_DuongLNT\\SmokeQuit.MVCWebApp.FE.DuongLNT\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "SmokeQuit.MVCWebApp.FE.DuongLNT\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-30T02:46:55.366Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Forbidden.cshtml",
+              "DocumentMoniker": "D:\\Github\\PRN212\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM1_SE171916_DuongLNT\\SmokeQuit.MVCWebApp.FE.DuongLNT\\Views\\Account\\Forbidden.cshtml",
+              "RelativeDocumentMoniker": "SmokeQuit.MVCWebApp.FE.DuongLNT\\Views\\Account\\Forbidden.cshtml",
+              "ToolTip": "D:\\Github\\PRN212\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM1_SE171916_DuongLNT\\SmokeQuit.MVCWebApp.FE.DuongLNT\\Views\\Account\\Forbidden.cshtml",
+              "RelativeToolTip": "SmokeQuit.MVCWebApp.FE.DuongLNT\\Views\\Account\\Forbidden.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-02T13:30:48.038Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "SearchRequest.cs",
+              "DocumentMoniker": "D:\\Github\\PRN212\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM1_SE171916_DuongLNT\\SmokeQuit.Repositories.DuongLNT\\ModelExtensions\\SearchRequest.cs",
+              "RelativeDocumentMoniker": "SmokeQuit.Repositories.DuongLNT\\ModelExtensions\\SearchRequest.cs",
+              "ToolTip": "D:\\Github\\PRN212\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM1_SE171916_DuongLNT\\SmokeQuit.Repositories.DuongLNT\\ModelExtensions\\SearchRequest.cs",
+              "RelativeToolTip": "SmokeQuit.Repositories.DuongLNT\\ModelExtensions\\SearchRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAkAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T06:44:27.437Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "LeaderboardsDuongLNTRepository.cs",
+              "DocumentMoniker": "D:\\Github\\PRN212\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM1_SE171916_DuongLNT\\SmokeQuit.Repositories.DuongLNT\\LeaderboardsDuongLNTRepository.cs",
+              "RelativeDocumentMoniker": "SmokeQuit.Repositories.DuongLNT\\LeaderboardsDuongLNTRepository.cs",
+              "ToolTip": "D:\\Github\\PRN212\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM1_SE171916_DuongLNT\\SmokeQuit.Repositories.DuongLNT\\LeaderboardsDuongLNTRepository.cs",
+              "RelativeToolTip": "SmokeQuit.Repositories.DuongLNT\\LeaderboardsDuongLNTRepository.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAewBoAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T07:33:57.985Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "QuitPlansAnhDtnDuongLNTRepository.cs",
+              "DocumentMoniker": "D:\\Github\\PRN212\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM1_SE171916_DuongLNT\\SmokeQuit.Repositories.DuongLNT\\QuitPlansAnhDtnDuongLNTRepository.cs",
+              "RelativeDocumentMoniker": "SmokeQuit.Repositories.DuongLNT\\QuitPlansAnhDtnDuongLNTRepository.cs",
+              "ToolTip": "D:\\Github\\PRN212\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM1_SE171916_DuongLNT\\SmokeQuit.Repositories.DuongLNT\\QuitPlansAnhDtnDuongLNTRepository.cs",
+              "RelativeToolTip": "SmokeQuit.Repositories.DuongLNT\\QuitPlansAnhDtnDuongLNTRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T06:08:01.405Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "SystemUserAccountRepository.cs",
+              "DocumentMoniker": "D:\\Github\\PRN212\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM1_SE171916_DuongLNT\\SmokeQuit.Repositories.DuongLNT\\SystemUserAccountRepository.cs",
+              "RelativeDocumentMoniker": "SmokeQuit.Repositories.DuongLNT\\SystemUserAccountRepository.cs",
+              "ToolTip": "D:\\Github\\PRN212\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM1_SE171916_DuongLNT\\SmokeQuit.Repositories.DuongLNT\\SystemUserAccountRepository.cs",
+              "RelativeToolTip": "SmokeQuit.Repositories.DuongLNT\\SystemUserAccountRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T06:11:58.401Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "SmokeQuit.Services.DuongLNT.csproj",
+              "DocumentMoniker": "D:\\Github\\PRN212\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM1_SE171916_DuongLNT\\SmokeQuit.Services.DuongLNT\\SmokeQuit.Services.DuongLNT.csproj",
+              "RelativeDocumentMoniker": "SmokeQuit.Services.DuongLNT\\SmokeQuit.Services.DuongLNT.csproj",
+              "ToolTip": "D:\\Github\\PRN212\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM1_SE171916_DuongLNT\\SmokeQuit.Services.DuongLNT\\SmokeQuit.Services.DuongLNT.csproj",
+              "RelativeToolTip": "SmokeQuit.Services.DuongLNT\\SmokeQuit.Services.DuongLNT.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-16T06:25:57.187Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "QuitPlansAnhDtnController.cs",
+              "DocumentMoniker": "D:\\Github\\PRN212\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM1_SE171916_DuongLNT\\SmokeQuit.APIServices.BE.DuongLNT\\Controllers\\QuitPlansAnhDtnController.cs",
+              "RelativeDocumentMoniker": "SmokeQuit.APIServices.BE.DuongLNT\\Controllers\\QuitPlansAnhDtnController.cs",
+              "ToolTip": "D:\\Github\\PRN212\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM1_SE171916_DuongLNT\\SmokeQuit.APIServices.BE.DuongLNT\\Controllers\\QuitPlansAnhDtnController.cs",
+              "RelativeToolTip": "SmokeQuit.APIServices.BE.DuongLNT\\Controllers\\QuitPlansAnhDtnController.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwBsAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T03:24:09.789Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "SystemUserAccountService.cs",
+              "DocumentMoniker": "D:\\Github\\PRN212\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM1_SE171916_DuongLNT\\SmokeQuit.Services.DuongLNT\\SystemUserAccountService.cs",
+              "RelativeDocumentMoniker": "SmokeQuit.Services.DuongLNT\\SystemUserAccountService.cs",
+              "ToolTip": "D:\\Github\\PRN212\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM1_SE171916_DuongLNT\\SmokeQuit.Services.DuongLNT\\SystemUserAccountService.cs",
+              "RelativeToolTip": "SmokeQuit.Services.DuongLNT\\SystemUserAccountService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T06:55:15.278Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "LoginRequest.cs",
+              "DocumentMoniker": "D:\\Github\\PRN212\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM1_SE171916_DuongLNT\\SmokeQuit.MVCWebApp.FE.DuongLNT\\Models\\LoginRequest.cs",
+              "RelativeDocumentMoniker": "SmokeQuit.MVCWebApp.FE.DuongLNT\\Models\\LoginRequest.cs",
+              "ToolTip": "D:\\Github\\PRN212\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM1_SE171916_DuongLNT\\SmokeQuit.MVCWebApp.FE.DuongLNT\\Models\\LoginRequest.cs",
+              "RelativeToolTip": "SmokeQuit.MVCWebApp.FE.DuongLNT\\Models\\LoginRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T13:24:40.337Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "PaginationResult.cs",
+              "DocumentMoniker": "D:\\Github\\PRN212\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM1_SE171916_DuongLNT\\SmokeQuit.Repositories.DuongLNT\\ModelExtensions\\PaginationResult.cs",
+              "RelativeDocumentMoniker": "SmokeQuit.Repositories.DuongLNT\\ModelExtensions\\PaginationResult.cs",
+              "ToolTip": "D:\\Github\\PRN212\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM1_SE171916_DuongLNT\\SmokeQuit.Repositories.DuongLNT\\ModelExtensions\\PaginationResult.cs",
+              "RelativeToolTip": "SmokeQuit.Repositories.DuongLNT\\ModelExtensions\\PaginationResult.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T06:10:08.432Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "SystemUserAccountsController.cs",
+              "DocumentMoniker": "D:\\Github\\PRN212\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM1_SE171916_DuongLNT\\SmokeQuit.APIServices.BE.DuongLNT\\Controllers\\SystemUserAccountsController.cs",
+              "RelativeDocumentMoniker": "SmokeQuit.APIServices.BE.DuongLNT\\Controllers\\SystemUserAccountsController.cs",
+              "ToolTip": "D:\\Github\\PRN212\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM1_SE171916_DuongLNT\\SmokeQuit.APIServices.BE.DuongLNT\\Controllers\\SystemUserAccountsController.cs",
+              "RelativeToolTip": "SmokeQuit.APIServices.BE.DuongLNT\\Controllers\\SystemUserAccountsController.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAgwD8AAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T06:57:35.34Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "D:\\Github\\PRN212\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM1_SE171916_DuongLNT\\SmokeQuit.MVCWebApp.FE.DuongLNT\\Views\\LeaderboardsDuongLnts\\Details.cshtml",
+              "RelativeDocumentMoniker": "SmokeQuit.MVCWebApp.FE.DuongLNT\\Views\\LeaderboardsDuongLnts\\Details.cshtml",
+              "ToolTip": "D:\\Github\\PRN212\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM1_SE171916_DuongLNT\\SmokeQuit.MVCWebApp.FE.DuongLNT\\Views\\LeaderboardsDuongLnts\\Details.cshtml",
+              "RelativeToolTip": "SmokeQuit.MVCWebApp.FE.DuongLNT\\Views\\LeaderboardsDuongLnts\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-03T05:14:12.861Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "D:\\Github\\PRN212\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM1_SE171916_DuongLNT\\SmokeQuit.MVCWebApp.FE.DuongLNT\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "SmokeQuit.MVCWebApp.FE.DuongLNT\\Views\\Account\\Login.cshtml",
+              "ToolTip": "D:\\Github\\PRN212\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM1_SE171916_DuongLNT\\SmokeQuit.MVCWebApp.FE.DuongLNT\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "SmokeQuit.MVCWebApp.FE.DuongLNT\\Views\\Account\\Login.cshtml",
+              "ViewState": "AgIAABkAAAAAAAAAAIBJwCwAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-02T13:30:49.874Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "SystemUserAccount.cs",
+              "DocumentMoniker": "D:\\Github\\PRN212\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM1_SE171916_DuongLNT\\SmokeQuit.Repositories.DuongLNT\\Models\\SystemUserAccount.cs",
+              "RelativeDocumentMoniker": "SmokeQuit.Repositories.DuongLNT\\Models\\SystemUserAccount.cs",
+              "ToolTip": "D:\\Github\\PRN212\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM1_SE171916_DuongLNT\\SmokeQuit.Repositories.DuongLNT\\Models\\SystemUserAccount.cs",
+              "RelativeToolTip": "SmokeQuit.Repositories.DuongLNT\\Models\\SystemUserAccount.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T07:03:11.253Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "QuitPlansAnhDtnDuongLNTService.cs",
+              "DocumentMoniker": "D:\\Github\\PRN212\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM1_SE171916_DuongLNT\\SmokeQuit.Services.DuongLNT\\QuitPlansAnhDtnDuongLNTService.cs",
+              "RelativeDocumentMoniker": "SmokeQuit.Services.DuongLNT\\QuitPlansAnhDtnDuongLNTService.cs",
+              "ToolTip": "D:\\Github\\PRN212\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM1_SE171916_DuongLNT\\SmokeQuit.Services.DuongLNT\\QuitPlansAnhDtnDuongLNTService.cs",
+              "RelativeToolTip": "SmokeQuit.Services.DuongLNT\\QuitPlansAnhDtnDuongLNTService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T06:48:37.912Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "D:\\Github\\PRN212\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM1_SE171916_DuongLNT\\SmokeQuit.APIServices.BE.DuongLNT\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "SmokeQuit.APIServices.BE.DuongLNT\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "D:\\Github\\PRN212\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM1_SE171916_DuongLNT\\SmokeQuit.APIServices.BE.DuongLNT\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "SmokeQuit.APIServices.BE.DuongLNT\\Controllers\\WeatherForecastController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T05:36:14.587Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "D:\\Github\\PRN212\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM1_SE171916_DuongLNT\\SmokeQuit.MVCWebApp.FE.DuongLNT\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "SmokeQuit.MVCWebApp.FE.DuongLNT\\Models\\ErrorViewModel.cs",
+              "ToolTip": "D:\\Github\\PRN212\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM1_SE171916_DuongLNT\\SmokeQuit.MVCWebApp.FE.DuongLNT\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "SmokeQuit.MVCWebApp.FE.DuongLNT\\Models\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T13:24:19.995Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "SmokeQuit.APIServices.BE.DuongLNT.csproj",
+              "DocumentMoniker": "D:\\Github\\PRN212\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM1_SE171916_DuongLNT\\SmokeQuit.APIServices.BE.DuongLNT\\SmokeQuit.APIServices.BE.DuongLNT.csproj",
+              "RelativeDocumentMoniker": "SmokeQuit.APIServices.BE.DuongLNT\\SmokeQuit.APIServices.BE.DuongLNT.csproj",
+              "ToolTip": "D:\\Github\\PRN212\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM1_SE171916_DuongLNT\\SmokeQuit.APIServices.BE.DuongLNT\\SmokeQuit.APIServices.BE.DuongLNT.csproj",
+              "RelativeToolTip": "SmokeQuit.APIServices.BE.DuongLNT\\SmokeQuit.APIServices.BE.DuongLNT.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-16T06:31:13.467Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "dbo.System.UserAccount.sql",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/LAPTOP_9HDJDBQK_THUYDUONG/SU25_PRN232_SE1731_G6_SmokeQuit/sa/SqlTable/dbo.System.UserAccount.sql",
+              "ToolTip": "ViewDataWindow_MSSQL__/LAPTOP_9HDJDBQK_THUYDUONG/SU25_PRN232_SE1731_G6_SmokeQuit/sa/SqlTable/dbo.System.UserAccount.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-06-02T13:35:44.642Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Github\\PRN212\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM1_SE171916_DuongLNT\\SmokeQuit.MVCWebApp.FE.DuongLNT\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "SmokeQuit.MVCWebApp.FE.DuongLNT\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\Github\\PRN212\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM1_SE171916_DuongLNT\\SmokeQuit.MVCWebApp.FE.DuongLNT\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "SmokeQuit.MVCWebApp.FE.DuongLNT\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-29T14:16:20.895Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "D:\\Github\\PRN212\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM1_SE171916_DuongLNT\\SmokeQuit.MVCWebApp.FE.DuongLNT\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "SmokeQuit.MVCWebApp.FE.DuongLNT\\Views\\Home\\Privacy.cshtml",
+              "ToolTip": "D:\\Github\\PRN212\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM1_SE171916_DuongLNT\\SmokeQuit.MVCWebApp.FE.DuongLNT\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "SmokeQuit.MVCWebApp.FE.DuongLNT\\Views\\Home\\Privacy.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-29T14:16:23.438Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Github\\PRN212\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM1_SE171916_DuongLNT\\SmokeQuit.APIServices.BE.DuongLNT\\appsettings.json",
+              "RelativeDocumentMoniker": "SmokeQuit.APIServices.BE.DuongLNT\\appsettings.json",
+              "ToolTip": "D:\\Github\\PRN212\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM1_SE171916_DuongLNT\\SmokeQuit.APIServices.BE.DuongLNT\\appsettings.json",
+              "RelativeToolTip": "SmokeQuit.APIServices.BE.DuongLNT\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-17T02:48:18.337Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "GenericRepository.cs",
+              "DocumentMoniker": "D:\\Github\\PRN212\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM1_SE171916_DuongLNT\\SmokeQuit.Repositories.DuongLNT\\Basic\\GenericRepository.cs",
+              "RelativeDocumentMoniker": "SmokeQuit.Repositories.DuongLNT\\Basic\\GenericRepository.cs",
+              "ToolTip": "D:\\Github\\PRN212\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM1_SE171916_DuongLNT\\SmokeQuit.Repositories.DuongLNT\\Basic\\GenericRepository.cs",
+              "RelativeToolTip": "SmokeQuit.Repositories.DuongLNT\\Basic\\GenericRepository.cs",
+              "ViewState": "AgIAAD0AAAAAAAAAAADwv3AAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T07:09:38.42Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 43,
+              "Title": "SU25_PRN232_SE1731_G6_SmokeQuitContext.cs",
+              "DocumentMoniker": "D:\\Github\\PRN212\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM1_SE171916_DuongLNT\\SmokeQuit.Repositories.DuongLNT\\DBContext\\SU25_PRN232_SE1731_G6_SmokeQuitContext.cs",
+              "RelativeDocumentMoniker": "SmokeQuit.Repositories.DuongLNT\\DBContext\\SU25_PRN232_SE1731_G6_SmokeQuitContext.cs",
+              "ToolTip": "D:\\Github\\PRN212\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM1_SE171916_DuongLNT\\SmokeQuit.Repositories.DuongLNT\\DBContext\\SU25_PRN232_SE1731_G6_SmokeQuitContext.cs",
+              "RelativeToolTip": "SmokeQuit.Repositories.DuongLNT\\DBContext\\SU25_PRN232_SE1731_G6_SmokeQuitContext.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAcwDwAAACBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T06:57:26.394Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "SmokeQuit.MVCWebApp.FE.DuongLNT.csproj",
+              "DocumentMoniker": "D:\\Github\\PRN212\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM1_SE171916_DuongLNT\\SmokeQuit.MVCWebApp.FE.DuongLNT\\SmokeQuit.MVCWebApp.FE.DuongLNT.csproj",
+              "RelativeDocumentMoniker": "SmokeQuit.MVCWebApp.FE.DuongLNT\\SmokeQuit.MVCWebApp.FE.DuongLNT.csproj",
+              "ToolTip": "D:\\Github\\PRN212\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM1_SE171916_DuongLNT\\SmokeQuit.MVCWebApp.FE.DuongLNT\\SmokeQuit.MVCWebApp.FE.DuongLNT.csproj",
+              "RelativeToolTip": "SmokeQuit.MVCWebApp.FE.DuongLNT\\SmokeQuit.MVCWebApp.FE.DuongLNT.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-27T07:31:14.087Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "SmokeQuit.APIServices.BE.DuongLNT.http",
+              "DocumentMoniker": "D:\\Github\\PRN212\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM1_SE171916_DuongLNT\\SmokeQuit.APIServices.BE.DuongLNT\\SmokeQuit.APIServices.BE.DuongLNT.http",
+              "RelativeDocumentMoniker": "SmokeQuit.APIServices.BE.DuongLNT\\SmokeQuit.APIServices.BE.DuongLNT.http",
+              "ToolTip": "D:\\Github\\PRN212\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM1_SE171916_DuongLNT\\SmokeQuit.APIServices.BE.DuongLNT\\SmokeQuit.APIServices.BE.DuongLNT.http",
+              "RelativeToolTip": "SmokeQuit.APIServices.BE.DuongLNT\\SmokeQuit.APIServices.BE.DuongLNT.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2025-05-20T07:42:19.903Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "UserAchievementNhuNq.cs",
+              "DocumentMoniker": "D:\\Github\\PRN212\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM1_SE171916_DuongLNT\\SmokeQuit.Repositories.DuongLNT\\Models\\UserAchievementNhuNq.cs",
+              "RelativeDocumentMoniker": "SmokeQuit.Repositories.DuongLNT\\Models\\UserAchievementNhuNq.cs",
+              "ToolTip": "D:\\Github\\PRN212\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM1_SE171916_DuongLNT\\SmokeQuit.Repositories.DuongLNT\\Models\\UserAchievementNhuNq.cs",
+              "RelativeToolTip": "SmokeQuit.Repositories.DuongLNT\\Models\\UserAchievementNhuNq.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-17T03:00:29.093Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "SupportMethodsHoangPx.cs",
+              "DocumentMoniker": "D:\\Github\\PRN212\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM1_SE171916_DuongLNT\\SmokeQuit.Repositories.DuongLNT\\Models\\SupportMethodsHoangPx.cs",
+              "RelativeDocumentMoniker": "SmokeQuit.Repositories.DuongLNT\\Models\\SupportMethodsHoangPx.cs",
+              "ToolTip": "D:\\Github\\PRN212\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM1_SE171916_DuongLNT\\SmokeQuit.Repositories.DuongLNT\\Models\\SupportMethodsHoangPx.cs",
+              "RelativeToolTip": "SmokeQuit.Repositories.DuongLNT\\Models\\SupportMethodsHoangPx.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-17T03:00:27.316Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
               "Title": "WeatherForecast.cs",
               "DocumentMoniker": "D:\\Github\\PRN212\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM1_SE171916_DuongLNT\\SmokeQuit.APIServices.BE.DuongLNT\\WeatherForecast.cs",
               "RelativeDocumentMoniker": "SmokeQuit.APIServices.BE.DuongLNT\\WeatherForecast.cs",
@@ -772,7 +833,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 49,
               "Title": "efpt.config.json",
               "DocumentMoniker": "D:\\Github\\PRN212\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM1_SE171916_DuongLNT\\SmokeQuit.Repositories.DuongLNT\\efpt.config.json",
               "RelativeDocumentMoniker": "SmokeQuit.Repositories.DuongLNT\\efpt.config.json",
@@ -781,18 +842,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2025-05-17T03:00:30.156Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 45,
-              "Title": "MembershipPlansAnhDtn.cs",
-              "DocumentMoniker": "D:\\Github\\PRN212\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM1_SE171916_DuongLNT\\SmokeQuit.Repositories.DuongLNT\\Models\\MembershipPlansAnhDtn.cs",
-              "RelativeDocumentMoniker": "SmokeQuit.Repositories.DuongLNT\\Models\\MembershipPlansAnhDtn.cs",
-              "ToolTip": "D:\\Github\\PRN212\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM1_SE171916_DuongLNT\\SmokeQuit.Repositories.DuongLNT\\Models\\MembershipPlansAnhDtn.cs",
-              "RelativeToolTip": "SmokeQuit.Repositories.DuongLNT\\Models\\MembershipPlansAnhDtn.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-17T03:00:23.189Z"
             }
           ]
         }

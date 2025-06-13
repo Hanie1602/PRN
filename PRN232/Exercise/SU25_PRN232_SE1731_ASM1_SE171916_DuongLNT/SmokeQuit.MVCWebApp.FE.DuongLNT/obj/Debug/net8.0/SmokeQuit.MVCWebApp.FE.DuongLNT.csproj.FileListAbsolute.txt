@@ -263,3 +263,6 @@ D:\Github\PRN212\PRN232\Exercise\SU25_PRN232_SE1731_ASM1_SE171916_DuongLNT\Smoke
 D:\Github\PRN212\PRN232\Exercise\SU25_PRN232_SE1731_ASM1_SE171916_DuongLNT\SmokeQuit.MVCWebApp.FE.DuongLNT\bin\Debug\net8.0\SmokeQuit.Repositories.DuongLNT.pdb
 D:\Github\PRN212\PRN232\Exercise\SU25_PRN232_SE1731_ASM1_SE171916_DuongLNT\SmokeQuit.MVCWebApp.FE.DuongLNT\obj\Debug\net8.0\SmokeQuit.MVCWebApp.FE.DuongLNT.csproj.AssemblyReference.cache
 D:\Github\PRN212\PRN232\Exercise\SU25_PRN232_SE1731_ASM1_SE171916_DuongLNT\SmokeQuit.MVCWebApp.FE.DuongLNT\obj\Debug\net8.0\SmokeQui.EB200FC8.Up2Date
+D:\Github\PRN212\PRN232\Exercise\SU25_PRN232_SE1731_ASM1_SE171916_DuongLNT\SmokeQuit.MVCWebApp.FE.DuongLNT\bin\Debug\net8.0\X.PagedList.dll
+D:\Github\PRN212\PRN232\Exercise\SU25_PRN232_SE1731_ASM1_SE171916_DuongLNT\SmokeQuit.MVCWebApp.FE.DuongLNT\bin\Debug\net8.0\X.PagedList.Mvc.Core.dll
+D:\Github\PRN212\PRN232\Exercise\SU25_PRN232_SE1731_ASM1_SE171916_DuongLNT\SmokeQuit.MVCWebApp.FE.DuongLNT\obj\Debug\net8.0\SmokeQuit.MVCWebApp.FE.DuongLNT.MvcApplicationPartsAssemblyInfo.cs

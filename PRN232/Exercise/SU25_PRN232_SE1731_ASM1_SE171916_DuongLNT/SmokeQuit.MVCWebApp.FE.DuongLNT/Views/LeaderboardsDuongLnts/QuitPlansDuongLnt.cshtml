@@ -1,0 +1,200 @@
+﻿@{
+	ViewData["Title"] = "Danh sách gói cai thuốc";
+}
+
+<h2>Danh sách gói cai thuốc</h2>
+
+<div class="mb-2">
+	<button type="button" class="btn btn-primary" onclick="addNew();">
+		Thêm mới
+	</button>
+</div>
+
+<div class="modal" id="bankModal" tabindex="-1" aria-labelledby="bankModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+            @using (Html.BeginForm(null, null, FormMethod.Post, new { name = "frmBank", id = "frmBank" }))
+            {
+                @Html.AntiForgeryToken()
+                <div class="modal-header">
+                    <h5 class="modal-title" id="bankModalLabel">Bank</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+				<div class="modal-body">
+					<div class="row g-3">
+						<div class="col-md-6">
+							<label for="membershipPlanId" class="form-label">Gói thành viên</label>
+							<input type="text" id="membershipPlanId" class="form-control" />
+						</div>
+						<div class="col-md-6">
+							<label for="reason" class="form-label">Lý do</label>
+							<input type="text" id="reason" class="form-control" />
+						</div>
+
+						<div class="col-md-6">
+							<label for="startDate" class="form-label">Ngày bắt đầu</label>
+							<input type="date" id="startDate" class="form-control" />
+						</div>
+						<div class="col-md-6">
+							<label for="expectedQuitDate" class="form-label">Ngày dự kiến cai</label>
+							<input type="date" id="expectedQuitDate" class="form-control" />
+						</div>
+
+						<div class="col-md-4">
+							<label for="dailyCigaretteTarget" class="form-label">Mục tiêu mỗi ngày</label>
+							<input type="number" id="dailyCigaretteTarget" class="form-control" />
+						</div>
+						<div class="col-md-4">
+							<label for="weeklyCheckinFrequency" class="form-label">Tần suất check-in/tuần</label>
+							<input type="number" id="weeklyCheckinFrequency" class="form-control" />
+						</div>
+
+						<div class="col-md-6">
+							<label for="motivationalMessage" class="form-label">Thông điệp khích lệ</label>
+							<textarea id="motivationalMessage" class="form-control"></textarea>
+						</div>
+						<div class="col-md-6">
+							<label for="healthGoals" class="form-label">Mục tiêu sức khỏe</label>
+							<textarea id="healthGoals" class="form-control"></textarea>
+						</div>
+
+						<div class="col-md-4">
+							<label for="budgetSavingGoal" class="form-label">Mục tiêu tiết kiệm (VND)</label>
+							<input type="number" step="0.01" id="budgetSavingGoal" class="form-control" />
+						</div>
+						<div class="col-md-4 form-check align-self-end">
+							<input type="checkbox" id="receiveMotivationReminder" class="form-check-input" />
+							<label for="receiveMotivationReminder" class="form-check-label">Nhận nhắc nhở</label>
+						</div>
+						<div class="col-md-4 form-check align-self-end">
+							<input type="checkbox" id="isCustomizedPlan" class="form-check-input" />
+							<label for="isCustomizedPlan" class="form-check-label">Kế hoạch tùy chỉnh</label>
+						</div>
+					</div>
+				</div>
+                <div class="modal-footer">
+                    <button id="btSave" type="button" class="btn btn-primary">Save</button>
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            }
+        </div>
+    </div>
+</div>
+
+<table class="table table-bordered table-striped">
+	<thead>
+		<tr>
+			<th>ID</th>
+			<th>Lý do</th>
+			<th>Ngày tạo</th>
+			<th>Ngày cập nhật</th>
+			<th>Thao tác</th>
+		</tr>
+	</thead>
+	<tbody class="tblBody">
+		<!-- dữ liệu sẽ được load bằng JS -->
+	</tbody>
+</table>
+
+@section Scripts {
+	<script type="text/javascript">
+		$(document).ready(function () {
+			loadQuitPlans();
+		});
+
+		function loadQuitPlans() {
+			$.ajax({
+				url: 'https://localhost:7124/api/QuitPlansAnhDtn',
+				type: 'GET',
+				contentType: 'application/json;charset=utf-8',
+				dataType: 'json',
+				headers: {
+					'Authorization': 'Bearer ' + getToken()
+				},
+				success: function (result) {
+					var html = '';
+					$.each(result, function (index, item) {
+						html += '<tr>';
+						html += '<td>' + item.quitPlansAnhDtnid + '</td>';
+						html += '<td>' + item.reason + '</td>';
+						html += '<td>' + formatDate(item.createdTime) + '</td>';
+						html += '<td>' + formatDate(item.lastUpdate) + '</td>';
+						html += '<td><button class="btn btn-sm btn-info" onclick="viewDetail(' + item.quitPlansAnhDtnid + ')">Chi tiết</button></td>';
+						html += '</tr>';
+					});
+					$('.tblBody').html(html);
+				},
+				error: function (xhr, error) {
+					alert('Không thể tải dữ liệu: ' + xhr.statusText);
+				}
+			});
+		}
+
+		function formatDate(dateString) {
+			if (!dateString) return '';
+			const date = new Date(dateString);
+			return date.toLocaleDateString('vi-VN');
+		}
+
+		function getToken() {
+			// Lấy token từ cookie
+			const cookieValue = document.cookie
+				.split('; ')
+				.find(row => row.startsWith('TokenString='));
+			return cookieValue ? cookieValue.split('=')[1] : '';
+		}
+
+		function viewDetail(id) {
+			alert('Chi tiết gói có ID: ' + id);
+		}
+
+		function addNew() {
+			//Đặt tiêu đề cho Modal
+			$("#bankModalLabel").html("Add New");
+
+			//Hiện modal
+			$('#bankModal').modal('show');
+			$("#btSave").click(function () {
+				//alert("Save in progress");
+				$.ajax({
+					type: 'POST',
+					url: 'https://localhost:7124/api/QuitPlansAnhDtn',
+					headers: {
+						'Accept': 'text/plain',
+						'Content-Type': 'application/json; charset=utf-8',
+						////  VuLNS | Save stoken string to LocalStorage
+						//authorization: "Bearer ..."
+						'Authorization': 'Bearer ' + getToken()
+					},
+					// Credential: true, -> tìm hiểu cách này
+					data: JSON.stringify({
+						membershipPlanId: parseInt($('#membershipPlanId').val()) || null,
+						reason: $('#reason').val(),
+						startDate: $('#startDate').val(),                     // yyyy-MM-dd
+						expectedQuitDate: $('#expectedQuitDate').val() || null,
+						dailyCigaretteTarget: parseInt($('#dailyCigaretteTarget').val()) || null,
+						weeklyCheckinFrequency: parseInt($('#weeklyCheckinFrequency').val()) || null,
+						motivationalMessage: $('#motivationalMessage').val(),
+						healthGoals: $('#healthGoals').val(),
+						budgetSavingGoal: parseFloat($('#budgetSavingGoal').val()) || null,
+						receiveMotivationReminder: $('#receiveMotivationReminder').is(':checked'),
+						isCustomizedPlan: $('#isCustomizedPlan').is(':checked')
+					}),
+					success: function (result) {
+						//console.log(result);
+						if (result > 0) {
+							//// VuLNS | If save success then close Popup and Re-load data list
+							$('#bankModal').modal('hide');
+							loadQuitPlans();
+						}
+					},
+					error: function (xhr, error) {
+						alert(`Lỗi khi lưu (status ${xhr.status}): ${xhr.responseText}`);
+						console.log(xhr);
+					}
+				});
+			});
+		}
+
+	</script>
+}

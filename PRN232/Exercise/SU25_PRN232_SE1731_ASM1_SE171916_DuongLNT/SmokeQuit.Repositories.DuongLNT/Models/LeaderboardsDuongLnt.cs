@@ -2,6 +2,7 @@
 #nullable disable
 using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 
 namespace SmokeQuit.Repositories.DuongLNT.Models;
 
@@ -9,25 +10,34 @@ public partial class LeaderboardsDuongLnt
 {
     public int LeaderboardsDuongLntid { get; set; }
 
-    public int UserId { get; set; }
+	[Required(ErrorMessage = "User Id không được để trống.")]
+	public int UserId { get; set; }
 
     public int? PlanId { get; set; }
 
-    public int? DaySmokeFree { get; set; }
+	[Range(0, int.MaxValue, ErrorMessage = "Ngày không hút thuốc không được âm")]
+	public int? DaySmokeFree { get; set; }
 
-    public double? MoneySave { get; set; }
+	[Range(0, double.MaxValue, ErrorMessage = "Tiền lưu trữ không được âm")]
+	public double? MoneySave { get; set; }
 
-    public int? RankPosition { get; set; }
+	[Range(1, int.MaxValue, ErrorMessage = "Xếp hạng vị trí phải lớn hơn 1")]
+	public int? RankPosition { get; set; }
 
-    public int? TotalAchievements { get; set; }
+	[Range(0, int.MaxValue, ErrorMessage = "Tổng số thành tích không được âm")]
+	public int? TotalAchievements { get; set; }
 
-    public double? ProgressScore { get; set; }
+	[Range(0, double.MaxValue, ErrorMessage = "Điểm tiến bộ không được âm")]
+	public double? ProgressScore { get; set; }
 
+	[StringLength(255, ErrorMessage = "Ghi chú không được vượt quá 255 ký tự.")]
     public string Note { get; set; }
 
-    public int? StreakCount { get; set; }
+	[Range(0, int.MaxValue, ErrorMessage = "Chuỗi đếm không được âm.")]
+	public int? StreakCount { get; set; }
 
-    public int? CommunityContribution { get; set; }
+	[Range(0, int.MaxValue, ErrorMessage = "Đóng góp của cộng đồng không được âm.")]
+	public int? CommunityContribution { get; set; }
 
     public bool IsTopRanked { get; set; }
 

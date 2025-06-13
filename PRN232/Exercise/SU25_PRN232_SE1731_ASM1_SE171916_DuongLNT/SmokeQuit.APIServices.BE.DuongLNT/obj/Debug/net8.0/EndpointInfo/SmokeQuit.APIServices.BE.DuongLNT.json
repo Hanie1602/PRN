@@ -293,6 +293,71 @@
         }
       }
     },
+    "/api/LeaderboardsDuongLnt/{note}/{money}/{reason}": {
+      "get": {
+        "tags": [
+          "LeaderboardsDuongLnt"
+        ],
+        "parameters": [
+          {
+            "name": "note",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "money",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "number",
+              "format": "double"
+            }
+          },
+          {
+            "name": "reason",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/LeaderboardsDuongLnt"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/LeaderboardsDuongLnt"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/LeaderboardsDuongLnt"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
     "/api/LeaderboardsDuongLnt/{currentPage}/{pageSize}": {
       "get": {
         "tags": [
@@ -318,6 +383,54 @@
             }
           }
         ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/LeaderboardsDuongLntListPaginationResult"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/LeaderboardsDuongLntListPaginationResult"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/LeaderboardsDuongLntListPaginationResult"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/LeaderboardsDuongLnt/Search": {
+      "post": {
+        "tags": [
+          "LeaderboardsDuongLnt"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/SearchLeaderboardsRequest"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/SearchLeaderboardsRequest"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/SearchLeaderboardsRequest"
+              }
+            }
+          }
+        },
         "responses": {
           "200": {
             "description": "OK",
@@ -690,6 +803,9 @@
         "additionalProperties": false
       },
       "LeaderboardsDuongLnt": {
+        "required": [
+          "userId"
+        ],
         "type": "object",
         "properties": {
           "leaderboardsDuongLntid": {
@@ -706,40 +822,54 @@
             "nullable": true
           },
           "daySmokeFree": {
+            "maximum": 2147483647,
+            "minimum": 0,
             "type": "integer",
             "format": "int32",
             "nullable": true
           },
           "moneySave": {
+            "minimum": 0,
             "type": "number",
             "format": "double",
             "nullable": true
           },
           "rankPosition": {
+            "maximum": 2147483647,
+            "minimum": 1,
             "type": "integer",
             "format": "int32",
             "nullable": true
           },
           "totalAchievements": {
+            "maximum": 2147483647,
+            "minimum": 0,
             "type": "integer",
             "format": "int32",
             "nullable": true
           },
           "progressScore": {
+            "minimum": 0,
             "type": "number",
             "format": "double",
             "nullable": true
           },
           "note": {
+            "maxLength": 255,
+            "minLength": 0,
             "type": "string",
             "nullable": true
           },
           "streakCount": {
+            "maximum": 2147483647,
+            "minimum": 0,
             "type": "integer",
             "format": "int32",
             "nullable": true
           },
           "communityContribution": {
+            "maximum": 2147483647,
+            "minimum": 0,
             "type": "integer",
             "format": "int32",
             "nullable": true
@@ -1003,6 +1133,33 @@
           },
           "user": {
             "$ref": "#/components/schemas/SystemUserAccount"
+          }
+        },
+        "additionalProperties": false
+      },
+      "SearchLeaderboardsRequest": {
+        "type": "object",
+        "properties": {
+          "currentPage": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "pageSize": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "note": {
+            "type": "string",
+            "nullable": true
+          },
+          "money": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "reason": {
+            "type": "string",
+            "nullable": true
           }
         },
         "additionalProperties": false

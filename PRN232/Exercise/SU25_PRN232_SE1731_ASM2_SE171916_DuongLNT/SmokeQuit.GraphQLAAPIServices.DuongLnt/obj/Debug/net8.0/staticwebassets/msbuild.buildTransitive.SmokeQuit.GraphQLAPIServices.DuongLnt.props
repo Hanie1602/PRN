@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\SmokeQuit.GraphQLAPIServices.DuongLnt.props" />
+</Project>

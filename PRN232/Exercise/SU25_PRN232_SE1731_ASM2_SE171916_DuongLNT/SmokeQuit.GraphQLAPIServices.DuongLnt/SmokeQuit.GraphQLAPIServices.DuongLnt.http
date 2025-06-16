@@ -1,0 +1,6 @@
+@SmokeQuit.GraphQLAPIServices.DuongLnt_HostAddress = http://localhost:5009
+
+GET {{SmokeQuit.GraphQLAPIServices.DuongLnt_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

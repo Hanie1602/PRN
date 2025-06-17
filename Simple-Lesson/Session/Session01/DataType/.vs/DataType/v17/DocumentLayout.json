@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Github\\PRN212\\Simple-Lesson\\Session01\\DataType\\",
+  "WorkspaceRootPath": "D:\\Github\\PRN212\\Simple-Lesson\\Session\\Session01\\DataType\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{96C9267C-C38A-4BFE-A324-E3D80EEAE451}|NullValue\\NullValue.csproj|d:\\github\\prn212\\simple-lesson\\session01\\datatype\\nullvalue\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{96C9267C-C38A-4BFE-A324-E3D80EEAE451}|NullValue\\NullValue.csproj|d:\\github\\prn212\\simple-lesson\\session\\session01\\datatype\\nullvalue\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{96C9267C-C38A-4BFE-A324-E3D80EEAE451}|NullValue\\NullValue.csproj|solutionrelative:nullvalue\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -48,9 +48,9 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Github\\PRN212\\Simple-Lesson\\Session01\\DataType\\NullValue\\Program.cs",
+              "DocumentMoniker": "D:\\Github\\PRN212\\Simple-Lesson\\Session\\Session01\\DataType\\NullValue\\Program.cs",
               "RelativeDocumentMoniker": "NullValue\\Program.cs",
-              "ToolTip": "D:\\Github\\PRN212\\Simple-Lesson\\Session01\\DataType\\NullValue\\Program.cs",
+              "ToolTip": "D:\\Github\\PRN212\\Simple-Lesson\\Session\\Session01\\DataType\\NullValue\\Program.cs",
               "RelativeToolTip": "NullValue\\Program.cs",
               "ViewState": "AgIAAOsAAAAAAAAAAAAmwKsAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",

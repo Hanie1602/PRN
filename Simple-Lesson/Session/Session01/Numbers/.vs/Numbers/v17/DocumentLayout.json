@@ -1,21 +1,25 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Lession\\Code\\PRN212\\Session02-Language\\Numbers\\",
+  "WorkspaceRootPath": "D:\\Github\\PRN212\\Simple-Lesson\\Session\\Session01\\Numbers\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BA4D907E-782F-4DD9-8095-329E8E96B31F}|IntegersOut\\IntegersOut.csproj|d:\\lession\\code\\prn212\\session02-language\\numbers\\integersout\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{BA4D907E-782F-4DD9-8095-329E8E96B31F}|IntegersOut\\IntegersOut.csproj|d:\\github\\prn212\\simple-lesson\\session\\session01\\numbers\\integersout\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BA4D907E-782F-4DD9-8095-329E8E96B31F}|IntegersOut\\IntegersOut.csproj|solutionrelative:integersout\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9A35C28D-51E3-4533-9C09-C7CE284F186E}|Integers\\Integers.csproj|d:\\lession\\code\\prn212\\session02-language\\numbers\\integers\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{BA4D907E-782F-4DD9-8095-329E8E96B31F}|IntegersOut\\IntegersOut.csproj|d:\\github\\prn212\\simple-lesson\\session\\session01\\numbers\\integersout\\integersout.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{BA4D907E-782F-4DD9-8095-329E8E96B31F}|IntegersOut\\IntegersOut.csproj|solutionrelative:integersout\\integersout.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A35C28D-51E3-4533-9C09-C7CE284F186E}|Integers\\Integers.csproj|d:\\github\\prn212\\simple-lesson\\session\\session01\\numbers\\integers\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9A35C28D-51E3-4533-9C09-C7CE284F186E}|Integers\\Integers.csproj|solutionrelative:integers\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6B8738C4-B882-4F1F-A941-2D60662BDCF7}|IntegersOutV2\\IntegersOutV2.csproj|d:\\lession\\code\\prn212\\session02-language\\numbers\\integersoutv2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6B8738C4-B882-4F1F-A941-2D60662BDCF7}|IntegersOutV2\\IntegersOutV2.csproj|d:\\github\\prn212\\simple-lesson\\session\\session01\\numbers\\integersoutv2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6B8738C4-B882-4F1F-A941-2D60662BDCF7}|IntegersOutV2\\IntegersOutV2.csproj|solutionrelative:integersoutv2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{807B990A-4860-404A-ADD8-F3CFC6D5D218}|IntegersRef\\IntegersRef.csproj|d:\\lession\\code\\prn212\\session02-language\\numbers\\integersref\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{807B990A-4860-404A-ADD8-F3CFC6D5D218}|IntegersRef\\IntegersRef.csproj|d:\\github\\prn212\\simple-lesson\\session\\session01\\numbers\\integersref\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{807B990A-4860-404A-ADD8-F3CFC6D5D218}|IntegersRef\\IntegersRef.csproj|solutionrelative:integersref\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -26,20 +30,33 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Lession\\Code\\PRN212\\Session02-Language\\Numbers\\IntegersOutV2\\Program.cs",
+              "DocumentMoniker": "D:\\Github\\PRN212\\Simple-Lesson\\Session\\Session01\\Numbers\\IntegersOutV2\\Program.cs",
               "RelativeDocumentMoniker": "IntegersOutV2\\Program.cs",
-              "ToolTip": "D:\\Lession\\Code\\PRN212\\Session02-Language\\Numbers\\IntegersOutV2\\Program.cs",
+              "ToolTip": "D:\\Github\\PRN212\\Simple-Lesson\\Session\\Session01\\Numbers\\IntegersOutV2\\Program.cs",
               "RelativeToolTip": "IntegersOutV2\\Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAEgAAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-16T10:01:47.031Z",
               "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IntegersOut",
+              "DocumentMoniker": "D:\\Github\\PRN212\\Simple-Lesson\\Session\\Session01\\Numbers\\IntegersOut\\IntegersOut.csproj",
+              "RelativeDocumentMoniker": "IntegersOut\\IntegersOut.csproj",
+              "ToolTip": "D:\\Github\\PRN212\\Simple-Lesson\\Session\\Session01\\Numbers\\IntegersOut\\IntegersOut.csproj",
+              "RelativeToolTip": "IntegersOut\\IntegersOut.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-06-17T05:29:16.79Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Bookmark",
@@ -58,38 +75,49 @@
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Lession\\Code\\PRN212\\Session02-Language\\Numbers\\IntegersOut\\Program.cs",
+              "DocumentMoniker": "D:\\Github\\PRN212\\Simple-Lesson\\Session\\Session01\\Numbers\\IntegersOut\\Program.cs",
               "RelativeDocumentMoniker": "IntegersOut\\Program.cs",
-              "ToolTip": "D:\\Lession\\Code\\PRN212\\Session02-Language\\Numbers\\IntegersOut\\Program.cs",
+              "ToolTip": "D:\\Github\\PRN212\\Simple-Lesson\\Session\\Session01\\Numbers\\IntegersOut\\Program.cs",
               "RelativeToolTip": "IntegersOut\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAA3AAAA",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-19T19:58:58.133Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Lession\\Code\\PRN212\\Session02-Language\\Numbers\\Integers\\Program.cs",
+              "DocumentMoniker": "D:\\Github\\PRN212\\Simple-Lesson\\Session\\Session01\\Numbers\\Integers\\Program.cs",
               "RelativeDocumentMoniker": "Integers\\Program.cs",
-              "ToolTip": "D:\\Lession\\Code\\PRN212\\Session02-Language\\Numbers\\Integers\\Program.cs",
+              "ToolTip": "D:\\Github\\PRN212\\Simple-Lesson\\Session\\Session01\\Numbers\\Integers\\Program.cs",
               "RelativeToolTip": "Integers\\Program.cs",
               "ViewState": "AQIAAG8AAAAAAAAAAAA7wIkAAABlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-19T19:53:53.993Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-19T19:53:53.993Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Lession\\Code\\PRN212\\Session02-Language\\Numbers\\IntegersRef\\Program.cs",
+              "DocumentMoniker": "D:\\Github\\PRN212\\Simple-Lesson\\Session\\Session01\\Numbers\\IntegersRef\\Program.cs",
               "RelativeDocumentMoniker": "IntegersRef\\Program.cs",
-              "ToolTip": "D:\\Lession\\Code\\PRN212\\Session02-Language\\Numbers\\IntegersRef\\Program.cs",
+              "ToolTip": "D:\\Github\\PRN212\\Simple-Lesson\\Session\\Session01\\Numbers\\IntegersRef\\Program.cs",
               "RelativeToolTip": "IntegersRef\\Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAHAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",

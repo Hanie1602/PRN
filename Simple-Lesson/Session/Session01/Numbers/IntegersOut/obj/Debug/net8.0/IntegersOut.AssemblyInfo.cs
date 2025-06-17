@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("IntegersOut")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+84dcec533f399c42f3ac9a29f47a1a4b9b0a7cbd")]
 [assembly: System.Reflection.AssemblyProductAttribute("IntegersOut")]
 [assembly: System.Reflection.AssemblyTitleAttribute("IntegersOut")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

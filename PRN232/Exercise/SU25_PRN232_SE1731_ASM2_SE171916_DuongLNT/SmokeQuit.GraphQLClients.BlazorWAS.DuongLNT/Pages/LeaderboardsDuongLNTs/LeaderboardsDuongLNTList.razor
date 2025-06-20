@@ -1,0 +1,79 @@
+﻿@page "/LeaderboardsDuongLNTs/LeaderboardsDuongLNTList"
+
+@* @inject SmokeQuit.GraphQLClients.BlazorWAS.DuongLNT.GraphQLClients.GraphQLConsumer _graphQLConsumer
+ *@
+
+@using SmokeQuit.GraphQLClients.BlazorWAS.DuongLNT.Models
+
+<h3>LeaderboardsDuongLNTList</h3>
+
+@if (leaderboardsDuongLNTs == null)
+{
+	<div>Page loading</div>
+}
+else
+{
+	<table>
+		<thead>
+			<tr>
+				<th>Id</th>
+				<th>Day Smoke Free</th>
+				<th>Money Save</th>
+				<th>Note</th>
+				<th>Rank Position</th>
+				<th>Total Achievements</th>
+				<th>Is Top Ranked</th>
+				<th>Created Time</th>
+				<th>Plan Id</th>
+				<th>User Id</th>
+			</tr>
+		</thead>
+
+		<tbody>
+			@foreach (var leaderboards in leaderboardsDuongLNTs)
+			{
+				<tr>
+					<td>@leaderboards.LeaderboardsDuongLntid</td>
+					<td>@leaderboards.DaySmokeFree</td>
+					<td>@leaderboards.MoneySave</td>
+					<td>@leaderboards.Note</td>
+					<td>@leaderboards.RankPosition</td>
+					<td>@leaderboards.TotalAchievements</td>
+					<td>@leaderboards.IsTopRanked</td>
+					<td>@leaderboards.CreatedTime</td>
+					<td>@(leaderboards.Plan?.QuitPlansAnhDtnid.ToString() ?? "N/A")</td>
+					<td>@(leaderboards.User?.UserAccountId.ToString() ?? "N/A")</td>
+
+				</tr>
+			}
+		</tbody>
+
+	</table>
+}
+
+@code {
+	private List<LeaderboardsDuongLnt> leaderboardsDuongLNTs;
+	private string errorMessage;
+
+	protected override async Task OnInitializedAsync()
+	{
+		await Task.Delay(500); //Simulate a delay for loading data
+
+		try
+		{
+			leaderboardsDuongLNTs = await _graphQLConsumer.GetLeaderboardsDuongLnt();
+			Console.WriteLine($"✅ Loaded {leaderboardsDuongLNTs.Count} items");
+		}
+		catch (Exception ex)
+		{
+			Console.WriteLine($"❌ Error in OnInitializedAsync: {ex.Message}");
+			errorMessage = ex.Message;
+		}
+	}
+}
+
+@* Kiểm tra lỗi *@
+@if (!string.IsNullOrEmpty(errorMessage))
+{
+	<p style="color: red;">Lỗi: @errorMessage</p>
+}

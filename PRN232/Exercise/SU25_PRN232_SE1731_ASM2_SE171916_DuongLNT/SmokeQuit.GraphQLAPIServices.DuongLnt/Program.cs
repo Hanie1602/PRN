@@ -1,4 +1,4 @@
-using SmokeQuit.GraphQLAPIServices.DuongLnt.GraphQLs;
+﻿using SmokeQuit.GraphQLAPIServices.DuongLnt.GraphQLs;
 using System.Text.Json.Serialization;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -12,7 +12,20 @@ builder.Services.AddSwaggerGen();
 
 builder.Services.AddGraphQLServer()
 	.AddQueryType<LeaderboardsQueries>()
+	.AddMutationType<Mutations>()
 	.BindRuntimeType<DateTime, DateTimeType>();
+
+//Cấu hình CORS cho phép Blazor WASM truy cập
+builder.Services.AddCors(options =>
+{
+	options.AddPolicy("AllowBlazorWASM",
+		policy =>
+		{
+			policy.WithOrigins("https://localhost:7276")
+				  .AllowAnyHeader()
+				  .AllowAnyMethod();
+		});
+});
 
 builder.Services.AddScoped<IServiceProviders, ServiceProviders>();
 
@@ -32,6 +45,8 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+
+app.UseCors("AllowBlazorWASM"); //Add CORS policy
 
 app.UseAuthorization();
 

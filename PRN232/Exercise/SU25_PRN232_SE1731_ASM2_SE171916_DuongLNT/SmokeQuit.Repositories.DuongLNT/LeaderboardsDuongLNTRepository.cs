@@ -34,7 +34,7 @@ namespace SmokeQuit.Repositories.DuongLNT
 		}
 
 		//Search 3 điều kiện
-		public async Task<List<LeaderboardsDuongLnt>> SearchAsync(string note, double money, string reason)
+		public async Task<List<LeaderboardsDuongLnt>> SearchAsync(string note, double? money, string reason)
 		{
 			var leaderboards = await _context.LeaderboardsDuongLnts
 				.Include(l => l.Plan)
@@ -78,7 +78,7 @@ namespace SmokeQuit.Repositories.DuongLNT
 		//	return result;
 		//}
 
-		public async Task<PaginationResult<List<LeaderboardsDuongLnt>>> SearchWithPagingAsync(string note, double money, string reason, int currentPage, int pageeSize)
+		public async Task<PaginationResult<List<LeaderboardsDuongLnt>>> SearchWithPagingAsync(string note, double? money, string reason, int currentPage, int pageeSize)
 		{
 			//Query by conditions
 			//var leaderboards = await _context.LeaderboardsDuongLnts

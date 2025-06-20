@@ -7,7 +7,7 @@ namespace SmokeQuit.Repositories.DuongLNT.Models;
 
 public partial class QuitPlansAnhDtn
 {
-    public int QuitPlansAnhDtnid { get; set; }
+    public int? QuitPlansAnhDtnid { get; set; }
 
     public int UserId { get; set; }
 

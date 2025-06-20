@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmokeQuit.Services.DuongLNT
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmokeQuit.GraphQLAPIServices.DuongLnt", "SmokeQuit.GraphQLAPIServices.DuongLnt\SmokeQuit.GraphQLAPIServices.DuongLnt.csproj", "{9C397A81-1610-4610-AC1B-B524C5442D5D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmokeQuit.GraphQLClients.BlazorWAS.DuongLNT", "SmokeQuit.GraphQLClients.BlazorWAS.DuongLNT\SmokeQuit.GraphQLClients.BlazorWAS.DuongLNT.csproj", "{0993660E-4FBF-46AC-8AE8-D44CDEE7F8AB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{9C397A81-1610-4610-AC1B-B524C5442D5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9C397A81-1610-4610-AC1B-B524C5442D5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9C397A81-1610-4610-AC1B-B524C5442D5D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0993660E-4FBF-46AC-8AE8-D44CDEE7F8AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0993660E-4FBF-46AC-8AE8-D44CDEE7F8AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0993660E-4FBF-46AC-8AE8-D44CDEE7F8AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0993660E-4FBF-46AC-8AE8-D44CDEE7F8AB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -8,12 +8,12 @@ namespace SmokeQuit.Repositories.DuongLNT.Models;
 
 public partial class LeaderboardsDuongLnt
 {
-    public int LeaderboardsDuongLntid { get; set; }
+	public int? LeaderboardsDuongLntid { get; set; }
 
 	[Required(ErrorMessage = "User Id không được để trống.")]
 	public int UserId { get; set; }
 
-    public int? PlanId { get; set; }
+	public int? PlanId { get; set; }
 
 	[Range(0, int.MaxValue, ErrorMessage = "Ngày không hút thuốc không được âm")]
 	public int? DaySmokeFree { get; set; }
@@ -39,13 +39,13 @@ public partial class LeaderboardsDuongLnt
 	[Range(0, int.MaxValue, ErrorMessage = "Đóng góp của cộng đồng không được âm.")]
 	public int? CommunityContribution { get; set; }
 
-    public bool IsTopRanked { get; set; }
+	public bool IsTopRanked { get; set; }
 
-    public DateTime? LastUpdate { get; set; }
+	public DateTime? LastUpdate { get; set; }
 
-    public DateTime? CreatedTime { get; set; }
+	public DateTime? CreatedTime { get; set; }
 
-    public virtual QuitPlansAnhDtn Plan { get; set; }
+	public virtual QuitPlansAnhDtn Plan { get; set; }
 
-    public virtual SystemUserAccount User { get; set; }
+	public virtual SystemUserAccount User { get; set; }
 }

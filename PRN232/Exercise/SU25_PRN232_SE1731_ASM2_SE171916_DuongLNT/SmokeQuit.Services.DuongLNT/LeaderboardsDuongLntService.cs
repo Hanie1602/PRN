@@ -65,9 +65,10 @@ namespace SmokeQuit.Services.DuongLNT
 			return paginationResult ?? new PaginationResult<List<LeaderboardsDuongLnt>>();
 		}
 
-		//public async Task<PaginationResult<List<LeaderboardsDuongLnt>>> SearchNew(SearchLeaderboardsRequest search)
-		//{
-		//	return await _repository.SearchWithPagingAsync(search.Reason, search.Money, search.Reason, search.CurrentPage, search.PageSize);
-		//}
+		public async Task<PaginationResult<List<LeaderboardsDuongLnt>>> SearchNew(SearchLeaderboardsRequest search)
+		{
+			return await _unitOfWork.LeaderboardsDuongLNTRepository.SearchWithPagingAsync(search.Reason, search.Money, search.Reason, search.CurrentPage, search.PageSize);
+		}
+
 	}
 }

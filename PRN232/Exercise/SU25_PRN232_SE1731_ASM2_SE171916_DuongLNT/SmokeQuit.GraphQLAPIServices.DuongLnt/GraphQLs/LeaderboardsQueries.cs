@@ -1,4 +1,5 @@
-﻿using SmokeQuit.Repositories.DuongLNT.Models;
+﻿using SmokeQuit.Repositories.DuongLNT.ModelExtensions;
+using SmokeQuit.Repositories.DuongLNT.Models;
 
 namespace SmokeQuit.GraphQLAPIServices.DuongLnt.GraphQLs
 {
@@ -34,6 +35,19 @@ namespace SmokeQuit.GraphQLAPIServices.DuongLnt.GraphQLs
 			}
 		}
 
+		public async Task<PaginationResult<List<LeaderboardsDuongLnt>>> SearchLeaderboardsDuongLnt(SearchLeaderboardsRequest request)
+		{
+			try
+			{
+				var result = await _serviceProvider.LeaderboardsDuongLntService.SearchNew(request);
+				return result ?? new PaginationResult<List<LeaderboardsDuongLnt>>();
+			}
+			catch (Exception ex)
+			{
+			}
+
+			return new PaginationResult<List<LeaderboardsDuongLnt>>();
+		}
 
 	}
 }

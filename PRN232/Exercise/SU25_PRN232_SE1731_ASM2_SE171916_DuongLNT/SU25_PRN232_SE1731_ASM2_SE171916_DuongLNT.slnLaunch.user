@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Path": "SmokeQuit.GraphQLAPIServices.DuongLnt\\SmokeQuit.GraphQLAPIServices.DuongLnt.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "SmokeQuit.GraphQLClients.BlazorWAS.DuongLNT\\SmokeQuit.GraphQLClients.BlazorWAS.DuongLNT.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

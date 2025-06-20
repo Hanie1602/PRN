@@ -15,11 +15,11 @@ namespace SmokeQuit.Services.DuongLNT
 
 		Task<PaginationResult<List<LeaderboardsDuongLnt>>> GetAllWithPagingAsync(int currentPage, int pageSize);
 
-		//Task<PaginationResult<List<LeaderboardsDuongLnt>>> SearchNew(SearchLeaderboardsRequest search);
+		Task<PaginationResult<List<LeaderboardsDuongLnt>>> SearchNew(SearchLeaderboardsRequest search);
 
 		Task<int> CreateAsync(LeaderboardsDuongLnt leaderboards);
 		Task<int> UpdateAsync(LeaderboardsDuongLnt leaderboards);
 		Task<bool> DeleteAsync(int id);
-
+		//Task<PaginationResult<List<LeaderboardsDuongLnt>>?> SearchNew(SearchRequest request);
 	}
 }

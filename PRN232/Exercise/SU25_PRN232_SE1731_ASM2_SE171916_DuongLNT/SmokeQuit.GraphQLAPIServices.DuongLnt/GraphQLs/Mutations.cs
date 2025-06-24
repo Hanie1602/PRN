@@ -30,35 +30,30 @@ namespace SmokeQuit.GraphQLAPIServices.DuongLnt.GraphQLs
 			return 0;
 		}
 
-		#region Test chạy
-		//		mutation {
+		//Test mutation bên GraphQL
+		//mutation {
 		//  createLeaderboardsDuongLnt(
-		//	leaderboards: {
-		//		userId: 1,
-		//      planId: 4,
-		//      daySmokeFree: 30,
-		//      moneySave: 500000,
-		//      rankPosition: 2,
-		//      totalAchievements: 5,
-		//      progressScore: 0.75,
-		//      note: "Reached milestone",
-		//      streakCount: 15,
-		//      communityContribution: 20,
-		//      isTopRanked: true,
-		//      lastUpdate: "2025-06-17T08:00:00Z",
-		//      createdTime: "2025-06-17T08:00:00Z"
-
-
-		//	}
+		//		leaderboards: {
+		//			userId: 1,
+		//			planId: 4,
+		//			daySmokeFree: 30,
+		//			moneySave: 500000,
+		//			rankPosition: 2,
+		//			totalAchievements: 5,
+		//			progressScore: 0.75,
+		//			note: "Reached milestone",
+		//			streakCount: 15,
+		//			communityContribution: 20,
+		//			isTopRanked: true,
+		//			lastUpdate: "2025-06-17T08:00:00Z",
+		//			createdTime: "2025-06-17T08:00:00Z"
+		//		}
 		//  )
 		//}
 
 		#endregion
 
-		#endregion
-
-
-
+		#region Cập nhật
 		public async Task<int> UpdateLeaderboardsDuongLnt(LeaderboardsDuongLnt leaderboards)
 		{
 			try
@@ -73,6 +68,30 @@ namespace SmokeQuit.GraphQLAPIServices.DuongLnt.GraphQLs
 			return 0;
 		}
 
+		///Test mutation bên GraphQL
+		//mutation {
+		//  updateLeaderboardsDuongLnt(
+		//		leaderboards: {
+		//			leaderboardsDuongLntid: 1002,
+		//			userId: 1,
+		//			planId: 4,
+		//			daySmokeFree: 45,
+		//			moneySave: 750000,
+		//			rankPosition: 1,
+		//			totalAchievements: 6,
+		//			progressScore: 0.85,
+		//			note: "Updated milestone",
+		//			streakCount: 20,
+		//			communityContribution: 30,
+		//			isTopRanked: true,
+		//			lastUpdate: "2025-06-24T08:00:00Z",
+		//			createdTime: "2025-06-17T08:00:00Z"
+		//		}
+		//  )
+		//}
+		#endregion
+
+		#region Xóa
 		public async Task<bool> DeleteLeaderboardsDuongLnt(int id)
 		{
 			try
@@ -86,6 +105,11 @@ namespace SmokeQuit.GraphQLAPIServices.DuongLnt.GraphQLs
 			return false;
 		}
 
+		///Test mutation bên GraphQL
+		//mutation {
+		//  deleteLeaderboardsDuongLnt(id: 11)
+		//}
 
+		#endregion
 	}
 }

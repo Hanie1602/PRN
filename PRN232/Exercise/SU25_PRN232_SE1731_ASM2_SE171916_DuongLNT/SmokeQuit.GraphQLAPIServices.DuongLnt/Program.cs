@@ -11,7 +11,10 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 builder.Services.AddGraphQLServer()
-	.AddQueryType<LeaderboardsQueries>()
+	.AddQueryType(d => d.Name("Query"))
+	.AddTypeExtension<LeaderboardsQueries>()
+	.AddTypeExtension<QuitPlansQueries>()
+	.AddTypeExtension<UserQueries>()
 	.AddMutationType<Mutations>()
 	.BindRuntimeType<DateTime, DateTimeType>();
 

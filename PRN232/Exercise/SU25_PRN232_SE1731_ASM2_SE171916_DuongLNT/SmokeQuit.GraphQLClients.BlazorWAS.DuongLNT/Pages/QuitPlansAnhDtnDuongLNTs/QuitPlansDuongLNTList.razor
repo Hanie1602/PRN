@@ -1,0 +1,76 @@
+﻿@page "/QuitPlansAnhDtnDuongLNTs/QuitPlansDuongLNTList"
+
+@using SmokeQuit.GraphQLClients.BlazorWAS.DuongLNT.Models
+
+<h3>Quit Plans List</h3>
+
+@if (quitPlansAnhDtnDuongLNTs == null)
+{
+	<div>Page loading</div>
+}
+else
+{
+	<table>
+		<thead>
+			<tr>
+				<th>Id</th>
+				<th>Reason</th>
+				<th>Start Date</th>
+				<th>Expected Quit Date</th>
+				<th>Daily Cigarette Target</th>
+				<th>Health Goals</th>
+				<th>Is Customized Plan</th>
+				<th>Created At</th>
+				<th>Membership Plan Id</th>
+				<th>User Id</th>
+			</tr>
+		</thead>
+
+		<tbody>
+			@foreach (var quitplans in quitPlansAnhDtnDuongLNTs)
+			{
+				<tr>
+					<td>@quitplans.QuitPlansAnhDtnid</td>
+					<td>@quitplans.Reason</td>
+					<td>@quitplans.StartDate</td>
+					<td>@quitplans.ExpectedQuitDate</td>
+					<td>@quitplans.DailyCigaretteTarget</td>
+					<td>@quitplans.HealthGoals</td>
+					<td>@quitplans.IsCustomizedPlan</td>
+					<td>@quitplans.CreatedAt</td>
+					<td>@(quitplans.MembershipPlan?.MembershipPlansAnhDtnid.ToString() ?? "N/A")</td>
+					<td>@(quitplans.User?.UserAccountId.ToString() ?? "N/A")</td>
+
+				</tr>
+			}
+		</tbody>
+
+	</table>
+}
+
+@code {
+	private List<QuitPlansAnhDtn> quitPlansAnhDtnDuongLNTs;
+	private string errorMessage;
+
+	protected override async Task OnInitializedAsync()
+	{
+		await Task.Delay(500); //Simulate a delay for loading data
+
+		try
+		{
+			quitPlansAnhDtnDuongLNTs = await _graphQLConsumer.GetQuitPlansAnhDtn();
+			Console.WriteLine($"Loaded {quitPlansAnhDtnDuongLNTs.Count} items");
+		}
+		catch (Exception ex)
+		{
+			Console.WriteLine($"Error in OnInitializedAsync: {ex.Message}");
+			errorMessage = ex.Message;
+		}
+	}
+}
+
+@* Kiểm tra lỗi *@
+@if (!string.IsNullOrEmpty(errorMessage))
+{
+	<p style="color: red;">Lỗi: @errorMessage</p>
+}

@@ -3,6 +3,7 @@ using SmokeQuit.Repositories.DuongLNT.Models;
 
 namespace SmokeQuit.GraphQLAPIServices.DuongLnt.GraphQLs
 {
+	[ExtendObjectType(Name = "Query")]
 	public class LeaderboardsQueries
 	{
 		private readonly IServiceProviders _serviceProvider;
@@ -20,6 +21,34 @@ namespace SmokeQuit.GraphQLAPIServices.DuongLnt.GraphQLs
 			{
 				return new List<LeaderboardsDuongLnt>();
 			}
+
+			//Test
+			#region Test bên GetAll GraphQL
+			//query LeaderboardsDuongLnt {
+			//  leaderboardsDuongLnt {
+			//    leaderboardsDuongLntid
+			//    userId
+			//    planId
+			//    daySmokeFree
+			//    moneySave
+			//    rankPosition
+			//    totalAchievements
+			//    progressScore
+			//    note
+			//    streakCount
+			//    communityContribution
+			//    isTopRanked
+			//    createdTime
+			//    lastUpdate
+			//    plan {
+			//      quitPlansAnhDtnid
+			//    }
+			//    user {
+			//      userAccountId
+			//    }
+			//  }
+			//}
+			#endregion
 		}
 
 		public async Task<LeaderboardsDuongLnt> GetLeaderboardsDuongLntById(int id)
@@ -47,6 +76,44 @@ namespace SmokeQuit.GraphQLAPIServices.DuongLnt.GraphQLs
 			}
 
 			return new PaginationResult<List<LeaderboardsDuongLnt>>();
+
+			//Test
+			#region Test Phân trang và có lọc bên GraphQL
+			//query SearchLeaderboardsDuongLnt($input: SearchLeaderboardsRequestInput!) {
+			//  searchLeaderboardsDuongLnt(request: $input) {
+			//    items {
+			//      leaderboardsDuongLntid
+			//      daySmokeFree
+			//      moneySave
+			//      rankPosition
+			//      totalAchievements
+			//      note
+			//      isTopRanked
+			//      createdTime
+			//      plan {
+			//        quitPlansAnhDtnid
+			//      }
+			//      user {
+			//        userAccountId
+			//      }
+			//    }
+			//    totalItems
+			//    totalPages
+			//    currentPage
+			//    pageSize
+			//  }
+			//}
+
+
+			//GraphQL Variables
+			// input": {
+			//   "note": "",
+			//   "money": 0,
+			//   "reason": "",
+			//   "currentPage": 1,
+			//   "pageSize": 10
+			// }
+			#endregion
 		}
 
 	}

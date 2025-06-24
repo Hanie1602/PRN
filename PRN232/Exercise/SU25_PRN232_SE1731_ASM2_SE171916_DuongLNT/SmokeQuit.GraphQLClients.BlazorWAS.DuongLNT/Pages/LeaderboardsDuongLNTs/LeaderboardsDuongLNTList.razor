@@ -1,11 +1,14 @@
 ﻿@page "/LeaderboardsDuongLNTs/LeaderboardsDuongLNTList"
-
-@* @inject SmokeQuit.GraphQLClients.BlazorWAS.DuongLNT.GraphQLClients.GraphQLConsumer _graphQLConsumer
- *@
+@inject GraphQLConsumer _graphQLConsumer
+@inject IJSRuntime JS
 
 @using SmokeQuit.GraphQLClients.BlazorWAS.DuongLNT.Models
+@using SmokeQuit.GraphQLClients.BlazorWAS.DuongLNT.GraphQLClients
 
 <h3>LeaderboardsDuongLNTList</h3>
+
+@* Nút Create*@
+<a href="/LeaderboardsDuongLNTs/LeaderboardsDuongLNTForm" class="btn btn-info" style="margin-bottom: 10px;">Create</a>
 
 @if (leaderboardsDuongLNTs == null)
 {
@@ -19,13 +22,14 @@ else
 				<th>Id</th>
 				<th>Day Smoke Free</th>
 				<th>Money Save</th>
-				<th>Note</th>
 				<th>Rank Position</th>
 				<th>Total Achievements</th>
+				<th>Note</th>
 				<th>Is Top Ranked</th>
 				<th>Created Time</th>
 				<th>Plan Id</th>
 				<th>User Id</th>
+				<th>Actions</th>
 			</tr>
 		</thead>
 
@@ -36,13 +40,23 @@ else
 					<td>@leaderboards.LeaderboardsDuongLntid</td>
 					<td>@leaderboards.DaySmokeFree</td>
 					<td>@leaderboards.MoneySave</td>
-					<td>@leaderboards.Note</td>
 					<td>@leaderboards.RankPosition</td>
 					<td>@leaderboards.TotalAchievements</td>
+					<td>@leaderboards.Note</td>
 					<td>@leaderboards.IsTopRanked</td>
 					<td>@leaderboards.CreatedTime</td>
 					<td>@(leaderboards.Plan?.QuitPlansAnhDtnid.ToString() ?? "N/A")</td>
 					<td>@(leaderboards.User?.UserAccountId.ToString() ?? "N/A")</td>
+
+					<td>
+						<a class="btn btn-sm btn-warning me-1" href="/LeaderboardsDuongLNTs/LeaderboardsDuongLNTForm/@leaderboards.LeaderboardsDuongLntid">
+							Cập nhật
+						</a>
+						<button class="btn btn-sm btn-danger"
+								@onclick="() => DeleteLeaderboardAsync(leaderboards.LeaderboardsDuongLntid.Value)">
+							Xóa
+						</button>
+					</td>
 
 				</tr>
 			}
@@ -62,14 +76,36 @@ else
 		try
 		{
 			leaderboardsDuongLNTs = await _graphQLConsumer.GetLeaderboardsDuongLnt();
-			Console.WriteLine($"✅ Loaded {leaderboardsDuongLNTs.Count} items");
+			Console.WriteLine($"Loaded {leaderboardsDuongLNTs.Count} items");
 		}
 		catch (Exception ex)
 		{
-			Console.WriteLine($"❌ Error in OnInitializedAsync: {ex.Message}");
+			Console.WriteLine($"Lỗi trong OnInitializedAsync: {ex.Message}");
 			errorMessage = ex.Message;
 		}
 	}
+
+	private async Task DeleteLeaderboardAsync(int id)
+	{
+		bool confirmed = await JS.InvokeAsync<bool>("confirm", $"Bạn có chắc chắn muốn xóa {id}?");
+		if (!confirmed)
+			return;
+
+		var success = await _graphQLConsumer.DeleteLeaderboardsDuongLnt(id);
+		if (success)
+		{
+			leaderboardsDuongLNTs = leaderboardsDuongLNTs
+				.Where(x => x.LeaderboardsDuongLntid != id)
+				.ToList();
+
+			Console.WriteLine($"Đã xóa thành công {id}");
+		}
+		else
+		{
+			errorMessage = $"Lỗi khi xóa ID {id}";
+		}
+	}
+
 }
 
 @* Kiểm tra lỗi *@

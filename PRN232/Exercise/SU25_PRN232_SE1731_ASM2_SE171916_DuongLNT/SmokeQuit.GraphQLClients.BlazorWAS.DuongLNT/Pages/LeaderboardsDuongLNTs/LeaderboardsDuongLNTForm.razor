@@ -1,6 +1,161 @@
-﻿namespace SmokeQuit.GraphQLClients.BlazorWAS.DuongLNT.Pages.LeaderboardsDuongLNTs
+﻿@page "/LeaderboardsDuongLNTs/LeaderboardsDuongLNTForm"
+@page "/LeaderboardsDuongLNTs/LeaderboardsDuongLNTForm/{id:int}"
+
+@* Dùng để gọi các API GraphQL *@
+@inject GraphQLConsumer GraphQLConsumer
+
+@using SmokeQuit.GraphQLClients.BlazorWAS.DuongLNT.GraphQLClients
+@using SmokeQuit.GraphQLClients.BlazorWAS.DuongLNT.Models
+@using Microsoft.AspNetCore.Components.Forms
+
+<h3>Leaderboard Entry</h3>
+
+<a href="/LeaderboardsDuongLNTs/LeaderboardsDuongLNTList" class="btn btn-secondary mb-3">← Quay lại</a>
+
+@if (!string.IsNullOrEmpty(message))
 {
-    public class LeaderboardsDuongLNTForm
-    {
-    }
+	<div class="alert @messageCss">@message</div>
+}
+
+<EditForm Model="@newLeaderboard" OnValidSubmit="@HandleSubmit">
+	<DataAnnotationsValidator />
+	<ValidationSummary />
+
+	<div class="form-group">
+		<label>Day Smoke Free</label>
+		<InputNumber class="form-control" @bind-Value="newLeaderboard.DaySmokeFree" />
+	</div>
+
+	<div class="form-group">
+		<label>Money Save</label>
+		<InputNumber class="form-control" @bind-Value="newLeaderboard.MoneySave" />
+	</div>
+
+	<div class="form-group">
+		<label>Rank Position</label>
+		<InputNumber class="form-control" @bind-Value="newLeaderboard.RankPosition" />
+	</div>
+
+	<div class="form-group">
+		<label>Total Achievements</label>
+		<InputNumber class="form-control" @bind-Value="newLeaderboard.TotalAchievements" />
+	</div>
+
+	<div class="form-group">
+		<label>Note</label>
+		<InputText class="form-control" @bind-Value="newLeaderboard.Note" />
+	</div>
+
+	<div class="form-group">
+		<label>Is Top Ranked</label>
+		<InputCheckbox class="form-check-input" @bind-Value="newLeaderboard.IsTopRanked" />
+	</div>
+
+	<div class="form-group">
+		<label>Plan</label>
+		<InputSelect class="form-control" @bind-Value="selectedPlanId">
+			<option value="">-- Select Plan --</option>
+			@foreach (var plan in allPlans)
+			{
+				<option value="@plan.QuitPlansAnhDtnid">@plan.QuitPlansAnhDtnid</option>
+			}
+		</InputSelect>
+	</div>
+
+	<div class="form-group">
+		<label>User</label>
+		<InputSelect class="form-control" @bind-Value="selectedUserId">
+			<option value="">-- Select User --</option>
+			@foreach (var user in allUsers)
+			{
+				<option value="@user.UserAccountId">@user.UserName (@user.UserAccountId)</option>
+			}
+		</InputSelect>
+	</div>
+
+
+	<button type="submit" class="btn btn-success mt-2">Create</button>
+</EditForm>
+
+@code {
+	private LeaderboardsDuongLnt newLeaderboard = new()
+		{
+			CreatedTime = DateTime.UtcNow,
+			LastUpdate = DateTime.UtcNow,
+			IsTopRanked = false
+		};
+
+	//Danh sách dropdown
+	private List<QuitPlansAnhDtn> allPlans = new();
+	private List<SystemUserAccount> allUsers = new();
+
+	//Lưu lựa chọn dropdown tạm thời
+	private int? selectedPlanId;
+	private int? selectedUserId;
+
+	//Hiển thị thông báo thành công/thất bại
+	private string message;
+	private string messageCss;
+
+	//ID này dùng để khi update
+	[Parameter]
+	public int? id { get; set; }
+
+	//Dùng để khởi tạo dữ liệu khi component được khởi tạo
+	protected override async Task OnInitializedAsync()
+	{
+		//Load tất cả Plans và Users cho dropdown.
+		allPlans = await GraphQLConsumer.GetQuitPlansAnhDtn();
+		allUsers = await GraphQLConsumer.GetUsersDuongLnt();
+
+		//Nếu có ID thì lấy dữ liệu để update
+		if (id.HasValue)
+		{
+			var allLeaderboards = await GraphQLConsumer.GetLeaderboardsDuongLnt();
+			var existing = allLeaderboards.FirstOrDefault(l => l.LeaderboardsDuongLntid == id.Value);
+
+			if (existing != null)
+			{
+				newLeaderboard = existing;
+
+				//Gán lại dropdown value
+				selectedPlanId = existing.Plan?.QuitPlansAnhDtnid;
+				selectedUserId = existing.User?.UserAccountId;
+			}
+		}
+	}
+
+	private async Task HandleSubmit()
+	{
+		//Check dữ liệu hợp lệ
+		if (selectedPlanId == null)
+		{
+			message = "Vui lòng chọn Plan";
+			messageCss = "alert-danger";
+			return;
+		}
+
+		//Gán lại Plan và User (bằng ID từ dropdown)
+		newLeaderboard.Plan = new QuitPlansAnhDtn { QuitPlansAnhDtnid = selectedPlanId.Value };
+		newLeaderboard.User = new SystemUserAccount { UserAccountId = selectedUserId.Value };
+
+		int result;
+
+		//Nếu có ID thì Update, nếu không thì Create
+		if (newLeaderboard.LeaderboardsDuongLntid != null && newLeaderboard.LeaderboardsDuongLntid > 0)
+		{
+			//UPDATE
+			result = await GraphQLConsumer.UpdateLeaderboardsDuongLnt(newLeaderboard);
+			message = result > 0 ? $"Cập nhật thành công ID {result}" : "Cập nhật thất bại";
+		}
+		else
+		{
+			//CREATE
+			result = await GraphQLConsumer.CreateLeaderboardsDuongLnt(newLeaderboard);
+			message = result > 0 ? $"Tạo thành công ID {result}" : "Tạo thất bại";
+		}
+
+		messageCss = result > 0 ? "alert-success" : "alert-danger";
+	}
+
 }

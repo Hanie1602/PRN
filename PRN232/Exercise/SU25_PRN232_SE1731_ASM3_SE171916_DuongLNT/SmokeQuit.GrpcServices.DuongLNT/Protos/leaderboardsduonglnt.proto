@@ -1,0 +1,44 @@
+﻿syntax = "proto3";
+
+option csharp_namespace = "SmokeQuit.GrpcServices.DuongLNT.Protos";
+
+//Định nghĩa service
+service LeaderboardsDuongLntGRPC{
+	rpc GetAllAsync(EmptyRequest) returns (LeaderboardsDuongLntList);
+	rpc GetByIdAsync(LeaderboardsDuongLntIdRequest) returns (LeaderboardsDuongLnt);
+
+	rpc CreateAsync(LeaderboardsDuongLnt) returns(MutationResult);
+}
+
+message EmptyRequest{}
+
+message LeaderboardsDuongLntList{
+	repeated LeaderboardsDuongLnt Items = 1;
+}
+
+//int -> int32; decimal -> double; datetime -> string; guild -> string
+message LeaderboardsDuongLnt
+{
+	int32 LeaderboardsDuongLntid = 1;
+	int32 UserId = 2;
+	int32 PlanId = 3;
+	int32 DaySmokeFree = 4;
+	double MoneySave = 5;
+	int32 RankPosition = 6;
+	int32 TotalAchievements = 7;
+	double ProgressScore = 8;
+	string Note = 9;
+	int32 StreakCount = 10;
+	int32 CommunityContribution = 11;
+	bool IsTopRanked = 12;
+	string LastUpdate = 13;
+	string CreatedTime = 14;
+}
+
+message LeaderboardsDuongLntIdRequest {
+	int32 LeaderboardsDuongLntid = 1;
+}
+
+message MutationResult{
+	int32 result = 1;
+}

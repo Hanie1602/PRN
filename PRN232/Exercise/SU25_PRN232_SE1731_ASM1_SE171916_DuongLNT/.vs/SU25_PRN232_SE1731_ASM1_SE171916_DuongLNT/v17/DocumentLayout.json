@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "D:\\Github\\PRN212\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM1_SE171916_DuongLNT\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6D58AA32-A2E4-41CA-8383-68CE64E4EE54}|SmokeQuit.APIServices.BE.DuongLNT\\SmokeQuit.APIServices.BE.DuongLNT.csproj|d:\\github\\prn212\\prn232\\exercise\\su25_prn232_se1731_asm1_se171916_duonglnt\\smokequit.apiservices.be.duonglnt\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6D58AA32-A2E4-41CA-8383-68CE64E4EE54}|SmokeQuit.APIServices.BE.DuongLNT\\SmokeQuit.APIServices.BE.DuongLNT.csproj|solutionrelative:smokequit.apiservices.be.duonglnt\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{6D58AA32-A2E4-41CA-8383-68CE64E4EE54}|SmokeQuit.APIServices.BE.DuongLNT\\SmokeQuit.APIServices.BE.DuongLNT.csproj|d:\\github\\prn212\\prn232\\exercise\\su25_prn232_se1731_asm1_se171916_duonglnt\\smokequit.apiservices.be.duonglnt\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{6D58AA32-A2E4-41CA-8383-68CE64E4EE54}|SmokeQuit.APIServices.BE.DuongLNT\\SmokeQuit.APIServices.BE.DuongLNT.csproj|solutionrelative:smokequit.apiservices.be.duonglnt\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D58AA32-A2E4-41CA-8383-68CE64E4EE54}|SmokeQuit.APIServices.BE.DuongLNT\\SmokeQuit.APIServices.BE.DuongLNT.csproj|d:\\github\\prn212\\prn232\\exercise\\su25_prn232_se1731_asm1_se171916_duonglnt\\smokequit.apiservices.be.duonglnt\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D58AA32-A2E4-41CA-8383-68CE64E4EE54}|SmokeQuit.APIServices.BE.DuongLNT\\SmokeQuit.APIServices.BE.DuongLNT.csproj|solutionrelative:smokequit.apiservices.be.duonglnt\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6F99A14D-4EB7-4698-B5BB-22D1E79DC6EF}|SmokeQuit.Services.DuongLNT\\SmokeQuit.Services.DuongLNT.csproj|d:\\github\\prn212\\prn232\\exercise\\su25_prn232_se1731_asm1_se171916_duonglnt\\smokequit.services.duonglnt\\smokequit.services.duonglnt.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
@@ -209,7 +209,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 10,
+          "SelectedChildIndex": 11,
           "Children": [
             {
               "$type": "Bookmark",
@@ -273,12 +273,11 @@
               "RelativeToolTip": "SmokeQuit.Services.DuongLNT\\SmokeQuit.Services.DuongLNT.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-05-16T06:25:57.187Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-16T06:25:57.187Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Github\\PRN212\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM1_SE171916_DuongLNT\\SmokeQuit.APIServices.BE.DuongLNT\\Program.cs",
               "RelativeDocumentMoniker": "SmokeQuit.APIServices.BE.DuongLNT\\Program.cs",
@@ -291,13 +290,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\Github\\PRN212\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM1_SE171916_DuongLNT\\SmokeQuit.APIServices.BE.DuongLNT\\appsettings.json",
               "RelativeDocumentMoniker": "SmokeQuit.APIServices.BE.DuongLNT\\appsettings.json",
               "ToolTip": "D:\\Github\\PRN212\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM1_SE171916_DuongLNT\\SmokeQuit.APIServices.BE.DuongLNT\\appsettings.json",
               "RelativeToolTip": "SmokeQuit.APIServices.BE.DuongLNT\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAEAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2025-05-17T02:48:18.337Z",
               "EditorCaption": ""
@@ -838,6 +837,16 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2025-05-17T03:00:30.156Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 1524,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
             }
           ]
         }

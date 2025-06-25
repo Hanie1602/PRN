@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\SmokeQuit.GrpcServices.DuongLNT.props" />
+</Project>

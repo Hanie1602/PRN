@@ -1,0 +1,108 @@
+﻿@page
+@model LionPetManagement_LuongNgocThuyDuong.Pages.LionProfiles.IndexModel
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<!-- Logout -->
+@if (Request.Cookies["Username"] != null)
+{
+    <p>Hello, @Request.Cookies["Username"]</p>
+    <form method="post">
+        <button asp-page-handler="Logout" class="btn btn-danger">Logout</button>
+    </form>
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-page="Create">Create New</a>
+</p>
+
+<!-- Search & Sort -->
+<form method="get" class="mb-4 border rounded p-3 bg-light shadow-sm">
+    <div class="row g-3">
+
+        <!-- Search -->
+        <div class="col-md-4">
+            <label class="form-label fw-bold">Lion Name</label>
+            <input type="text" name="lionName" class="form-control"
+                   value="@Request.Query["lionName"]" placeholder="e.g. Anna">
+        </div>
+        <div class="col-md-4">
+            <label class="form-label fw-bold">Lion Type Name</label>
+            <input type="text" name="lionTypeName" class="form-control"
+                   value="@Request.Query["lionTypeName"]" placeholder="e.g. 10">
+        </div>
+
+        <!-- Sort -->
+        <div class="col-md-4">
+            <label class="form-label fw-bold">Sort By</label>
+            <select name="sortOption" class="form-select">
+                <option value="">-- No Sort --</option>
+                <option value="name_asc" selected="@(Request.Query["sortOption"] == "name_asc")">Name (A-Z)</option>
+                <option value="name_desc" selected="@(Request.Query["sortOption"] == "name_desc")">Name (Z-A)</option>
+            </select>
+        </div>
+
+        <div class="col-md-12 d-flex justify-content-end align-items-end">
+            <button type="submit" class="btn btn-primary px-4">Search</button>
+        </div>
+    </div>
+</form>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.LionProfile[0].LionName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.LionProfile[0].Weight)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.LionProfile[0].Characteristics)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.LionProfile[0].Warning)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.LionProfile[0].ModifiedDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.LionProfile[0].LionType)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model.LionProfile) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.LionName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Weight)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Characteristics)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Warning)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ModifiedDate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.LionType.LionTypeName)
+            </td>
+            <td>
+                <a asp-page="./Edit" asp-route-id="@item.LionProfileId">Edit</a> |
+                <a asp-page="./Details" asp-route-id="@item.LionProfileId">Details</a> |
+                <a asp-page="./Delete" asp-route-id="@item.LionProfileId">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

@@ -1,0 +1,47 @@
+D:\PRN222_SP25\PE_PRN222_SP25\PE_PRN222_SP25_011299_LuongNgocThuyDuong\Services\bin\Debug\net8.0\Services.deps.json
+D:\PRN222_SP25\PE_PRN222_SP25\PE_PRN222_SP25_011299_LuongNgocThuyDuong\Services\bin\Debug\net8.0\Services.dll
+D:\PRN222_SP25\PE_PRN222_SP25\PE_PRN222_SP25_011299_LuongNgocThuyDuong\Services\bin\Debug\net8.0\Services.pdb
+D:\PRN222_SP25\PE_PRN222_SP25\PE_PRN222_SP25_011299_LuongNgocThuyDuong\Services\bin\Debug\net8.0\Repositories.dll
+D:\PRN222_SP25\PE_PRN222_SP25\PE_PRN222_SP25_011299_LuongNgocThuyDuong\Services\bin\Debug\net8.0\Repositories.pdb
+D:\PRN222_SP25\PE_PRN222_SP25\PE_PRN222_SP25_011299_LuongNgocThuyDuong\Services\obj\Debug\net8.0\Services.csproj.AssemblyReference.cache
+D:\PRN222_SP25\PE_PRN222_SP25\PE_PRN222_SP25_011299_LuongNgocThuyDuong\Services\obj\Debug\net8.0\Services.GeneratedMSBuildEditorConfig.editorconfig
+D:\PRN222_SP25\PE_PRN222_SP25\PE_PRN222_SP25_011299_LuongNgocThuyDuong\Services\obj\Debug\net8.0\Services.AssemblyInfoInputs.cache
+D:\PRN222_SP25\PE_PRN222_SP25\PE_PRN222_SP25_011299_LuongNgocThuyDuong\Services\obj\Debug\net8.0\Services.AssemblyInfo.cs
+D:\PRN222_SP25\PE_PRN222_SP25\PE_PRN222_SP25_011299_LuongNgocThuyDuong\Services\obj\Debug\net8.0\Services.csproj.CoreCompileInputs.cache
+D:\PRN222_SP25\PE_PRN222_SP25\PE_PRN222_SP25_011299_LuongNgocThuyDuong\Services\obj\Debug\net8.0\Services.csproj.Up2Date
+D:\PRN222_SP25\PE_PRN222_SP25\PE_PRN222_SP25_011299_LuongNgocThuyDuong\Services\obj\Debug\net8.0\Services.dll
+D:\PRN222_SP25\PE_PRN222_SP25\PE_PRN222_SP25_011299_LuongNgocThuyDuong\Services\obj\Debug\net8.0\refint\Services.dll
+D:\PRN222_SP25\PE_PRN222_SP25\PE_PRN222_SP25_011299_LuongNgocThuyDuong\Services\obj\Debug\net8.0\Services.pdb
+D:\PRN222_SP25\PE_PRN222_SP25\PE_PRN222_SP25_011299_LuongNgocThuyDuong\Services\obj\Debug\net8.0\ref\Services.dll
+D:\Github\PRN212\Advanced-Lesson\Homework\PE_PRN222_SP25_011299_LuongNgocThuyDuong\Services\bin\Debug\net8.0\Services.deps.json
+D:\Github\PRN212\Advanced-Lesson\Homework\PE_PRN222_SP25_011299_LuongNgocThuyDuong\Services\bin\Debug\net8.0\Services.dll
+D:\Github\PRN212\Advanced-Lesson\Homework\PE_PRN222_SP25_011299_LuongNgocThuyDuong\Services\bin\Debug\net8.0\Services.pdb
+D:\Github\PRN212\Advanced-Lesson\Homework\PE_PRN222_SP25_011299_LuongNgocThuyDuong\Services\bin\Debug\net8.0\Repositories.dll
+D:\Github\PRN212\Advanced-Lesson\Homework\PE_PRN222_SP25_011299_LuongNgocThuyDuong\Services\bin\Debug\net8.0\Repositories.pdb
+D:\Github\PRN212\Advanced-Lesson\Homework\PE_PRN222_SP25_011299_LuongNgocThuyDuong\Services\obj\Debug\net8.0\Services.csproj.AssemblyReference.cache
+D:\Github\PRN212\Advanced-Lesson\Homework\PE_PRN222_SP25_011299_LuongNgocThuyDuong\Services\obj\Debug\net8.0\Services.GeneratedMSBuildEditorConfig.editorconfig
+D:\Github\PRN212\Advanced-Lesson\Homework\PE_PRN222_SP25_011299_LuongNgocThuyDuong\Services\obj\Debug\net8.0\Services.AssemblyInfoInputs.cache
+D:\Github\PRN212\Advanced-Lesson\Homework\PE_PRN222_SP25_011299_LuongNgocThuyDuong\Services\obj\Debug\net8.0\Services.AssemblyInfo.cs
+D:\Github\PRN212\Advanced-Lesson\Homework\PE_PRN222_SP25_011299_LuongNgocThuyDuong\Services\obj\Debug\net8.0\Services.csproj.CoreCompileInputs.cache
+D:\Github\PRN212\Advanced-Lesson\Homework\PE_PRN222_SP25_011299_LuongNgocThuyDuong\Services\obj\Debug\net8.0\Services.sourcelink.json
+D:\Github\PRN212\Advanced-Lesson\Homework\PE_PRN222_SP25_011299_LuongNgocThuyDuong\Services\obj\Debug\net8.0\Services.csproj.Up2Date
+D:\Github\PRN212\Advanced-Lesson\Homework\PE_PRN222_SP25_011299_LuongNgocThuyDuong\Services\obj\Debug\net8.0\Services.dll
+D:\Github\PRN212\Advanced-Lesson\Homework\PE_PRN222_SP25_011299_LuongNgocThuyDuong\Services\obj\Debug\net8.0\refint\Services.dll
+D:\Github\PRN212\Advanced-Lesson\Homework\PE_PRN222_SP25_011299_LuongNgocThuyDuong\Services\obj\Debug\net8.0\Services.pdb
+D:\Github\PRN212\Advanced-Lesson\Homework\PE_PRN222_SP25_011299_LuongNgocThuyDuong\Services\obj\Debug\net8.0\ref\Services.dll
+D:\Github\PRN212\Advanced-Lesson\Homework\Practice Exam\PE_PRN222_SP25_011299_LuongNgocThuyDuong\Services\bin\Debug\net8.0\Services.deps.json
+D:\Github\PRN212\Advanced-Lesson\Homework\Practice Exam\PE_PRN222_SP25_011299_LuongNgocThuyDuong\Services\bin\Debug\net8.0\Services.dll
+D:\Github\PRN212\Advanced-Lesson\Homework\Practice Exam\PE_PRN222_SP25_011299_LuongNgocThuyDuong\Services\bin\Debug\net8.0\Services.pdb
+D:\Github\PRN212\Advanced-Lesson\Homework\Practice Exam\PE_PRN222_SP25_011299_LuongNgocThuyDuong\Services\bin\Debug\net8.0\Repositories.dll
+D:\Github\PRN212\Advanced-Lesson\Homework\Practice Exam\PE_PRN222_SP25_011299_LuongNgocThuyDuong\Services\bin\Debug\net8.0\Repositories.pdb
+D:\Github\PRN212\Advanced-Lesson\Homework\Practice Exam\PE_PRN222_SP25_011299_LuongNgocThuyDuong\Services\obj\Debug\net8.0\Services.csproj.AssemblyReference.cache
+D:\Github\PRN212\Advanced-Lesson\Homework\Practice Exam\PE_PRN222_SP25_011299_LuongNgocThuyDuong\Services\obj\Debug\net8.0\Services.GeneratedMSBuildEditorConfig.editorconfig
+D:\Github\PRN212\Advanced-Lesson\Homework\Practice Exam\PE_PRN222_SP25_011299_LuongNgocThuyDuong\Services\obj\Debug\net8.0\Services.AssemblyInfoInputs.cache
+D:\Github\PRN212\Advanced-Lesson\Homework\Practice Exam\PE_PRN222_SP25_011299_LuongNgocThuyDuong\Services\obj\Debug\net8.0\Services.AssemblyInfo.cs
+D:\Github\PRN212\Advanced-Lesson\Homework\Practice Exam\PE_PRN222_SP25_011299_LuongNgocThuyDuong\Services\obj\Debug\net8.0\Services.csproj.CoreCompileInputs.cache
+D:\Github\PRN212\Advanced-Lesson\Homework\Practice Exam\PE_PRN222_SP25_011299_LuongNgocThuyDuong\Services\obj\Debug\net8.0\Services.sourcelink.json
+D:\Github\PRN212\Advanced-Lesson\Homework\Practice Exam\PE_PRN222_SP25_011299_LuongNgocThuyDuong\Services\obj\Debug\net8.0\Services.csproj.Up2Date
+D:\Github\PRN212\Advanced-Lesson\Homework\Practice Exam\PE_PRN222_SP25_011299_LuongNgocThuyDuong\Services\obj\Debug\net8.0\Services.dll
+D:\Github\PRN212\Advanced-Lesson\Homework\Practice Exam\PE_PRN222_SP25_011299_LuongNgocThuyDuong\Services\obj\Debug\net8.0\refint\Services.dll
+D:\Github\PRN212\Advanced-Lesson\Homework\Practice Exam\PE_PRN222_SP25_011299_LuongNgocThuyDuong\Services\obj\Debug\net8.0\Services.pdb
+D:\Github\PRN212\Advanced-Lesson\Homework\Practice Exam\PE_PRN222_SP25_011299_LuongNgocThuyDuong\Services\obj\Debug\net8.0\ref\Services.dll

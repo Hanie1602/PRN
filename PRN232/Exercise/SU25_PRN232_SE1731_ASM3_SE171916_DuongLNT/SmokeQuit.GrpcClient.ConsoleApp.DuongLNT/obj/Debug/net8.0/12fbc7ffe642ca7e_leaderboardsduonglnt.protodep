@@ -1,0 +1,2 @@
+obj\Debug\net8.0\Protos/Leaderboardsduonglnt.cs \
+obj\Debug\net8.0\Protos/LeaderboardsduonglntGrpc.cs: Protos/leaderboardsduonglnt.proto

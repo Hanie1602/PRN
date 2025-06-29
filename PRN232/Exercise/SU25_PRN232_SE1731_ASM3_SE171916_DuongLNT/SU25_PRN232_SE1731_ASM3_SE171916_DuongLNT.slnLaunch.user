@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Path": "SmokeQuit.GrpcServices.DuongLNT\\SmokeQuit.GrpcServices.DuongLNT.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "SmokeQuit.GrpcClient.ConsoleApp.DuongLNT\\SmokeQuit.GrpcClient.ConsoleApp.DuongLNT.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

@@ -33,21 +33,32 @@ namespace SmokeQuit.GrpcServices.DuongLNT.Protos {
             "GQoRVG90YWxBY2hpZXZlbWVudHMYByABKAUSFQoNUHJvZ3Jlc3NTY29yZRgI",
             "IAEoARIMCgROb3RlGAkgASgJEhMKC1N0cmVha0NvdW50GAogASgFEh0KFUNv",
             "bW11bml0eUNvbnRyaWJ1dGlvbhgLIAEoBRITCgtJc1RvcFJhbmtlZBgMIAEo",
-            "CBISCgpMYXN0VXBkYXRlGA0gASgJEhMKC0NyZWF0ZWRUaW1lGA4gASgJIj8K",
-            "HUxlYWRlcmJvYXJkc0R1b25nTG50SWRSZXF1ZXN0Eh4KFkxlYWRlcmJvYXJk",
-            "c0R1b25nTG50aWQYASABKAUiIAoOTXV0YXRpb25SZXN1bHQSDgoGcmVzdWx0",
-            "GAEgASgFMtEBChhMZWFkZXJib2FyZHNEdW9uZ0xudEdSUEMSNwoLR2V0QWxs",
-            "QXN5bmMSDS5FbXB0eVJlcXVlc3QaGS5MZWFkZXJib2FyZHNEdW9uZ0xudExp",
-            "c3QSRQoMR2V0QnlJZEFzeW5jEh4uTGVhZGVyYm9hcmRzRHVvbmdMbnRJZFJl",
-            "cXVlc3QaFS5MZWFkZXJib2FyZHNEdW9uZ0xudBI1CgtDcmVhdGVBc3luYxIV",
-            "LkxlYWRlcmJvYXJkc0R1b25nTG50Gg8uTXV0YXRpb25SZXN1bHRCKaoCJlNt",
-            "b2tlUXVpdC5HcnBjU2VydmljZXMuRHVvbmdMTlQuUHJvdG9zYgZwcm90bzM="));
+            "CBISCgpMYXN0VXBkYXRlGA0gASgJEhMKC0NyZWF0ZWRUaW1lGA4gASgJIq0C",
+            "ChpMZWFkZXJib2FyZHNEdW9uZ0xudENyZWF0ZRIOCgZVc2VySWQYASABKAUS",
+            "DgoGUGxhbklkGAIgASgFEhQKDERheVNtb2tlRnJlZRgDIAEoBRIRCglNb25l",
+            "eVNhdmUYBCABKAESFAoMUmFua1Bvc2l0aW9uGAUgASgFEhkKEVRvdGFsQWNo",
+            "aWV2ZW1lbnRzGAYgASgFEhUKDVByb2dyZXNzU2NvcmUYByABKAESDAoETm90",
+            "ZRgIIAEoCRITCgtTdHJlYWtDb3VudBgJIAEoBRIdChVDb21tdW5pdHlDb250",
+            "cmlidXRpb24YCiABKAUSEwoLSXNUb3BSYW5rZWQYCyABKAgSEgoKTGFzdFVw",
+            "ZGF0ZRgMIAEoCRITCgtDcmVhdGVkVGltZRgNIAEoCSI/Ch1MZWFkZXJib2Fy",
+            "ZHNEdW9uZ0xudElkUmVxdWVzdBIeChZMZWFkZXJib2FyZHNEdW9uZ0xudGlk",
+            "GAEgASgFIiAKDk11dGF0aW9uUmVzdWx0Eg4KBnJlc3VsdBgBIAEoBTLOAgoY",
+            "TGVhZGVyYm9hcmRzRHVvbmdMbnRHUlBDEjcKC0dldEFsbEFzeW5jEg0uRW1w",
+            "dHlSZXF1ZXN0GhkuTGVhZGVyYm9hcmRzRHVvbmdMbnRMaXN0EkUKDEdldEJ5",
+            "SWRBc3luYxIeLkxlYWRlcmJvYXJkc0R1b25nTG50SWRSZXF1ZXN0GhUuTGVh",
+            "ZGVyYm9hcmRzRHVvbmdMbnQSOwoLQ3JlYXRlQXN5bmMSGy5MZWFkZXJib2Fy",
+            "ZHNEdW9uZ0xudENyZWF0ZRoPLk11dGF0aW9uUmVzdWx0EjUKC1VwZGF0ZUFz",
+            "eW5jEhUuTGVhZGVyYm9hcmRzRHVvbmdMbnQaDy5NdXRhdGlvblJlc3VsdBI+",
+            "CgtEZWxldGVBc3luYxIeLkxlYWRlcmJvYXJkc0R1b25nTG50SWRSZXF1ZXN0",
+            "Gg8uTXV0YXRpb25SZXN1bHRCKaoCJlNtb2tlUXVpdC5HcnBjU2VydmljZXMu",
+            "RHVvbmdMTlQuUHJvdG9zYgZwcm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
             new pbr::GeneratedClrTypeInfo(typeof(global::SmokeQuit.GrpcServices.DuongLNT.Protos.EmptyRequest), global::SmokeQuit.GrpcServices.DuongLNT.Protos.EmptyRequest.Parser, null, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::SmokeQuit.GrpcServices.DuongLNT.Protos.LeaderboardsDuongLntList), global::SmokeQuit.GrpcServices.DuongLNT.Protos.LeaderboardsDuongLntList.Parser, new[]{ "Items" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::SmokeQuit.GrpcServices.DuongLNT.Protos.LeaderboardsDuongLnt), global::SmokeQuit.GrpcServices.DuongLNT.Protos.LeaderboardsDuongLnt.Parser, new[]{ "LeaderboardsDuongLntid", "UserId", "PlanId", "DaySmokeFree", "MoneySave", "RankPosition", "TotalAchievements", "ProgressScore", "Note", "StreakCount", "CommunityContribution", "IsTopRanked", "LastUpdate", "CreatedTime" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::SmokeQuit.GrpcServices.DuongLNT.Protos.LeaderboardsDuongLntCreate), global::SmokeQuit.GrpcServices.DuongLNT.Protos.LeaderboardsDuongLntCreate.Parser, new[]{ "UserId", "PlanId", "DaySmokeFree", "MoneySave", "RankPosition", "TotalAchievements", "ProgressScore", "Note", "StreakCount", "CommunityContribution", "IsTopRanked", "LastUpdate", "CreatedTime" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::SmokeQuit.GrpcServices.DuongLNT.Protos.LeaderboardsDuongLntIdRequest), global::SmokeQuit.GrpcServices.DuongLNT.Protos.LeaderboardsDuongLntIdRequest.Parser, new[]{ "LeaderboardsDuongLntid" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::SmokeQuit.GrpcServices.DuongLNT.Protos.MutationResult), global::SmokeQuit.GrpcServices.DuongLNT.Protos.MutationResult.Parser, new[]{ "Result" }, null, null, null, null)
           }));
@@ -1059,6 +1070,639 @@ namespace SmokeQuit.GrpcServices.DuongLNT.Protos {
 
   }
 
+  public sealed partial class LeaderboardsDuongLntCreate : pb::IMessage<LeaderboardsDuongLntCreate>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
+    private static readonly pb::MessageParser<LeaderboardsDuongLntCreate> _parser = new pb::MessageParser<LeaderboardsDuongLntCreate>(() => new LeaderboardsDuongLntCreate());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pb::MessageParser<LeaderboardsDuongLntCreate> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::SmokeQuit.GrpcServices.DuongLNT.Protos.LeaderboardsduonglntReflection.Descriptor.MessageTypes[3]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public LeaderboardsDuongLntCreate() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public LeaderboardsDuongLntCreate(LeaderboardsDuongLntCreate other) : this() {
+      userId_ = other.userId_;
+      planId_ = other.planId_;
+      daySmokeFree_ = other.daySmokeFree_;
+      moneySave_ = other.moneySave_;
+      rankPosition_ = other.rankPosition_;
+      totalAchievements_ = other.totalAchievements_;
+      progressScore_ = other.progressScore_;
+      note_ = other.note_;
+      streakCount_ = other.streakCount_;
+      communityContribution_ = other.communityContribution_;
+      isTopRanked_ = other.isTopRanked_;
+      lastUpdate_ = other.lastUpdate_;
+      createdTime_ = other.createdTime_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public LeaderboardsDuongLntCreate Clone() {
+      return new LeaderboardsDuongLntCreate(this);
+    }
+
+    /// <summary>Field number for the "UserId" field.</summary>
+    public const int UserIdFieldNumber = 1;
+    private int userId_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public int UserId {
+      get { return userId_; }
+      set {
+        userId_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "PlanId" field.</summary>
+    public const int PlanIdFieldNumber = 2;
+    private int planId_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public int PlanId {
+      get { return planId_; }
+      set {
+        planId_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "DaySmokeFree" field.</summary>
+    public const int DaySmokeFreeFieldNumber = 3;
+    private int daySmokeFree_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public int DaySmokeFree {
+      get { return daySmokeFree_; }
+      set {
+        daySmokeFree_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "MoneySave" field.</summary>
+    public const int MoneySaveFieldNumber = 4;
+    private double moneySave_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public double MoneySave {
+      get { return moneySave_; }
+      set {
+        moneySave_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "RankPosition" field.</summary>
+    public const int RankPositionFieldNumber = 5;
+    private int rankPosition_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public int RankPosition {
+      get { return rankPosition_; }
+      set {
+        rankPosition_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "TotalAchievements" field.</summary>
+    public const int TotalAchievementsFieldNumber = 6;
+    private int totalAchievements_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public int TotalAchievements {
+      get { return totalAchievements_; }
+      set {
+        totalAchievements_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "ProgressScore" field.</summary>
+    public const int ProgressScoreFieldNumber = 7;
+    private double progressScore_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public double ProgressScore {
+      get { return progressScore_; }
+      set {
+        progressScore_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "Note" field.</summary>
+    public const int NoteFieldNumber = 8;
+    private string note_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string Note {
+      get { return note_; }
+      set {
+        note_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "StreakCount" field.</summary>
+    public const int StreakCountFieldNumber = 9;
+    private int streakCount_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public int StreakCount {
+      get { return streakCount_; }
+      set {
+        streakCount_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "CommunityContribution" field.</summary>
+    public const int CommunityContributionFieldNumber = 10;
+    private int communityContribution_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public int CommunityContribution {
+      get { return communityContribution_; }
+      set {
+        communityContribution_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "IsTopRanked" field.</summary>
+    public const int IsTopRankedFieldNumber = 11;
+    private bool isTopRanked_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool IsTopRanked {
+      get { return isTopRanked_; }
+      set {
+        isTopRanked_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "LastUpdate" field.</summary>
+    public const int LastUpdateFieldNumber = 12;
+    private string lastUpdate_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string LastUpdate {
+      get { return lastUpdate_; }
+      set {
+        lastUpdate_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "CreatedTime" field.</summary>
+    public const int CreatedTimeFieldNumber = 13;
+    private string createdTime_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string CreatedTime {
+      get { return createdTime_; }
+      set {
+        createdTime_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override bool Equals(object other) {
+      return Equals(other as LeaderboardsDuongLntCreate);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool Equals(LeaderboardsDuongLntCreate other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (UserId != other.UserId) return false;
+      if (PlanId != other.PlanId) return false;
+      if (DaySmokeFree != other.DaySmokeFree) return false;
+      if (!pbc::ProtobufEqualityComparers.BitwiseDoubleEqualityComparer.Equals(MoneySave, other.MoneySave)) return false;
+      if (RankPosition != other.RankPosition) return false;
+      if (TotalAchievements != other.TotalAchievements) return false;
+      if (!pbc::ProtobufEqualityComparers.BitwiseDoubleEqualityComparer.Equals(ProgressScore, other.ProgressScore)) return false;
+      if (Note != other.Note) return false;
+      if (StreakCount != other.StreakCount) return false;
+      if (CommunityContribution != other.CommunityContribution) return false;
+      if (IsTopRanked != other.IsTopRanked) return false;
+      if (LastUpdate != other.LastUpdate) return false;
+      if (CreatedTime != other.CreatedTime) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (UserId != 0) hash ^= UserId.GetHashCode();
+      if (PlanId != 0) hash ^= PlanId.GetHashCode();
+      if (DaySmokeFree != 0) hash ^= DaySmokeFree.GetHashCode();
+      if (MoneySave != 0D) hash ^= pbc::ProtobufEqualityComparers.BitwiseDoubleEqualityComparer.GetHashCode(MoneySave);
+      if (RankPosition != 0) hash ^= RankPosition.GetHashCode();
+      if (TotalAchievements != 0) hash ^= TotalAchievements.GetHashCode();
+      if (ProgressScore != 0D) hash ^= pbc::ProtobufEqualityComparers.BitwiseDoubleEqualityComparer.GetHashCode(ProgressScore);
+      if (Note.Length != 0) hash ^= Note.GetHashCode();
+      if (StreakCount != 0) hash ^= StreakCount.GetHashCode();
+      if (CommunityContribution != 0) hash ^= CommunityContribution.GetHashCode();
+      if (IsTopRanked != false) hash ^= IsTopRanked.GetHashCode();
+      if (LastUpdate.Length != 0) hash ^= LastUpdate.GetHashCode();
+      if (CreatedTime.Length != 0) hash ^= CreatedTime.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
+      if (UserId != 0) {
+        output.WriteRawTag(8);
+        output.WriteInt32(UserId);
+      }
+      if (PlanId != 0) {
+        output.WriteRawTag(16);
+        output.WriteInt32(PlanId);
+      }
+      if (DaySmokeFree != 0) {
+        output.WriteRawTag(24);
+        output.WriteInt32(DaySmokeFree);
+      }
+      if (MoneySave != 0D) {
+        output.WriteRawTag(33);
+        output.WriteDouble(MoneySave);
+      }
+      if (RankPosition != 0) {
+        output.WriteRawTag(40);
+        output.WriteInt32(RankPosition);
+      }
+      if (TotalAchievements != 0) {
+        output.WriteRawTag(48);
+        output.WriteInt32(TotalAchievements);
+      }
+      if (ProgressScore != 0D) {
+        output.WriteRawTag(57);
+        output.WriteDouble(ProgressScore);
+      }
+      if (Note.Length != 0) {
+        output.WriteRawTag(66);
+        output.WriteString(Note);
+      }
+      if (StreakCount != 0) {
+        output.WriteRawTag(72);
+        output.WriteInt32(StreakCount);
+      }
+      if (CommunityContribution != 0) {
+        output.WriteRawTag(80);
+        output.WriteInt32(CommunityContribution);
+      }
+      if (IsTopRanked != false) {
+        output.WriteRawTag(88);
+        output.WriteBool(IsTopRanked);
+      }
+      if (LastUpdate.Length != 0) {
+        output.WriteRawTag(98);
+        output.WriteString(LastUpdate);
+      }
+      if (CreatedTime.Length != 0) {
+        output.WriteRawTag(106);
+        output.WriteString(CreatedTime);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      if (UserId != 0) {
+        output.WriteRawTag(8);
+        output.WriteInt32(UserId);
+      }
+      if (PlanId != 0) {
+        output.WriteRawTag(16);
+        output.WriteInt32(PlanId);
+      }
+      if (DaySmokeFree != 0) {
+        output.WriteRawTag(24);
+        output.WriteInt32(DaySmokeFree);
+      }
+      if (MoneySave != 0D) {
+        output.WriteRawTag(33);
+        output.WriteDouble(MoneySave);
+      }
+      if (RankPosition != 0) {
+        output.WriteRawTag(40);
+        output.WriteInt32(RankPosition);
+      }
+      if (TotalAchievements != 0) {
+        output.WriteRawTag(48);
+        output.WriteInt32(TotalAchievements);
+      }
+      if (ProgressScore != 0D) {
+        output.WriteRawTag(57);
+        output.WriteDouble(ProgressScore);
+      }
+      if (Note.Length != 0) {
+        output.WriteRawTag(66);
+        output.WriteString(Note);
+      }
+      if (StreakCount != 0) {
+        output.WriteRawTag(72);
+        output.WriteInt32(StreakCount);
+      }
+      if (CommunityContribution != 0) {
+        output.WriteRawTag(80);
+        output.WriteInt32(CommunityContribution);
+      }
+      if (IsTopRanked != false) {
+        output.WriteRawTag(88);
+        output.WriteBool(IsTopRanked);
+      }
+      if (LastUpdate.Length != 0) {
+        output.WriteRawTag(98);
+        output.WriteString(LastUpdate);
+      }
+      if (CreatedTime.Length != 0) {
+        output.WriteRawTag(106);
+        output.WriteString(CreatedTime);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public int CalculateSize() {
+      int size = 0;
+      if (UserId != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeInt32Size(UserId);
+      }
+      if (PlanId != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeInt32Size(PlanId);
+      }
+      if (DaySmokeFree != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeInt32Size(DaySmokeFree);
+      }
+      if (MoneySave != 0D) {
+        size += 1 + 8;
+      }
+      if (RankPosition != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeInt32Size(RankPosition);
+      }
+      if (TotalAchievements != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeInt32Size(TotalAchievements);
+      }
+      if (ProgressScore != 0D) {
+        size += 1 + 8;
+      }
+      if (Note.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Note);
+      }
+      if (StreakCount != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeInt32Size(StreakCount);
+      }
+      if (CommunityContribution != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeInt32Size(CommunityContribution);
+      }
+      if (IsTopRanked != false) {
+        size += 1 + 1;
+      }
+      if (LastUpdate.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(LastUpdate);
+      }
+      if (CreatedTime.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(CreatedTime);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(LeaderboardsDuongLntCreate other) {
+      if (other == null) {
+        return;
+      }
+      if (other.UserId != 0) {
+        UserId = other.UserId;
+      }
+      if (other.PlanId != 0) {
+        PlanId = other.PlanId;
+      }
+      if (other.DaySmokeFree != 0) {
+        DaySmokeFree = other.DaySmokeFree;
+      }
+      if (other.MoneySave != 0D) {
+        MoneySave = other.MoneySave;
+      }
+      if (other.RankPosition != 0) {
+        RankPosition = other.RankPosition;
+      }
+      if (other.TotalAchievements != 0) {
+        TotalAchievements = other.TotalAchievements;
+      }
+      if (other.ProgressScore != 0D) {
+        ProgressScore = other.ProgressScore;
+      }
+      if (other.Note.Length != 0) {
+        Note = other.Note;
+      }
+      if (other.StreakCount != 0) {
+        StreakCount = other.StreakCount;
+      }
+      if (other.CommunityContribution != 0) {
+        CommunityContribution = other.CommunityContribution;
+      }
+      if (other.IsTopRanked != false) {
+        IsTopRanked = other.IsTopRanked;
+      }
+      if (other.LastUpdate.Length != 0) {
+        LastUpdate = other.LastUpdate;
+      }
+      if (other.CreatedTime.Length != 0) {
+        CreatedTime = other.CreatedTime;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 8: {
+            UserId = input.ReadInt32();
+            break;
+          }
+          case 16: {
+            PlanId = input.ReadInt32();
+            break;
+          }
+          case 24: {
+            DaySmokeFree = input.ReadInt32();
+            break;
+          }
+          case 33: {
+            MoneySave = input.ReadDouble();
+            break;
+          }
+          case 40: {
+            RankPosition = input.ReadInt32();
+            break;
+          }
+          case 48: {
+            TotalAchievements = input.ReadInt32();
+            break;
+          }
+          case 57: {
+            ProgressScore = input.ReadDouble();
+            break;
+          }
+          case 66: {
+            Note = input.ReadString();
+            break;
+          }
+          case 72: {
+            StreakCount = input.ReadInt32();
+            break;
+          }
+          case 80: {
+            CommunityContribution = input.ReadInt32();
+            break;
+          }
+          case 88: {
+            IsTopRanked = input.ReadBool();
+            break;
+          }
+          case 98: {
+            LastUpdate = input.ReadString();
+            break;
+          }
+          case 106: {
+            CreatedTime = input.ReadString();
+            break;
+          }
+        }
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+          case 8: {
+            UserId = input.ReadInt32();
+            break;
+          }
+          case 16: {
+            PlanId = input.ReadInt32();
+            break;
+          }
+          case 24: {
+            DaySmokeFree = input.ReadInt32();
+            break;
+          }
+          case 33: {
+            MoneySave = input.ReadDouble();
+            break;
+          }
+          case 40: {
+            RankPosition = input.ReadInt32();
+            break;
+          }
+          case 48: {
+            TotalAchievements = input.ReadInt32();
+            break;
+          }
+          case 57: {
+            ProgressScore = input.ReadDouble();
+            break;
+          }
+          case 66: {
+            Note = input.ReadString();
+            break;
+          }
+          case 72: {
+            StreakCount = input.ReadInt32();
+            break;
+          }
+          case 80: {
+            CommunityContribution = input.ReadInt32();
+            break;
+          }
+          case 88: {
+            IsTopRanked = input.ReadBool();
+            break;
+          }
+          case 98: {
+            LastUpdate = input.ReadString();
+            break;
+          }
+          case 106: {
+            CreatedTime = input.ReadString();
+            break;
+          }
+        }
+      }
+    }
+    #endif
+
+  }
+
   public sealed partial class LeaderboardsDuongLntIdRequest : pb::IMessage<LeaderboardsDuongLntIdRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -1073,7 +1717,7 @@ namespace SmokeQuit.GrpcServices.DuongLNT.Protos {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::SmokeQuit.GrpcServices.DuongLNT.Protos.LeaderboardsduonglntReflection.Descriptor.MessageTypes[3]; }
+      get { return global::SmokeQuit.GrpcServices.DuongLNT.Protos.LeaderboardsduonglntReflection.Descriptor.MessageTypes[4]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1262,7 +1906,7 @@ namespace SmokeQuit.GrpcServices.DuongLNT.Protos {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::SmokeQuit.GrpcServices.DuongLNT.Protos.LeaderboardsduonglntReflection.Descriptor.MessageTypes[4]; }
+      get { return global::SmokeQuit.GrpcServices.DuongLNT.Protos.LeaderboardsduonglntReflection.Descriptor.MessageTypes[5]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]

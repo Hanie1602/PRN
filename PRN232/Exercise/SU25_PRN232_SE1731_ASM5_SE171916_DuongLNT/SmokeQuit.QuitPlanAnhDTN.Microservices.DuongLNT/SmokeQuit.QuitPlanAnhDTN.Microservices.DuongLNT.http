@@ -1,0 +1,6 @@
+@SmokeQuit.QuitPlanAnhDTN.Microservices.DuongLNT_HostAddress = http://localhost:5116
+
+GET {{SmokeQuit.QuitPlanAnhDTN.Microservices.DuongLNT_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

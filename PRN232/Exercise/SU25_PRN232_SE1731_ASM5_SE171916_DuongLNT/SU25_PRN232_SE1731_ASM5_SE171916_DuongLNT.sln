@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35931.197 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmokeQuit.BussinessObject.Shared.Models.DuongLNT", "SmokeQuit.BussinessObject.Shared.Models.DuongLNT\SmokeQuit.BussinessObject.Shared.Models.DuongLNT.csproj", "{F4ADD6B6-DAD0-4D11-94D6-9B3A43207E32}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmokeQuit.Common.Shared.DuongLNT", "SmokeQuit.Common.Shared.DuongLNT\SmokeQuit.Common.Shared.DuongLNT.csproj", "{3FE943B6-154D-49AC-A505-1B389F499C42}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmokeQuit.OcelotAPIGateway.DuongLNT", "SmokeQuit.OcelotAPIGateway.DuongLNT\SmokeQuit.OcelotAPIGateway.DuongLNT.csproj", "{C805F67C-116E-44C6-A8CE-68733CF215A9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmokeQuit.Leaderboards.Microservices.DuongLNT", "SmokeQuit.Leaderboards.Microservices.DuongLNT\SmokeQuit.Leaderboards.Microservices.DuongLNT.csproj", "{918B166B-A518-4FA3-8207-C30E7C64547F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmokeQuit.QuitPlanAnhDTN.Microservices.DuongLNT", "SmokeQuit.QuitPlanAnhDTN.Microservices.DuongLNT\SmokeQuit.QuitPlanAnhDTN.Microservices.DuongLNT.csproj", "{E807952C-3CEA-43E1-B891-5129D8085E05}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F4ADD6B6-DAD0-4D11-94D6-9B3A43207E32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4ADD6B6-DAD0-4D11-94D6-9B3A43207E32}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4ADD6B6-DAD0-4D11-94D6-9B3A43207E32}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4ADD6B6-DAD0-4D11-94D6-9B3A43207E32}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3FE943B6-154D-49AC-A505-1B389F499C42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FE943B6-154D-49AC-A505-1B389F499C42}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FE943B6-154D-49AC-A505-1B389F499C42}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FE943B6-154D-49AC-A505-1B389F499C42}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C805F67C-116E-44C6-A8CE-68733CF215A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C805F67C-116E-44C6-A8CE-68733CF215A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C805F67C-116E-44C6-A8CE-68733CF215A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C805F67C-116E-44C6-A8CE-68733CF215A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{918B166B-A518-4FA3-8207-C30E7C64547F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{918B166B-A518-4FA3-8207-C30E7C64547F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{918B166B-A518-4FA3-8207-C30E7C64547F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{918B166B-A518-4FA3-8207-C30E7C64547F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E807952C-3CEA-43E1-B891-5129D8085E05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E807952C-3CEA-43E1-B891-5129D8085E05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E807952C-3CEA-43E1-B891-5129D8085E05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E807952C-3CEA-43E1-B891-5129D8085E05}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6CFD7BD5-056D-40BE-B785-718419868C6F}
+	EndGlobalSection
+EndGlobal

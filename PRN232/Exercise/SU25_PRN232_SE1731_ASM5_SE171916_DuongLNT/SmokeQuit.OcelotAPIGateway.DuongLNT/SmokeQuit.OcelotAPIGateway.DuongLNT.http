@@ -1,0 +1,6 @@
+@SmokeQuit.OcelotAPIGateway.DuongLNT_HostAddress = http://localhost:5217
+
+GET {{SmokeQuit.OcelotAPIGateway.DuongLNT_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

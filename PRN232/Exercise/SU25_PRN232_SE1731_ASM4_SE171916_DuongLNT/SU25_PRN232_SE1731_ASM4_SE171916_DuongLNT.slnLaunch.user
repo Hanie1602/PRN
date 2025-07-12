@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Path": "SmokeQuit.SoapApiServices.DuongLNT\\SmokeQuit.SoapApiServices.DuongLNT.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "SmokeQuit.SoapClient.ConsoleApp.DuongLnt\\SmokeQuit.SoapClient.ConsoleApp.DuongLnt.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

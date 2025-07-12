@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SmokeQuit.SoapApiServices.DuongLNT")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+91e8b63efda0793cfdbd72ff3692adffed4365cc")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b8836aa535e8509a425572c7c934b5fa49e77593")]
 [assembly: System.Reflection.AssemblyProductAttribute("SmokeQuit.SoapApiServices.DuongLNT")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SmokeQuit.SoapApiServices.DuongLNT")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

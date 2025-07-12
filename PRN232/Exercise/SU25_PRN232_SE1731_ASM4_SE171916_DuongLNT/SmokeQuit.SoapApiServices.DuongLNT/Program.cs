@@ -10,7 +10,11 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+//Add DI
 builder.Services.AddScoped<IServiceProviders, ServiceProviders>();
+builder.Services.AddScoped<ILeaderboardsDuongLntSoapService, LeaderboardsDuongLntSoapService>();
+
+builder.Services.AddSoapCore();
 
 var app = builder.Build();
 

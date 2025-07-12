@@ -31,28 +31,19 @@ namespace SmokeQuit.SoapApiServices.DuongLNT.SoapServices
 
 		public LeaderboardsDuongLntSoapService(IServiceProviders serviceProviders) => _serviceProviders = serviceProviders;
 
-		public Task<int> CreateAsync(LeaderboardsDuongLnt leaderboards)
-		{
-			throw new NotImplementedException();
-		}
-
-		public Task<int> DeleteAsync(int id)
-		{
-			throw new NotImplementedException();
-		}
-
 		public async Task<List<LeaderboardsDuongLnt>> GetLeaderboardsDuongLntAsync()
 		{
 			try
 			{
+				var result = new List<LeaderboardsDuongLnt>();
 				var leaderboards = await _serviceProviders.LeaderboardsDuongLntService.GetAllAsync();
 
 				var opt = new JsonSerializerOptions() { ReferenceHandler = ReferenceHandler.IgnoreCycles, DefaultIgnoreCondition = JsonIgnoreCondition.WhenWritingNull };
 
 				var leaderboardsJsonString = JsonSerializer.Serialize(leaderboards, opt);
-				var results = JsonSerializer.Deserialize<List<LeaderboardsDuongLnt>>(leaderboardsJsonString, opt);
+				result = JsonSerializer.Deserialize<List<LeaderboardsDuongLnt>>(leaderboardsJsonString, opt);
 
-				return results;
+				return result;
 			}
 			catch (Exception ex)
 			{
@@ -61,14 +52,63 @@ namespace SmokeQuit.SoapApiServices.DuongLNT.SoapServices
 			return new List<LeaderboardsDuongLnt>();
 		}
 
-		public Task<LeaderboardsDuongLnt> GetLeaderboardsDuongLntByIdAsync(int id)
+		public async Task<LeaderboardsDuongLnt> GetLeaderboardsDuongLntByIdAsync(int id)
 		{
-			throw new NotImplementedException();
+			try
+			{
+				var leaderboards = await _serviceProviders.LeaderboardsDuongLntService.GetByIdAsync(id);
+				var opt = new JsonSerializerOptions() { ReferenceHandler = ReferenceHandler.IgnoreCycles, DefaultIgnoreCondition = JsonIgnoreCondition.WhenWritingNull };
+				var leaderboardJsonString = JsonSerializer.Serialize(leaderboards, opt);
+				var result = JsonSerializer.Deserialize<LeaderboardsDuongLnt>(leaderboardJsonString, opt);
+				return result;
+			}
+			catch (Exception ex) { }
+			return new LeaderboardsDuongLnt();
 		}
 
-		public Task<int> UpdateAsync(LeaderboardsDuongLnt leaderboards)
+		public async Task<int> CreateAsync(LeaderboardsDuongLnt leaderboards)
 		{
-			throw new NotImplementedException();
+			try
+			{
+				var opt = new JsonSerializerOptions() { ReferenceHandler = ReferenceHandler.IgnoreCycles, DefaultIgnoreCondition = JsonIgnoreCondition.WhenWritingNull };
+				var leaderboardJsonString = JsonSerializer.Serialize(leaderboards, opt);
+				var leaderboardsRMO = JsonSerializer.Deserialize<Repositories.DuongLNT.Models.LeaderboardsDuongLnt>(leaderboardJsonString, opt);
+				var result = await _serviceProviders.LeaderboardsDuongLntService.CreateAsync(leaderboardsRMO);
+				return result;
+			}
+			catch (Exception ex)
+			{
+				Console.WriteLine(ex.Message); // hoặc logger
+			}
+			return 0;
+		}
+
+		public async Task<int> UpdateAsync(LeaderboardsDuongLnt leaderboards)
+		{
+			try
+			{
+				var opt = new JsonSerializerOptions() { ReferenceHandler = ReferenceHandler.IgnoreCycles, DefaultIgnoreCondition = JsonIgnoreCondition.WhenWritingNull };
+				var leaderboardJsonString = JsonSerializer.Serialize(leaderboards, opt);
+				var leaderboardRMO = JsonSerializer.Deserialize<Repositories.DuongLNT.Models.LeaderboardsDuongLnt>(leaderboardJsonString, opt);
+				var result = await _serviceProviders.LeaderboardsDuongLntService.UpdateAsync(leaderboardRMO);
+				return result;
+			}
+			catch (Exception ex)
+			{
+				Console.WriteLine(ex.Message); // hoặc logger
+			}
+			return 0;
+		}
+
+		public async Task<int> DeleteAsync(int id)
+		{
+			try
+			{
+				var result = await _serviceProviders.LeaderboardsDuongLntService.DeleteAsync(id);
+				return result ? 1 : 0;
+			}
+			catch (Exception ex) { }
+			return 0;
 		}
 	}
 }

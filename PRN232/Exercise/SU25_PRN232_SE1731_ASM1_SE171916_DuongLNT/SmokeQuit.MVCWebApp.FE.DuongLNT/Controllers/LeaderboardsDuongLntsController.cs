@@ -26,6 +26,7 @@ namespace SmokeQuit.MVCWebApp.FE.DuongLNT.Controllers
 			return View();
 		}
 
+		#region Get bảng chính (Có search và phân trang)
 		// GET: LeaderboardsDuongLnts
 		public async Task<IActionResult> Index(string? note, double? money, string? reason, int? pageNumber)
 		{
@@ -69,8 +70,9 @@ namespace SmokeQuit.MVCWebApp.FE.DuongLNT.Controllers
 
 			return View(new List<LeaderboardsDuongLnt>().ToPagedList(search.CurrentPage, search.PageSize));
 		}
+		#endregion
 
-		#region Index (Đã comment)
+		#region Get bảng chính (Đã comment)
 		//public async Task<IActionResult> Index()
 		//{
 		//	using (var httpClient = new HttpClient())
@@ -156,6 +158,59 @@ namespace SmokeQuit.MVCWebApp.FE.DuongLNT.Controllers
 			}
 
 			return new List<SystemUserAccount>();
+		}
+		#endregion
+
+		#region Get By Id
+		// GET: LeaderboardsDuongLnts/Details/5
+		public async Task<IActionResult> Details(int? id)
+		{
+			if (id == null)
+			{
+				return NotFound();
+			}
+
+			LeaderboardsDuongLnt leaderboardsDuongLnt = null;
+
+			using (var httpClient = new HttpClient())
+			{
+				var tokenString = HttpContext.Request.Cookies.FirstOrDefault(c => c.Key == "TokenString").Value;
+
+				if (string.IsNullOrEmpty(tokenString))
+				{
+					return Unauthorized();
+				}
+
+				httpClient.DefaultRequestHeaders.Add("Authorization", "Bearer " + tokenString);
+
+				var response = await httpClient.GetAsync(APIEndPoint + "LeaderboardsDuongLnt/" + id);
+
+				if (response.IsSuccessStatusCode)
+				{
+					var content = await response.Content.ReadAsStringAsync();
+					leaderboardsDuongLnt = JsonConvert.DeserializeObject<LeaderboardsDuongLnt>(content);
+				}
+				else
+				{
+					var errorContent = await response.Content.ReadAsStringAsync();
+					ModelState.AddModelError("", $"Lỗi gọi API: {response.StatusCode} - {errorContent}");
+					return View("Error");
+				}
+			}
+
+			if (leaderboardsDuongLnt == null)
+			{
+				return NotFound();
+			}
+
+			//Gọi danh sách Plans và Users để tìm theo ID
+			var plans = await GetPlans();
+			leaderboardsDuongLnt.Plan = plans.FirstOrDefault(p => p.QuitPlansAnhDtnid == leaderboardsDuongLnt.PlanId);
+
+			var users = await GetUsers();
+			leaderboardsDuongLnt.User = users.FirstOrDefault(u => u.UserAccountId == leaderboardsDuongLnt.UserId);
+
+			return View(leaderboardsDuongLnt);
 		}
 		#endregion
 
@@ -254,7 +309,8 @@ namespace SmokeQuit.MVCWebApp.FE.DuongLNT.Controllers
 				return NotFound();
 			}
 
-			leaderboardsDuongLnt.UserId = 1;
+			//leaderboardsDuongLnt.UserId = 1;
+
 			if (ModelState.IsValid)
 			{
 				using (var httpClient = new HttpClient())
@@ -262,7 +318,7 @@ namespace SmokeQuit.MVCWebApp.FE.DuongLNT.Controllers
 					var tokenString = HttpContext.Request.Cookies.FirstOrDefault(c => c.Key == "TokenString").Value;
 					httpClient.DefaultRequestHeaders.Add("Authorization", "Bearer " + tokenString);
 
-					using (var response = await httpClient.PutAsJsonAsync(APIEndPoint + "LeaderboardsDuongLnt/" + id, leaderboardsDuongLnt))
+					using (var response = await httpClient.PutAsJsonAsync(APIEndPoint + "LeaderboardsDuongLnt/", leaderboardsDuongLnt))
 					{
 						if (response.IsSuccessStatusCode)
 						{
@@ -283,68 +339,80 @@ namespace SmokeQuit.MVCWebApp.FE.DuongLNT.Controllers
 
 			return View(leaderboardsDuongLnt);
 		}
+		#endregion
+
+		#region Delete
+		// GET: LeaderboardsDuongLnts/Delete/5
+		public async Task<IActionResult> Delete(int? id)
+		{
+			if (id == null)
+			{
+				return NotFound();
+			}
+
+			LeaderboardsDuongLnt leaderboardsDuongLnt = null;
+
+			using (var httpClient = new HttpClient())
+			{
+				var tokenString = HttpContext.Request.Cookies["TokenString"];
+				httpClient.DefaultRequestHeaders.Add("Authorization", "Bearer " + tokenString);
+
+				var response = await httpClient.GetAsync(APIEndPoint + "LeaderboardsDuongLnt/" + id);
+				if (response.IsSuccessStatusCode)
+				{
+					var content = await response.Content.ReadAsStringAsync();
+					leaderboardsDuongLnt = JsonConvert.DeserializeObject<LeaderboardsDuongLnt>(content);
+				}
+			}
+
+			if (leaderboardsDuongLnt == null)
+			{
+				return NotFound();
+			}
+
+			//Load Plan & User
+			var plans = await GetPlans();
+			leaderboardsDuongLnt.Plan = plans.FirstOrDefault(p => p.QuitPlansAnhDtnid == leaderboardsDuongLnt.PlanId);
+
+			var users = await GetUsers();
+			leaderboardsDuongLnt.User = users.FirstOrDefault(u => u.UserAccountId == leaderboardsDuongLnt.UserId);
+
+			return View(leaderboardsDuongLnt);
+		}
+
+		// POST: LeaderboardsDuongLnts/Delete/5
+		[HttpPost, ActionName("Delete")]
+		[ValidateAntiForgeryToken]
+		public async Task<IActionResult> DeleteConfirmed(int id)
+		{
+			using (var httpClient = new HttpClient())
+			{
+				var tokenString = HttpContext.Request.Cookies["TokenString"];
+				httpClient.DefaultRequestHeaders.Add("Authorization", "Bearer " + tokenString);
+
+				var response = await httpClient.DeleteAsync(APIEndPoint + "LeaderboardsDuongLnt/" + id);
+
+				if (response.IsSuccessStatusCode)
+				{
+					var content = await response.Content.ReadAsStringAsync();
+					var result = JsonConvert.DeserializeObject<bool>(content);
+
+					if (result)
+					{
+						return RedirectToAction(nameof(Index));
+					}
+				}
+			}
+
+			ModelState.AddModelError("", "Lỗi khi xóa dữ liệu.");
+			return View();
+		}
+		#endregion
+
+		//private bool LeaderboardsDuongLntExists(int id)
+		//{
+		//    return _context.LeaderboardsDuongLnts.Any(e => e.LeaderboardsDuongLntid == id);
+		//}
+
 	}
-	#endregion
-
-
-	//// GET: LeaderboardsDuongLnts/Details/5
-	//public async Task<IActionResult> Details(int? id)
-	//{
-	//    if (id == null)
-	//    {
-	//        return NotFound();
-	//    }
-
-	//    var leaderboardsDuongLnt = await _context.LeaderboardsDuongLnts
-	//        .Include(l => l.Plan)
-	//        .Include(l => l.User)
-	//        .FirstOrDefaultAsync(m => m.LeaderboardsDuongLntid == id);
-	//    if (leaderboardsDuongLnt == null)
-	//    {
-	//        return NotFound();
-	//    }
-
-	//    return View(leaderboardsDuongLnt);
-	//}
-
-	//// GET: LeaderboardsDuongLnts/Delete/5
-	//public async Task<IActionResult> Delete(int? id)
-	//{
-	//    if (id == null)
-	//    {
-	//        return NotFound();
-	//    }
-
-	//    var leaderboardsDuongLnt = await _context.LeaderboardsDuongLnts
-	//        .Include(l => l.Plan)
-	//        .Include(l => l.User)
-	//        .FirstOrDefaultAsync(m => m.LeaderboardsDuongLntid == id);
-	//    if (leaderboardsDuongLnt == null)
-	//    {
-	//        return NotFound();
-	//    }
-
-	//    return View(leaderboardsDuongLnt);
-	//}
-
-	//// POST: LeaderboardsDuongLnts/Delete/5
-	//[HttpPost, ActionName("Delete")]
-	//[ValidateAntiForgeryToken]
-	//public async Task<IActionResult> DeleteConfirmed(int id)
-	//{
-	//    var leaderboardsDuongLnt = await _context.LeaderboardsDuongLnts.FindAsync(id);
-	//    if (leaderboardsDuongLnt != null)
-	//    {
-	//        _context.LeaderboardsDuongLnts.Remove(leaderboardsDuongLnt);
-	//    }
-
-	//    await _context.SaveChangesAsync();
-	//    return RedirectToAction(nameof(Index));
-	//}
-
-	//private bool LeaderboardsDuongLntExists(int id)
-	//{
-	//    return _context.LeaderboardsDuongLnts.Any(e => e.LeaderboardsDuongLntid == id);
-	//}
-
 }

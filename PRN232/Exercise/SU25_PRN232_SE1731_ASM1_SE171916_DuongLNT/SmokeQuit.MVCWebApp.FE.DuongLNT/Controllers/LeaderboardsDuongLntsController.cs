@@ -103,7 +103,7 @@ namespace SmokeQuit.MVCWebApp.FE.DuongLNT.Controllers
 		//}
 		#endregion
 
-		#region Get Plans trong bảng phụ
+		#region Get trong bảng phụ QuitPlan
 		private async Task<List<QuitPlansAnhDtn>> GetPlans()
 		{
 			using (var httpClient = new HttpClient())

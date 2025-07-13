@@ -4,11 +4,6 @@ using SmokeQuit.Repositories.DuongLNT.Models;
 
 namespace SmokeQuit.Services.DuongLNT
 {
-	//public interface ILeaderboardsDuongLntService
-	//{
-
-	//}
-
 	public class LeaderboardsDuongLntService : ILeaderboardsDuongLntService
 	{
 		private readonly LeaderboardsDuongLNTRepository _repository;

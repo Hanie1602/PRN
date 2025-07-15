@@ -1,4 +1,5 @@
-﻿using GraphQL.Client.Abstractions;
+﻿using GraphQL;
+using GraphQL.Client.Abstractions;
 using SmokeQuit.GraphQLClients.BlazorWAS.DuongLNT.Models;
 
 namespace SmokeQuit.GraphQLClients.BlazorWAS.DuongLNT.GraphQLClients
@@ -13,6 +14,11 @@ namespace SmokeQuit.GraphQLClients.BlazorWAS.DuongLNT.GraphQLClients
 		{
 			public List<LeaderboardsDuongLnt> leaderboardsDuongLnt { get; set; }
 
+		}
+
+		public class LeaderboardByIdResponse
+		{
+			public LeaderboardsDuongLnt leaderboardsDuongLntById { get; set; }
 		}
 
 		public partial class QuitPlansGraphQLResponse
@@ -142,6 +148,54 @@ namespace SmokeQuit.GraphQLClients.BlazorWAS.DuongLNT.GraphQLClients
 			{
 				Console.WriteLine($"GraphQL error: {ex.Message}");
 				return new();
+			}
+		}
+		#endregion
+
+		#region Get By Id của bảng chính
+		public async Task<LeaderboardsDuongLnt?> GetLeaderboardsDuongLntById(int id)
+		{
+			var query = @"
+				query LeaderboardById($id: Int!) {
+					leaderboardsDuongLntById(id: $id) {
+						leaderboardsDuongLntid
+						userId
+						planId
+						daySmokeFree
+						moneySave
+						rankPosition
+						totalAchievements
+						progressScore
+						note
+						streakCount
+						communityContribution
+						isTopRanked
+						createdTime
+						lastUpdate
+						plan {
+							quitPlansAnhDtnid
+						}
+						user {
+							userAccountId
+						}
+					}
+				}";
+
+			var request = new GraphQLRequest
+			{
+				Query = query,
+				Variables = new { id }
+			};
+
+			try
+			{
+				var response = await _graphQLClient.SendQueryAsync<LeaderboardByIdResponse>(request);
+				return response?.Data?.leaderboardsDuongLntById;
+			}
+			catch (Exception ex)
+			{
+				Console.WriteLine($"GraphQL error: {ex.Message}");
+				return null;
 			}
 		}
 		#endregion

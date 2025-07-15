@@ -10,8 +10,7 @@ public partial class LeaderboardsDuongLnt
 {
     public int? LeaderboardsDuongLntid { get; set; }
 
-	[Required(ErrorMessage = "User Id không được để trống.")]
-	public int UserId { get; set; }
+	public int? UserId { get; set; }
 
     public int? PlanId { get; set; }
 

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Github\\PRN212\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM2_SE171916_DuongLNT\\SmokeQuit.Repositories.DuongLNT\\SmokeQuit.Repositories.DuongLNT.csproj": {}
+    "E:\\Github\\PRNN\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM2_SE171916_DuongLNT\\SmokeQuit.Repositories.DuongLNT\\SmokeQuit.Repositories.DuongLNT.csproj": {}
   },
   "projects": {
-    "D:\\Github\\PRN212\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM2_SE171916_DuongLNT\\SmokeQuit.Repositories.DuongLNT\\SmokeQuit.Repositories.DuongLNT.csproj": {
+    "E:\\Github\\PRNN\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM2_SE171916_DuongLNT\\SmokeQuit.Repositories.DuongLNT\\SmokeQuit.Repositories.DuongLNT.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Github\\PRN212\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM2_SE171916_DuongLNT\\SmokeQuit.Repositories.DuongLNT\\SmokeQuit.Repositories.DuongLNT.csproj",
+        "projectUniqueName": "E:\\Github\\PRNN\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM2_SE171916_DuongLNT\\SmokeQuit.Repositories.DuongLNT\\SmokeQuit.Repositories.DuongLNT.csproj",
         "projectName": "SmokeQuit.Repositories.DuongLNT",
-        "projectPath": "D:\\Github\\PRN212\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM2_SE171916_DuongLNT\\SmokeQuit.Repositories.DuongLNT\\SmokeQuit.Repositories.DuongLNT.csproj",
+        "projectPath": "E:\\Github\\PRNN\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM2_SE171916_DuongLNT\\SmokeQuit.Repositories.DuongLNT\\SmokeQuit.Repositories.DuongLNT.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "D:\\Github\\PRN212\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM2_SE171916_DuongLNT\\SmokeQuit.Repositories.DuongLNT\\obj\\",
+        "outputPath": "E:\\Github\\PRNN\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM2_SE171916_DuongLNT\\SmokeQuit.Repositories.DuongLNT\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

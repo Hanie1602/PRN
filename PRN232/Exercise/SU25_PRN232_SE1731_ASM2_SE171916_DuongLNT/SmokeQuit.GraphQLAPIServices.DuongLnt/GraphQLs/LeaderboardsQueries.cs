@@ -62,6 +62,34 @@ namespace SmokeQuit.GraphQLAPIServices.DuongLnt.GraphQLs
 			{
 				return new LeaderboardsDuongLnt();
 			}
+
+			#region Test bên GetById GraphQL
+			//query LeaderboardById {
+			//	leaderboardsDuongLntById(id: 1003) {
+			//		leaderboardsDuongLntid
+			//		userId
+			//		planId
+			//		daySmokeFree
+			//		moneySave
+			//		rankPosition
+			//		totalAchievements
+			//		progressScore
+			//		note
+			//		streakCount
+			//		communityContribution
+			//		isTopRanked
+			//		createdTime
+			//		lastUpdate
+			//plan {
+			//		quitPlansAnhDtnid
+			//}
+			//user {
+			//		userAccountId
+			//		}
+			//	}
+			//}
+
+			#endregion
 		}
 
 		public async Task<PaginationResult<List<LeaderboardsDuongLnt>>> SearchLeaderboardsDuongLnt(SearchLeaderboardsRequest request)

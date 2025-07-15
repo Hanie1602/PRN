@@ -1,47 +1,47 @@
 {
   "Files": [
     {
-      "Id": "D:\\Github\\PRN212\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM2_SE171916_DuongLNT\\SmokeQuit.GraphQLClients.BlazorWAS.DuongLNT\\bin\\Debug\\net8.0\\wwwroot\\_framework\\blazor.webassembly.js",
+      "Id": "E:\\Github\\PRNN\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM2_SE171916_DuongLNT\\SmokeQuit.GraphQLClients.BlazorWAS.DuongLNT\\bin\\Debug\\net8.0\\wwwroot\\_framework\\blazor.webassembly.js",
       "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js"
     },
     {
-      "Id": "D:\\Github\\PRN212\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM2_SE171916_DuongLNT\\SmokeQuit.GraphQLClients.BlazorWAS.DuongLNT\\obj\\Debug\\net8.0\\scopedcss\\bundle\\SmokeQuit.GraphQLClients.BlazorWAS.DuongLNT.styles.css",
+      "Id": "E:\\Github\\PRNN\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM2_SE171916_DuongLNT\\SmokeQuit.GraphQLClients.BlazorWAS.DuongLNT\\obj\\Debug\\net8.0\\scopedcss\\bundle\\SmokeQuit.GraphQLClients.BlazorWAS.DuongLNT.styles.css",
       "PackagePath": "staticwebassets\\SmokeQuit.GraphQLClients.BlazorWAS.DuongLNT.styles.css"
     },
     {
-      "Id": "D:\\Github\\PRN212\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM2_SE171916_DuongLNT\\SmokeQuit.GraphQLClients.BlazorWAS.DuongLNT\\wwwroot\\appsettings.Development.json",
+      "Id": "E:\\Github\\PRNN\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM2_SE171916_DuongLNT\\SmokeQuit.GraphQLClients.BlazorWAS.DuongLNT\\wwwroot\\appsettings.Development.json",
       "PackagePath": "staticwebassets\\appsettings.Development.json"
     },
     {
-      "Id": "D:\\Github\\PRN212\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM2_SE171916_DuongLNT\\SmokeQuit.GraphQLClients.BlazorWAS.DuongLNT\\wwwroot\\appsettings.json",
+      "Id": "E:\\Github\\PRNN\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM2_SE171916_DuongLNT\\SmokeQuit.GraphQLClients.BlazorWAS.DuongLNT\\wwwroot\\appsettings.json",
       "PackagePath": "staticwebassets\\appsettings.json"
     },
     {
-      "Id": "D:\\Github\\PRN212\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM2_SE171916_DuongLNT\\SmokeQuit.GraphQLClients.BlazorWAS.DuongLNT\\wwwroot\\css\\app.css",
+      "Id": "E:\\Github\\PRNN\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM2_SE171916_DuongLNT\\SmokeQuit.GraphQLClients.BlazorWAS.DuongLNT\\wwwroot\\css\\app.css",
       "PackagePath": "staticwebassets\\css\\app.css"
     },
     {
-      "Id": "D:\\Github\\PRN212\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM2_SE171916_DuongLNT\\SmokeQuit.GraphQLClients.BlazorWAS.DuongLNT\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "Id": "E:\\Github\\PRNN\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM2_SE171916_DuongLNT\\SmokeQuit.GraphQLClients.BlazorWAS.DuongLNT\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Id": "D:\\Github\\PRN212\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM2_SE171916_DuongLNT\\SmokeQuit.GraphQLClients.BlazorWAS.DuongLNT\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "Id": "E:\\Github\\PRNN\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM2_SE171916_DuongLNT\\SmokeQuit.GraphQLClients.BlazorWAS.DuongLNT\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Id": "D:\\Github\\PRN212\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM2_SE171916_DuongLNT\\SmokeQuit.GraphQLClients.BlazorWAS.DuongLNT\\wwwroot\\favicon.png",
+      "Id": "E:\\Github\\PRNN\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM2_SE171916_DuongLNT\\SmokeQuit.GraphQLClients.BlazorWAS.DuongLNT\\wwwroot\\favicon.png",
       "PackagePath": "staticwebassets\\favicon.png"
     },
     {
-      "Id": "D:\\Github\\PRN212\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM2_SE171916_DuongLNT\\SmokeQuit.GraphQLClients.BlazorWAS.DuongLNT\\wwwroot\\icon-192.png",
+      "Id": "E:\\Github\\PRNN\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM2_SE171916_DuongLNT\\SmokeQuit.GraphQLClients.BlazorWAS.DuongLNT\\wwwroot\\icon-192.png",
       "PackagePath": "staticwebassets\\icon-192.png"
     },
     {
-      "Id": "D:\\Github\\PRN212\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM2_SE171916_DuongLNT\\SmokeQuit.GraphQLClients.BlazorWAS.DuongLNT\\wwwroot\\index.html",
+      "Id": "E:\\Github\\PRNN\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM2_SE171916_DuongLNT\\SmokeQuit.GraphQLClients.BlazorWAS.DuongLNT\\wwwroot\\index.html",
       "PackagePath": "staticwebassets\\index.html"
     },
     {
-      "Id": "D:\\Github\\PRN212\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM2_SE171916_DuongLNT\\SmokeQuit.GraphQLClients.BlazorWAS.DuongLNT\\wwwroot\\sample-data\\weather.json",
+      "Id": "E:\\Github\\PRNN\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM2_SE171916_DuongLNT\\SmokeQuit.GraphQLClients.BlazorWAS.DuongLNT\\wwwroot\\sample-data\\weather.json",
       "PackagePath": "staticwebassets\\sample-data\\weather.json"
     },
     {

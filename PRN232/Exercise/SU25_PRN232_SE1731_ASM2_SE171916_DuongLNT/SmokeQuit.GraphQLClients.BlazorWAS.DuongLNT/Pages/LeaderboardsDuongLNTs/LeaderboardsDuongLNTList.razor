@@ -4,11 +4,22 @@
 
 @using SmokeQuit.GraphQLClients.BlazorWAS.DuongLNT.Models
 @using SmokeQuit.GraphQLClients.BlazorWAS.DuongLNT.GraphQLClients
+@using SmokeQuit.GraphQLClients.BlazorWAS.DuongLNT.ModelExtensions
 
 <div class="container mt-4">
-    <h3 class="mb-3">Danh sách Leaderboards</h3>
+    <h3 class="mb-3">List Leaderboards</h3>
 
-    <a href="/LeaderboardsDuongLNTs/LeaderboardsDuongLNTForm" class="btn btn-info mb-3">+ Tạo mới</a>
+    <a href="/LeaderboardsDuongLNTs/LeaderboardsDuongLNTForm" class="btn btn-info mb-3">+ Create new</a>
+
+    @* Search *@
+    <div class="mb-3">
+        <div class="mb-3">
+            <input @bind="search.Note" placeholder="Search Note..." class="form-control w-25 d-inline-block me-2" />
+            <input @bind="search.Money" type="number" placeholder="Search Money Save..." class="form-control w-25 d-inline-block me-2" />
+            <input @bind="search.Reason" placeholder="Search Plan Reason..." class="form-control w-25 d-inline-block me-2" />
+            <button class="btn btn-success" @onclick="SearchAsync">Search</button>
+        </div>
+    </div>
 
     @if (!string.IsNullOrEmpty(errorMessage))
     {
@@ -17,52 +28,48 @@
 
     @if (leaderboardsDuongLNTs == null)
     {
-        <div>Đang tải dữ liệu...</div>
+        <div>Loading...</div>
     }
     else
     {
         <table class="table table-striped table-bordered">
             <thead class="thead-dark">
                 <tr>
-                    <th class="text-center">ID</th>
-                    <th class="text-center">Ngày không hút</th>
-                    <th class="text-center">Tiết kiệm</th>
-                    <th class="text-center">Thứ hạng</th>
-                    <th class="text-center">Thành tựu</th>
-                    <th>Ghi chú</th>
+                    <th class="text-center">Day Smoke Free</th>
+                    <th class="text-center">Money Save</th>
+                    <th class="text-center">Rank Position</th>
+                    <th class="text-center">Total Achievements</th>
+                    <th>Note</th>
                     <th class="text-center">Top?</th>
-                    <th>Thời gian tạo</th>
-                    <th>Plan ID</th>
-                    <th>User ID</th>
-                    <th class="text-center">Hành động</th>
+                    <th>Plan Reason</th>
+                    <th>User Name</th>
+                    <th class="text-center">Action</th>
                 </tr>
             </thead>
             <tbody>
                 @foreach (var leaderboards in leaderboardsDuongLNTs)
                 {
                     <tr>
-                        <td class="text-center">@leaderboards.LeaderboardsDuongLntid</td>
                         <td class="text-center">@leaderboards.DaySmokeFree</td>
                         <td class="text-center">@leaderboards.MoneySave</td>
                         <td class="text-center">@leaderboards.RankPosition</td>
                         <td class="text-center">@leaderboards.TotalAchievements</td>
                         <td>@leaderboards.Note</td>
                         <td class="text-center">@leaderboards.IsTopRanked</td>
-                        <td>@leaderboards.CreatedTime</td>
-                        <td>@(leaderboards.Plan?.QuitPlansAnhDtnid.ToString() ?? "N/A")</td>
-                        <td>@(leaderboards.User?.UserAccountId.ToString() ?? "N/A")</td>
+                        <td>@(leaderboards.Plan?.Reason ?? "N/A")</td>
+                        <td>@(leaderboards.User?.UserName ?? "N/A")</td>
                         <td class="text-center">
                             <a class="btn btn-sm btn-warning me-1" href="/LeaderboardsDuongLNTs/LeaderboardsDuongLNTForm/@leaderboards.LeaderboardsDuongLntid">
-                                Sửa
+                                Update
                             </a>
 
                             <button class="btn btn-sm btn-danger"
-                                    @onclick="() => DeleteLeaderboardAsync(leaderboards.LeaderboardsDuongLntid.Value)">
-                                Xóa
+                                    @onclick="() => DeleteLeaderboardAsync(leaderboards.LeaderboardsDuongLntid)">
+                                Delete
                             </button>
 
                             <a class="btn btn-sm btn-primary me-1" href="/LeaderboardsDuongLNTs/LeaderboardsDuongLNTDetail/@leaderboards.LeaderboardsDuongLntid">
-                                Xem
+                                View
                             </a>
 
                         </td>
@@ -70,20 +77,57 @@
                 }
             </tbody>
         </table>
+
+        @if (totalPages > 1)
+        {
+            <nav>
+                <ul class="pagination justify-content-center">
+                    <li class="page-item @(currentPage == 1 ? "disabled" : "")">
+                        <button class="page-link" @onclick="() => ChangePage(currentPage - 1)">Previous</button>
+                    </li>
+
+                    @for (int i = 1; i <= totalPages; i++)
+                    {
+                        <li class="page-item @(currentPage == i ? "active" : "")">
+                            <button class="page-link" @onclick="() => ChangePage(i)">@i</button>
+                        </li>
+                    }
+
+                    <li class="page-item @(currentPage == totalPages ? "disabled" : "")">
+                        <button class="page-link" @onclick="() => ChangePage(currentPage + 1)">Next</button>
+                    </li>
+                </ul>
+            </nav>
+        }
+
     }
 </div>
 
 @code {
     private List<LeaderboardsDuongLnt> leaderboardsDuongLNTs;
     private string errorMessage;
+    private SearchLeaderboardsRequest search = new SearchLeaderboardsRequest();
+    private PaginationResult<List<LeaderboardsDuongLnt>> pagination;
+    private int currentPage = 1;
+    private int totalPages = 1;
+    private int pageSize = 7;
 
     protected override async Task OnInitializedAsync()
     {
-        await Task.Delay(500); // Mô phỏng thời gian tải
+        await LoadData();
+    }
 
+    private async Task LoadData()
+    {
         try
         {
-            leaderboardsDuongLNTs = await _graphQLConsumer.GetLeaderboardsDuongLnt();
+            search.CurrentPage = currentPage;
+            search.PageSize = pageSize;
+
+            pagination = await _graphQLConsumer.SearchLeaderboardsDuongLntAsync(search);
+            leaderboardsDuongLNTs = pagination.Items;
+
+            totalPages = pagination.TotalPages;
         }
         catch (Exception ex)
         {
@@ -91,9 +135,24 @@
         }
     }
 
+    private async Task SearchAsync()
+    {
+        search.CurrentPage = 1;
+        await LoadData();
+    }
+
+    private async Task ChangePage(int page)
+    {
+        if (page < 1 || page > totalPages)
+            return;
+
+        currentPage = page;
+        await LoadData();
+    }
+
     private async Task DeleteLeaderboardAsync(int id)
     {
-        bool confirmed = await JS.InvokeAsync<bool>("confirm", $"Bạn có chắc chắn muốn xóa ID {id}?");
+        bool confirmed = await JS.InvokeAsync<bool>("confirm", $"Are you sure you want to delete {id}?");
         if (!confirmed) return;
 
         var success = await _graphQLConsumer.DeleteLeaderboardsDuongLnt(id);
@@ -105,7 +164,7 @@
         }
         else
         {
-            errorMessage = $"Lỗi khi xóa ID {id}";
+            errorMessage = $"Error while deleting ID {id}";
         }
     }
 }

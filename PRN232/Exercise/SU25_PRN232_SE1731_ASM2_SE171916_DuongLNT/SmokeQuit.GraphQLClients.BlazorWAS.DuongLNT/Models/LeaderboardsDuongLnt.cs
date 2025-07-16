@@ -8,43 +8,49 @@ namespace SmokeQuit.GraphQLClients.BlazorWAS.DuongLNT.Models;
 
 public partial class LeaderboardsDuongLnt
 {
-    public int? LeaderboardsDuongLntid { get; set; }
+	public int LeaderboardsDuongLntid { get; set; }
 
-	public int? UserId { get; set; }
+	[Required(ErrorMessage = "User is required.")]
+	public int UserId { get; set; }
 
-    public int? PlanId { get; set; }
+	public int? PlanId { get; set; }
 
-	[Range(0, int.MaxValue, ErrorMessage = "Ngày không hút thuốc không được âm")]
+	[Range(0, int.MaxValue, ErrorMessage = "Days smoke-free cannot be negative.")]
+	[Required(ErrorMessage = "DaySmokeFree is required.")]
 	public int? DaySmokeFree { get; set; }
 
-	[Range(0, double.MaxValue, ErrorMessage = "Tiền lưu trữ không được âm")]
+	[Range(0, double.MaxValue, ErrorMessage = "Saved money cannot be negative")]
+	[Required(ErrorMessage = "MoneySave is required.")]
 	public double? MoneySave { get; set; }
 
-	[Range(1, int.MaxValue, ErrorMessage = "Xếp hạng vị trí phải lớn hơn 1")]
+	[Range(1, int.MaxValue, ErrorMessage = "Rank position must be greater than 1.")]
+	[Required(ErrorMessage = "RankPosition is required.")]
 	public int? RankPosition { get; set; }
 
-	[Range(0, int.MaxValue, ErrorMessage = "Tổng số thành tích không được âm")]
+	[Range(0, int.MaxValue, ErrorMessage = "Total achievements cannot be negative")]
+	[Required(ErrorMessage = "TotalAchievements is required.")]
 	public int? TotalAchievements { get; set; }
 
-	[Range(0, double.MaxValue, ErrorMessage = "Điểm tiến bộ không được âm")]
+	[Range(0, double.MaxValue, ErrorMessage = "Progress score cannot be negative")]
 	public double? ProgressScore { get; set; }
 
-	[StringLength(255, ErrorMessage = "Ghi chú không được vượt quá 255 ký tự.")]
-    public string Note { get; set; }
+	[StringLength(255, ErrorMessage = "Note must not exceed 255 characters.")]
+	[Required(ErrorMessage = "Note is required.")]
+	public string Note { get; set; }
 
-	[Range(0, int.MaxValue, ErrorMessage = "Chuỗi đếm không được âm.")]
+	[Range(0, int.MaxValue, ErrorMessage = "Streak count cannot be negative.")]
 	public int? StreakCount { get; set; }
 
-	[Range(0, int.MaxValue, ErrorMessage = "Đóng góp của cộng đồng không được âm.")]
+	[Range(0, int.MaxValue, ErrorMessage = "Community contribution cannot be negative")]
 	public int? CommunityContribution { get; set; }
 
-    public bool IsTopRanked { get; set; }
+	public bool IsTopRanked { get; set; }
 
-    public DateTime? LastUpdate { get; set; }
+	public DateTime? LastUpdate { get; set; }
 
-    public DateTime? CreatedTime { get; set; }
+	public DateTime? CreatedTime { get; set; }
 
-    public virtual QuitPlansAnhDtn? Plan { get; set; }
+	public virtual QuitPlansAnhDtn Plan { get; set; }
 
-    public virtual SystemUserAccount? User { get; set; }
+	public virtual SystemUserAccount User { get; set; }
 }

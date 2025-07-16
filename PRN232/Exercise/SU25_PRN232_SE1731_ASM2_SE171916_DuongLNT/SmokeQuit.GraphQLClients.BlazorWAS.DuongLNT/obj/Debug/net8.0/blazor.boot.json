@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "SmokeQuit.GraphQLClients.BlazorWAS.DuongLNT",
   "resources": {
-    "hash": "sha256-+wMbSJPDMtBiyTHPBbgny3RXphbf0TxMMXJholShthY=",
+    "hash": "sha256-s3m3TnMx1MNfa74blsAzxzNBi8vSNrECzwDEH9kE+Mw=",
     "jsModuleNative": {
       "dotnet.native.js": "sha256-ftpNqtARtVNE8ku5eB/jXoklb41UQ+EutUHfwmbNTBY="
     },
@@ -218,10 +218,10 @@
       "mscorlib.wasm": "sha256-BeLfFpg9iS3DkEdywsYY7sV6ML3knqkMaMq0JBEbWlw=",
       "netstandard.wasm": "sha256-VkjUtJ6DK5bFTc2JwwGHmQY3tBcNSC7zMSJXuiXcnJA=",
       "System.Private.CoreLib.wasm": "sha256-VIQEPUSb48N39LR+ncGDP5xU02xuRbyZU8MhMho26wQ=",
-      "SmokeQuit.GraphQLClients.BlazorWAS.DuongLNT.wasm": "sha256-7L03TXM2RLTvu7TRkRT0ArX+Q8ltRIQqNXnrNyVqVu8="
+      "SmokeQuit.GraphQLClients.BlazorWAS.DuongLNT.wasm": "sha256-xrt1uxHPycQL52c8vJHLOtKDST42V2CCvkJCsAr9rq8="
     },
     "pdb": {
-      "SmokeQuit.GraphQLClients.BlazorWAS.DuongLNT.pdb": "sha256-lJ27nkoFBevMpluzVkLp6x5DZVcFFWfVW8djGhlqA4o="
+      "SmokeQuit.GraphQLClients.BlazorWAS.DuongLNT.pdb": "sha256-tN0+11Kc5wHd5z4l94PcvVvyPnUDS/JGzzr5u1CX2Jg="
     }
   },
   "cacheBootResources": true,

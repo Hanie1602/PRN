@@ -19,11 +19,6 @@ namespace SmokeQuit.APIServices.BE.DuongLNT.Controllers
 		//Dùng cái này phải cấp phát vùng nhớ cho nó => đk trên program
 		public LeaderboardsDuongLntController(ILeaderboardsDuongLntService leaderboardsDuongLntService) => _leaderboardsDuongLntService = leaderboardsDuongLntService;
 
-		//public LeaderboardsDuongLntController(ILeaderboardsDuongLntService leaderboardsDuongLntService)
-		//{
-		//	_leaderboardsDuongLntService = leaderboardsDuongLntService;
-		//}
-
 		// GET: api/<LeaderboardsDuongLntController>
 		[Authorize(Roles = "1,2")]
 		[HttpGet]

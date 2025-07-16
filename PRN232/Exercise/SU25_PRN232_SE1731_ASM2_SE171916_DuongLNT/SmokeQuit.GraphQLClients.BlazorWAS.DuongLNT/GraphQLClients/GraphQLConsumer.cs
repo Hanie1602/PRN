@@ -1,5 +1,6 @@
 ﻿using GraphQL;
 using GraphQL.Client.Abstractions;
+using SmokeQuit.GraphQLClients.BlazorWAS.DuongLNT.ModelExtensions;
 using SmokeQuit.GraphQLClients.BlazorWAS.DuongLNT.Models;
 
 namespace SmokeQuit.GraphQLClients.BlazorWAS.DuongLNT.GraphQLClients
@@ -13,14 +14,18 @@ namespace SmokeQuit.GraphQLClients.BlazorWAS.DuongLNT.GraphQLClients
 		public partial class LeaderboardsGraphQLResponse
 		{
 			public List<LeaderboardsDuongLnt> leaderboardsDuongLnt { get; set; }
+		}
 
+		public class SearchLeaderboardsGraphQLResponse
+		{
+			public PaginationResult<List<LeaderboardsDuongLnt>> searchLeaderboardsDuongLnt { get; set; }
 		}
 
 		public class LeaderboardByIdResponse
 		{
 			public LeaderboardsDuongLnt leaderboardsDuongLntById { get; set; }
 		}
-
+		
 		public partial class QuitPlansGraphQLResponse
 		{
 			public List<QuitPlansAnhDtn> quitPlansAnhDtn { get; set; }
@@ -65,9 +70,11 @@ namespace SmokeQuit.GraphQLClients.BlazorWAS.DuongLNT.GraphQLClients
 						createdTime
 						plan {
 							quitPlansAnhDtnid
+							reason
 						}
 						user {
 							userAccountId
+							userName
 						}
 					}
 				}";
@@ -84,6 +91,48 @@ namespace SmokeQuit.GraphQLClients.BlazorWAS.DuongLNT.GraphQLClients
 			}
 
 			return new List<LeaderboardsDuongLnt>();
+		}
+		#endregion
+
+		#region Search của bảng chính
+		public async Task<PaginationResult<List<LeaderboardsDuongLnt>>> SearchLeaderboardsDuongLntAsync(SearchLeaderboardsRequest request)
+		{
+			var query = @"
+				query SearchLeaderboardsDuongLnt($input: SearchLeaderboardsRequestInput!) {
+					searchLeaderboardsDuongLnt(request: $input) {
+						items {
+							leaderboardsDuongLntid
+							daySmokeFree
+							moneySave
+							rankPosition
+							totalAchievements
+							note
+							isTopRanked
+							createdTime
+							plan {
+								quitPlansAnhDtnid
+								reason
+							}
+							user {
+								userAccountId
+								userName
+							}
+						}
+					totalItems
+					totalPages
+					currentPage
+					pageSize
+					}
+				}";
+
+			var requestObj = new GraphQLRequest
+			{
+				Query = query,
+				Variables = new { input = request }
+			};
+
+			var response = await _graphQLClient.SendQueryAsync<SearchLeaderboardsGraphQLResponse>(requestObj);
+			return response?.Data?.searchLeaderboardsDuongLnt ?? new PaginationResult<List<LeaderboardsDuongLnt>>();
 		}
 		#endregion
 
@@ -174,9 +223,11 @@ namespace SmokeQuit.GraphQLClients.BlazorWAS.DuongLNT.GraphQLClients
 						lastUpdate
 						plan {
 							quitPlansAnhDtnid
+							reason
 						}
 						user {
 							userAccountId
+							userName
 						}
 					}
 				}";

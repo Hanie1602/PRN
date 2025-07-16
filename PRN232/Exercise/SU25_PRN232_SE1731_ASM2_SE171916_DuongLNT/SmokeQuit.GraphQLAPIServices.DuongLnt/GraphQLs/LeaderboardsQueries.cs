@@ -45,6 +45,7 @@ namespace SmokeQuit.GraphQLAPIServices.DuongLnt.GraphQLs
 			//    }
 			//    user {
 			//      userAccountId
+			//      userName
 			//    }
 			//  }
 			//}

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SmokeQuit.GraphQLAPIServices.DuongLnt")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3a296d0d5f3e1291300ee78b8012f6eb755a7918")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2edb660539def5a42af11cc39d28fc1d471d1a8b")]
 [assembly: System.Reflection.AssemblyProductAttribute("SmokeQuit.GraphQLAPIServices.DuongLnt")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SmokeQuit.GraphQLAPIServices.DuongLnt")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

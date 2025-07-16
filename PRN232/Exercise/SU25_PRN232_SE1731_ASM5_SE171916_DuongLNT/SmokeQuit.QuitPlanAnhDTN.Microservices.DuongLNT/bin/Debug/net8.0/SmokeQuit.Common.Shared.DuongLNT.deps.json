@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "SmokeQuit.Common.Shared.DuongLNT/1.0.0": {
+        "runtime": {
+          "SmokeQuit.Common.Shared.DuongLNT.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "SmokeQuit.Common.Shared.DuongLNT/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

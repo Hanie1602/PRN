@@ -1,6 +1,8 @@
 ﻿using MassTransit;
+using MassTransit.Transports;
 using Microsoft.AspNetCore.Mvc;
 using SmokeQuit.BussinessObject.Shared.Models.DuongLNT.Models;
+using SmokeQuit.Common.Shared.DuongLNT;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
@@ -76,8 +78,25 @@ namespace SmokeQuit.Leaderboards.Microservices.DuongLNT.Controllers
 
 		// POST api/<LeaderboardsController>
 		[HttpPost]
-		public void Post([FromBody] string value)
+		public async Task<IActionResult> Post(LeaderboardsDuongLnt leaderboards)
 		{
+			if (leaderboards != null)
+			{
+				Uri uri = new Uri("rabbitmq://localhost/leaderboardsQueue");
+
+				var endPoint = await _bus.GetSendEndpoint(uri);
+
+				await endPoint.Send(leaderboards);
+
+				string messageLog = string.Format("[{0}] PUBLISH data to RabbitMQ.leaderboardsQueue: {1}", DateTime.Now, Utilities.ConvertObjectToJSONString(leaderboards));
+
+				Utilities.WriteLoggerFile(messageLog);
+
+				_logger.LogInformation(messageLog);
+
+				return Ok();
+			}
+			return BadRequest();
 		}
 
 		// PUT api/<LeaderboardsController>/5

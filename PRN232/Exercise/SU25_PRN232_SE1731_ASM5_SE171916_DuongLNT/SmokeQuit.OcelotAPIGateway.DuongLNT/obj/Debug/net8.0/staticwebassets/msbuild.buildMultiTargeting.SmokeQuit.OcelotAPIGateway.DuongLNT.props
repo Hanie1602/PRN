@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\SmokeQuit.OcelotAPIGateway.DuongLNT.props" />
+</Project>

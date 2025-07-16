@@ -127,7 +127,7 @@ namespace SmokeQuit.APIServices.BE.DuongLNT.Controllers
 		}
 
 		// DELETE api/<LeaderboardsDuongLntController>/5
-		[Authorize(Roles = "1")]
+		[Authorize(Roles = "1,2")]
 		[HttpDelete("{id}")]
 		public async Task<bool> Delete(int id)
 		{

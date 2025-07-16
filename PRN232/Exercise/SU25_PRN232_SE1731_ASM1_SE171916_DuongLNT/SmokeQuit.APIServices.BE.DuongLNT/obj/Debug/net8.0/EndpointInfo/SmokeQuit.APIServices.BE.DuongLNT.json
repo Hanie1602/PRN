@@ -8703,6 +8703,15 @@
       },
       "LeaderboardsDuongLnt": {
         "required": [
+          "communityContribution",
+          "daySmokeFree",
+          "moneySave",
+          "note",
+          "planId",
+          "progressScore",
+          "rankPosition",
+          "streakCount",
+          "totalAchievements",
           "userId"
         ],
         "type": "object",
@@ -8717,61 +8726,52 @@
           },
           "planId": {
             "type": "integer",
-            "format": "int32",
-            "nullable": true
+            "format": "int32"
           },
           "daySmokeFree": {
             "maximum": 2147483647,
             "minimum": 0,
             "type": "integer",
-            "format": "int32",
-            "nullable": true
+            "format": "int32"
           },
           "moneySave": {
             "minimum": 0,
             "type": "number",
-            "format": "double",
-            "nullable": true
+            "format": "double"
           },
           "rankPosition": {
             "maximum": 2147483647,
             "minimum": 1,
             "type": "integer",
-            "format": "int32",
-            "nullable": true
+            "format": "int32"
           },
           "totalAchievements": {
             "maximum": 2147483647,
             "minimum": 0,
             "type": "integer",
-            "format": "int32",
-            "nullable": true
+            "format": "int32"
           },
           "progressScore": {
             "minimum": 0,
             "type": "number",
-            "format": "double",
-            "nullable": true
+            "format": "double"
           },
           "note": {
             "maxLength": 255,
             "minLength": 0,
-            "type": "string",
-            "nullable": true
+            "type": "string"
           },
           "streakCount": {
             "maximum": 2147483647,
             "minimum": 0,
             "type": "integer",
-            "format": "int32",
-            "nullable": true
+            "format": "int32"
           },
           "communityContribution": {
             "maximum": 2147483647,
             "minimum": 0,
             "type": "integer",
-            "format": "int32",
-            "nullable": true
+            "format": "int32"
           },
           "isTopRanked": {
             "type": "boolean"
@@ -9053,6 +9053,17 @@
         "additionalProperties": false
       },
       "QuitPlansAnhDtn": {
+        "required": [
+          "budgetSavingGoal",
+          "dailyCigaretteTarget",
+          "expectedQuitDate",
+          "healthGoals",
+          "motivationalMessage",
+          "reason",
+          "startDate",
+          "userId",
+          "weeklyCheckinFrequency"
+        ],
         "type": "object",
         "properties": {
           "quitPlansAnhDtnid": {
@@ -9069,40 +9080,44 @@
             "nullable": true
           },
           "reason": {
-            "type": "string",
-            "nullable": true
+            "maxLength": 255,
+            "minLength": 0,
+            "type": "string"
           },
           "startDate": {
             "type": "string",
-            "format": "date-time"
+            "format": "date"
           },
           "expectedQuitDate": {
             "type": "string",
-            "format": "date-time",
-            "nullable": true
+            "format": "date"
           },
           "dailyCigaretteTarget": {
+            "maximum": 2147483647,
+            "minimum": 0,
             "type": "integer",
-            "format": "int32",
-            "nullable": true
+            "format": "int32"
           },
           "weeklyCheckinFrequency": {
+            "maximum": 7,
+            "minimum": 0,
             "type": "integer",
-            "format": "int32",
-            "nullable": true
+            "format": "int32"
           },
           "motivationalMessage": {
-            "type": "string",
-            "nullable": true
+            "maxLength": 255,
+            "minLength": 0,
+            "type": "string"
           },
           "healthGoals": {
-            "type": "string",
-            "nullable": true
+            "maxLength": 255,
+            "minLength": 0,
+            "type": "string"
           },
           "budgetSavingGoal": {
+            "minimum": 0,
             "type": "number",
-            "format": "double",
-            "nullable": true
+            "format": "double"
           },
           "receiveMotivationReminder": {
             "type": "boolean"

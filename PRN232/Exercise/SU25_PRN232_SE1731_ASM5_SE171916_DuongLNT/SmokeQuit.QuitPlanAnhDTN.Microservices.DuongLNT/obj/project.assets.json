@@ -418,6 +418,26 @@
         "build": {
           "buildTransitive/net6.0/_._": {}
         }
+      },
+      "SmokeQuit.BussinessObject.Shared.Models.DuongLNT/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/SmokeQuit.BussinessObject.Shared.Models.DuongLNT.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SmokeQuit.BussinessObject.Shared.Models.DuongLNT.dll": {}
+        }
+      },
+      "SmokeQuit.Common.Shared.DuongLNT/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/SmokeQuit.Common.Shared.DuongLNT.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SmokeQuit.Common.Shared.DuongLNT.dll": {}
+        }
       }
     }
   },
@@ -1297,6 +1317,16 @@
         "system.threading.channels.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "SmokeQuit.BussinessObject.Shared.Models.DuongLNT/1.0.0": {
+      "type": "project",
+      "path": "../SmokeQuit.BussinessObject.Shared.Models.DuongLNT/SmokeQuit.BussinessObject.Shared.Models.DuongLNT.csproj",
+      "msbuildProject": "../SmokeQuit.BussinessObject.Shared.Models.DuongLNT/SmokeQuit.BussinessObject.Shared.Models.DuongLNT.csproj"
+    },
+    "SmokeQuit.Common.Shared.DuongLNT/1.0.0": {
+      "type": "project",
+      "path": "../SmokeQuit.Common.Shared.DuongLNT/SmokeQuit.Common.Shared.DuongLNT.csproj",
+      "msbuildProject": "../SmokeQuit.Common.Shared.DuongLNT/SmokeQuit.Common.Shared.DuongLNT.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -1304,6 +1334,8 @@
       "MassTransit >= 8.3.0",
       "MassTransit.AspNetCore >= 7.3.1",
       "MassTransit.RabbitMQ >= 8.3.0",
+      "SmokeQuit.BussinessObject.Shared.Models.DuongLNT >= 1.0.0",
+      "SmokeQuit.Common.Shared.DuongLNT >= 1.0.0",
       "Swashbuckle.AspNetCore >= 6.6.2"
     ]
   },
@@ -1339,7 +1371,14 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "E:\\Github\\PRNN\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM5_SE171916_DuongLNT\\SmokeQuit.BussinessObject.Shared.Models.DuongLNT\\SmokeQuit.BussinessObject.Shared.Models.DuongLNT.csproj": {
+              "projectPath": "E:\\Github\\PRNN\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM5_SE171916_DuongLNT\\SmokeQuit.BussinessObject.Shared.Models.DuongLNT\\SmokeQuit.BussinessObject.Shared.Models.DuongLNT.csproj"
+            },
+            "E:\\Github\\PRNN\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM5_SE171916_DuongLNT\\SmokeQuit.Common.Shared.DuongLNT\\SmokeQuit.Common.Shared.DuongLNT.csproj": {
+              "projectPath": "E:\\Github\\PRNN\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM5_SE171916_DuongLNT\\SmokeQuit.Common.Shared.DuongLNT\\SmokeQuit.Common.Shared.DuongLNT.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

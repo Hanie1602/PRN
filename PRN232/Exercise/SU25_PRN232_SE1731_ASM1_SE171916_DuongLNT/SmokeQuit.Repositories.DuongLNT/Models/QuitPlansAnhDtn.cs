@@ -2,6 +2,7 @@
 #nullable disable
 using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 
 namespace SmokeQuit.Repositories.DuongLNT.Models;
 
@@ -9,33 +10,53 @@ public partial class QuitPlansAnhDtn
 {
     public int QuitPlansAnhDtnid { get; set; }
 
-    public int UserId { get; set; }
+	[Required(ErrorMessage = "User is required.")]
+	public int UserId { get; set; }
 
     public int? MembershipPlanId { get; set; }
 
-    public string Reason { get; set; }
+	[Required(ErrorMessage = "Reason is required.")]
+	[StringLength(255, ErrorMessage = "Reason must not exceed 255 characters.")]
+	public string Reason { get; set; }
 
-    public DateTime StartDate { get; set; }
+	[Required(ErrorMessage = "Start date is required.")]
+	[DataType(DataType.Date)]
+	public DateTime StartDate { get; set; }
 
-    public DateTime? ExpectedQuitDate { get; set; }
+	[Required(ErrorMessage = "Quit date is required.")]
+	[DataType(DataType.Date)]
+	[Display(Name = "Expected Quit Date")]
+	public DateTime? ExpectedQuitDate { get; set; }
 
-    public int? DailyCigaretteTarget { get; set; }
+	[Required(ErrorMessage = "Daily cigarette target is required.")]
+	[Range(0, int.MaxValue, ErrorMessage = "Daily cigarette target cannot be negative.")]
+	public int? DailyCigaretteTarget { get; set; }
 
-    public int? WeeklyCheckinFrequency { get; set; }
+	[Required(ErrorMessage = "Daily saving target is required.")]
+	[Range(0, 7, ErrorMessage = "Weekly check-in frequency must be between 0 and 7.")]
+	public int? WeeklyCheckinFrequency { get; set; }
 
-    public string MotivationalMessage { get; set; }
+	[Required(ErrorMessage = "Daily motivation message is required.")]
+	[StringLength(255, ErrorMessage = "Motivational message must not exceed 255 characters.")]
+	public string MotivationalMessage { get; set; }
 
-    public string HealthGoals { get; set; }
+	[Required(ErrorMessage = "Health goals are required.")]
+	[StringLength(255, ErrorMessage = "Health goals must not exceed 255 characters.")]
+	public string HealthGoals { get; set; }
 
-    public double? BudgetSavingGoal { get; set; }
+	[Required(ErrorMessage = "Budget saving goal is required.")]
+	[Range(0, double.MaxValue, ErrorMessage = "Budget saving goal cannot be negative.")]
+	public double? BudgetSavingGoal { get; set; }
 
     public bool ReceiveMotivationReminder { get; set; }
 
     public bool IsCustomizedPlan { get; set; }
 
-    public DateTime? CreatedAt { get; set; }
+	[DataType(DataType.DateTime)]
+	public DateTime? CreatedAt { get; set; }
 
-    public DateTime? UpdatedAt { get; set; }
+	[DataType(DataType.DateTime)]
+	public DateTime? UpdatedAt { get; set; }
 
     public virtual ICollection<BlogPostsAnVt> BlogPostsAnVts { get; set; } = new List<BlogPostsAnVt>();
 

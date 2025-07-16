@@ -52,6 +52,15 @@ namespace SmokeQuit.MVCWebApp.FE.DuongLNT.Controllers
 
 						if (result != null)
 						{
+							//Lấy danh sách User
+							var users = await GetUsers();
+
+							//Gán User vào từng item theo UserId
+							foreach (var item in result.Items)
+							{
+								item.User = users.FirstOrDefault(u => u.UserAccountId == item.UserId);
+							}
+
 							//ViewData["CurrentPage"] = result.CurrentPage;
 							//ViewData["PageSize"] = result.PageSize;
 							//return View(result);

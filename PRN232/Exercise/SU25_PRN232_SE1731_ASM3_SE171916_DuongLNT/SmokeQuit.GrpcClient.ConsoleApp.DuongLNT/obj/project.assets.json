@@ -306,11 +306,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Github\\PRN212\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM3_SE171916_DuongLNT\\SmokeQuit.GrpcClient.ConsoleApp.DuongLNT\\SmokeQuit.GrpcClient.ConsoleApp.DuongLNT.csproj",
+      "projectUniqueName": "E:\\Github\\PRNN\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM3_SE171916_DuongLNT\\SmokeQuit.GrpcClient.ConsoleApp.DuongLNT\\SmokeQuit.GrpcClient.ConsoleApp.DuongLNT.csproj",
       "projectName": "SmokeQuit.GrpcClient.ConsoleApp.DuongLNT",
-      "projectPath": "D:\\Github\\PRN212\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM3_SE171916_DuongLNT\\SmokeQuit.GrpcClient.ConsoleApp.DuongLNT\\SmokeQuit.GrpcClient.ConsoleApp.DuongLNT.csproj",
+      "projectPath": "E:\\Github\\PRNN\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM3_SE171916_DuongLNT\\SmokeQuit.GrpcClient.ConsoleApp.DuongLNT\\SmokeQuit.GrpcClient.ConsoleApp.DuongLNT.csproj",
       "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "D:\\Github\\PRN212\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM3_SE171916_DuongLNT\\SmokeQuit.GrpcClient.ConsoleApp.DuongLNT\\obj\\",
+      "outputPath": "E:\\Github\\PRNN\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM3_SE171916_DuongLNT\\SmokeQuit.GrpcClient.ConsoleApp.DuongLNT\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -1,0 +1,15 @@
+C:\Users\DANG ANH\source\repos\PRN231_SU25_SE172088.TrialPE\PRN231_SU25_SE172088.Services\bin\Debug\net8.0\PRN231_SU25_SE172088.Services.deps.json
+C:\Users\DANG ANH\source\repos\PRN231_SU25_SE172088.TrialPE\PRN231_SU25_SE172088.Services\bin\Debug\net8.0\PRN231_SU25_SE172088.Services.dll
+C:\Users\DANG ANH\source\repos\PRN231_SU25_SE172088.TrialPE\PRN231_SU25_SE172088.Services\bin\Debug\net8.0\PRN231_SU25_SE172088.Services.pdb
+C:\Users\DANG ANH\source\repos\PRN231_SU25_SE172088.TrialPE\PRN231_SU25_SE172088.Services\obj\Debug\net8.0\PRN231_SU25_SE172088.Services.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DANG ANH\source\repos\PRN231_SU25_SE172088.TrialPE\PRN231_SU25_SE172088.Services\obj\Debug\net8.0\PRN231_SU25_SE172088.Services.AssemblyInfoInputs.cache
+C:\Users\DANG ANH\source\repos\PRN231_SU25_SE172088.TrialPE\PRN231_SU25_SE172088.Services\obj\Debug\net8.0\PRN231_SU25_SE172088.Services.AssemblyInfo.cs
+C:\Users\DANG ANH\source\repos\PRN231_SU25_SE172088.TrialPE\PRN231_SU25_SE172088.Services\obj\Debug\net8.0\PRN231_SU25_SE172088.Services.csproj.CoreCompileInputs.cache
+C:\Users\DANG ANH\source\repos\PRN231_SU25_SE172088.TrialPE\PRN231_SU25_SE172088.Services\obj\Debug\net8.0\PRN231_SU25_SE172088.Services.dll
+C:\Users\DANG ANH\source\repos\PRN231_SU25_SE172088.TrialPE\PRN231_SU25_SE172088.Services\obj\Debug\net8.0\refint\PRN231_SU25_SE172088.Services.dll
+C:\Users\DANG ANH\source\repos\PRN231_SU25_SE172088.TrialPE\PRN231_SU25_SE172088.Services\obj\Debug\net8.0\PRN231_SU25_SE172088.Services.pdb
+C:\Users\DANG ANH\source\repos\PRN231_SU25_SE172088.TrialPE\PRN231_SU25_SE172088.Services\obj\Debug\net8.0\ref\PRN231_SU25_SE172088.Services.dll
+C:\Users\DANG ANH\source\repos\PRN231_SU25_SE172088.TrialPE\PRN231_SU25_SE172088.Services\bin\Debug\net8.0\PRN231_SU25_SE172088.Repositories.dll
+C:\Users\DANG ANH\source\repos\PRN231_SU25_SE172088.TrialPE\PRN231_SU25_SE172088.Services\bin\Debug\net8.0\PRN231_SU25_SE172088.Repositories.pdb
+C:\Users\DANG ANH\source\repos\PRN231_SU25_SE172088.TrialPE\PRN231_SU25_SE172088.Services\obj\Debug\net8.0\PRN231_SU25_SE172088.Services.csproj.AssemblyReference.cache
+C:\Users\DANG ANH\source\repos\PRN231_SU25_SE172088.TrialPE\PRN231_SU25_SE172088.Services\obj\Debug\net8.0\PRN231_S.5D96AD29.Up2Date

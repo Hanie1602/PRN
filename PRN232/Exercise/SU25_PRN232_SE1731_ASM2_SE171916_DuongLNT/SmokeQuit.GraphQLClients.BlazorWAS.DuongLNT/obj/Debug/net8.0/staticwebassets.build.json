@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "ald2/Anv8u7w0awSUld3oLta8gU3itXeutCgM0jLTJY=",
+  "Hash": "zbCmMf+7u4TxGkFgHsplYLxitKsogFk9PsZOdZl3yyw=",
   "Source": "SmokeQuit.GraphQLClients.BlazorWAS.DuongLNT",
   "BasePath": "/",
   "Mode": "Root",
@@ -31,8 +31,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "manifest",
-      "Fingerprint": "5tw0xfazex",
-      "Integrity": "55z2KAWkpmi3ZcT1Ke+G0BC1XsLr4RWMU4VtmDzBO98=",
+      "Fingerprint": "bk07i3kgjg",
+      "Integrity": "ZYNJnVmU9PaLEPJm6+6HbsC47V94RiG1RV4FG7SVvFs=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "obj\\Debug\\net8.0\\blazor.boot.json"
@@ -1060,8 +1060,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "symbol",
-      "Fingerprint": "e2pkrh9r5g",
-      "Integrity": "GhUL5GvJVbSL7rYSEqzeDqPM+1gNiA9GIj160x7qypA=",
+      "Fingerprint": "4mxxer2k7d",
+      "Integrity": "lJ27nkoFBevMpluzVkLp6x5DZVcFFWfVW8djGhlqA4o=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "obj\\Debug\\net8.0\\SmokeQuit.GraphQLClients.BlazorWAS.DuongLNT.pdb"
@@ -1081,8 +1081,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "runtime",
-      "Fingerprint": "0g7tav1gzd",
-      "Integrity": "8ABpo9pqVOIr3Spo7/wMuXxS8jueU7T1I1+TQxpV39w=",
+      "Fingerprint": "0le5hqd90u",
+      "Integrity": "7L03TXM2RLTvu7TRkRT0ArX+Q8ltRIQqNXnrNyVqVu8=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "E:\\Github\\PRNN\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM2_SE171916_DuongLNT\\SmokeQuit.GraphQLClients.BlazorWAS.DuongLNT\\obj\\Debug\\net8.0\\webcil\\SmokeQuit.GraphQLClients.BlazorWAS.DuongLNT.wasm"
@@ -4637,7 +4637,7 @@
       "OriginalItemSpec": "E:\\Github\\PRNN\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM2_SE171916_DuongLNT\\SmokeQuit.GraphQLClients.BlazorWAS.DuongLNT\\bin\\Debug\\net8.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Metadata.wasm"
     },
     {
-      "Identity": "E:\\Github\\PRNN\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM2_SE171916_DuongLNT\\SmokeQuit.GraphQLClients.BlazorWAS.DuongLNT\\obj\\Debug\\net8.0\\compressed\\0vxni3b28z-5tw0xfazex.gz",
+      "Identity": "E:\\Github\\PRNN\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM2_SE171916_DuongLNT\\SmokeQuit.GraphQLClients.BlazorWAS.DuongLNT\\obj\\Debug\\net8.0\\compressed\\0vxni3b28z-bk07i3kgjg.gz",
       "SourceId": "SmokeQuit.GraphQLClients.BlazorWAS.DuongLNT",
       "SourceType": "Computed",
       "ContentRoot": "E:\\Github\\PRNN\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM2_SE171916_DuongLNT\\SmokeQuit.GraphQLClients.BlazorWAS.DuongLNT\\obj\\Debug\\net8.0\\compressed\\",
@@ -4651,8 +4651,8 @@
       "RelatedAsset": "E:\\Github\\PRNN\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM2_SE171916_DuongLNT\\SmokeQuit.GraphQLClients.BlazorWAS.DuongLNT\\bin\\Debug\\net8.0\\wwwroot\\_framework\\blazor.boot.json",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "sebga2wuv6",
-      "Integrity": "xK+lGp8FBhxF6GL0WZ9tBdImyjMaIetoimO9YRZecB8=",
+      "Fingerprint": "2fkeyuqo3f",
+      "Integrity": "3piNwPCHrQd+BDSDdtEHpCeVh53VesP8v+yI5/TnnrE=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "E:\\Github\\PRNN\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM2_SE171916_DuongLNT\\SmokeQuit.GraphQLClients.BlazorWAS.DuongLNT\\bin\\Debug\\net8.0\\wwwroot\\_framework\\blazor.boot.json"
@@ -4679,7 +4679,7 @@
       "OriginalItemSpec": "E:\\Github\\PRNN\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM2_SE171916_DuongLNT\\SmokeQuit.GraphQLClients.BlazorWAS.DuongLNT\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Numerics.Vectors.wasm"
     },
     {
-      "Identity": "E:\\Github\\PRNN\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM2_SE171916_DuongLNT\\SmokeQuit.GraphQLClients.BlazorWAS.DuongLNT\\obj\\Debug\\net8.0\\compressed\\15j1zlrsrm-0g7tav1gzd.gz",
+      "Identity": "E:\\Github\\PRNN\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM2_SE171916_DuongLNT\\SmokeQuit.GraphQLClients.BlazorWAS.DuongLNT\\obj\\Debug\\net8.0\\compressed\\15j1zlrsrm-0le5hqd90u.gz",
       "SourceId": "SmokeQuit.GraphQLClients.BlazorWAS.DuongLNT",
       "SourceType": "Computed",
       "ContentRoot": "E:\\Github\\PRNN\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM2_SE171916_DuongLNT\\SmokeQuit.GraphQLClients.BlazorWAS.DuongLNT\\obj\\Debug\\net8.0\\compressed\\",
@@ -4693,14 +4693,14 @@
       "RelatedAsset": "E:\\Github\\PRNN\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM2_SE171916_DuongLNT\\SmokeQuit.GraphQLClients.BlazorWAS.DuongLNT\\bin\\Debug\\net8.0\\wwwroot\\_framework\\SmokeQuit.GraphQLClients.BlazorWAS.DuongLNT.wasm",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "hq9ftuzw7z",
-      "Integrity": "CYQ7okRzTnZBI2ez84pMeib5jSub075cjsukdTzHjRU=",
+      "Fingerprint": "pd7w4s0n77",
+      "Integrity": "o95djmDEtQ/ILOsZLLBSzn42JGIDmlzObcm2RLMJ2QQ=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "E:\\Github\\PRNN\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM2_SE171916_DuongLNT\\SmokeQuit.GraphQLClients.BlazorWAS.DuongLNT\\bin\\Debug\\net8.0\\wwwroot\\_framework\\SmokeQuit.GraphQLClients.BlazorWAS.DuongLNT.wasm"
     },
     {
-      "Identity": "E:\\Github\\PRNN\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM2_SE171916_DuongLNT\\SmokeQuit.GraphQLClients.BlazorWAS.DuongLNT\\obj\\Debug\\net8.0\\compressed\\1f9nnis34y-e2pkrh9r5g.gz",
+      "Identity": "E:\\Github\\PRNN\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM2_SE171916_DuongLNT\\SmokeQuit.GraphQLClients.BlazorWAS.DuongLNT\\obj\\Debug\\net8.0\\compressed\\1f9nnis34y-4mxxer2k7d.gz",
       "SourceId": "SmokeQuit.GraphQLClients.BlazorWAS.DuongLNT",
       "SourceType": "Computed",
       "ContentRoot": "E:\\Github\\PRNN\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM2_SE171916_DuongLNT\\SmokeQuit.GraphQLClients.BlazorWAS.DuongLNT\\obj\\Debug\\net8.0\\compressed\\",
@@ -4714,8 +4714,8 @@
       "RelatedAsset": "E:\\Github\\PRNN\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM2_SE171916_DuongLNT\\SmokeQuit.GraphQLClients.BlazorWAS.DuongLNT\\bin\\Debug\\net8.0\\wwwroot\\_framework\\SmokeQuit.GraphQLClients.BlazorWAS.DuongLNT.pdb",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "6fgb34dqwn",
-      "Integrity": "4uqxoNCoJ38RmO/rnYChIr3g0OFtLlm2zlaNeVzGtio=",
+      "Fingerprint": "ztj4kx7c0r",
+      "Integrity": "mZrc4tqC+anQ51NfHiVCP89uN1EDS535geugD0UYd/Y=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "E:\\Github\\PRNN\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM2_SE171916_DuongLNT\\SmokeQuit.GraphQLClients.BlazorWAS.DuongLNT\\bin\\Debug\\net8.0\\wwwroot\\_framework\\SmokeQuit.GraphQLClients.BlazorWAS.DuongLNT.pdb"
@@ -9256,11 +9256,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"55z2KAWkpmi3ZcT1Ke+G0BC1XsLr4RWMU4VtmDzBO98=\""
+          "Value": "\"ZYNJnVmU9PaLEPJm6+6HbsC47V94RiG1RV4FG7SVvFs=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 15 Jul 2025 03:18:57 GMT"
+          "Value": "Tue, 15 Jul 2025 07:32:11 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9270,18 +9270,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-55z2KAWkpmi3ZcT1Ke+G0BC1XsLr4RWMU4VtmDzBO98="
+          "Value": "sha256-ZYNJnVmU9PaLEPJm6+6HbsC47V94RiG1RV4FG7SVvFs="
         }
       ]
     },
     {
       "Route": "_framework/blazor.boot.json",
-      "AssetFile": "E:\\Github\\PRNN\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM2_SE171916_DuongLNT\\SmokeQuit.GraphQLClients.BlazorWAS.DuongLNT\\obj\\Debug\\net8.0\\compressed\\0vxni3b28z-5tw0xfazex.gz",
+      "AssetFile": "E:\\Github\\PRNN\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM2_SE171916_DuongLNT\\SmokeQuit.GraphQLClients.BlazorWAS.DuongLNT\\obj\\Debug\\net8.0\\compressed\\0vxni3b28z-bk07i3kgjg.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000107712193"
+          "Quality": "0.000107747010"
         }
       ],
       "ResponseHeaders": [
@@ -9291,15 +9291,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "9283"
+          "Value": "9280"
         },
         {
           "Name": "ETag",
-          "Value": "\"xK+lGp8FBhxF6GL0WZ9tBdImyjMaIetoimO9YRZecB8=\""
+          "Value": "\"3piNwPCHrQd+BDSDdtEHpCeVh53VesP8v+yI5/TnnrE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 15 Jul 2025 03:16:39 GMT"
+          "Value": "Tue, 15 Jul 2025 07:31:30 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9319,19 +9319,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"55z2KAWkpmi3ZcT1Ke+G0BC1XsLr4RWMU4VtmDzBO98=\""
+          "Value": "W/\"ZYNJnVmU9PaLEPJm6+6HbsC47V94RiG1RV4FG7SVvFs=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-55z2KAWkpmi3ZcT1Ke+G0BC1XsLr4RWMU4VtmDzBO98="
+          "Value": "sha256-ZYNJnVmU9PaLEPJm6+6HbsC47V94RiG1RV4FG7SVvFs="
         }
       ]
     },
     {
       "Route": "_framework/blazor.boot.json.gz",
-      "AssetFile": "E:\\Github\\PRNN\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM2_SE171916_DuongLNT\\SmokeQuit.GraphQLClients.BlazorWAS.DuongLNT\\obj\\Debug\\net8.0\\compressed\\0vxni3b28z-5tw0xfazex.gz",
+      "AssetFile": "E:\\Github\\PRNN\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM2_SE171916_DuongLNT\\SmokeQuit.GraphQLClients.BlazorWAS.DuongLNT\\obj\\Debug\\net8.0\\compressed\\0vxni3b28z-bk07i3kgjg.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9340,7 +9340,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "9283"
+          "Value": "9280"
         },
         {
           "Name": "Content-Type",
@@ -9348,11 +9348,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"xK+lGp8FBhxF6GL0WZ9tBdImyjMaIetoimO9YRZecB8=\""
+          "Value": "\"3piNwPCHrQd+BDSDdtEHpCeVh53VesP8v+yI5/TnnrE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 15 Jul 2025 03:16:39 GMT"
+          "Value": "Tue, 15 Jul 2025 07:31:30 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9370,7 +9370,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-xK+lGp8FBhxF6GL0WZ9tBdImyjMaIetoimO9YRZecB8="
+          "Value": "sha256-3piNwPCHrQd+BDSDdtEHpCeVh53VesP8v+yI5/TnnrE="
         }
       ]
     },
@@ -15961,7 +15961,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "52016"
+          "Value": "49100"
         },
         {
           "Name": "Content-Type",
@@ -15969,11 +15969,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"GhUL5GvJVbSL7rYSEqzeDqPM+1gNiA9GIj160x7qypA=\""
+          "Value": "\"lJ27nkoFBevMpluzVkLp6x5DZVcFFWfVW8djGhlqA4o=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 15 Jul 2025 03:18:57 GMT"
+          "Value": "Tue, 15 Jul 2025 07:32:11 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -15983,18 +15983,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-GhUL5GvJVbSL7rYSEqzeDqPM+1gNiA9GIj160x7qypA="
+          "Value": "sha256-lJ27nkoFBevMpluzVkLp6x5DZVcFFWfVW8djGhlqA4o="
         }
       ]
     },
     {
       "Route": "_framework/SmokeQuit.GraphQLClients.BlazorWAS.DuongLNT.pdb",
-      "AssetFile": "E:\\Github\\PRNN\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM2_SE171916_DuongLNT\\SmokeQuit.GraphQLClients.BlazorWAS.DuongLNT\\obj\\Debug\\net8.0\\compressed\\1f9nnis34y-e2pkrh9r5g.gz",
+      "AssetFile": "E:\\Github\\PRNN\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM2_SE171916_DuongLNT\\SmokeQuit.GraphQLClients.BlazorWAS.DuongLNT\\obj\\Debug\\net8.0\\compressed\\1f9nnis34y-4mxxer2k7d.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000027746178"
+          "Quality": "0.000029858768"
         }
       ],
       "ResponseHeaders": [
@@ -16004,15 +16004,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "36040"
+          "Value": "33490"
         },
         {
           "Name": "ETag",
-          "Value": "\"4uqxoNCoJ38RmO/rnYChIr3g0OFtLlm2zlaNeVzGtio=\""
+          "Value": "\"mZrc4tqC+anQ51NfHiVCP89uN1EDS535geugD0UYd/Y=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 15 Jul 2025 03:16:38 GMT"
+          "Value": "Tue, 15 Jul 2025 07:31:29 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -16032,19 +16032,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"GhUL5GvJVbSL7rYSEqzeDqPM+1gNiA9GIj160x7qypA=\""
+          "Value": "W/\"lJ27nkoFBevMpluzVkLp6x5DZVcFFWfVW8djGhlqA4o=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-GhUL5GvJVbSL7rYSEqzeDqPM+1gNiA9GIj160x7qypA="
+          "Value": "sha256-lJ27nkoFBevMpluzVkLp6x5DZVcFFWfVW8djGhlqA4o="
         }
       ]
     },
     {
       "Route": "_framework/SmokeQuit.GraphQLClients.BlazorWAS.DuongLNT.pdb.gz",
-      "AssetFile": "E:\\Github\\PRNN\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM2_SE171916_DuongLNT\\SmokeQuit.GraphQLClients.BlazorWAS.DuongLNT\\obj\\Debug\\net8.0\\compressed\\1f9nnis34y-e2pkrh9r5g.gz",
+      "AssetFile": "E:\\Github\\PRNN\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM2_SE171916_DuongLNT\\SmokeQuit.GraphQLClients.BlazorWAS.DuongLNT\\obj\\Debug\\net8.0\\compressed\\1f9nnis34y-4mxxer2k7d.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -16053,7 +16053,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "36040"
+          "Value": "33490"
         },
         {
           "Name": "Content-Type",
@@ -16061,11 +16061,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"4uqxoNCoJ38RmO/rnYChIr3g0OFtLlm2zlaNeVzGtio=\""
+          "Value": "\"mZrc4tqC+anQ51NfHiVCP89uN1EDS535geugD0UYd/Y=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 15 Jul 2025 03:16:38 GMT"
+          "Value": "Tue, 15 Jul 2025 07:31:29 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -16083,7 +16083,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-4uqxoNCoJ38RmO/rnYChIr3g0OFtLlm2zlaNeVzGtio="
+          "Value": "sha256-mZrc4tqC+anQ51NfHiVCP89uN1EDS535geugD0UYd/Y="
         }
       ]
     },
@@ -16098,7 +16098,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "97045"
+          "Value": "93461"
         },
         {
           "Name": "Content-Type",
@@ -16106,11 +16106,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"8ABpo9pqVOIr3Spo7/wMuXxS8jueU7T1I1+TQxpV39w=\""
+          "Value": "\"7L03TXM2RLTvu7TRkRT0ArX+Q8ltRIQqNXnrNyVqVu8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 15 Jul 2025 03:18:57 GMT"
+          "Value": "Tue, 15 Jul 2025 07:32:11 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -16120,18 +16120,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-8ABpo9pqVOIr3Spo7/wMuXxS8jueU7T1I1+TQxpV39w="
+          "Value": "sha256-7L03TXM2RLTvu7TRkRT0ArX+Q8ltRIQqNXnrNyVqVu8="
         }
       ]
     },
     {
       "Route": "_framework/SmokeQuit.GraphQLClients.BlazorWAS.DuongLNT.wasm",
-      "AssetFile": "E:\\Github\\PRNN\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM2_SE171916_DuongLNT\\SmokeQuit.GraphQLClients.BlazorWAS.DuongLNT\\obj\\Debug\\net8.0\\compressed\\15j1zlrsrm-0g7tav1gzd.gz",
+      "AssetFile": "E:\\Github\\PRNN\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM2_SE171916_DuongLNT\\SmokeQuit.GraphQLClients.BlazorWAS.DuongLNT\\obj\\Debug\\net8.0\\compressed\\15j1zlrsrm-0le5hqd90u.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000028981307"
+          "Quality": "0.000029959854"
         }
       ],
       "ResponseHeaders": [
@@ -16141,15 +16141,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "34504"
+          "Value": "33377"
         },
         {
           "Name": "ETag",
-          "Value": "\"CYQ7okRzTnZBI2ez84pMeib5jSub075cjsukdTzHjRU=\""
+          "Value": "\"o95djmDEtQ/ILOsZLLBSzn42JGIDmlzObcm2RLMJ2QQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 15 Jul 2025 03:16:39 GMT"
+          "Value": "Tue, 15 Jul 2025 07:31:30 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -16169,19 +16169,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"8ABpo9pqVOIr3Spo7/wMuXxS8jueU7T1I1+TQxpV39w=\""
+          "Value": "W/\"7L03TXM2RLTvu7TRkRT0ArX+Q8ltRIQqNXnrNyVqVu8=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-8ABpo9pqVOIr3Spo7/wMuXxS8jueU7T1I1+TQxpV39w="
+          "Value": "sha256-7L03TXM2RLTvu7TRkRT0ArX+Q8ltRIQqNXnrNyVqVu8="
         }
       ]
     },
     {
       "Route": "_framework/SmokeQuit.GraphQLClients.BlazorWAS.DuongLNT.wasm.gz",
-      "AssetFile": "E:\\Github\\PRNN\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM2_SE171916_DuongLNT\\SmokeQuit.GraphQLClients.BlazorWAS.DuongLNT\\obj\\Debug\\net8.0\\compressed\\15j1zlrsrm-0g7tav1gzd.gz",
+      "AssetFile": "E:\\Github\\PRNN\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM2_SE171916_DuongLNT\\SmokeQuit.GraphQLClients.BlazorWAS.DuongLNT\\obj\\Debug\\net8.0\\compressed\\15j1zlrsrm-0le5hqd90u.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -16190,7 +16190,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "34504"
+          "Value": "33377"
         },
         {
           "Name": "Content-Type",
@@ -16198,11 +16198,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"CYQ7okRzTnZBI2ez84pMeib5jSub075cjsukdTzHjRU=\""
+          "Value": "\"o95djmDEtQ/ILOsZLLBSzn42JGIDmlzObcm2RLMJ2QQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 15 Jul 2025 03:16:39 GMT"
+          "Value": "Tue, 15 Jul 2025 07:31:30 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -16220,7 +16220,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-CYQ7okRzTnZBI2ez84pMeib5jSub075cjsukdTzHjRU="
+          "Value": "sha256-o95djmDEtQ/ILOsZLLBSzn42JGIDmlzObcm2RLMJ2QQ="
         }
       ]
     },

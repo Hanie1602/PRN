@@ -1,0 +1,19 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Path": "SmokeQuit.OcelotAPIGateway.DuongLNT\\SmokeQuit.OcelotAPIGateway.DuongLNT.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "SmokeQuit.Leaderboards.Microservices.DuongLNT\\SmokeQuit.Leaderboards.Microservices.DuongLNT.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "SmokeQuit.QuitPlanAnhDTN.Microservices.DuongLNT\\SmokeQuit.QuitPlanAnhDTN.Microservices.DuongLNT.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

@@ -13,10 +13,13 @@
 <table class="table table-bordered table-striped">
 	<thead>
 		<tr>
-			<th>ID</th>
 			<th>Reason</th>
 			<th>Start Date</th>
 			<th>Expected Quit Date</th>
+			<th>Daily Cigarette Target</th>
+			<th>Weekly Checkin Frequency</th>
+			<th>Motivational Message</th>
+			<th>User</th>
 			<th>Action</th>
 		</tr>
 	</thead>
@@ -34,6 +37,8 @@
 					<h5 class="modal-title" id="bankModalLabel">Create New Quit Plan</h5>
 					<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
 				</div>
+
+				<div id="errorMessages" class="alert alert-danger d-none"></div>
 
 				<div class="modal-body">
 					<div class="row g-3">
@@ -140,11 +145,15 @@
 					var html = '';
 					$.each(result, function (index, item) {
 						html += '<tr>';
-						html += '<td>' + item.quitPlansAnhDtnid + '</td>';
 						html += '<td>' + item.reason + '</td>';
 						html += '<td>' + formatDate(item.startDate) + '</td>';
 						html += '<td>' + formatDate(item.expectedQuitDate) + '</td>';
+						html += '<td>' + item.dailyCigaretteTarget + '</td>';
+						html += '<td>' + item.weeklyCheckinFrequency + '</td>';
+						html += '<td>' + item.motivationalMessage + '</td>';
+						html += '<td>' + (item.userId || 'N/A') + '</td>';
 						html += '<td>';
+
 						html += '<button class="btn btn-sm btn-info me-1" onclick="viewDetail(' + item.quitPlansAnhDtnid + ')">View</button>';
 						html += '<button class="btn btn-sm btn-danger" onclick="deleteQuitPlan(' + item.quitPlansAnhDtnid + ')">Delete</button>';
 						html += '</td>';
@@ -263,13 +272,33 @@
 			$("#btSave").off('click');
 
 			$("#btSave").on('click', function () {
+				const errors = [];
+
+				if (!$('#userId').val()) errors.push("User is required.");
+				if (!$('#reason').val()) errors.push("Reason is required.");
+				if (!$('#startDate').val()) errors.push("Start Date is required.");
+				if (!$('#expectedQuitDate').val()) errors.push("Expected Quit Date is required.");
+				if (!$('#motivationalMessage').val()) errors.push("Motivational Message is required.");
+				if (!$('#healthGoals').val()) errors.push("Health Goals are required.");
+				if (!$('#budgetSavingGoal').val()) errors.push("Budget Saving Goal is required.");
+				if (!$('#dailyCigaretteTarget').val()) errors.push("Daily Cigarette Target is required.");
+				if (!$('#weeklyCheckinFrequency').val()) errors.push("Weekly Check-in Frequency is required.");
+
+				if (errors.length > 0) {
+					showErrors(errors);
+					return;
+				} else {
+					showErrors([]); // clear error box
+				}
+
+				//Tiếp tục gửi nêu không có lỗi
 				const today = new Date().toISOString(); //ISO format cho createdAt & updatedAt
 
 				const data = {
 					userId: parseInt($('#userId').val()) || 0,
 					membershipPlanId: parseInt($('#membershipPlanId').val()) || 0,
 					reason: $('#reason').val(),
-					startDate: $('#startDate').val(),                  //Ví dụ: "2025-07-14"
+					startDate: $('#startDate').val(),
 					expectedQuitDate: $('#expectedQuitDate').val() || null,
 					dailyCigaretteTarget: parseInt($('#dailyCigaretteTarget').val()) || 0,
 					weeklyCheckinFrequency: parseInt($('#weeklyCheckinFrequency').val()) || 0,
@@ -301,8 +330,18 @@
 						}
 					},
 					error: function (xhr, error) {
-						alert(`Error while saving (status ${xhr.status}): ${xhr.responseText}`);
-						console.error(xhr);
+						const errorList = [];
+
+						if (xhr.responseJSON && xhr.responseJSON.errors) {
+							const errors = xhr.responseJSON.errors;
+							for (let field in errors) {
+								errors[field].forEach(err => errorList.push(err));
+							}
+						} else {
+							errorList.push(`Error (${xhr.status}): ${xhr.responseText}`);
+						}
+
+						showErrors(errorList);
 					}
 				});
 			});
@@ -314,6 +353,26 @@
 				const today = new Date().toISOString();
 				const mode = $('#frmBank').attr('data-mode');
 				const id = $('#frmBank').attr('data-id');
+
+				//Check trước khi submit dữ liệu
+				const errors = [];
+
+				if (!$('#userId').val()) errors.push("User is required.");
+				if (!$('#reason').val()) errors.push("Reason is required.");
+				if (!$('#startDate').val()) errors.push("Start Date is required.");
+				if (!$('#expectedQuitDate').val()) errors.push("Expected Quit Date is required.");
+				if (!$('#motivationalMessage').val()) errors.push("Motivational Message is required.");
+				if (!$('#healthGoals').val()) errors.push("Health Goals are required.");
+				if (!$('#budgetSavingGoal').val()) errors.push("Budget Saving Goal is required.");
+				if (!$('#dailyCigaretteTarget').val()) errors.push("Daily Cigarette Target is required.");
+				if (!$('#weeklyCheckinFrequency').val()) errors.push("Weekly Check-in Frequency is required.");
+
+				if (errors.length > 0) {
+					showErrors(errors);
+					return;
+				} else {
+					showErrors([]); // Clear lỗi nếu hợp lệ
+				}
 
 				const data = {
 					quitPlansAnhDtnid: parseInt(id),
@@ -350,7 +409,18 @@
 						loadQuitPlans();
 					},
 					error: function (xhr) {
-						alert(`Error (${xhr.status}): ${xhr.responseText}`);
+						const errorList = [];
+
+						if (xhr.responseJSON && xhr.responseJSON.errors) {
+							const errors = xhr.responseJSON.errors;
+							for (let field in errors) {
+								errors[field].forEach(err => errorList.push(err));
+							}
+						} else {
+							errorList.push(`Error (${xhr.status}): ${xhr.responseText}`);
+						}
+
+						showErrors(errorList);
 					}
 				});
 			});
@@ -378,6 +448,23 @@
 					alert(`Error while deleting (status ${xhr.status}): ${xhr.responseText}`);
 				}
 			});
+		}
+
+		//Thông báo lỗi
+		function showErrors(errors) {
+			const $errorBox = $('#errorMessages');
+			if (!errors || errors.length === 0) {
+				$errorBox.addClass('d-none').html('');
+				return;
+			}
+
+			let html = "<ul>";
+			errors.forEach(err => {
+				html += `<li>${err}</li>`;
+			});
+			html += "</ul>";
+
+			$errorBox.removeClass('d-none').html(html);
 		}
 
 	</script>

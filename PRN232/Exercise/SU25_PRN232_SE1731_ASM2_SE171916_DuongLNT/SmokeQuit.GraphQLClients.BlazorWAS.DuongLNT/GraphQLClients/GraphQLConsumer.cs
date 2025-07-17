@@ -25,7 +25,7 @@ namespace SmokeQuit.GraphQLClients.BlazorWAS.DuongLNT.GraphQLClients
 		{
 			public LeaderboardsDuongLnt leaderboardsDuongLntById { get; set; }
 		}
-		
+
 		public partial class QuitPlansGraphQLResponse
 		{
 			public List<QuitPlansAnhDtn> quitPlansAnhDtn { get; set; }
@@ -49,6 +49,11 @@ namespace SmokeQuit.GraphQLClients.BlazorWAS.DuongLNT.GraphQLClients
 		public class DeleteLeaderboardsResponse
 		{
 			public bool deleteLeaderboardsDuongLnt { get; set; }
+		}
+
+		public class LoginGraphQLResponse
+		{
+			public SystemUserAccount login { get; set; }
 		}
 
 		#region Get của bảng chính
@@ -356,5 +361,32 @@ namespace SmokeQuit.GraphQLClients.BlazorWAS.DuongLNT.GraphQLClients
 			}
 		}
 		#endregion
+
+		public async Task<SystemUserAccount?> LoginAsync(string username, string password)
+		{
+			var mutation = @"
+				mutation($username: String!, $password: String!) {
+					login(username: $username, password: $password) {
+						userAccountId
+						userName
+						fullName
+						roleId
+					}
+				}";
+
+			var variables = new { username, password };
+
+			try
+			{
+				var response = await _graphQLClient.SendMutationAsync<LoginGraphQLResponse>(mutation, variables);
+				return response?.Data?.login;
+			}
+			catch (Exception ex)
+			{
+				Console.WriteLine($"Login Error: {ex.Message}");
+				return null;
+			}
+		}
+
 	}
 }

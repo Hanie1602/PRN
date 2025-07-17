@@ -234,3 +234,4 @@ E:\Github\PRNN\PRN232\Exercise\SU25_PRN232_SE1731_ASM2_SE171916_DuongLNT\SmokeQu
 E:\Github\PRNN\PRN232\Exercise\SU25_PRN232_SE1731_ASM2_SE171916_DuongLNT\SmokeQuit.GraphQLAPIServices.DuongLnt\obj\Debug\net8.0\SmokeQuit.GraphQLAPIServices.DuongLnt.pdb
 E:\Github\PRNN\PRN232\Exercise\SU25_PRN232_SE1731_ASM2_SE171916_DuongLNT\SmokeQuit.GraphQLAPIServices.DuongLnt\obj\Debug\net8.0\SmokeQuit.GraphQLAPIServices.DuongLnt.genruntimeconfig.cache
 E:\Github\PRNN\PRN232\Exercise\SU25_PRN232_SE1731_ASM2_SE171916_DuongLNT\SmokeQuit.GraphQLAPIServices.DuongLnt\obj\Debug\net8.0\ref\SmokeQuit.GraphQLAPIServices.DuongLnt.dll
+E:\Github\PRNN\PRN232\Exercise\SU25_PRN232_SE1731_ASM2_SE171916_DuongLNT\SmokeQuit.GraphQLAPIServices.DuongLnt\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll

@@ -2169,6 +2169,6 @@ E:\Github\PRNN\PRN232\Exercise\SU25_PRN232_SE1731_ASM2_SE171916_DuongLNT\SmokeQu
 E:\Github\PRNN\PRN232\Exercise\SU25_PRN232_SE1731_ASM2_SE171916_DuongLNT\SmokeQuit.GraphQLClients.BlazorWAS.DuongLNT\obj\Debug\net8.0\refint\SmokeQuit.GraphQLClients.BlazorWAS.DuongLNT.dll
 E:\Github\PRNN\PRN232\Exercise\SU25_PRN232_SE1731_ASM2_SE171916_DuongLNT\SmokeQuit.GraphQLClients.BlazorWAS.DuongLNT\obj\Debug\net8.0\SmokeQuit.GraphQLClients.BlazorWAS.DuongLNT.pdb
 E:\Github\PRNN\PRN232\Exercise\SU25_PRN232_SE1731_ASM2_SE171916_DuongLNT\SmokeQuit.GraphQLClients.BlazorWAS.DuongLNT\obj\Debug\net8.0\ref\SmokeQuit.GraphQLClients.BlazorWAS.DuongLNT.dll
-E:\Github\PRNN\PRN232\Exercise\SU25_PRN232_SE1731_ASM2_SE171916_DuongLNT\SmokeQuit.GraphQLClients.BlazorWAS.DuongLNT\obj\Debug\net8.0\compressed\15j1zlrsrm-msk2ihjm6p.gz
-E:\Github\PRNN\PRN232\Exercise\SU25_PRN232_SE1731_ASM2_SE171916_DuongLNT\SmokeQuit.GraphQLClients.BlazorWAS.DuongLNT\obj\Debug\net8.0\compressed\1f9nnis34y-0nxc5mbwk3.gz
-E:\Github\PRNN\PRN232\Exercise\SU25_PRN232_SE1731_ASM2_SE171916_DuongLNT\SmokeQuit.GraphQLClients.BlazorWAS.DuongLNT\obj\Debug\net8.0\compressed\0vxni3b28z-3yb7ej0n1y.gz
+E:\Github\PRNN\PRN232\Exercise\SU25_PRN232_SE1731_ASM2_SE171916_DuongLNT\SmokeQuit.GraphQLClients.BlazorWAS.DuongLNT\obj\Debug\net8.0\compressed\15j1zlrsrm-pf1evm76h5.gz
+E:\Github\PRNN\PRN232\Exercise\SU25_PRN232_SE1731_ASM2_SE171916_DuongLNT\SmokeQuit.GraphQLClients.BlazorWAS.DuongLNT\obj\Debug\net8.0\compressed\1f9nnis34y-3l3qp2c4o2.gz
+E:\Github\PRNN\PRN232\Exercise\SU25_PRN232_SE1731_ASM2_SE171916_DuongLNT\SmokeQuit.GraphQLClients.BlazorWAS.DuongLNT\obj\Debug\net8.0\compressed\0vxni3b28z-22o3k059lx.gz

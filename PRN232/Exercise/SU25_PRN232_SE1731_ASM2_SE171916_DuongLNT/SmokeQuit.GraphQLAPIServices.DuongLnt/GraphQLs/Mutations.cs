@@ -9,7 +9,7 @@ namespace SmokeQuit.GraphQLAPIServices.DuongLnt.GraphQLs
 
 		public Mutations(IServiceProviders serviceProvider) => _serviceProvider = serviceProvider;
 
-		#region Mutation for Leaderboards
+		#region Create
 		public async Task<int> CreateLeaderboardsDuongLnt(LeaderboardsDuongLnt leaderboards)
 		{
 			try
@@ -53,7 +53,7 @@ namespace SmokeQuit.GraphQLAPIServices.DuongLnt.GraphQLs
 
 		#endregion
 
-		#region Cập nhật
+		#region Update
 		public async Task<int> UpdateLeaderboardsDuongLnt(LeaderboardsDuongLnt leaderboards)
 		{
 			try
@@ -91,7 +91,7 @@ namespace SmokeQuit.GraphQLAPIServices.DuongLnt.GraphQLs
 		//}
 		#endregion
 
-		#region Xóa
+		#region Delete
 		public async Task<bool> DeleteLeaderboardsDuongLnt(int id)
 		{
 			try
@@ -111,5 +111,38 @@ namespace SmokeQuit.GraphQLAPIServices.DuongLnt.GraphQLs
 		//}
 
 		#endregion
+
+		#region Login
+		public async Task<SystemUserAccount?> Login(string username, string password)
+		{
+			try
+			{
+				var user = await _serviceProvider.UserAccountService.GetUserAccount(username, password);
+
+				if (user == null)
+				{
+					throw new GraphQLException("Wrong account or password");
+				}
+
+				return user;
+			}
+			catch (Exception ex)
+			{
+				Console.WriteLine($"Login error: {ex.Message}");
+				throw new GraphQLException("Login failed");
+			}
+		}
+
+		/// Test GraphQL mutation
+		//mutation {
+		//  login(username: "acc", password: "@a") {
+		//    userAccountId
+		//    userName
+		//    fullName
+		//    roleId
+		//  }
+		//}
+		#endregion
+
 	}
 }

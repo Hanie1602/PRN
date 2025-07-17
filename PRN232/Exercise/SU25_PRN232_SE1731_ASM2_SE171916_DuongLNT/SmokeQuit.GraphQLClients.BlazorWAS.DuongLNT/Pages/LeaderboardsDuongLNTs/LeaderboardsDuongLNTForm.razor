@@ -8,9 +8,9 @@
 @using SmokeQuit.GraphQLClients.BlazorWAS.DuongLNT.Models
 @using Microsoft.AspNetCore.Components.Forms
 
-<h3>Leaderboard</h3>
+<h3 class="mb-3">🎯 Leaderboard</h3>
 
-<a href="/LeaderboardsDuongLNTs/LeaderboardsDuongLNTList" class="btn btn-secondary mb-3">← Back to page</a>
+<a href="/LeaderboardsDuongLNTs/LeaderboardsDuongLNTList" class="btn btn-outline-secondary mb-4">← Back to Leaderboards</a>
 
 @if (!string.IsNullOrEmpty(message))
 {
@@ -21,61 +21,69 @@
 	<DataAnnotationsValidator />
 	<ValidationSummary />
 
-	<div class="form-group">
-		<label>Day Smoke Free</label>
-		<InputNumber class="form-control" @bind-Value="newLeaderboard.DaySmokeFree" />
+	<div class="row">
+		<div class="col-md-6">
+			<div class="mb-3">
+				<label class="form-label">Day Smoke Free</label>
+				<InputNumber class="form-control" @bind-Value="newLeaderboard.DaySmokeFree" />
+			</div>
+
+			<div class="mb-3">
+				<label class="form-label">Money Save</label>
+				<InputNumber class="form-control" @bind-Value="newLeaderboard.MoneySave" />
+			</div>
+
+			<div class="mb-3">
+				<label class="form-label">Rank Position</label>
+				<InputNumber class="form-control" @bind-Value="newLeaderboard.RankPosition" />
+			</div>
+
+			<div class="mb-3">
+				<label class="form-label">Total Achievements</label>
+				<InputNumber class="form-control" @bind-Value="newLeaderboard.TotalAchievements" />
+			</div>
+		</div>
+
+		<div class="col-md-6">
+			<div class="mb-3">
+				<label class="form-label">Note</label>
+				<InputText class="form-control" @bind-Value="newLeaderboard.Note" />
+			</div>
+
+			<div class="mb-3 form-check">
+				<InputCheckbox class="form-check-input" @bind-Value="newLeaderboard.IsTopRanked" id="topRankedCheckbox" />
+				<label class="form-check-label" for="topRankedCheckbox">Is Top Ranked</label>
+			</div>
+
+			<div class="mb-3">
+				<label class="form-label">Plan Reason</label>
+				<InputSelect class="form-select" @bind-Value="selectedPlanId">
+					<option value="">-- Select Plan Reason --</option>
+					@foreach (var plan in allPlans)
+					{
+						<option value="@plan.QuitPlansAnhDtnid">@plan.Reason</option>
+					}
+				</InputSelect>
+			</div>
+
+			<div class="mb-3">
+				<label class="form-label">User</label>
+				<InputSelect class="form-select" @bind-Value="selectedUserId">
+					<option value="">-- Select User --</option>
+					@foreach (var user in allUsers)
+					{
+						<option value="@user.UserAccountId">@user.UserName</option>
+					}
+				</InputSelect>
+			</div>
+		</div>
 	</div>
 
-	<div class="form-group">
-		<label>Money Save</label>
-		<InputNumber class="form-control" @bind-Value="newLeaderboard.MoneySave" />
+	<div class="text-end">
+		<button type="submit" class="btn btn-success">💾 Save</button>
 	</div>
-
-	<div class="form-group">
-		<label>Rank Position</label>
-		<InputNumber class="form-control" @bind-Value="newLeaderboard.RankPosition" />
-	</div>
-
-	<div class="form-group">
-		<label>Total Achievements</label>
-		<InputNumber class="form-control" @bind-Value="newLeaderboard.TotalAchievements" />
-	</div>
-
-	<div class="form-group">
-		<label>Note</label>
-		<InputText class="form-control" @bind-Value="newLeaderboard.Note" />
-	</div>
-
-	<div class="form-group">
-		<label>Is Top Ranked</label>
-		<InputCheckbox class="form-check-input" @bind-Value="newLeaderboard.IsTopRanked" />
-	</div>
-
-	<div class="form-group">
-		<label>Plan Reason</label>
-		<InputSelect class="form-control" @bind-Value="selectedPlanId">
-			<option value="">-- Select Plan Reason --</option>
-			@foreach (var plan in allPlans)
-			{
-				<option value="@plan.QuitPlansAnhDtnid">@plan.Reason</option>
-			}
-		</InputSelect>
-	</div>
-
-	<div class="form-group">
-		<label>User</label>
-		<InputSelect class="form-control" @bind-Value="selectedUserId">
-			<option value="">-- Select User --</option>
-			@foreach (var user in allUsers)
-			{
-				<option value="@user.UserAccountId">@user.UserName</option>
-			}
-		</InputSelect>
-	</div>
-
-
-	<button type="submit" class="btn btn-success mt-2">Save</button>
 </EditForm>
+
 
 @code {
 	private LeaderboardsDuongLnt newLeaderboard = new()

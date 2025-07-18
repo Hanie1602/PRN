@@ -5,7 +5,7 @@ using System.Text.Json;
 
 namespace SmokeQuit.SoapApiServices.DuongLNT.SoapServices
 {
-	[ServiceContract]
+	[ServiceContract(Namespace = "http://tempuri.org/")]
 	public interface ILeaderboardsDuongLntSoapService
 	{
 		[OperationContract]
@@ -24,12 +24,14 @@ namespace SmokeQuit.SoapApiServices.DuongLNT.SoapServices
 		Task<int> DeleteAsync(int id);
 	}
 
-
 	public class LeaderboardsDuongLntSoapService : ILeaderboardsDuongLntSoapService
 	{
 		private readonly IServiceProviders _serviceProviders;
 
-		public LeaderboardsDuongLntSoapService(IServiceProviders serviceProviders) => _serviceProviders = serviceProviders;
+		public LeaderboardsDuongLntSoapService(IServiceProviders serviceProviders)
+		{
+			_serviceProviders = serviceProviders;
+		}
 
 		public async Task<List<LeaderboardsDuongLnt>> GetLeaderboardsDuongLntAsync()
 		{
@@ -66,6 +68,7 @@ namespace SmokeQuit.SoapApiServices.DuongLNT.SoapServices
 			return new LeaderboardsDuongLnt();
 		}
 
+		#region Create
 		public async Task<int> CreateAsync(LeaderboardsDuongLnt leaderboards)
 		{
 			try
@@ -73,23 +76,43 @@ namespace SmokeQuit.SoapApiServices.DuongLNT.SoapServices
 				var opt = new JsonSerializerOptions() { ReferenceHandler = ReferenceHandler.IgnoreCycles, DefaultIgnoreCondition = JsonIgnoreCondition.WhenWritingNull };
 				var leaderboardJsonString = JsonSerializer.Serialize(leaderboards, opt);
 				var leaderboardsRMO = JsonSerializer.Deserialize<Repositories.DuongLNT.Models.LeaderboardsDuongLnt>(leaderboardJsonString, opt);
+
+				if (!await _serviceProviders.UserAccountService.ExistsAsync(leaderboards.UserId))
+				{
+					throw new Exception($"UserId {leaderboards.UserId} does not exist in table SystemUserAccount.");
+				}
+				Console.WriteLine(JsonSerializer.Serialize(leaderboards));
+
 				var result = await _serviceProviders.LeaderboardsDuongLntService.CreateAsync(leaderboardsRMO);
 				return result;
 			}
 			catch (Exception ex)
 			{
-				Console.WriteLine(ex.Message); // hoặc logger
+				Console.WriteLine("CreateAsync Error: " + ex.Message);
+				if (ex.InnerException != null)
+					Console.WriteLine("Inner Exception: " + ex.InnerException.Message);
 			}
 			return 0;
 		}
-
+		#endregion
+		
 		public async Task<int> UpdateAsync(LeaderboardsDuongLnt leaderboards)
 		{
 			try
 			{
+				// XÓA navigation property
+				leaderboards.Plan = null;
+				leaderboards.User = null;
+
 				var opt = new JsonSerializerOptions() { ReferenceHandler = ReferenceHandler.IgnoreCycles, DefaultIgnoreCondition = JsonIgnoreCondition.WhenWritingNull };
+
 				var leaderboardJsonString = JsonSerializer.Serialize(leaderboards, opt);
 				var leaderboardRMO = JsonSerializer.Deserialize<Repositories.DuongLNT.Models.LeaderboardsDuongLnt>(leaderboardJsonString, opt);
+
+				//Ensure the ID is not default
+				if (leaderboardRMO.LeaderboardsDuongLntid <= 0)
+					throw new Exception("Invalid LeaderboardsDuongLntid");
+
 				var result = await _serviceProviders.LeaderboardsDuongLntService.UpdateAsync(leaderboardRMO);
 				return result;
 			}

@@ -5,8 +5,6 @@ namespace SmokeQuit.Services.DuongLNT
 	public class SystemUserAccountService
 	{
 		private readonly IUnitOfWork _unitOfWork;
-		//private readonly SystemUserAccountRepository _repository;
-		//public SystemUserAccountService() => _repository ??= new SystemUserAccountRepository();
 		public SystemUserAccountService() => _unitOfWork ??= new UnitOfWork();
 
 
@@ -19,5 +17,12 @@ namespace SmokeQuit.Services.DuongLNT
 		{
 			return await _unitOfWork.SystemUserAccountRepository.GetAllAsync();
 		}
+
+		public async Task<bool> ExistsAsync(int userId)
+		{
+			var allUsers = await _unitOfWork.SystemUserAccountRepository.GetAllAsync();
+			return allUsers.Any(u => u.UserAccountId == userId);
+		}
+
 	}
 }

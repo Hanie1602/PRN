@@ -13,10 +13,7 @@ namespace SmokeQuit.Repositories.DuongLNT
 
 		public async Task<SystemUserAccount> GetUserAccount (string userName, string password)
 		{
-			//return await _context.SystemUserAccounts.FirstOrDefaultAsync(u => u.Email == userName && u.Password == password && u.IsActive == true);
-			//return await _context.SystemUserAccounts.FirstOrDefaultAsync(u => u.Phone == userName && u.Password == password);
 			return await _context.SystemUserAccounts.FirstOrDefaultAsync(u => u.UserName == userName && u.Password == password);
-			//return await _context.SystemUserAccounts.FirstOrDefaultAsync(u => u.EmployeeCode == userName && u.Password == password);
 		}
 
 

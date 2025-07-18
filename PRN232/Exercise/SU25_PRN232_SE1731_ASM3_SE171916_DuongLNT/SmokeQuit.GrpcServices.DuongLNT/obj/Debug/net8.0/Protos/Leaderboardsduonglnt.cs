@@ -26,41 +26,51 @@ namespace SmokeQuit.GrpcServices.DuongLNT.Protos {
           string.Concat(
             "CiFQcm90b3MvbGVhZGVyYm9hcmRzZHVvbmdsbnQucHJvdG8iDgoMRW1wdHlS",
             "ZXF1ZXN0IkAKGExlYWRlcmJvYXJkc0R1b25nTG50TGlzdBIkCgVJdGVtcxgB",
-            "IAMoCzIVLkxlYWRlcmJvYXJkc0R1b25nTG50IscCChRMZWFkZXJib2FyZHNE",
-            "dW9uZ0xudBIeChZMZWFkZXJib2FyZHNEdW9uZ0xudGlkGAEgASgFEg4KBlVz",
-            "ZXJJZBgCIAEoBRIOCgZQbGFuSWQYAyABKAUSFAoMRGF5U21va2VGcmVlGAQg",
-            "ASgFEhEKCU1vbmV5U2F2ZRgFIAEoARIUCgxSYW5rUG9zaXRpb24YBiABKAUS",
-            "GQoRVG90YWxBY2hpZXZlbWVudHMYByABKAUSFQoNUHJvZ3Jlc3NTY29yZRgI",
-            "IAEoARIMCgROb3RlGAkgASgJEhMKC1N0cmVha0NvdW50GAogASgFEh0KFUNv",
-            "bW11bml0eUNvbnRyaWJ1dGlvbhgLIAEoBRITCgtJc1RvcFJhbmtlZBgMIAEo",
-            "CBISCgpMYXN0VXBkYXRlGA0gASgJEhMKC0NyZWF0ZWRUaW1lGA4gASgJIq0C",
-            "ChpMZWFkZXJib2FyZHNEdW9uZ0xudENyZWF0ZRIOCgZVc2VySWQYASABKAUS",
-            "DgoGUGxhbklkGAIgASgFEhQKDERheVNtb2tlRnJlZRgDIAEoBRIRCglNb25l",
-            "eVNhdmUYBCABKAESFAoMUmFua1Bvc2l0aW9uGAUgASgFEhkKEVRvdGFsQWNo",
-            "aWV2ZW1lbnRzGAYgASgFEhUKDVByb2dyZXNzU2NvcmUYByABKAESDAoETm90",
-            "ZRgIIAEoCRITCgtTdHJlYWtDb3VudBgJIAEoBRIdChVDb21tdW5pdHlDb250",
-            "cmlidXRpb24YCiABKAUSEwoLSXNUb3BSYW5rZWQYCyABKAgSEgoKTGFzdFVw",
-            "ZGF0ZRgMIAEoCRITCgtDcmVhdGVkVGltZRgNIAEoCSI/Ch1MZWFkZXJib2Fy",
-            "ZHNEdW9uZ0xudElkUmVxdWVzdBIeChZMZWFkZXJib2FyZHNEdW9uZ0xudGlk",
-            "GAEgASgFIiAKDk11dGF0aW9uUmVzdWx0Eg4KBnJlc3VsdBgBIAEoBTLOAgoY",
-            "TGVhZGVyYm9hcmRzRHVvbmdMbnRHUlBDEjcKC0dldEFsbEFzeW5jEg0uRW1w",
-            "dHlSZXF1ZXN0GhkuTGVhZGVyYm9hcmRzRHVvbmdMbnRMaXN0EkUKDEdldEJ5",
-            "SWRBc3luYxIeLkxlYWRlcmJvYXJkc0R1b25nTG50SWRSZXF1ZXN0GhUuTGVh",
-            "ZGVyYm9hcmRzRHVvbmdMbnQSOwoLQ3JlYXRlQXN5bmMSGy5MZWFkZXJib2Fy",
-            "ZHNEdW9uZ0xudENyZWF0ZRoPLk11dGF0aW9uUmVzdWx0EjUKC1VwZGF0ZUFz",
-            "eW5jEhUuTGVhZGVyYm9hcmRzRHVvbmdMbnQaDy5NdXRhdGlvblJlc3VsdBI+",
-            "CgtEZWxldGVBc3luYxIeLkxlYWRlcmJvYXJkc0R1b25nTG50SWRSZXF1ZXN0",
-            "Gg8uTXV0YXRpb25SZXN1bHRCKaoCJlNtb2tlUXVpdC5HcnBjU2VydmljZXMu",
-            "RHVvbmdMTlQuUHJvdG9zYgZwcm90bzM="));
+            "IAMoCzIVLkxlYWRlcmJvYXJkc0R1b25nTG50Ij8KHUxlYWRlcmJvYXJkc0R1",
+            "b25nTG50SWRSZXF1ZXN0Eh4KFkxlYWRlcmJvYXJkc0R1b25nTG50aWQYASAB",
+            "KAUixwIKFExlYWRlcmJvYXJkc0R1b25nTG50Eh4KFkxlYWRlcmJvYXJkc0R1",
+            "b25nTG50aWQYASABKAUSDgoGVXNlcklkGAIgASgFEg4KBlBsYW5JZBgDIAEo",
+            "BRIUCgxEYXlTbW9rZUZyZWUYBCABKAUSEQoJTW9uZXlTYXZlGAUgASgBEhQK",
+            "DFJhbmtQb3NpdGlvbhgGIAEoBRIZChFUb3RhbEFjaGlldmVtZW50cxgHIAEo",
+            "BRIVCg1Qcm9ncmVzc1Njb3JlGAggASgBEgwKBE5vdGUYCSABKAkSEwoLU3Ry",
+            "ZWFrQ291bnQYCiABKAUSHQoVQ29tbXVuaXR5Q29udHJpYnV0aW9uGAsgASgF",
+            "EhMKC0lzVG9wUmFua2VkGAwgASgIEhIKCkxhc3RVcGRhdGUYDSABKAkSEwoL",
+            "Q3JlYXRlZFRpbWUYDiABKAkirQIKGkxlYWRlcmJvYXJkc0R1b25nTG50Q3Jl",
+            "YXRlEg4KBlVzZXJJZBgBIAEoBRIOCgZQbGFuSWQYAiABKAUSFAoMRGF5U21v",
+            "a2VGcmVlGAMgASgFEhEKCU1vbmV5U2F2ZRgEIAEoARIUCgxSYW5rUG9zaXRp",
+            "b24YBSABKAUSGQoRVG90YWxBY2hpZXZlbWVudHMYBiABKAUSFQoNUHJvZ3Jl",
+            "c3NTY29yZRgHIAEoARIMCgROb3RlGAggASgJEhMKC1N0cmVha0NvdW50GAkg",
+            "ASgFEh0KFUNvbW11bml0eUNvbnRyaWJ1dGlvbhgKIAEoBRITCgtJc1RvcFJh",
+            "bmtlZBgLIAEoCBISCgpMYXN0VXBkYXRlGAwgASgJEhMKC0NyZWF0ZWRUaW1l",
+            "GA0gASgJIiAKDk11dGF0aW9uUmVzdWx0Eg4KBnJlc3VsdBgBIAEoBSJvChlT",
+            "ZWFyY2hMZWFkZXJib2FyZHNSZXF1ZXN0EgwKBG5vdGUYASABKAkSDQoFbW9u",
+            "ZXkYAiABKAESDgoGcmVhc29uGAMgASgJEhMKC2N1cnJlbnRQYWdlGAQgASgF",
+            "EhAKCHBhZ2VTaXplGAUgASgFIpUBCh5QYWdpbmF0aW9uTGVhZGVyYm9hcmRz",
+            "UmVzcG9uc2USEgoKdG90YWxJdGVtcxgBIAEoBRISCgp0b3RhbFBhZ2VzGAIg",
+            "ASgFEhMKC2N1cnJlbnRQYWdlGAMgASgFEhAKCHBhZ2VTaXplGAQgASgFEiQK",
+            "BWl0ZW1zGAUgAygLMhUuTGVhZGVyYm9hcmRzRHVvbmdMbnQynwMKGExlYWRl",
+            "cmJvYXJkc0R1b25nTG50R1JQQxI3CgtHZXRBbGxBc3luYxINLkVtcHR5UmVx",
+            "dWVzdBoZLkxlYWRlcmJvYXJkc0R1b25nTG50TGlzdBJPChBTZWFyY2hXaXRo",
+            "UGFnaW5nEhouU2VhcmNoTGVhZGVyYm9hcmRzUmVxdWVzdBofLlBhZ2luYXRp",
+            "b25MZWFkZXJib2FyZHNSZXNwb25zZRJFCgxHZXRCeUlkQXN5bmMSHi5MZWFk",
+            "ZXJib2FyZHNEdW9uZ0xudElkUmVxdWVzdBoVLkxlYWRlcmJvYXJkc0R1b25n",
+            "TG50EjsKC0NyZWF0ZUFzeW5jEhsuTGVhZGVyYm9hcmRzRHVvbmdMbnRDcmVh",
+            "dGUaDy5NdXRhdGlvblJlc3VsdBI1CgtVcGRhdGVBc3luYxIVLkxlYWRlcmJv",
+            "YXJkc0R1b25nTG50Gg8uTXV0YXRpb25SZXN1bHQSPgoLRGVsZXRlQXN5bmMS",
+            "Hi5MZWFkZXJib2FyZHNEdW9uZ0xudElkUmVxdWVzdBoPLk11dGF0aW9uUmVz",
+            "dWx0QimqAiZTbW9rZVF1aXQuR3JwY1NlcnZpY2VzLkR1b25nTE5ULlByb3Rv",
+            "c2IGcHJvdG8z"));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
             new pbr::GeneratedClrTypeInfo(typeof(global::SmokeQuit.GrpcServices.DuongLNT.Protos.EmptyRequest), global::SmokeQuit.GrpcServices.DuongLNT.Protos.EmptyRequest.Parser, null, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::SmokeQuit.GrpcServices.DuongLNT.Protos.LeaderboardsDuongLntList), global::SmokeQuit.GrpcServices.DuongLNT.Protos.LeaderboardsDuongLntList.Parser, new[]{ "Items" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::SmokeQuit.GrpcServices.DuongLNT.Protos.LeaderboardsDuongLntIdRequest), global::SmokeQuit.GrpcServices.DuongLNT.Protos.LeaderboardsDuongLntIdRequest.Parser, new[]{ "LeaderboardsDuongLntid" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::SmokeQuit.GrpcServices.DuongLNT.Protos.LeaderboardsDuongLnt), global::SmokeQuit.GrpcServices.DuongLNT.Protos.LeaderboardsDuongLnt.Parser, new[]{ "LeaderboardsDuongLntid", "UserId", "PlanId", "DaySmokeFree", "MoneySave", "RankPosition", "TotalAchievements", "ProgressScore", "Note", "StreakCount", "CommunityContribution", "IsTopRanked", "LastUpdate", "CreatedTime" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::SmokeQuit.GrpcServices.DuongLNT.Protos.LeaderboardsDuongLntCreate), global::SmokeQuit.GrpcServices.DuongLNT.Protos.LeaderboardsDuongLntCreate.Parser, new[]{ "UserId", "PlanId", "DaySmokeFree", "MoneySave", "RankPosition", "TotalAchievements", "ProgressScore", "Note", "StreakCount", "CommunityContribution", "IsTopRanked", "LastUpdate", "CreatedTime" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::SmokeQuit.GrpcServices.DuongLNT.Protos.LeaderboardsDuongLntIdRequest), global::SmokeQuit.GrpcServices.DuongLNT.Protos.LeaderboardsDuongLntIdRequest.Parser, new[]{ "LeaderboardsDuongLntid" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::SmokeQuit.GrpcServices.DuongLNT.Protos.MutationResult), global::SmokeQuit.GrpcServices.DuongLNT.Protos.MutationResult.Parser, new[]{ "Result" }, null, null, null, null)
+            new pbr::GeneratedClrTypeInfo(typeof(global::SmokeQuit.GrpcServices.DuongLNT.Protos.MutationResult), global::SmokeQuit.GrpcServices.DuongLNT.Protos.MutationResult.Parser, new[]{ "Result" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::SmokeQuit.GrpcServices.DuongLNT.Protos.SearchLeaderboardsRequest), global::SmokeQuit.GrpcServices.DuongLNT.Protos.SearchLeaderboardsRequest.Parser, new[]{ "Note", "Money", "Reason", "CurrentPage", "PageSize" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::SmokeQuit.GrpcServices.DuongLNT.Protos.PaginationLeaderboardsResponse), global::SmokeQuit.GrpcServices.DuongLNT.Protos.PaginationLeaderboardsResponse.Parser, new[]{ "TotalItems", "TotalPages", "CurrentPage", "PageSize", "Items" }, null, null, null, null)
           }));
     }
     #endregion
@@ -397,6 +407,195 @@ namespace SmokeQuit.GrpcServices.DuongLNT.Protos {
 
   }
 
+  public sealed partial class LeaderboardsDuongLntIdRequest : pb::IMessage<LeaderboardsDuongLntIdRequest>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
+    private static readonly pb::MessageParser<LeaderboardsDuongLntIdRequest> _parser = new pb::MessageParser<LeaderboardsDuongLntIdRequest>(() => new LeaderboardsDuongLntIdRequest());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pb::MessageParser<LeaderboardsDuongLntIdRequest> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::SmokeQuit.GrpcServices.DuongLNT.Protos.LeaderboardsduonglntReflection.Descriptor.MessageTypes[2]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public LeaderboardsDuongLntIdRequest() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public LeaderboardsDuongLntIdRequest(LeaderboardsDuongLntIdRequest other) : this() {
+      leaderboardsDuongLntid_ = other.leaderboardsDuongLntid_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public LeaderboardsDuongLntIdRequest Clone() {
+      return new LeaderboardsDuongLntIdRequest(this);
+    }
+
+    /// <summary>Field number for the "LeaderboardsDuongLntid" field.</summary>
+    public const int LeaderboardsDuongLntidFieldNumber = 1;
+    private int leaderboardsDuongLntid_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public int LeaderboardsDuongLntid {
+      get { return leaderboardsDuongLntid_; }
+      set {
+        leaderboardsDuongLntid_ = value;
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override bool Equals(object other) {
+      return Equals(other as LeaderboardsDuongLntIdRequest);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool Equals(LeaderboardsDuongLntIdRequest other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (LeaderboardsDuongLntid != other.LeaderboardsDuongLntid) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (LeaderboardsDuongLntid != 0) hash ^= LeaderboardsDuongLntid.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
+      if (LeaderboardsDuongLntid != 0) {
+        output.WriteRawTag(8);
+        output.WriteInt32(LeaderboardsDuongLntid);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      if (LeaderboardsDuongLntid != 0) {
+        output.WriteRawTag(8);
+        output.WriteInt32(LeaderboardsDuongLntid);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public int CalculateSize() {
+      int size = 0;
+      if (LeaderboardsDuongLntid != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeInt32Size(LeaderboardsDuongLntid);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(LeaderboardsDuongLntIdRequest other) {
+      if (other == null) {
+        return;
+      }
+      if (other.LeaderboardsDuongLntid != 0) {
+        LeaderboardsDuongLntid = other.LeaderboardsDuongLntid;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 8: {
+            LeaderboardsDuongLntid = input.ReadInt32();
+            break;
+          }
+        }
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+          case 8: {
+            LeaderboardsDuongLntid = input.ReadInt32();
+            break;
+          }
+        }
+      }
+    }
+    #endif
+
+  }
+
   /// <summary>
   ///int -> int32; decimal -> double; datetime -> string; guild -> string
   /// </summary>
@@ -414,7 +613,7 @@ namespace SmokeQuit.GrpcServices.DuongLNT.Protos {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::SmokeQuit.GrpcServices.DuongLNT.Protos.LeaderboardsduonglntReflection.Descriptor.MessageTypes[2]; }
+      get { return global::SmokeQuit.GrpcServices.DuongLNT.Protos.LeaderboardsduonglntReflection.Descriptor.MessageTypes[3]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1084,7 +1283,7 @@ namespace SmokeQuit.GrpcServices.DuongLNT.Protos {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::SmokeQuit.GrpcServices.DuongLNT.Protos.LeaderboardsduonglntReflection.Descriptor.MessageTypes[3]; }
+      get { return global::SmokeQuit.GrpcServices.DuongLNT.Protos.LeaderboardsduonglntReflection.Descriptor.MessageTypes[4]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1703,195 +1902,6 @@ namespace SmokeQuit.GrpcServices.DuongLNT.Protos {
 
   }
 
-  public sealed partial class LeaderboardsDuongLntIdRequest : pb::IMessage<LeaderboardsDuongLntIdRequest>
-  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      , pb::IBufferMessage
-  #endif
-  {
-    private static readonly pb::MessageParser<LeaderboardsDuongLntIdRequest> _parser = new pb::MessageParser<LeaderboardsDuongLntIdRequest>(() => new LeaderboardsDuongLntIdRequest());
-    private pb::UnknownFieldSet _unknownFields;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public static pb::MessageParser<LeaderboardsDuongLntIdRequest> Parser { get { return _parser; } }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public static pbr::MessageDescriptor Descriptor {
-      get { return global::SmokeQuit.GrpcServices.DuongLNT.Protos.LeaderboardsduonglntReflection.Descriptor.MessageTypes[4]; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    pbr::MessageDescriptor pb::IMessage.Descriptor {
-      get { return Descriptor; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public LeaderboardsDuongLntIdRequest() {
-      OnConstruction();
-    }
-
-    partial void OnConstruction();
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public LeaderboardsDuongLntIdRequest(LeaderboardsDuongLntIdRequest other) : this() {
-      leaderboardsDuongLntid_ = other.leaderboardsDuongLntid_;
-      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public LeaderboardsDuongLntIdRequest Clone() {
-      return new LeaderboardsDuongLntIdRequest(this);
-    }
-
-    /// <summary>Field number for the "LeaderboardsDuongLntid" field.</summary>
-    public const int LeaderboardsDuongLntidFieldNumber = 1;
-    private int leaderboardsDuongLntid_;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public int LeaderboardsDuongLntid {
-      get { return leaderboardsDuongLntid_; }
-      set {
-        leaderboardsDuongLntid_ = value;
-      }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public override bool Equals(object other) {
-      return Equals(other as LeaderboardsDuongLntIdRequest);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public bool Equals(LeaderboardsDuongLntIdRequest other) {
-      if (ReferenceEquals(other, null)) {
-        return false;
-      }
-      if (ReferenceEquals(other, this)) {
-        return true;
-      }
-      if (LeaderboardsDuongLntid != other.LeaderboardsDuongLntid) return false;
-      return Equals(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public override int GetHashCode() {
-      int hash = 1;
-      if (LeaderboardsDuongLntid != 0) hash ^= LeaderboardsDuongLntid.GetHashCode();
-      if (_unknownFields != null) {
-        hash ^= _unknownFields.GetHashCode();
-      }
-      return hash;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public override string ToString() {
-      return pb::JsonFormatter.ToDiagnosticString(this);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void WriteTo(pb::CodedOutputStream output) {
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      output.WriteRawMessage(this);
-    #else
-      if (LeaderboardsDuongLntid != 0) {
-        output.WriteRawTag(8);
-        output.WriteInt32(LeaderboardsDuongLntid);
-      }
-      if (_unknownFields != null) {
-        _unknownFields.WriteTo(output);
-      }
-    #endif
-    }
-
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
-      if (LeaderboardsDuongLntid != 0) {
-        output.WriteRawTag(8);
-        output.WriteInt32(LeaderboardsDuongLntid);
-      }
-      if (_unknownFields != null) {
-        _unknownFields.WriteTo(ref output);
-      }
-    }
-    #endif
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public int CalculateSize() {
-      int size = 0;
-      if (LeaderboardsDuongLntid != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeInt32Size(LeaderboardsDuongLntid);
-      }
-      if (_unknownFields != null) {
-        size += _unknownFields.CalculateSize();
-      }
-      return size;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void MergeFrom(LeaderboardsDuongLntIdRequest other) {
-      if (other == null) {
-        return;
-      }
-      if (other.LeaderboardsDuongLntid != 0) {
-        LeaderboardsDuongLntid = other.LeaderboardsDuongLntid;
-      }
-      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void MergeFrom(pb::CodedInputStream input) {
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      input.ReadRawMessage(this);
-    #else
-      uint tag;
-      while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
-          default:
-            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
-            break;
-          case 8: {
-            LeaderboardsDuongLntid = input.ReadInt32();
-            break;
-          }
-        }
-      }
-    #endif
-    }
-
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
-      uint tag;
-      while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
-          default:
-            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
-            break;
-          case 8: {
-            LeaderboardsDuongLntid = input.ReadInt32();
-            break;
-          }
-        }
-      }
-    }
-    #endif
-
-  }
-
   public sealed partial class MutationResult : pb::IMessage<MutationResult>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -2072,6 +2082,672 @@ namespace SmokeQuit.GrpcServices.DuongLNT.Protos {
             break;
           case 8: {
             Result = input.ReadInt32();
+            break;
+          }
+        }
+      }
+    }
+    #endif
+
+  }
+
+  public sealed partial class SearchLeaderboardsRequest : pb::IMessage<SearchLeaderboardsRequest>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
+    private static readonly pb::MessageParser<SearchLeaderboardsRequest> _parser = new pb::MessageParser<SearchLeaderboardsRequest>(() => new SearchLeaderboardsRequest());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pb::MessageParser<SearchLeaderboardsRequest> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::SmokeQuit.GrpcServices.DuongLNT.Protos.LeaderboardsduonglntReflection.Descriptor.MessageTypes[6]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public SearchLeaderboardsRequest() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public SearchLeaderboardsRequest(SearchLeaderboardsRequest other) : this() {
+      note_ = other.note_;
+      money_ = other.money_;
+      reason_ = other.reason_;
+      currentPage_ = other.currentPage_;
+      pageSize_ = other.pageSize_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public SearchLeaderboardsRequest Clone() {
+      return new SearchLeaderboardsRequest(this);
+    }
+
+    /// <summary>Field number for the "note" field.</summary>
+    public const int NoteFieldNumber = 1;
+    private string note_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string Note {
+      get { return note_; }
+      set {
+        note_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "money" field.</summary>
+    public const int MoneyFieldNumber = 2;
+    private double money_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public double Money {
+      get { return money_; }
+      set {
+        money_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "reason" field.</summary>
+    public const int ReasonFieldNumber = 3;
+    private string reason_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string Reason {
+      get { return reason_; }
+      set {
+        reason_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "currentPage" field.</summary>
+    public const int CurrentPageFieldNumber = 4;
+    private int currentPage_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public int CurrentPage {
+      get { return currentPage_; }
+      set {
+        currentPage_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "pageSize" field.</summary>
+    public const int PageSizeFieldNumber = 5;
+    private int pageSize_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public int PageSize {
+      get { return pageSize_; }
+      set {
+        pageSize_ = value;
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override bool Equals(object other) {
+      return Equals(other as SearchLeaderboardsRequest);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool Equals(SearchLeaderboardsRequest other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (Note != other.Note) return false;
+      if (!pbc::ProtobufEqualityComparers.BitwiseDoubleEqualityComparer.Equals(Money, other.Money)) return false;
+      if (Reason != other.Reason) return false;
+      if (CurrentPage != other.CurrentPage) return false;
+      if (PageSize != other.PageSize) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (Note.Length != 0) hash ^= Note.GetHashCode();
+      if (Money != 0D) hash ^= pbc::ProtobufEqualityComparers.BitwiseDoubleEqualityComparer.GetHashCode(Money);
+      if (Reason.Length != 0) hash ^= Reason.GetHashCode();
+      if (CurrentPage != 0) hash ^= CurrentPage.GetHashCode();
+      if (PageSize != 0) hash ^= PageSize.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
+      if (Note.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(Note);
+      }
+      if (Money != 0D) {
+        output.WriteRawTag(17);
+        output.WriteDouble(Money);
+      }
+      if (Reason.Length != 0) {
+        output.WriteRawTag(26);
+        output.WriteString(Reason);
+      }
+      if (CurrentPage != 0) {
+        output.WriteRawTag(32);
+        output.WriteInt32(CurrentPage);
+      }
+      if (PageSize != 0) {
+        output.WriteRawTag(40);
+        output.WriteInt32(PageSize);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      if (Note.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(Note);
+      }
+      if (Money != 0D) {
+        output.WriteRawTag(17);
+        output.WriteDouble(Money);
+      }
+      if (Reason.Length != 0) {
+        output.WriteRawTag(26);
+        output.WriteString(Reason);
+      }
+      if (CurrentPage != 0) {
+        output.WriteRawTag(32);
+        output.WriteInt32(CurrentPage);
+      }
+      if (PageSize != 0) {
+        output.WriteRawTag(40);
+        output.WriteInt32(PageSize);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public int CalculateSize() {
+      int size = 0;
+      if (Note.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Note);
+      }
+      if (Money != 0D) {
+        size += 1 + 8;
+      }
+      if (Reason.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Reason);
+      }
+      if (CurrentPage != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeInt32Size(CurrentPage);
+      }
+      if (PageSize != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeInt32Size(PageSize);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(SearchLeaderboardsRequest other) {
+      if (other == null) {
+        return;
+      }
+      if (other.Note.Length != 0) {
+        Note = other.Note;
+      }
+      if (other.Money != 0D) {
+        Money = other.Money;
+      }
+      if (other.Reason.Length != 0) {
+        Reason = other.Reason;
+      }
+      if (other.CurrentPage != 0) {
+        CurrentPage = other.CurrentPage;
+      }
+      if (other.PageSize != 0) {
+        PageSize = other.PageSize;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            Note = input.ReadString();
+            break;
+          }
+          case 17: {
+            Money = input.ReadDouble();
+            break;
+          }
+          case 26: {
+            Reason = input.ReadString();
+            break;
+          }
+          case 32: {
+            CurrentPage = input.ReadInt32();
+            break;
+          }
+          case 40: {
+            PageSize = input.ReadInt32();
+            break;
+          }
+        }
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+          case 10: {
+            Note = input.ReadString();
+            break;
+          }
+          case 17: {
+            Money = input.ReadDouble();
+            break;
+          }
+          case 26: {
+            Reason = input.ReadString();
+            break;
+          }
+          case 32: {
+            CurrentPage = input.ReadInt32();
+            break;
+          }
+          case 40: {
+            PageSize = input.ReadInt32();
+            break;
+          }
+        }
+      }
+    }
+    #endif
+
+  }
+
+  /// <summary>
+  ///Định nghĩa response
+  /// </summary>
+  public sealed partial class PaginationLeaderboardsResponse : pb::IMessage<PaginationLeaderboardsResponse>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
+    private static readonly pb::MessageParser<PaginationLeaderboardsResponse> _parser = new pb::MessageParser<PaginationLeaderboardsResponse>(() => new PaginationLeaderboardsResponse());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pb::MessageParser<PaginationLeaderboardsResponse> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::SmokeQuit.GrpcServices.DuongLNT.Protos.LeaderboardsduonglntReflection.Descriptor.MessageTypes[7]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public PaginationLeaderboardsResponse() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public PaginationLeaderboardsResponse(PaginationLeaderboardsResponse other) : this() {
+      totalItems_ = other.totalItems_;
+      totalPages_ = other.totalPages_;
+      currentPage_ = other.currentPage_;
+      pageSize_ = other.pageSize_;
+      items_ = other.items_.Clone();
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public PaginationLeaderboardsResponse Clone() {
+      return new PaginationLeaderboardsResponse(this);
+    }
+
+    /// <summary>Field number for the "totalItems" field.</summary>
+    public const int TotalItemsFieldNumber = 1;
+    private int totalItems_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public int TotalItems {
+      get { return totalItems_; }
+      set {
+        totalItems_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "totalPages" field.</summary>
+    public const int TotalPagesFieldNumber = 2;
+    private int totalPages_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public int TotalPages {
+      get { return totalPages_; }
+      set {
+        totalPages_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "currentPage" field.</summary>
+    public const int CurrentPageFieldNumber = 3;
+    private int currentPage_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public int CurrentPage {
+      get { return currentPage_; }
+      set {
+        currentPage_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "pageSize" field.</summary>
+    public const int PageSizeFieldNumber = 4;
+    private int pageSize_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public int PageSize {
+      get { return pageSize_; }
+      set {
+        pageSize_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "items" field.</summary>
+    public const int ItemsFieldNumber = 5;
+    private static readonly pb::FieldCodec<global::SmokeQuit.GrpcServices.DuongLNT.Protos.LeaderboardsDuongLnt> _repeated_items_codec
+        = pb::FieldCodec.ForMessage(42, global::SmokeQuit.GrpcServices.DuongLNT.Protos.LeaderboardsDuongLnt.Parser);
+    private readonly pbc::RepeatedField<global::SmokeQuit.GrpcServices.DuongLNT.Protos.LeaderboardsDuongLnt> items_ = new pbc::RepeatedField<global::SmokeQuit.GrpcServices.DuongLNT.Protos.LeaderboardsDuongLnt>();
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public pbc::RepeatedField<global::SmokeQuit.GrpcServices.DuongLNT.Protos.LeaderboardsDuongLnt> Items {
+      get { return items_; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override bool Equals(object other) {
+      return Equals(other as PaginationLeaderboardsResponse);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool Equals(PaginationLeaderboardsResponse other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (TotalItems != other.TotalItems) return false;
+      if (TotalPages != other.TotalPages) return false;
+      if (CurrentPage != other.CurrentPage) return false;
+      if (PageSize != other.PageSize) return false;
+      if(!items_.Equals(other.items_)) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (TotalItems != 0) hash ^= TotalItems.GetHashCode();
+      if (TotalPages != 0) hash ^= TotalPages.GetHashCode();
+      if (CurrentPage != 0) hash ^= CurrentPage.GetHashCode();
+      if (PageSize != 0) hash ^= PageSize.GetHashCode();
+      hash ^= items_.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
+      if (TotalItems != 0) {
+        output.WriteRawTag(8);
+        output.WriteInt32(TotalItems);
+      }
+      if (TotalPages != 0) {
+        output.WriteRawTag(16);
+        output.WriteInt32(TotalPages);
+      }
+      if (CurrentPage != 0) {
+        output.WriteRawTag(24);
+        output.WriteInt32(CurrentPage);
+      }
+      if (PageSize != 0) {
+        output.WriteRawTag(32);
+        output.WriteInt32(PageSize);
+      }
+      items_.WriteTo(output, _repeated_items_codec);
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      if (TotalItems != 0) {
+        output.WriteRawTag(8);
+        output.WriteInt32(TotalItems);
+      }
+      if (TotalPages != 0) {
+        output.WriteRawTag(16);
+        output.WriteInt32(TotalPages);
+      }
+      if (CurrentPage != 0) {
+        output.WriteRawTag(24);
+        output.WriteInt32(CurrentPage);
+      }
+      if (PageSize != 0) {
+        output.WriteRawTag(32);
+        output.WriteInt32(PageSize);
+      }
+      items_.WriteTo(ref output, _repeated_items_codec);
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public int CalculateSize() {
+      int size = 0;
+      if (TotalItems != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeInt32Size(TotalItems);
+      }
+      if (TotalPages != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeInt32Size(TotalPages);
+      }
+      if (CurrentPage != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeInt32Size(CurrentPage);
+      }
+      if (PageSize != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeInt32Size(PageSize);
+      }
+      size += items_.CalculateSize(_repeated_items_codec);
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(PaginationLeaderboardsResponse other) {
+      if (other == null) {
+        return;
+      }
+      if (other.TotalItems != 0) {
+        TotalItems = other.TotalItems;
+      }
+      if (other.TotalPages != 0) {
+        TotalPages = other.TotalPages;
+      }
+      if (other.CurrentPage != 0) {
+        CurrentPage = other.CurrentPage;
+      }
+      if (other.PageSize != 0) {
+        PageSize = other.PageSize;
+      }
+      items_.Add(other.items_);
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 8: {
+            TotalItems = input.ReadInt32();
+            break;
+          }
+          case 16: {
+            TotalPages = input.ReadInt32();
+            break;
+          }
+          case 24: {
+            CurrentPage = input.ReadInt32();
+            break;
+          }
+          case 32: {
+            PageSize = input.ReadInt32();
+            break;
+          }
+          case 42: {
+            items_.AddEntriesFrom(input, _repeated_items_codec);
+            break;
+          }
+        }
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+          case 8: {
+            TotalItems = input.ReadInt32();
+            break;
+          }
+          case 16: {
+            TotalPages = input.ReadInt32();
+            break;
+          }
+          case 24: {
+            CurrentPage = input.ReadInt32();
+            break;
+          }
+          case 32: {
+            PageSize = input.ReadInt32();
+            break;
+          }
+          case 42: {
+            items_.AddEntriesFrom(ref input, _repeated_items_codec);
             break;
           }
         }

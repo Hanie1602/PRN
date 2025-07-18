@@ -5,6 +5,7 @@ option csharp_namespace = "SmokeQuit.GrpcServices.DuongLNT.Protos";
 //Định nghĩa service
 service LeaderboardsDuongLntGRPC{
 	rpc GetAllAsync(EmptyRequest) returns (LeaderboardsDuongLntList);
+	rpc SearchWithPaging(SearchLeaderboardsRequest) returns (PaginationLeaderboardsResponse);
 	rpc GetByIdAsync(LeaderboardsDuongLntIdRequest) returns (LeaderboardsDuongLnt);
 
 	rpc CreateAsync(LeaderboardsDuongLntCreate) returns(MutationResult);
@@ -16,6 +17,10 @@ message EmptyRequest{}
 
 message LeaderboardsDuongLntList{
 	repeated LeaderboardsDuongLnt Items = 1;
+}
+
+message LeaderboardsDuongLntIdRequest {
+	int32 LeaderboardsDuongLntid = 1;
 }
 
 //int -> int32; decimal -> double; datetime -> string; guild -> string
@@ -54,10 +59,23 @@ message LeaderboardsDuongLntCreate
 	string CreatedTime = 13;
 }
 
-message LeaderboardsDuongLntIdRequest {
-	int32 LeaderboardsDuongLntid = 1;
-}
-
 message MutationResult{
 	int32 result = 1;
+}
+
+message SearchLeaderboardsRequest {
+	string note = 1;
+	double money = 2;
+	string reason = 3;
+	int32 currentPage = 4;
+	int32 pageSize = 5;
+}
+
+//Định nghĩa response
+message PaginationLeaderboardsResponse {
+	int32 totalItems = 1;
+	int32 totalPages = 2;
+	int32 currentPage = 3;
+	int32 pageSize = 4;
+	repeated LeaderboardsDuongLnt items = 5;
 }

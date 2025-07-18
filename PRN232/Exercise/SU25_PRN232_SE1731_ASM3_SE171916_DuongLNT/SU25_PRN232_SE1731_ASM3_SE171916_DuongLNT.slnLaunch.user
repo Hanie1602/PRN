@@ -7,7 +7,7 @@
         "Action": "Start"
       },
       {
-        "Path": "SmokeQuit.GrpcClient.ConsoleApp.DuongLNT\\SmokeQuit.GrpcClient.ConsoleApp.DuongLNT.csproj",
+        "Path": "SmokeQuit.GrpcClient.BlazorWebApp.DuongLNT\\SmokeQuit.GrpcClient.BlazorWebApp.DuongLNT.csproj",
         "Action": "Start"
       }
     ]

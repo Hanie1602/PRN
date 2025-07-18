@@ -53,6 +53,10 @@ namespace SmokeQuit.GrpcServices.DuongLNT.Protos {
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Marshaller<global::SmokeQuit.GrpcServices.DuongLNT.Protos.LeaderboardsDuongLntList> __Marshaller_LeaderboardsDuongLntList = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::SmokeQuit.GrpcServices.DuongLNT.Protos.LeaderboardsDuongLntList.Parser));
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Marshaller<global::SmokeQuit.GrpcServices.DuongLNT.Protos.SearchLeaderboardsRequest> __Marshaller_SearchLeaderboardsRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::SmokeQuit.GrpcServices.DuongLNT.Protos.SearchLeaderboardsRequest.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Marshaller<global::SmokeQuit.GrpcServices.DuongLNT.Protos.PaginationLeaderboardsResponse> __Marshaller_PaginationLeaderboardsResponse = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::SmokeQuit.GrpcServices.DuongLNT.Protos.PaginationLeaderboardsResponse.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Marshaller<global::SmokeQuit.GrpcServices.DuongLNT.Protos.LeaderboardsDuongLntIdRequest> __Marshaller_LeaderboardsDuongLntIdRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::SmokeQuit.GrpcServices.DuongLNT.Protos.LeaderboardsDuongLntIdRequest.Parser));
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Marshaller<global::SmokeQuit.GrpcServices.DuongLNT.Protos.LeaderboardsDuongLnt> __Marshaller_LeaderboardsDuongLnt = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::SmokeQuit.GrpcServices.DuongLNT.Protos.LeaderboardsDuongLnt.Parser));
@@ -68,6 +72,14 @@ namespace SmokeQuit.GrpcServices.DuongLNT.Protos {
         "GetAllAsync",
         __Marshaller_EmptyRequest,
         __Marshaller_LeaderboardsDuongLntList);
+
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Method<global::SmokeQuit.GrpcServices.DuongLNT.Protos.SearchLeaderboardsRequest, global::SmokeQuit.GrpcServices.DuongLNT.Protos.PaginationLeaderboardsResponse> __Method_SearchWithPaging = new grpc::Method<global::SmokeQuit.GrpcServices.DuongLNT.Protos.SearchLeaderboardsRequest, global::SmokeQuit.GrpcServices.DuongLNT.Protos.PaginationLeaderboardsResponse>(
+        grpc::MethodType.Unary,
+        __ServiceName,
+        "SearchWithPaging",
+        __Marshaller_SearchLeaderboardsRequest,
+        __Marshaller_PaginationLeaderboardsResponse);
 
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Method<global::SmokeQuit.GrpcServices.DuongLNT.Protos.LeaderboardsDuongLntIdRequest, global::SmokeQuit.GrpcServices.DuongLNT.Protos.LeaderboardsDuongLnt> __Method_GetByIdAsync = new grpc::Method<global::SmokeQuit.GrpcServices.DuongLNT.Protos.LeaderboardsDuongLntIdRequest, global::SmokeQuit.GrpcServices.DuongLNT.Protos.LeaderboardsDuongLnt>(
@@ -118,6 +130,12 @@ namespace SmokeQuit.GrpcServices.DuongLNT.Protos {
       }
 
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::System.Threading.Tasks.Task<global::SmokeQuit.GrpcServices.DuongLNT.Protos.PaginationLeaderboardsResponse> SearchWithPaging(global::SmokeQuit.GrpcServices.DuongLNT.Protos.SearchLeaderboardsRequest request, grpc::ServerCallContext context)
+      {
+        throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
+      }
+
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual global::System.Threading.Tasks.Task<global::SmokeQuit.GrpcServices.DuongLNT.Protos.LeaderboardsDuongLnt> GetByIdAsync(global::SmokeQuit.GrpcServices.DuongLNT.Protos.LeaderboardsDuongLntIdRequest request, grpc::ServerCallContext context)
       {
         throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
@@ -150,6 +168,7 @@ namespace SmokeQuit.GrpcServices.DuongLNT.Protos {
     {
       return grpc::ServerServiceDefinition.CreateBuilder()
           .AddMethod(__Method_GetAllAsync, serviceImpl.GetAllAsync)
+          .AddMethod(__Method_SearchWithPaging, serviceImpl.SearchWithPaging)
           .AddMethod(__Method_GetByIdAsync, serviceImpl.GetByIdAsync)
           .AddMethod(__Method_CreateAsync, serviceImpl.CreateAsync)
           .AddMethod(__Method_UpdateAsync, serviceImpl.UpdateAsync)
@@ -164,6 +183,7 @@ namespace SmokeQuit.GrpcServices.DuongLNT.Protos {
     public static void BindService(grpc::ServiceBinderBase serviceBinder, LeaderboardsDuongLntGRPCBase serviceImpl)
     {
       serviceBinder.AddMethod(__Method_GetAllAsync, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::SmokeQuit.GrpcServices.DuongLNT.Protos.EmptyRequest, global::SmokeQuit.GrpcServices.DuongLNT.Protos.LeaderboardsDuongLntList>(serviceImpl.GetAllAsync));
+      serviceBinder.AddMethod(__Method_SearchWithPaging, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::SmokeQuit.GrpcServices.DuongLNT.Protos.SearchLeaderboardsRequest, global::SmokeQuit.GrpcServices.DuongLNT.Protos.PaginationLeaderboardsResponse>(serviceImpl.SearchWithPaging));
       serviceBinder.AddMethod(__Method_GetByIdAsync, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::SmokeQuit.GrpcServices.DuongLNT.Protos.LeaderboardsDuongLntIdRequest, global::SmokeQuit.GrpcServices.DuongLNT.Protos.LeaderboardsDuongLnt>(serviceImpl.GetByIdAsync));
       serviceBinder.AddMethod(__Method_CreateAsync, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::SmokeQuit.GrpcServices.DuongLNT.Protos.LeaderboardsDuongLntCreate, global::SmokeQuit.GrpcServices.DuongLNT.Protos.MutationResult>(serviceImpl.CreateAsync));
       serviceBinder.AddMethod(__Method_UpdateAsync, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::SmokeQuit.GrpcServices.DuongLNT.Protos.LeaderboardsDuongLnt, global::SmokeQuit.GrpcServices.DuongLNT.Protos.MutationResult>(serviceImpl.UpdateAsync));

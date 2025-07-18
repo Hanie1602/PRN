@@ -1,0 +1,145 @@
+@page "/Leaderboard"
+@using SmokeQuit.GrpcServices.DuongLNT.Protos
+@inject LeaderboardsDuongLntGRPC.LeaderboardsDuongLntGRPCClient GrpcClient
+
+<h3>Leaderboards</h3>
+
+<div class="mb-2">
+    <a class="btn btn-success" href="/leaderboard/form">➕ Create New</a>
+</div>
+
+<div class="row g-2 mb-3">
+    <div class="col-md-3">
+        <InputText class="form-control" @bind-Value="search.Note" placeholder="Note" />
+    </div>
+    <div class="col-md-3">
+        <InputText class="form-control" @bind-Value="search.Reason" placeholder="Reason" />
+    </div>
+    <div class="col-md-3">
+        <InputNumber class="form-control" @bind-Value="search.Money" placeholder="Money" />
+    </div>
+    <div class="col-md-3">
+        <button class="btn btn-primary" @onclick="async () => await Search()">🔍 Search</button>
+    </div>
+</div>
+
+<p>
+    Debug: CurrentPage = @search.CurrentPage |
+    Note = @search.Note |
+    Reason = @search.Reason |
+    Money = @search.Money
+</p>
+
+@if (result != null)
+{
+    <p>Total Items: @result.TotalItems | Page @result.CurrentPage / @result.TotalPages</p>
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Note</th>
+                <th>Money Save</th>
+                <th>Day Smoke Free</th>
+                <th>Plan ID</th>
+                <th>User ID</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            @foreach (var item in result.Items)
+            {
+                <tr>
+                    <td>@item.LeaderboardsDuongLntid</td>
+                    <td>@item.Note</td>
+                    <td>@item.MoneySave</td>
+                    <td>@item.DaySmokeFree</td>
+                    <td>@item.PlanId</td>
+                    <td>@item.UserId</td>
+                    <td>
+                        <a class="btn btn-sm btn-warning" href="/leaderboard/form/@item.LeaderboardsDuongLntid">✏️ Edit</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+
+@if (result != null && result.TotalPages > 1)
+{
+    <nav aria-label="Page navigation" class="mt-3">
+        <ul class="pagination justify-content-center">
+            <li class="page-item @(search.CurrentPage == 1 ? "disabled" : "")">
+                <button class="page-link" @onclick="GoToPreviousPage">Previous</button>
+            </li>
+
+            @foreach (var page in PageNumbers)
+            {
+                <li class="page-item @(search.CurrentPage == page ? "active" : "")">
+                    <button class="page-link" @onclick="async () => await GoToPage(page)">
+                        @(@page)
+                    </button>
+                </li>
+            }
+
+            <li class="page-item @(search.CurrentPage == result.TotalPages ? "disabled" : "")">
+                <button class="page-link" @onclick="GoToNextPage">Next</button>
+            </li>
+        </ul>
+    </nav>
+}
+
+
+@code {
+    private SearchLeaderboardsRequest search = new()
+        {
+            Note = "",
+            Reason = "",
+            Money = 0,
+            CurrentPage = 1,
+            PageSize = 5
+        };
+
+    private PaginationLeaderboardsResponse? result;
+    private List<int> PageNumbers = new();
+
+    protected override async Task OnInitializedAsync()
+    {
+        await Search();
+    }
+
+    private async Task Search()
+    {
+        result = await GrpcClient.SearchWithPagingAsync(search);
+
+        // Tạo danh sách số trang
+        PageNumbers = Enumerable.Range(1, result.TotalPages).ToList();
+    }
+
+    private async Task GoToPage(int page)
+    {
+        search.CurrentPage = page;
+        await Search();
+    }
+
+    private async Task GoToPreviousPage()
+    {
+        if (search.CurrentPage > 1)
+        {
+            search.CurrentPage--;
+            await Search();
+        }
+    }
+
+    private async Task GoToNextPage()
+    {
+        if (result != null && search.CurrentPage < result.TotalPages)
+        {
+            search.CurrentPage++;
+            await Search();
+        }
+    }
+}
+
+

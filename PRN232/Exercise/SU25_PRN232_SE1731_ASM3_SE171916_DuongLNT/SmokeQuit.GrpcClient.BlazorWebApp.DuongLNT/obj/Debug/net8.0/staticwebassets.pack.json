@@ -1,0 +1,45 @@
+{
+  "Files": [
+    {
+      "Id": "E:\\Github\\PRNN\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM3_SE171916_DuongLNT\\SmokeQuit.GrpcClient.BlazorWebApp.DuongLNT\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\SmokeQuit.GrpcClient.BlazorWebApp.DuongLNT.bundle.scp.css",
+      "PackagePath": "staticwebassets\\SmokeQuit.GrpcClient.BlazorWebApp.DuongLNT.arwz76120n.bundle.scp.css"
+    },
+    {
+      "Id": "E:\\Github\\PRNN\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM3_SE171916_DuongLNT\\SmokeQuit.GrpcClient.BlazorWebApp.DuongLNT\\wwwroot\\app.css",
+      "PackagePath": "staticwebassets\\app.css"
+    },
+    {
+      "Id": "E:\\Github\\PRNN\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM3_SE171916_DuongLNT\\SmokeQuit.GrpcClient.BlazorWebApp.DuongLNT\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "E:\\Github\\PRNN\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM3_SE171916_DuongLNT\\SmokeQuit.GrpcClient.BlazorWebApp.DuongLNT\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "E:\\Github\\PRNN\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM3_SE171916_DuongLNT\\SmokeQuit.GrpcClient.BlazorWebApp.DuongLNT\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.SmokeQuit.GrpcClient.BlazorWebApp.DuongLNT.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.SmokeQuit.GrpcClient.BlazorWebApp.DuongLNT.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.SmokeQuit.GrpcClient.BlazorWebApp.DuongLNT.props",
+      "PackagePath": "build\\SmokeQuit.GrpcClient.BlazorWebApp.DuongLNT.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.SmokeQuit.GrpcClient.BlazorWebApp.DuongLNT.props",
+      "PackagePath": "buildMultiTargeting\\SmokeQuit.GrpcClient.BlazorWebApp.DuongLNT.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.SmokeQuit.GrpcClient.BlazorWebApp.DuongLNT.props",
+      "PackagePath": "buildTransitive\\SmokeQuit.GrpcClient.BlazorWebApp.DuongLNT.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

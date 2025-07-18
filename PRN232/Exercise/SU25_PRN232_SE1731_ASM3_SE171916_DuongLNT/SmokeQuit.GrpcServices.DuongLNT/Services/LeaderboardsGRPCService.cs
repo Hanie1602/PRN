@@ -11,6 +11,7 @@ namespace SmokeQuit.GrpcServices.DuongLNT.Services
 
 		public LeaderboardsGRPCService(IServiceProviders serviceProviders) => _serviceProviders = serviceProviders;
 
+		#region Get All
 		public override async Task<LeaderboardsDuongLntList> GetAllAsync(EmptyRequest request, ServerCallContext context)
 		{
 			var result = new LeaderboardsDuongLntList();
@@ -29,7 +30,53 @@ namespace SmokeQuit.GrpcServices.DuongLNT.Services
 
 			return result;
 		}
+		#endregion
 
+		#region Get All có search và phân trang
+		public override async Task<PaginationLeaderboardsResponse> SearchWithPaging(SearchLeaderboardsRequest request, ServerCallContext context)
+		{
+			var response = new PaginationLeaderboardsResponse();
+
+			try
+			{
+				var searchRequest = new SmokeQuit.Repositories.DuongLNT.ModelExtensions.SearchLeaderboardsRequest
+				{
+					Note = request.Note,
+					Money = request.Money,
+					Reason = request.Reason,
+					CurrentPage = request.CurrentPage,
+					PageSize = request.PageSize
+				};
+
+				var result = await _serviceProviders.LeaderboardsDuongLntService.SearchNew(searchRequest);
+
+				response.TotalItems = result.TotalItems;
+				response.TotalPages = result.TotalPages;
+				response.CurrentPage = result.CurrentPage;
+				response.PageSize = result.PageSize;
+
+				//Dùng Json serialize
+				var opt = new JsonSerializerOptions
+				{
+					ReferenceHandler = ReferenceHandler.IgnoreCycles,
+					DefaultIgnoreCondition = JsonIgnoreCondition.WhenWritingNull
+				};
+
+				var json = JsonSerializer.Serialize(result.Items, opt);
+				var items = JsonSerializer.Deserialize<List<LeaderboardsDuongLnt>>(json, opt);
+
+				response.Items.AddRange(items);
+			}
+			catch (Exception ex)
+			{
+				Console.WriteLine($"Error in SearchWithPaging: {ex.Message}");
+			}
+
+			return response;
+		}
+		#endregion
+
+		#region Get By Id
 		public override async Task<LeaderboardsDuongLnt> GetByIdAsync(LeaderboardsDuongLntIdRequest request, ServerCallContext context)
 		{
 			try
@@ -46,7 +93,9 @@ namespace SmokeQuit.GrpcServices.DuongLNT.Services
 
 			return new LeaderboardsDuongLnt();
 		}
+		#endregion
 
+		#region Create
 		public override async Task<MutationResult> CreateAsync(LeaderboardsDuongLntCreate request, ServerCallContext context)
 		{
 			try
@@ -86,10 +135,12 @@ namespace SmokeQuit.GrpcServices.DuongLNT.Services
 			//      "IsTopRanked": false,
 			//      "LastUpdate": "2025-06-03T10:48:41.34",
 			//      "CreatedTime": "2025-06-03T10:48:41.34"
-			//}
+			//	}
 			#endregion
 		}
+		#endregion
 
+		#region Update
 		public override async Task<MutationResult> UpdateAsync(LeaderboardsDuongLnt request, ServerCallContext context)
 		{
 			try
@@ -127,7 +178,9 @@ namespace SmokeQuit.GrpcServices.DuongLNT.Services
 			//}
 			#endregion
 		}
+		#endregion
 
+		#region Delete
 		public override async Task<MutationResult> DeleteAsync(LeaderboardsDuongLntIdRequest request, ServerCallContext context)
 		{
 			try
@@ -147,6 +200,7 @@ namespace SmokeQuit.GrpcServices.DuongLNT.Services
 			//}
 			#endregion
 		}
+		#endregion
 
 	}
 }

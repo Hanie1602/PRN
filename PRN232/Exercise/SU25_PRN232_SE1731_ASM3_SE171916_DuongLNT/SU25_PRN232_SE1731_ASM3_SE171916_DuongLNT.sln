@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmokeQuit.GrpcServices.Duon
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmokeQuit.GrpcClient.ConsoleApp.DuongLNT", "SmokeQuit.GrpcClient.ConsoleApp.DuongLNT\SmokeQuit.GrpcClient.ConsoleApp.DuongLNT.csproj", "{D83FBE4D-0FA6-4F33-9C7B-E8144A73A670}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmokeQuit.GrpcClient.BlazorWebApp.DuongLNT", "SmokeQuit.GrpcClient.BlazorWebApp.DuongLNT\SmokeQuit.GrpcClient.BlazorWebApp.DuongLNT.csproj", "{C9CB48A2-81EE-4D0E-85B2-1912A30939E6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{D83FBE4D-0FA6-4F33-9C7B-E8144A73A670}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D83FBE4D-0FA6-4F33-9C7B-E8144A73A670}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D83FBE4D-0FA6-4F33-9C7B-E8144A73A670}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C9CB48A2-81EE-4D0E-85B2-1912A30939E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9CB48A2-81EE-4D0E-85B2-1912A30939E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9CB48A2-81EE-4D0E-85B2-1912A30939E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9CB48A2-81EE-4D0E-85B2-1912A30939E6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

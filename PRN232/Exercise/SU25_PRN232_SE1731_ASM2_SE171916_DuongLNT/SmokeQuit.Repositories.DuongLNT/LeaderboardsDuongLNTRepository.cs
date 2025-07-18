@@ -40,6 +40,7 @@ namespace SmokeQuit.Repositories.DuongLNT
 			var leaderboards = await _context.LeaderboardsDuongLnts
 				.Include(l => l.Plan)
 				.Include(l => l.User)
+				.OrderByDescending(l => l.CreatedTime)
 				.Where(l =>
 					(l.Note.Contains(note) || string.IsNullOrEmpty(note))
 					&& (l.MoneySave == money || money == null || money == 0)

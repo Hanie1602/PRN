@@ -11,8 +11,6 @@ namespace SmokeQuit.Services.DuongLNT
 
 		Task<List<LeaderboardsDuongLnt>> SearchAsync(string? note, double money, string? reason);
 
-		Task<PaginationResult<List<LeaderboardsDuongLnt>>> SearchWithPagingAsync(string note, double money, string reason, int currentPage, int pageSize);
-
 		Task<PaginationResult<List<LeaderboardsDuongLnt>>> GetAllWithPagingAsync(int currentPage, int pageSize);
 
 		Task<PaginationResult<List<LeaderboardsDuongLnt>>> SearchNew(SearchLeaderboardsRequest search);

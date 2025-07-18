@@ -8,6 +8,7 @@ namespace SmokeQuit.Repositories.DuongLNT.Models;
 
 public partial class LeaderboardsDuongLnt
 {
+	[Key]
 	public int? LeaderboardsDuongLntid { get; set; }
 
 	[Required(ErrorMessage = "User Id không được để trống.")]

@@ -1,0 +1,78 @@
+﻿@page "/leaderboard/form/{Id:int?}"
+
+@inject LeaderboardsDuongLntGRPC.LeaderboardsDuongLntGRPCClient GrpcClient
+@inject NavigationManager NavManager
+
+<h3>@(IsUpdate ? "Update" : "Create") Leaderboard</h3>
+
+<EditForm Model="model" OnValidSubmit="HandleSubmit" FormName="leaderboardForm">
+    <DataAnnotationsValidator />
+    <ValidationSummary />
+
+    <InputText class="form-control mb-2" @bind-Value="model.Note" placeholder="Note" />
+    <InputNumber class="form-control mb-2" @bind-Value="model.MoneySave" placeholder="Money Save" />
+    <InputNumber class="form-control mb-2" @bind-Value="model.DaySmokeFree" placeholder="Day Smoke Free" />
+    <InputNumber class="form-control mb-2" @bind-Value="model.PlanId" placeholder="Plan ID" />
+    <InputNumber class="form-control mb-2" @bind-Value="model.UserId" placeholder="User ID" />
+    <InputNumber class="form-control mb-2" @bind-Value="model.RankPosition" placeholder="Rank Position" />
+    <InputNumber class="form-control mb-2" @bind-Value="model.ProgressScore" placeholder="Progress Score" />
+    <InputNumber class="form-control mb-2" @bind-Value="model.TotalAchievements" placeholder="Total Achievements" />
+    <InputCheckbox class="form-check-input" @bind-Value="model.IsTopRanked" /> Is Top Ranked
+    <InputNumber class="form-control mb-2" @bind-Value="model.StreakCount" placeholder="Streak Count" />
+    <InputNumber class="form-control mb-2" @bind-Value="model.CommunityContribution" placeholder="Community Contribution" />
+
+
+    <button type="submit" class="btn btn-primary">💾 Save</button>
+</EditForm>
+
+@code {
+    [Parameter] public int? Id { get; set; }
+
+    LeaderboardsDuongLnt model = new();
+    bool IsUpdate => Id.HasValue;
+
+    protected override async Task OnInitializedAsync()
+    {
+        if (IsUpdate)
+        {
+            var data = await GrpcClient.GetByIdAsyncAsync(new LeaderboardsDuongLntIdRequest { LeaderboardsDuongLntid = Id.Value });
+            model = data;
+        }
+    }
+
+    private async Task HandleSubmit()
+    {
+        if (IsUpdate)
+        {
+            await GrpcClient.UpdateAsyncAsync(model);
+        }
+        else
+        {
+            var create = new LeaderboardsDuongLntCreate
+                {
+                    UserId = model.UserId,
+                    PlanId = model.PlanId,
+                    DaySmokeFree = model.DaySmokeFree,
+                    MoneySave = model.MoneySave,
+                    Note = model.Note,
+                    RankPosition = model.RankPosition,
+                    ProgressScore = model.ProgressScore,
+                    TotalAchievements = model.TotalAchievements,
+                    StreakCount = model.StreakCount,
+                    CommunityContribution = model.CommunityContribution,
+                    IsTopRanked = model.IsTopRanked,
+                    CreatedTime = DateTime.UtcNow.ToString("o"),
+                    LastUpdate = DateTime.UtcNow.ToString("o")
+                };
+
+            var res = await GrpcClient.CreateAsyncAsync(create);
+            if (res.Result <= 0)
+            {
+                Console.WriteLine("Create failed");
+            }
+
+        }
+
+        NavManager.NavigateTo("/leaderboard");
+    }
+}

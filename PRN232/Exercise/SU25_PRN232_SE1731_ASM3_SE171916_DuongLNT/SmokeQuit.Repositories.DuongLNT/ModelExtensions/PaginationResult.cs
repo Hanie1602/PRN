@@ -7,6 +7,5 @@
 		public int CurrentPage { get; set; }
 		public int PageSize { get; set; }
 		public T Items { get; set; }
-		//public ICollection<T> Items { get; set; } = new List<T>();
 	}
 }

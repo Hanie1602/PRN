@@ -1,0 +1,405 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\Github\\PRNN\\PRN232\\PE\\PRN231_SU25_SE171916.Api\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1A1F8665-30D6-4D58-AA1E-19D044F27F61}|PRN231_SU25_SE171916.Repositories\\PRN231_SU25_SE171916.Repositories.csproj|e:\\github\\prnn\\prn232\\pe\\prn231_su25_se171916.api\\prn231_su25_se171916.repositories\\handbagrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A1F8665-30D6-4D58-AA1E-19D044F27F61}|PRN231_SU25_SE171916.Repositories\\PRN231_SU25_SE171916.Repositories.csproj|solutionrelative:prn231_su25_se171916.repositories\\handbagrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{762CB30F-0ADD-4DE0-9FA6-08B8241EAA7D}|PRN231_SU25_SE171916.Api\\PRN231_SU25_SE171916.Api.csproj|e:\\github\\prnn\\prn232\\pe\\prn231_su25_se171916.api\\prn231_su25_se171916.api\\controllers\\systemaccountscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{762CB30F-0ADD-4DE0-9FA6-08B8241EAA7D}|PRN231_SU25_SE171916.Api\\PRN231_SU25_SE171916.Api.csproj|solutionrelative:prn231_su25_se171916.api\\controllers\\systemaccountscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A1F8665-30D6-4D58-AA1E-19D044F27F61}|PRN231_SU25_SE171916.Repositories\\PRN231_SU25_SE171916.Repositories.csproj|e:\\github\\prnn\\prn232\\pe\\prn231_su25_se171916.api\\prn231_su25_se171916.repositories\\models\\handbag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A1F8665-30D6-4D58-AA1E-19D044F27F61}|PRN231_SU25_SE171916.Repositories\\PRN231_SU25_SE171916.Repositories.csproj|solutionrelative:prn231_su25_se171916.repositories\\models\\handbag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A1F8665-30D6-4D58-AA1E-19D044F27F61}|PRN231_SU25_SE171916.Repositories\\PRN231_SU25_SE171916.Repositories.csproj|e:\\github\\prnn\\prn232\\pe\\prn231_su25_se171916.api\\prn231_su25_se171916.repositories\\models\\brand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A1F8665-30D6-4D58-AA1E-19D044F27F61}|PRN231_SU25_SE171916.Repositories\\PRN231_SU25_SE171916.Repositories.csproj|solutionrelative:prn231_su25_se171916.repositories\\models\\brand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A1F8665-30D6-4D58-AA1E-19D044F27F61}|PRN231_SU25_SE171916.Repositories\\PRN231_SU25_SE171916.Repositories.csproj|e:\\github\\prnn\\prn232\\pe\\prn231_su25_se171916.api\\prn231_su25_se171916.repositories\\models\\systemaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A1F8665-30D6-4D58-AA1E-19D044F27F61}|PRN231_SU25_SE171916.Repositories\\PRN231_SU25_SE171916.Repositories.csproj|solutionrelative:prn231_su25_se171916.repositories\\models\\systemaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A1F8665-30D6-4D58-AA1E-19D044F27F61}|PRN231_SU25_SE171916.Repositories\\PRN231_SU25_SE171916.Repositories.csproj|e:\\github\\prnn\\prn232\\pe\\prn231_su25_se171916.api\\prn231_su25_se171916.repositories\\models\\summer2025handbagdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A1F8665-30D6-4D58-AA1E-19D044F27F61}|PRN231_SU25_SE171916.Repositories\\PRN231_SU25_SE171916.Repositories.csproj|solutionrelative:prn231_su25_se171916.repositories\\models\\summer2025handbagdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A1F8665-30D6-4D58-AA1E-19D044F27F61}|PRN231_SU25_SE171916.Repositories\\PRN231_SU25_SE171916.Repositories.csproj|e:\\github\\prnn\\prn232\\pe\\prn231_su25_se171916.api\\prn231_su25_se171916.repositories\\leopardaccountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A1F8665-30D6-4D58-AA1E-19D044F27F61}|PRN231_SU25_SE171916.Repositories\\PRN231_SU25_SE171916.Repositories.csproj|solutionrelative:prn231_su25_se171916.repositories\\leopardaccountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{762CB30F-0ADD-4DE0-9FA6-08B8241EAA7D}|PRN231_SU25_SE171916.Api\\PRN231_SU25_SE171916.Api.csproj|e:\\github\\prnn\\prn232\\pe\\prn231_su25_se171916.api\\prn231_su25_se171916.api\\dto\\errorresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{762CB30F-0ADD-4DE0-9FA6-08B8241EAA7D}|PRN231_SU25_SE171916.Api\\PRN231_SU25_SE171916.Api.csproj|solutionrelative:prn231_su25_se171916.api\\dto\\errorresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{762CB30F-0ADD-4DE0-9FA6-08B8241EAA7D}|PRN231_SU25_SE171916.Api\\PRN231_SU25_SE171916.Api.csproj|e:\\github\\prnn\\prn232\\pe\\prn231_su25_se171916.api\\prn231_su25_se171916.api\\prn231_su25_se171916.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{762CB30F-0ADD-4DE0-9FA6-08B8241EAA7D}|PRN231_SU25_SE171916.Api\\PRN231_SU25_SE171916.Api.csproj|solutionrelative:prn231_su25_se171916.api\\prn231_su25_se171916.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{762CB30F-0ADD-4DE0-9FA6-08B8241EAA7D}|PRN231_SU25_SE171916.Api\\PRN231_SU25_SE171916.Api.csproj|e:\\github\\prnn\\prn232\\pe\\prn231_su25_se171916.api\\prn231_su25_se171916.api\\controllers\\basecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{762CB30F-0ADD-4DE0-9FA6-08B8241EAA7D}|PRN231_SU25_SE171916.Api\\PRN231_SU25_SE171916.Api.csproj|solutionrelative:prn231_su25_se171916.api\\controllers\\basecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{762CB30F-0ADD-4DE0-9FA6-08B8241EAA7D}|PRN231_SU25_SE171916.Api\\PRN231_SU25_SE171916.Api.csproj|e:\\github\\prnn\\prn232\\pe\\prn231_su25_se171916.api\\prn231_su25_se171916.api\\controllers\\handbagscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{762CB30F-0ADD-4DE0-9FA6-08B8241EAA7D}|PRN231_SU25_SE171916.Api\\PRN231_SU25_SE171916.Api.csproj|solutionrelative:prn231_su25_se171916.api\\controllers\\handbagscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{762CB30F-0ADD-4DE0-9FA6-08B8241EAA7D}|PRN231_SU25_SE171916.Api\\PRN231_SU25_SE171916.Api.csproj|e:\\github\\prnn\\prn232\\pe\\prn231_su25_se171916.api\\prn231_su25_se171916.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{762CB30F-0ADD-4DE0-9FA6-08B8241EAA7D}|PRN231_SU25_SE171916.Api\\PRN231_SU25_SE171916.Api.csproj|solutionrelative:prn231_su25_se171916.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{762CB30F-0ADD-4DE0-9FA6-08B8241EAA7D}|PRN231_SU25_SE171916.Api\\PRN231_SU25_SE171916.Api.csproj|e:\\github\\prnn\\prn232\\pe\\prn231_su25_se171916.api\\prn231_su25_se171916.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{762CB30F-0ADD-4DE0-9FA6-08B8241EAA7D}|PRN231_SU25_SE171916.Api\\PRN231_SU25_SE171916.Api.csproj|solutionrelative:prn231_su25_se171916.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{290E670E-687B-40E1-966C-E06EEE2ECE0D}|PRN231_SU25_SE171916.Services\\PRN231_SU25_SE171916.Services.csproj|e:\\github\\prnn\\prn232\\pe\\prn231_su25_se171916.api\\prn231_su25_se171916.services\\systemaccountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{290E670E-687B-40E1-966C-E06EEE2ECE0D}|PRN231_SU25_SE171916.Services\\PRN231_SU25_SE171916.Services.csproj|solutionrelative:prn231_su25_se171916.services\\systemaccountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{290E670E-687B-40E1-966C-E06EEE2ECE0D}|PRN231_SU25_SE171916.Services\\PRN231_SU25_SE171916.Services.csproj|e:\\github\\prnn\\prn232\\pe\\prn231_su25_se171916.api\\prn231_su25_se171916.services\\handbagservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{290E670E-687B-40E1-966C-E06EEE2ECE0D}|PRN231_SU25_SE171916.Services\\PRN231_SU25_SE171916.Services.csproj|solutionrelative:prn231_su25_se171916.services\\handbagservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{290E670E-687B-40E1-966C-E06EEE2ECE0D}|PRN231_SU25_SE171916.Services\\PRN231_SU25_SE171916.Services.csproj|e:\\github\\prnn\\prn232\\pe\\prn231_su25_se171916.api\\prn231_su25_se171916.services\\ihandbagservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{290E670E-687B-40E1-966C-E06EEE2ECE0D}|PRN231_SU25_SE171916.Services\\PRN231_SU25_SE171916.Services.csproj|solutionrelative:prn231_su25_se171916.services\\ihandbagservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A1F8665-30D6-4D58-AA1E-19D044F27F61}|PRN231_SU25_SE171916.Repositories\\PRN231_SU25_SE171916.Repositories.csproj|e:\\github\\prnn\\prn232\\pe\\prn231_su25_se171916.api\\prn231_su25_se171916.repositories\\systemaccountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A1F8665-30D6-4D58-AA1E-19D044F27F61}|PRN231_SU25_SE171916.Repositories\\PRN231_SU25_SE171916.Repositories.csproj|solutionrelative:prn231_su25_se171916.repositories\\systemaccountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A1F8665-30D6-4D58-AA1E-19D044F27F61}|PRN231_SU25_SE171916.Repositories\\PRN231_SU25_SE171916.Repositories.csproj|e:\\github\\prnn\\prn232\\pe\\prn231_su25_se171916.api\\prn231_su25_se171916.repositories\\uow\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A1F8665-30D6-4D58-AA1E-19D044F27F61}|PRN231_SU25_SE171916.Repositories\\PRN231_SU25_SE171916.Repositories.csproj|solutionrelative:prn231_su25_se171916.repositories\\uow\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A1F8665-30D6-4D58-AA1E-19D044F27F61}|PRN231_SU25_SE171916.Repositories\\PRN231_SU25_SE171916.Repositories.csproj|e:\\github\\prnn\\prn232\\pe\\prn231_su25_se171916.api\\prn231_su25_se171916.repositories\\basic\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A1F8665-30D6-4D58-AA1E-19D044F27F61}|PRN231_SU25_SE171916.Repositories\\PRN231_SU25_SE171916.Repositories.csproj|solutionrelative:prn231_su25_se171916.repositories\\basic\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{290E670E-687B-40E1-966C-E06EEE2ECE0D}|PRN231_SU25_SE171916.Services\\PRN231_SU25_SE171916.Services.csproj|e:\\github\\prnn\\prn232\\pe\\prn231_su25_se171916.api\\prn231_su25_se171916.services\\prn231_su25_se171916.services.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{290E670E-687B-40E1-966C-E06EEE2ECE0D}|PRN231_SU25_SE171916.Services\\PRN231_SU25_SE171916.Services.csproj|solutionrelative:prn231_su25_se171916.services\\prn231_su25_se171916.services.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A1F8665-30D6-4D58-AA1E-19D044F27F61}|PRN231_SU25_SE171916.Repositories\\PRN231_SU25_SE171916.Repositories.csproj|e:\\github\\prnn\\prn232\\pe\\prn231_su25_se171916.api\\prn231_su25_se171916.repositories\\prn231_su25_se171916.repositories.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{1A1F8665-30D6-4D58-AA1E-19D044F27F61}|PRN231_SU25_SE171916.Repositories\\PRN231_SU25_SE171916.Repositories.csproj|solutionrelative:prn231_su25_se171916.repositories\\prn231_su25_se171916.repositories.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 11,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SystemAccount.cs",
+              "DocumentMoniker": "E:\\Github\\PRNN\\PRN232\\PE\\PRN231_SU25_SE171916.Api\\PRN231_SU25_SE171916.Repositories\\Models\\SystemAccount.cs",
+              "RelativeDocumentMoniker": "PRN231_SU25_SE171916.Repositories\\Models\\SystemAccount.cs",
+              "ToolTip": "E:\\Github\\PRNN\\PRN232\\PE\\PRN231_SU25_SE171916.Api\\PRN231_SU25_SE171916.Repositories\\Models\\SystemAccount.cs",
+              "RelativeToolTip": "PRN231_SU25_SE171916.Repositories\\Models\\SystemAccount.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-19T14:39:57.82Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Handbag.cs",
+              "DocumentMoniker": "E:\\Github\\PRNN\\PRN232\\PE\\PRN231_SU25_SE171916.Api\\PRN231_SU25_SE171916.Repositories\\Models\\Handbag.cs",
+              "RelativeDocumentMoniker": "PRN231_SU25_SE171916.Repositories\\Models\\Handbag.cs",
+              "ToolTip": "E:\\Github\\PRNN\\PRN232\\PE\\PRN231_SU25_SE171916.Api\\PRN231_SU25_SE171916.Repositories\\Models\\Handbag.cs",
+              "RelativeToolTip": "PRN231_SU25_SE171916.Repositories\\Models\\Handbag.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-19T14:39:52.144Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Brand.cs",
+              "DocumentMoniker": "E:\\Github\\PRNN\\PRN232\\PE\\PRN231_SU25_SE171916.Api\\PRN231_SU25_SE171916.Repositories\\Models\\Brand.cs",
+              "RelativeDocumentMoniker": "PRN231_SU25_SE171916.Repositories\\Models\\Brand.cs",
+              "ToolTip": "E:\\Github\\PRNN\\PRN232\\PE\\PRN231_SU25_SE171916.Api\\PRN231_SU25_SE171916.Repositories\\Models\\Brand.cs",
+              "RelativeToolTip": "PRN231_SU25_SE171916.Repositories\\Models\\Brand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-19T14:39:38.023Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SystemAccountsController.cs",
+              "DocumentMoniker": "E:\\Github\\PRNN\\PRN232\\PE\\PRN231_SU25_SE171916.Api\\PRN231_SU25_SE171916.Api\\Controllers\\SystemAccountsController.cs",
+              "RelativeDocumentMoniker": "PRN231_SU25_SE171916.Api\\Controllers\\SystemAccountsController.cs",
+              "ToolTip": "E:\\Github\\PRNN\\PRN232\\PE\\PRN231_SU25_SE171916.Api\\PRN231_SU25_SE171916.Api\\Controllers\\SystemAccountsController.cs",
+              "RelativeToolTip": "PRN231_SU25_SE171916.Api\\Controllers\\SystemAccountsController.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAQwDcAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-19T15:40:18.64Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HandbagRepository.cs",
+              "DocumentMoniker": "E:\\Github\\PRNN\\PRN232\\PE\\PRN231_SU25_SE171916.Api\\PRN231_SU25_SE171916.Repositories\\HandbagRepository.cs",
+              "RelativeDocumentMoniker": "PRN231_SU25_SE171916.Repositories\\HandbagRepository.cs",
+              "ToolTip": "E:\\Github\\PRNN\\PRN232\\PE\\PRN231_SU25_SE171916.Api\\PRN231_SU25_SE171916.Repositories\\HandbagRepository.cs",
+              "RelativeToolTip": "PRN231_SU25_SE171916.Repositories\\HandbagRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-19T14:53:35.546Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Summer2025HandbagDbContext.cs",
+              "DocumentMoniker": "E:\\Github\\PRNN\\PRN232\\PE\\PRN231_SU25_SE171916.Api\\PRN231_SU25_SE171916.Repositories\\Models\\Summer2025HandbagDbContext.cs",
+              "RelativeDocumentMoniker": "PRN231_SU25_SE171916.Repositories\\Models\\Summer2025HandbagDbContext.cs",
+              "ToolTip": "E:\\Github\\PRNN\\PRN232\\PE\\PRN231_SU25_SE171916.Api\\PRN231_SU25_SE171916.Repositories\\Models\\Summer2025HandbagDbContext.cs",
+              "RelativeToolTip": "PRN231_SU25_SE171916.Repositories\\Models\\Summer2025HandbagDbContext.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAowCYAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-19T14:39:47.083Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "LeopardAccountRepository.cs",
+              "DocumentMoniker": "E:\\Github\\PRNN\\PRN232\\PE\\PRN231_SU25_SE171916.Api\\PRN231_SU25_SE171916.Repositories\\LeopardAccountRepository.cs",
+              "RelativeDocumentMoniker": "PRN231_SU25_SE171916.Repositories\\LeopardAccountRepository.cs",
+              "ToolTip": "E:\\Github\\PRNN\\PRN232\\PE\\PRN231_SU25_SE171916.Api\\PRN231_SU25_SE171916.Repositories\\LeopardAccountRepository.cs",
+              "RelativeToolTip": "PRN231_SU25_SE171916.Repositories\\LeopardAccountRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T02:42:15.999Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ErrorResponse.cs",
+              "DocumentMoniker": "E:\\Github\\PRNN\\PRN232\\PE\\PRN231_SU25_SE171916.Api\\PRN231_SU25_SE171916.Api\\DTO\\ErrorResponse.cs",
+              "RelativeDocumentMoniker": "PRN231_SU25_SE171916.Api\\DTO\\ErrorResponse.cs",
+              "ToolTip": "E:\\Github\\PRNN\\PRN232\\PE\\PRN231_SU25_SE171916.Api\\PRN231_SU25_SE171916.Api\\DTO\\ErrorResponse.cs",
+              "RelativeToolTip": "PRN231_SU25_SE171916.Api\\DTO\\ErrorResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-19T18:00:39.371Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "PRN231_SU25_SE171916.Api.csproj",
+              "DocumentMoniker": "E:\\Github\\PRNN\\PRN232\\PE\\PRN231_SU25_SE171916.Api\\PRN231_SU25_SE171916.Api\\PRN231_SU25_SE171916.Api.csproj",
+              "RelativeDocumentMoniker": "PRN231_SU25_SE171916.Api\\PRN231_SU25_SE171916.Api.csproj",
+              "ToolTip": "E:\\Github\\PRNN\\PRN232\\PE\\PRN231_SU25_SE171916.Api\\PRN231_SU25_SE171916.Api\\PRN231_SU25_SE171916.Api.csproj",
+              "RelativeToolTip": "PRN231_SU25_SE171916.Api\\PRN231_SU25_SE171916.Api.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-07-19T14:16:30.134Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "BaseController.cs",
+              "DocumentMoniker": "E:\\Github\\PRNN\\PRN232\\PE\\PRN231_SU25_SE171916.Api\\PRN231_SU25_SE171916.Api\\Controllers\\BaseController.cs",
+              "RelativeDocumentMoniker": "PRN231_SU25_SE171916.Api\\Controllers\\BaseController.cs",
+              "ToolTip": "E:\\Github\\PRNN\\PRN232\\PE\\PRN231_SU25_SE171916.Api\\PRN231_SU25_SE171916.Api\\Controllers\\BaseController.cs",
+              "RelativeToolTip": "PRN231_SU25_SE171916.Api\\Controllers\\BaseController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-19T18:02:09.032Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "HandbagsController.cs",
+              "DocumentMoniker": "E:\\Github\\PRNN\\PRN232\\PE\\PRN231_SU25_SE171916.Api\\PRN231_SU25_SE171916.Api\\Controllers\\HandbagsController.cs",
+              "RelativeDocumentMoniker": "PRN231_SU25_SE171916.Api\\Controllers\\HandbagsController.cs",
+              "ToolTip": "E:\\Github\\PRNN\\PRN232\\PE\\PRN231_SU25_SE171916.Api\\PRN231_SU25_SE171916.Api\\Controllers\\HandbagsController.cs",
+              "RelativeToolTip": "PRN231_SU25_SE171916.Api\\Controllers\\HandbagsController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAGAAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-19T15:13:21.883Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "E:\\Github\\PRNN\\PRN232\\PE\\PRN231_SU25_SE171916.Api\\PRN231_SU25_SE171916.Api\\appsettings.json",
+              "RelativeDocumentMoniker": "PRN231_SU25_SE171916.Api\\appsettings.json",
+              "ToolTip": "E:\\Github\\PRNN\\PRN232\\PE\\PRN231_SU25_SE171916.Api\\PRN231_SU25_SE171916.Api\\appsettings.json",
+              "RelativeToolTip": "PRN231_SU25_SE171916.Api\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-19T14:26:04.832Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\Github\\PRNN\\PRN232\\PE\\PRN231_SU25_SE171916.Api\\PRN231_SU25_SE171916.Api\\Program.cs",
+              "RelativeDocumentMoniker": "PRN231_SU25_SE171916.Api\\Program.cs",
+              "ToolTip": "E:\\Github\\PRNN\\PRN232\\PE\\PRN231_SU25_SE171916.Api\\PRN231_SU25_SE171916.Api\\Program.cs",
+              "RelativeToolTip": "PRN231_SU25_SE171916.Api\\Program.cs",
+              "ViewState": "AgIAAFgAAAAAAAAAAAAAwGMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-19T14:32:34.296Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "SystemAccountService.cs",
+              "DocumentMoniker": "E:\\Github\\PRNN\\PRN232\\PE\\PRN231_SU25_SE171916.Api\\PRN231_SU25_SE171916.Services\\SystemAccountService.cs",
+              "RelativeDocumentMoniker": "PRN231_SU25_SE171916.Services\\SystemAccountService.cs",
+              "ToolTip": "E:\\Github\\PRNN\\PRN232\\PE\\PRN231_SU25_SE171916.Api\\PRN231_SU25_SE171916.Services\\SystemAccountService.cs",
+              "RelativeToolTip": "PRN231_SU25_SE171916.Services\\SystemAccountService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwA0AAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-19T15:12:18.475Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "HandbagService.cs",
+              "DocumentMoniker": "E:\\Github\\PRNN\\PRN232\\PE\\PRN231_SU25_SE171916.Api\\PRN231_SU25_SE171916.Services\\HandbagService.cs",
+              "RelativeDocumentMoniker": "PRN231_SU25_SE171916.Services\\HandbagService.cs",
+              "ToolTip": "E:\\Github\\PRNN\\PRN232\\PE\\PRN231_SU25_SE171916.Api\\PRN231_SU25_SE171916.Services\\HandbagService.cs",
+              "RelativeToolTip": "PRN231_SU25_SE171916.Services\\HandbagService.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAowDEAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-19T15:07:26.745Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "IHandbagService.cs",
+              "DocumentMoniker": "E:\\Github\\PRNN\\PRN232\\PE\\PRN231_SU25_SE171916.Api\\PRN231_SU25_SE171916.Services\\IHandbagService.cs",
+              "RelativeDocumentMoniker": "PRN231_SU25_SE171916.Services\\IHandbagService.cs",
+              "ToolTip": "E:\\Github\\PRNN\\PRN232\\PE\\PRN231_SU25_SE171916.Api\\PRN231_SU25_SE171916.Services\\IHandbagService.cs",
+              "RelativeToolTip": "PRN231_SU25_SE171916.Services\\IHandbagService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAsAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-19T15:06:33.038Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "SystemAccountRepository.cs",
+              "DocumentMoniker": "E:\\Github\\PRNN\\PRN232\\PE\\PRN231_SU25_SE171916.Api\\PRN231_SU25_SE171916.Repositories\\SystemAccountRepository.cs",
+              "RelativeDocumentMoniker": "PRN231_SU25_SE171916.Repositories\\SystemAccountRepository.cs",
+              "ToolTip": "E:\\Github\\PRNN\\PRN232\\PE\\PRN231_SU25_SE171916.Api\\PRN231_SU25_SE171916.Repositories\\SystemAccountRepository.cs",
+              "RelativeToolTip": "PRN231_SU25_SE171916.Repositories\\SystemAccountRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAB/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-19T14:48:36.414Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "UnitOfWork.cs",
+              "DocumentMoniker": "E:\\Github\\PRNN\\PRN232\\PE\\PRN231_SU25_SE171916.Api\\PRN231_SU25_SE171916.Repositories\\UOW\\UnitOfWork.cs",
+              "RelativeDocumentMoniker": "PRN231_SU25_SE171916.Repositories\\UOW\\UnitOfWork.cs",
+              "ToolTip": "E:\\Github\\PRNN\\PRN232\\PE\\PRN231_SU25_SE171916.Api\\PRN231_SU25_SE171916.Repositories\\UOW\\UnitOfWork.cs",
+              "RelativeToolTip": "PRN231_SU25_SE171916.Repositories\\UOW\\UnitOfWork.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-19T14:21:48.509Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "GenericRepository.cs",
+              "DocumentMoniker": "E:\\Github\\PRNN\\PRN232\\PE\\PRN231_SU25_SE171916.Api\\PRN231_SU25_SE171916.Repositories\\Basic\\GenericRepository.cs",
+              "RelativeDocumentMoniker": "PRN231_SU25_SE171916.Repositories\\Basic\\GenericRepository.cs",
+              "ToolTip": "E:\\Github\\PRNN\\PRN232\\PE\\PRN231_SU25_SE171916.Api\\PRN231_SU25_SE171916.Repositories\\Basic\\GenericRepository.cs",
+              "RelativeToolTip": "PRN231_SU25_SE171916.Repositories\\Basic\\GenericRepository.cs",
+              "ViewState": "AgIAAFUAAAAAAAAAAAA6wIUAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-19T14:42:10.504Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "PRN231_SU25_SE171916.Services.csproj",
+              "DocumentMoniker": "E:\\Github\\PRNN\\PRN232\\PE\\PRN231_SU25_SE171916.Api\\PRN231_SU25_SE171916.Services\\PRN231_SU25_SE171916.Services.csproj",
+              "RelativeDocumentMoniker": "PRN231_SU25_SE171916.Services\\PRN231_SU25_SE171916.Services.csproj",
+              "ToolTip": "E:\\Github\\PRNN\\PRN232\\PE\\PRN231_SU25_SE171916.Api\\PRN231_SU25_SE171916.Services\\PRN231_SU25_SE171916.Services.csproj",
+              "RelativeToolTip": "PRN231_SU25_SE171916.Services\\PRN231_SU25_SE171916.Services.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-07-19T14:15:06.971Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "PRN231_SU25_SE171916.Repositories.csproj",
+              "DocumentMoniker": "E:\\Github\\PRNN\\PRN232\\PE\\PRN231_SU25_SE171916.Api\\PRN231_SU25_SE171916.Repositories\\PRN231_SU25_SE171916.Repositories.csproj",
+              "RelativeDocumentMoniker": "PRN231_SU25_SE171916.Repositories\\PRN231_SU25_SE171916.Repositories.csproj",
+              "ToolTip": "E:\\Github\\PRNN\\PRN232\\PE\\PRN231_SU25_SE171916.Api\\PRN231_SU25_SE171916.Repositories\\PRN231_SU25_SE171916.Repositories.csproj",
+              "RelativeToolTip": "PRN231_SU25_SE171916.Repositories\\PRN231_SU25_SE171916.Repositories.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-07-19T14:14:38.827Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

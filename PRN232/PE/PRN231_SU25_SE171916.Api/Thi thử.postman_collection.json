@@ -1,0 +1,168 @@
+{
+	"info": {
+		"_postman_id": "e0c9acb5-3e57-48c4-ae1f-c7081fe8affb",
+		"name": "Thi thử",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "45232419"
+	},
+	"item": [
+		{
+			"name": "Login success",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"email\": \"admin@handbagasian.org\",\r\n  \"password\": \"@1\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "https://localhost:7020/api/SystemAccounts/Login"
+			},
+			"response": []
+		},
+		{
+			"name": "Login failed",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"email\": \"admin@handbagasian.org\",\r\n  \"password\": \"@2\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "https://localhost:7020/api/SystemAccounts/Login"
+			},
+			"response": []
+		},
+		{
+			"name": "GetAll",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "https://localhost:7020/api/Handbags"
+			},
+			"response": []
+		},
+		{
+			"name": "Get By Id",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "https://localhost:7020/api/Handbags/1"
+			},
+			"response": []
+		},
+		{
+			"name": "Search",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:7020/api/handbags/search?modelName=Test%20Update&material=Leather",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7020",
+					"path": [
+						"api",
+						"handbags",
+						"search"
+					],
+					"query": [
+						{
+							"key": "modelName",
+							"value": "Test%20Update"
+						},
+						{
+							"key": "material",
+							"value": "Leather"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create handbag",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"modelName\": \"Elegant 2#024\",\r\n  \"material\": \"Leather\",\r\n  \"price\": 250.5,\r\n  \"stock\": 10,\r\n  \"brandId\": 1\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "https://localhost:7020/api/Handbags"
+			},
+			"response": []
+		},
+		{
+			"name": "Update handbag",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"handbagId\": 11,\r\n  \"modelName\": \"Elegant #2024\",\r\n  \"material\": \"Leather\",\r\n  \"price\": 250.5,\r\n  \"stock\": 10,\r\n  \"brandId\": 1\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "https://localhost:7020/api/Handbags/11"
+			},
+			"response": []
+		},
+		{
+			"name": "Delete handbag",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": "https://localhost:7020/api/Handbags/0"
+			},
+			"response": []
+		}
+	],
+	"auth": {
+		"type": "bearer",
+		"bearer": {
+			"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9lbWFpbGFkZHJlc3MiOiJhZG1pbkBoYW5kYmFnYXNpYW4ub3JnIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoiMSIsImV4cCI6MTc1Mjk1NTU0OSwiaXNzIjoiaHR0cHM6Ly9sb2NhbGhvc3Q6NzI1MCIsImF1ZCI6Imh0dHBzOi8vbG9jYWxob3N0OjcyNTAifQ.V9vXghccrY0GBS0CCAPoJ3giBokPauQgaDemLg5-bpU"
+		}
+	},
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					""
+				]
+			}
+		}
+	]
+}

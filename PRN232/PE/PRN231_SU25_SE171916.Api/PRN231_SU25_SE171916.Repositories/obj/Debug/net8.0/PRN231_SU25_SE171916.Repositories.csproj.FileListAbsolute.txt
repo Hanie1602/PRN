@@ -1,0 +1,15 @@
+E:\Github\PRNN\PRN232\PE\PRN231_SU25_SE171916.Api\PRN231_SU25_SE171916.Repositories\bin\Debug\net8.0\PRN231_SU25_SE171916.Repositories.deps.json
+E:\Github\PRNN\PRN232\PE\PRN231_SU25_SE171916.Api\PRN231_SU25_SE171916.Repositories\bin\Debug\net8.0\PRN231_SU25_SE171916.Repositories.runtimeconfig.json
+E:\Github\PRNN\PRN232\PE\PRN231_SU25_SE171916.Api\PRN231_SU25_SE171916.Repositories\bin\Debug\net8.0\PRN231_SU25_SE171916.Repositories.dll
+E:\Github\PRNN\PRN232\PE\PRN231_SU25_SE171916.Api\PRN231_SU25_SE171916.Repositories\bin\Debug\net8.0\PRN231_SU25_SE171916.Repositories.pdb
+E:\Github\PRNN\PRN232\PE\PRN231_SU25_SE171916.Api\PRN231_SU25_SE171916.Repositories\obj\Debug\net8.0\PRN231_SU25_SE171916.Repositories.csproj.AssemblyReference.cache
+E:\Github\PRNN\PRN232\PE\PRN231_SU25_SE171916.Api\PRN231_SU25_SE171916.Repositories\obj\Debug\net8.0\PRN231_SU25_SE171916.Repositories.GeneratedMSBuildEditorConfig.editorconfig
+E:\Github\PRNN\PRN232\PE\PRN231_SU25_SE171916.Api\PRN231_SU25_SE171916.Repositories\obj\Debug\net8.0\PRN231_SU25_SE171916.Repositories.AssemblyInfoInputs.cache
+E:\Github\PRNN\PRN232\PE\PRN231_SU25_SE171916.Api\PRN231_SU25_SE171916.Repositories\obj\Debug\net8.0\PRN231_SU25_SE171916.Repositories.AssemblyInfo.cs
+E:\Github\PRNN\PRN232\PE\PRN231_SU25_SE171916.Api\PRN231_SU25_SE171916.Repositories\obj\Debug\net8.0\PRN231_SU25_SE171916.Repositories.csproj.CoreCompileInputs.cache
+E:\Github\PRNN\PRN232\PE\PRN231_SU25_SE171916.Api\PRN231_SU25_SE171916.Repositories\obj\Debug\net8.0\PRN231_SU25_SE171916.Repositories.sourcelink.json
+E:\Github\PRNN\PRN232\PE\PRN231_SU25_SE171916.Api\PRN231_SU25_SE171916.Repositories\obj\Debug\net8.0\PRN231_SU25_SE171916.Repositories.dll
+E:\Github\PRNN\PRN232\PE\PRN231_SU25_SE171916.Api\PRN231_SU25_SE171916.Repositories\obj\Debug\net8.0\refint\PRN231_SU25_SE171916.Repositories.dll
+E:\Github\PRNN\PRN232\PE\PRN231_SU25_SE171916.Api\PRN231_SU25_SE171916.Repositories\obj\Debug\net8.0\PRN231_SU25_SE171916.Repositories.pdb
+E:\Github\PRNN\PRN232\PE\PRN231_SU25_SE171916.Api\PRN231_SU25_SE171916.Repositories\obj\Debug\net8.0\PRN231_SU25_SE171916.Repositories.genruntimeconfig.cache
+E:\Github\PRNN\PRN232\PE\PRN231_SU25_SE171916.Api\PRN231_SU25_SE171916.Repositories\obj\Debug\net8.0\ref\PRN231_SU25_SE171916.Repositories.dll

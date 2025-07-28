@@ -4,14 +4,14 @@
     "E:\\Github\\PRNN\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM5_SE171916_DuongLNT\\SmokeQuit.QuitPlanAnhDTN.Microservices.DuongLNT\\SmokeQuit.QuitPlanAnhDTN.Microservices.DuongLNT.csproj": {}
   },
   "projects": {
-    "E:\\Github\\PRNN\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM5_SE171916_DuongLNT\\SmokeQuit.BussinessObject.Shared.Models.DuongLNT\\SmokeQuit.BussinessObject.Shared.Models.DuongLNT.csproj": {
+    "E:\\Github\\PRNN\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM5_SE171916_DuongLNT\\SmokeQuit.BusinessObject.Shared.Models.DuongLNT\\SmokeQuit.BusinessObject.Shared.Models.DuongLNT.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Github\\PRNN\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM5_SE171916_DuongLNT\\SmokeQuit.BussinessObject.Shared.Models.DuongLNT\\SmokeQuit.BussinessObject.Shared.Models.DuongLNT.csproj",
-        "projectName": "SmokeQuit.BussinessObject.Shared.Models.DuongLNT",
-        "projectPath": "E:\\Github\\PRNN\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM5_SE171916_DuongLNT\\SmokeQuit.BussinessObject.Shared.Models.DuongLNT\\SmokeQuit.BussinessObject.Shared.Models.DuongLNT.csproj",
+        "projectUniqueName": "E:\\Github\\PRNN\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM5_SE171916_DuongLNT\\SmokeQuit.BusinessObject.Shared.Models.DuongLNT\\SmokeQuit.BusinessObject.Shared.Models.DuongLNT.csproj",
+        "projectName": "SmokeQuit.BusinessObject.Shared.Models.DuongLNT",
+        "projectPath": "E:\\Github\\PRNN\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM5_SE171916_DuongLNT\\SmokeQuit.BusinessObject.Shared.Models.DuongLNT\\SmokeQuit.BusinessObject.Shared.Models.DuongLNT.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "E:\\Github\\PRNN\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM5_SE171916_DuongLNT\\SmokeQuit.BussinessObject.Shared.Models.DuongLNT\\obj\\",
+        "outputPath": "E:\\Github\\PRNN\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM5_SE171916_DuongLNT\\SmokeQuit.BusinessObject.Shared.Models.DuongLNT\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -165,8 +165,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "E:\\Github\\PRNN\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM5_SE171916_DuongLNT\\SmokeQuit.BussinessObject.Shared.Models.DuongLNT\\SmokeQuit.BussinessObject.Shared.Models.DuongLNT.csproj": {
-                "projectPath": "E:\\Github\\PRNN\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM5_SE171916_DuongLNT\\SmokeQuit.BussinessObject.Shared.Models.DuongLNT\\SmokeQuit.BussinessObject.Shared.Models.DuongLNT.csproj"
+              "E:\\Github\\PRNN\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM5_SE171916_DuongLNT\\SmokeQuit.BusinessObject.Shared.Models.DuongLNT\\SmokeQuit.BusinessObject.Shared.Models.DuongLNT.csproj": {
+                "projectPath": "E:\\Github\\PRNN\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM5_SE171916_DuongLNT\\SmokeQuit.BusinessObject.Shared.Models.DuongLNT\\SmokeQuit.BusinessObject.Shared.Models.DuongLNT.csproj"
               },
               "E:\\Github\\PRNN\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM5_SE171916_DuongLNT\\SmokeQuit.Common.Shared.DuongLNT\\SmokeQuit.Common.Shared.DuongLNT.csproj": {
                 "projectPath": "E:\\Github\\PRNN\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM5_SE171916_DuongLNT\\SmokeQuit.Common.Shared.DuongLNT\\SmokeQuit.Common.Shared.DuongLNT.csproj"

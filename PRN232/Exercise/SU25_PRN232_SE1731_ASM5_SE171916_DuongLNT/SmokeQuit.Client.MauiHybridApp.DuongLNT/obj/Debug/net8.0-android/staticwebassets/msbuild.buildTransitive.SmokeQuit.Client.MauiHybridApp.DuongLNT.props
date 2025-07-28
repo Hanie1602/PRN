@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\SmokeQuit.Client.MauiHybridApp.DuongLNT.props" />
+</Project>

@@ -22,6 +22,11 @@
         ],
         "requestBody": {
           "content": {
+            "application/json-patch+json": {
+              "schema": {
+                "$ref": "#/components/schemas/FileConfiguration"
+              }
+            },
             "application/json": {
               "schema": {
                 "$ref": "#/components/schemas/FileConfiguration"

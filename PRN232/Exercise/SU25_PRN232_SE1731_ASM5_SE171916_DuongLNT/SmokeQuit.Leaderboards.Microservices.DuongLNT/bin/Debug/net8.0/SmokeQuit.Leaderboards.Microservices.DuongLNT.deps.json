@@ -11,7 +11,7 @@
           "MassTransit": "8.3.0",
           "MassTransit.AspNetCore": "7.3.1",
           "MassTransit.RabbitMQ": "8.3.0",
-          "SmokeQuit.BussinessObject.Shared.Models.DuongLNT": "1.0.0",
+          "SmokeQuit.BusinessObject.Shared.Models.DuongLNT": "1.0.0",
           "SmokeQuit.Common.Shared.DuongLNT": "1.0.0",
           "Swashbuckle.AspNetCore": "6.6.2"
         },
@@ -191,9 +191,9 @@
       "System.Diagnostics.DiagnosticSource/8.0.0": {},
       "System.Memory/4.5.5": {},
       "System.Threading.Channels/7.0.0": {},
-      "SmokeQuit.BussinessObject.Shared.Models.DuongLNT/1.0.0": {
+      "SmokeQuit.BusinessObject.Shared.Models.DuongLNT/1.0.0": {
         "runtime": {
-          "SmokeQuit.BussinessObject.Shared.Models.DuongLNT.dll": {
+          "SmokeQuit.BusinessObject.Shared.Models.DuongLNT.dll": {
             "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.0.0"
           }
@@ -390,7 +390,7 @@
       "path": "system.threading.channels/7.0.0",
       "hashPath": "system.threading.channels.7.0.0.nupkg.sha512"
     },
-    "SmokeQuit.BussinessObject.Shared.Models.DuongLNT/1.0.0": {
+    "SmokeQuit.BusinessObject.Shared.Models.DuongLNT/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

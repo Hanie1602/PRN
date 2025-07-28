@@ -9,7 +9,7 @@
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[SmokeQuit.BussinessObject.Shared.Models.DuongLNT.Models.LeaderboardsDuongLnt, SmokeQuit.BussinessObject.Shared.Models.DuongLNT, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[SmokeQuit.BusinessObject.Shared.Models.DuongLNT.Models.LeaderboardsDuongLnt, SmokeQuit.BusinessObject.Shared.Models.DuongLNT, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -29,7 +29,7 @@
     "Parameters": [
       {
         "Name": "leaderboards",
-        "Type": "SmokeQuit.BussinessObject.Shared.Models.DuongLNT.Models.LeaderboardsDuongLnt",
+        "Type": "SmokeQuit.BusinessObject.Shared.Models.DuongLNT.Models.LeaderboardsDuongLntPostModel",
         "IsRequired": true
       }
     ],
@@ -51,7 +51,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "SmokeQuit.BussinessObject.Shared.Models.DuongLNT.Models.LeaderboardsDuongLnt",
+        "Type": "SmokeQuit.BusinessObject.Shared.Models.DuongLNT.Models.LeaderboardsDuongLnt",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -75,15 +75,19 @@
         "IsRequired": true
       },
       {
-        "Name": "value",
-        "Type": "System.String",
+        "Name": "model",
+        "Type": "SmokeQuit.BusinessObject.Shared.Models.DuongLNT.Models.LeaderboardsDuongLnt",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "System.Void",
-        "MediaTypes": [],
+        "Type": "SmokeQuit.BusinessObject.Shared.Models.DuongLNT.Models.LeaderboardsDuongLnt",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
         "StatusCode": 200
       }
     ]

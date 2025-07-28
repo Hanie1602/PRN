@@ -1,5 +1,5 @@
 ﻿using MassTransit;
-using SmokeQuit.BussinessObject.Shared.Models.DuongLNT.Models;
+using SmokeQuit.BusinessObject.Shared.Models.DuongLNT.Models;
 using SmokeQuit.Common.Shared.DuongLNT;
 
 namespace SmokeQuit.QuitPlanAnhDTN.Microservices.DuongLNT.Consumer
@@ -25,10 +25,12 @@ namespace SmokeQuit.QuitPlanAnhDTN.Microservices.DuongLNT.Consumer
 
 				_logger.LogInformation(messageLog);
 
+			}
+			else
+			{
 				// Implement the logic to handle the booking here
 				_logger.LogInformation("The leaderboard have been noted: {Note}", context.Message.Note);
 				// Additional processing logic can be added here
-
 			}
 		}
 

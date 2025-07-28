@@ -1,0 +1,164 @@
+{
+	"info": {
+		"_postman_id": "71e2c137-f54a-4579-926c-343ab1de55ca",
+		"name": "ASM4 Soap",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "45232419"
+	},
+	"item": [
+		{
+			"name": "GetAll",
+			"protocolProfileBehavior": {
+				"disabledSystemHeaders": {}
+			},
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "text/xml; charset=utf-8",
+						"type": "text"
+					},
+					{
+						"key": "SOAPAction",
+						"value": "\"http://tempuri.org/ILeaderboardsDuongLntSoapService/GetLeaderboardsDuongLnt\"",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<soap:Envelope \r\n    xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" \r\n    xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\" \r\n    xmlns:soap=\"http://schemas.xmlsoap.org/soap/envelope/\">\r\n  <soap:Body>\r\n    <GetLeaderboardsDuongLnt xmlns=\"http://tempuri.org/\" />\r\n  </soap:Body>\r\n</soap:Envelope>",
+					"options": {
+						"raw": {
+							"language": "xml"
+						}
+					}
+				},
+				"url": "https://localhost:7115/LeaderboardsDuongLntSoapService.asmx"
+			},
+			"response": []
+		},
+		{
+			"name": "Get By Id",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "text/xml; charset=utf-8",
+						"type": "text"
+					},
+					{
+						"key": "SOAPAction",
+						"value": "\"http://tempuri.org/ILeaderboardsDuongLntSoapService/GetLeaderboardsDuongLntById\"",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<soap:Envelope \r\n\txmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" \r\n\txmlns:xsd=\"http://www.w3.org/2001/XMLSchema\" \r\n\txmlns:soap=\"http://schemas.xmlsoap.org/soap/envelope/\">\r\n  <soap:Body>\r\n    <GetLeaderboardsDuongLntById xmlns=\"http://tempuri.org/\">\r\n      <id>1003</id>\r\n    </GetLeaderboardsDuongLntById>\r\n  </soap:Body>\r\n</soap:Envelope>",
+					"options": {
+						"raw": {
+							"language": "xml"
+						}
+					}
+				},
+				"url": "https://localhost:7115/LeaderboardsDuongLntSoapService.asmx"
+			},
+			"response": []
+		},
+		{
+			"name": "Create",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "text/xml; charset=utf-8",
+						"type": "text"
+					},
+					{
+						"key": "SOAPAction",
+						"value": "\"http://tempuri.org/ILeaderboardsDuongLntSoapService/CreateLeaderboardsDuongLnt\"",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "<soap:Envelope xmlns:soap=\"http://schemas.xmlsoap.org/soap/envelope/\">\r\n  <soap:Body>\r\n    <CreateLeaderboardsDuongLnt xmlns=\"http://tempuri.org/\">\r\n      <leaderboards xmlns:q3=\"http://schemas.datacontract.org/2004/07/SmokeQuit.SoapApiService.DuongLNT.SoapModels\">\r\n        <q3:UserId>1</q3:UserId>\r\n        <q3:PlanId>4</q3:PlanId>\r\n        <q3:DaySmokeFree>25</q3:DaySmokeFree>\r\n        <q3:MoneySave>120000</q3:MoneySave>\r\n        <q3:RankPosition>12</q3:RankPosition>\r\n        <q3:TotalAchievements>4</q3:TotalAchievements>\r\n        <q3:ProgressScore>0.6</q3:ProgressScore>\r\n        <q3:Note>VuLNS</q3:Note>\r\n        <q3:StreakCount>3</q3:StreakCount>\r\n        <q3:CommunityContribution>2</q3:CommunityContribution>\r\n        <q3:IsTopRanked>false</q3:IsTopRanked>\r\n        <q3:LastUpdate>2025-07-17T12:00:00</q3:LastUpdate>\r\n        <q3:CreatedTime>2025-07-17T11:00:00</q3:CreatedTime>\r\n      </leaderboards>\r\n    </CreateLeaderboardsDuongLnt>\r\n  </soap:Body>\r\n</soap:Envelope>\r\n",
+					"options": {
+						"raw": {
+							"language": "xml"
+						}
+					}
+				},
+				"url": "https://localhost:7115/LeaderboardsDuongLntSoapService.asmx"
+			},
+			"response": []
+		},
+		{
+			"name": "Update",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "text/xml; charset=utf-8",
+						"type": "text"
+					},
+					{
+						"key": "SOAPAction",
+						"value": "\"http://tempuri.org/ILeaderboardsDuongLntSoapService/UpdateLeaderboardsDuongLnt\"",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "<soap:Envelope xmlns:soap=\"http://schemas.xmlsoap.org/soap/envelope/\">\r\n  <soap:Body>\r\n    <UpdateLeaderboardsDuongLnt xmlns=\"http://tempuri.org/\">\r\n      <leaderboards xmlns:q3=\"http://schemas.datacontract.org/2004/07/SmokeQuit.SoapApiService.DuongLNT.SoapModels\">\r\n        <q3:LeaderboardsDuongLntid>5082</q3:LeaderboardsDuongLntid>\r\n        <q3:UserId>1</q3:UserId>\r\n        <q3:PlanId>1004</q3:PlanId>\r\n        <q3:DaySmokeFree>25</q3:DaySmokeFree>\r\n        <q3:MoneySave>120000</q3:MoneySave>\r\n        <q3:RankPosition>12</q3:RankPosition>\r\n        <q3:TotalAchievements>4</q3:TotalAchievements>\r\n        <q3:ProgressScore>0.6</q3:ProgressScore>\r\n        <q3:Note>VuLNS Update</q3:Note>\r\n        <q3:StreakCount>3</q3:StreakCount>\r\n        <q3:CommunityContribution>2</q3:CommunityContribution>\r\n        <q3:IsTopRanked>false</q3:IsTopRanked>\r\n        <q3:LastUpdate>2025-07-17T12:00:00</q3:LastUpdate>\r\n        <q3:CreatedTime>2025-07-17T11:00:00</q3:CreatedTime>\r\n      </leaderboards>\r\n    </UpdateLeaderboardsDuongLnt>\r\n  </soap:Body>\r\n</soap:Envelope>\r\n",
+					"options": {
+						"raw": {
+							"language": "xml"
+						}
+					}
+				},
+				"url": "https://localhost:7115/LeaderboardsDuongLntSoapService.asmx"
+			},
+			"response": []
+		},
+		{
+			"name": "Delete",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "text/xml; charset=utf-8",
+						"type": "text"
+					},
+					{
+						"key": "SOAPAction",
+						"value": "\"http://tempuri.org/ILeaderboardsDuongLntSoapService/Delete\"",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "<soap:Envelope \r\n\txmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" \r\n\txmlns:xsd=\"http://www.w3.org/2001/XMLSchema\" \r\n\txmlns:soap=\"http://schemas.xmlsoap.org/soap/envelope/\">\r\n  <soap:Body>\r\n    <Delete xmlns=\"http://tempuri.org/\">\r\n      <id>4023</id>\r\n    </Delete>\r\n  </soap:Body>\r\n</soap:Envelope>\r\n",
+					"options": {
+						"raw": {
+							"language": "xml"
+						}
+					}
+				},
+				"url": "https://localhost:7115/LeaderboardsDuongLntSoapService.asmx"
+			},
+			"response": []
+		}
+	]
+}

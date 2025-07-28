@@ -14,146 +14,42 @@ namespace LeaderboardsDuongLntWCFServiceRef
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.2.0-preview1.23462.5")]
-    [System.Runtime.Serialization.DataContractAttribute(Name="LeaderboardsDuongLnt", Namespace="http://schemas.datacontract.org/2004/07/SmokeQuit.SoapApiServices.DuongLNT.SoapMo" +
-        "dels")]
+    [System.Runtime.Serialization.DataContractAttribute(Name="LeaderboardsDuongLnt", Namespace="http://schemas.datacontract.org/2004/07/SmokeQuit.SoapApiService.DuongLNT.SoapMod" +
+        "els")]
     public partial class LeaderboardsDuongLnt : object
     {
         
-        private System.Nullable<int> CommunityContributionField;
+        private LeaderboardsDuongLntWCFServiceRef.QuitPlansAnhDtn PlanField;
         
-        private System.Nullable<System.DateTime> CreatedTimeField;
+        private LeaderboardsDuongLntWCFServiceRef.SystemUserAccount UserField;
+        
+        private System.Nullable<int> LeaderboardsDuongLntidField;
+        
+        private int UserIdField;
+        
+        private System.Nullable<int> PlanIdField;
         
         private System.Nullable<int> DaySmokeFreeField;
+        
+        private System.Nullable<double> MoneySaveField;
+        
+        private System.Nullable<int> RankPositionField;
+        
+        private System.Nullable<int> TotalAchievementsField;
+        
+        private System.Nullable<double> ProgressScoreField;
+        
+        private string NoteField;
+        
+        private System.Nullable<int> StreakCountField;
+        
+        private System.Nullable<int> CommunityContributionField;
         
         private bool IsTopRankedField;
         
         private System.Nullable<System.DateTime> LastUpdateField;
         
-        private System.Nullable<int> LeaderboardsDuongLntidField;
-        
-        private System.Nullable<double> MoneySaveField;
-        
-        private string NoteField;
-        
-        private LeaderboardsDuongLntWCFServiceRef.QuitPlansAnhDtn PlanField;
-        
-        private System.Nullable<int> PlanIdField;
-        
-        private System.Nullable<double> ProgressScoreField;
-        
-        private System.Nullable<int> RankPositionField;
-        
-        private System.Nullable<int> StreakCountField;
-        
-        private System.Nullable<int> TotalAchievementsField;
-        
-        private LeaderboardsDuongLntWCFServiceRef.SystemUserAccount UserField;
-        
-        private int UserIdField;
-        
-        [System.Runtime.Serialization.DataMemberAttribute()]
-        public System.Nullable<int> CommunityContribution
-        {
-            get
-            {
-                return this.CommunityContributionField;
-            }
-            set
-            {
-                this.CommunityContributionField = value;
-            }
-        }
-        
-        [System.Runtime.Serialization.DataMemberAttribute()]
-        public System.Nullable<System.DateTime> CreatedTime
-        {
-            get
-            {
-                return this.CreatedTimeField;
-            }
-            set
-            {
-                this.CreatedTimeField = value;
-            }
-        }
-        
-        [System.Runtime.Serialization.DataMemberAttribute()]
-        public System.Nullable<int> DaySmokeFree
-        {
-            get
-            {
-                return this.DaySmokeFreeField;
-            }
-            set
-            {
-                this.DaySmokeFreeField = value;
-            }
-        }
-        
-        [System.Runtime.Serialization.DataMemberAttribute()]
-        public bool IsTopRanked
-        {
-            get
-            {
-                return this.IsTopRankedField;
-            }
-            set
-            {
-                this.IsTopRankedField = value;
-            }
-        }
-        
-        [System.Runtime.Serialization.DataMemberAttribute()]
-        public System.Nullable<System.DateTime> LastUpdate
-        {
-            get
-            {
-                return this.LastUpdateField;
-            }
-            set
-            {
-                this.LastUpdateField = value;
-            }
-        }
-        
-        [System.Runtime.Serialization.DataMemberAttribute()]
-        public System.Nullable<int> LeaderboardsDuongLntid
-        {
-            get
-            {
-                return this.LeaderboardsDuongLntidField;
-            }
-            set
-            {
-                this.LeaderboardsDuongLntidField = value;
-            }
-        }
-        
-        [System.Runtime.Serialization.DataMemberAttribute()]
-        public System.Nullable<double> MoneySave
-        {
-            get
-            {
-                return this.MoneySaveField;
-            }
-            set
-            {
-                this.MoneySaveField = value;
-            }
-        }
-        
-        [System.Runtime.Serialization.DataMemberAttribute()]
-        public string Note
-        {
-            get
-            {
-                return this.NoteField;
-            }
-            set
-            {
-                this.NoteField = value;
-            }
-        }
+        private System.Nullable<System.DateTime> CreatedTimeField;
         
         [System.Runtime.Serialization.DataMemberAttribute()]
         public LeaderboardsDuongLntWCFServiceRef.QuitPlansAnhDtn Plan
@@ -165,71 +61,6 @@ namespace LeaderboardsDuongLntWCFServiceRef
             set
             {
                 this.PlanField = value;
-            }
-        }
-        
-        [System.Runtime.Serialization.DataMemberAttribute()]
-        public System.Nullable<int> PlanId
-        {
-            get
-            {
-                return this.PlanIdField;
-            }
-            set
-            {
-                this.PlanIdField = value;
-            }
-        }
-        
-        [System.Runtime.Serialization.DataMemberAttribute()]
-        public System.Nullable<double> ProgressScore
-        {
-            get
-            {
-                return this.ProgressScoreField;
-            }
-            set
-            {
-                this.ProgressScoreField = value;
-            }
-        }
-        
-        [System.Runtime.Serialization.DataMemberAttribute()]
-        public System.Nullable<int> RankPosition
-        {
-            get
-            {
-                return this.RankPositionField;
-            }
-            set
-            {
-                this.RankPositionField = value;
-            }
-        }
-        
-        [System.Runtime.Serialization.DataMemberAttribute()]
-        public System.Nullable<int> StreakCount
-        {
-            get
-            {
-                return this.StreakCountField;
-            }
-            set
-            {
-                this.StreakCountField = value;
-            }
-        }
-        
-        [System.Runtime.Serialization.DataMemberAttribute()]
-        public System.Nullable<int> TotalAchievements
-        {
-            get
-            {
-                return this.TotalAchievementsField;
-            }
-            set
-            {
-                this.TotalAchievementsField = value;
             }
         }
         
@@ -246,7 +77,20 @@ namespace LeaderboardsDuongLntWCFServiceRef
             }
         }
         
-        [System.Runtime.Serialization.DataMemberAttribute()]
+        [System.Runtime.Serialization.DataMemberAttribute(Order=2)]
+        public System.Nullable<int> LeaderboardsDuongLntid
+        {
+            get
+            {
+                return this.LeaderboardsDuongLntidField;
+            }
+            set
+            {
+                this.LeaderboardsDuongLntidField = value;
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute(Order=3)]
         public int UserId
         {
             get
@@ -256,6 +100,162 @@ namespace LeaderboardsDuongLntWCFServiceRef
             set
             {
                 this.UserIdField = value;
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute(Order=4)]
+        public System.Nullable<int> PlanId
+        {
+            get
+            {
+                return this.PlanIdField;
+            }
+            set
+            {
+                this.PlanIdField = value;
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute(Order=5)]
+        public System.Nullable<int> DaySmokeFree
+        {
+            get
+            {
+                return this.DaySmokeFreeField;
+            }
+            set
+            {
+                this.DaySmokeFreeField = value;
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute(Order=6)]
+        public System.Nullable<double> MoneySave
+        {
+            get
+            {
+                return this.MoneySaveField;
+            }
+            set
+            {
+                this.MoneySaveField = value;
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute(Order=7)]
+        public System.Nullable<int> RankPosition
+        {
+            get
+            {
+                return this.RankPositionField;
+            }
+            set
+            {
+                this.RankPositionField = value;
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute(Order=8)]
+        public System.Nullable<int> TotalAchievements
+        {
+            get
+            {
+                return this.TotalAchievementsField;
+            }
+            set
+            {
+                this.TotalAchievementsField = value;
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute(Order=9)]
+        public System.Nullable<double> ProgressScore
+        {
+            get
+            {
+                return this.ProgressScoreField;
+            }
+            set
+            {
+                this.ProgressScoreField = value;
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute(Order=10)]
+        public string Note
+        {
+            get
+            {
+                return this.NoteField;
+            }
+            set
+            {
+                this.NoteField = value;
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute(Order=11)]
+        public System.Nullable<int> StreakCount
+        {
+            get
+            {
+                return this.StreakCountField;
+            }
+            set
+            {
+                this.StreakCountField = value;
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute(Order=12)]
+        public System.Nullable<int> CommunityContribution
+        {
+            get
+            {
+                return this.CommunityContributionField;
+            }
+            set
+            {
+                this.CommunityContributionField = value;
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute(Order=13)]
+        public bool IsTopRanked
+        {
+            get
+            {
+                return this.IsTopRankedField;
+            }
+            set
+            {
+                this.IsTopRankedField = value;
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute(Order=14)]
+        public System.Nullable<System.DateTime> LastUpdate
+        {
+            get
+            {
+                return this.LastUpdateField;
+            }
+            set
+            {
+                this.LastUpdateField = value;
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute(Order=15)]
+        public System.Nullable<System.DateTime> CreatedTime
+        {
+            get
+            {
+                return this.CreatedTimeField;
+            }
+            set
+            {
+                this.CreatedTimeField = value;
             }
         }
     }

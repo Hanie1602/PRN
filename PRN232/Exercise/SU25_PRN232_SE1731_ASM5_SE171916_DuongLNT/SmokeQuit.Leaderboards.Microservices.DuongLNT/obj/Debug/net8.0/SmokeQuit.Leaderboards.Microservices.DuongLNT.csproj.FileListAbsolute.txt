@@ -1,6 +1,6 @@
-E:\Github\PRNN\PRN232\Exercise\SU25_PRN232_SE1731_ASM5_SE171916_DuongLNT\SmokeQuit.Leaderboards.Microservices.DuongLNT\bin\Debug\net8.0\SmokeQuit.BussinessObject.Shared.Models.DuongLNT.deps.json
-E:\Github\PRNN\PRN232\Exercise\SU25_PRN232_SE1731_ASM5_SE171916_DuongLNT\SmokeQuit.Leaderboards.Microservices.DuongLNT\bin\Debug\net8.0\SmokeQuit.BussinessObject.Shared.Models.DuongLNT.runtimeconfig.json
-E:\Github\PRNN\PRN232\Exercise\SU25_PRN232_SE1731_ASM5_SE171916_DuongLNT\SmokeQuit.Leaderboards.Microservices.DuongLNT\bin\Debug\net8.0\SmokeQuit.BussinessObject.Shared.Models.DuongLNT.exe
+E:\Github\PRNN\PRN232\Exercise\SU25_PRN232_SE1731_ASM5_SE171916_DuongLNT\SmokeQuit.Leaderboards.Microservices.DuongLNT\bin\Debug\net8.0\SmokeQuit.Common.Shared.DuongLNT.deps.json
+E:\Github\PRNN\PRN232\Exercise\SU25_PRN232_SE1731_ASM5_SE171916_DuongLNT\SmokeQuit.Leaderboards.Microservices.DuongLNT\bin\Debug\net8.0\SmokeQuit.Common.Shared.DuongLNT.runtimeconfig.json
+E:\Github\PRNN\PRN232\Exercise\SU25_PRN232_SE1731_ASM5_SE171916_DuongLNT\SmokeQuit.Leaderboards.Microservices.DuongLNT\bin\Debug\net8.0\SmokeQuit.Common.Shared.DuongLNT.exe
 E:\Github\PRNN\PRN232\Exercise\SU25_PRN232_SE1731_ASM5_SE171916_DuongLNT\SmokeQuit.Leaderboards.Microservices.DuongLNT\bin\Debug\net8.0\appsettings.Development.json
 E:\Github\PRNN\PRN232\Exercise\SU25_PRN232_SE1731_ASM5_SE171916_DuongLNT\SmokeQuit.Leaderboards.Microservices.DuongLNT\bin\Debug\net8.0\appsettings.json
 E:\Github\PRNN\PRN232\Exercise\SU25_PRN232_SE1731_ASM5_SE171916_DuongLNT\SmokeQuit.Leaderboards.Microservices.DuongLNT\bin\Debug\net8.0\SmokeQuit.Leaderboards.Microservices.DuongLNT.staticwebassets.endpoints.json
@@ -19,8 +19,10 @@ E:\Github\PRNN\PRN232\Exercise\SU25_PRN232_SE1731_ASM5_SE171916_DuongLNT\SmokeQu
 E:\Github\PRNN\PRN232\Exercise\SU25_PRN232_SE1731_ASM5_SE171916_DuongLNT\SmokeQuit.Leaderboards.Microservices.DuongLNT\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
 E:\Github\PRNN\PRN232\Exercise\SU25_PRN232_SE1731_ASM5_SE171916_DuongLNT\SmokeQuit.Leaderboards.Microservices.DuongLNT\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 E:\Github\PRNN\PRN232\Exercise\SU25_PRN232_SE1731_ASM5_SE171916_DuongLNT\SmokeQuit.Leaderboards.Microservices.DuongLNT\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
-E:\Github\PRNN\PRN232\Exercise\SU25_PRN232_SE1731_ASM5_SE171916_DuongLNT\SmokeQuit.Leaderboards.Microservices.DuongLNT\bin\Debug\net8.0\SmokeQuit.BussinessObject.Shared.Models.DuongLNT.dll
-E:\Github\PRNN\PRN232\Exercise\SU25_PRN232_SE1731_ASM5_SE171916_DuongLNT\SmokeQuit.Leaderboards.Microservices.DuongLNT\bin\Debug\net8.0\SmokeQuit.BussinessObject.Shared.Models.DuongLNT.pdb
+E:\Github\PRNN\PRN232\Exercise\SU25_PRN232_SE1731_ASM5_SE171916_DuongLNT\SmokeQuit.Leaderboards.Microservices.DuongLNT\bin\Debug\net8.0\SmokeQuit.BusinessObject.Shared.Models.DuongLNT.dll
+E:\Github\PRNN\PRN232\Exercise\SU25_PRN232_SE1731_ASM5_SE171916_DuongLNT\SmokeQuit.Leaderboards.Microservices.DuongLNT\bin\Debug\net8.0\SmokeQuit.Common.Shared.DuongLNT.dll
+E:\Github\PRNN\PRN232\Exercise\SU25_PRN232_SE1731_ASM5_SE171916_DuongLNT\SmokeQuit.Leaderboards.Microservices.DuongLNT\bin\Debug\net8.0\SmokeQuit.BusinessObject.Shared.Models.DuongLNT.pdb
+E:\Github\PRNN\PRN232\Exercise\SU25_PRN232_SE1731_ASM5_SE171916_DuongLNT\SmokeQuit.Leaderboards.Microservices.DuongLNT\bin\Debug\net8.0\SmokeQuit.Common.Shared.DuongLNT.pdb
 E:\Github\PRNN\PRN232\Exercise\SU25_PRN232_SE1731_ASM5_SE171916_DuongLNT\SmokeQuit.Leaderboards.Microservices.DuongLNT\obj\Debug\net8.0\SmokeQuit.Leaderboards.Microservices.DuongLNT.csproj.AssemblyReference.cache
 E:\Github\PRNN\PRN232\Exercise\SU25_PRN232_SE1731_ASM5_SE171916_DuongLNT\SmokeQuit.Leaderboards.Microservices.DuongLNT\obj\Debug\net8.0\SmokeQuit.Leaderboards.Microservices.DuongLNT.GeneratedMSBuildEditorConfig.editorconfig
 E:\Github\PRNN\PRN232\Exercise\SU25_PRN232_SE1731_ASM5_SE171916_DuongLNT\SmokeQuit.Leaderboards.Microservices.DuongLNT\obj\Debug\net8.0\SmokeQuit.Leaderboards.Microservices.DuongLNT.AssemblyInfoInputs.cache
@@ -46,8 +48,3 @@ E:\Github\PRNN\PRN232\Exercise\SU25_PRN232_SE1731_ASM5_SE171916_DuongLNT\SmokeQu
 E:\Github\PRNN\PRN232\Exercise\SU25_PRN232_SE1731_ASM5_SE171916_DuongLNT\SmokeQuit.Leaderboards.Microservices.DuongLNT\obj\Debug\net8.0\SmokeQuit.Leaderboards.Microservices.DuongLNT.pdb
 E:\Github\PRNN\PRN232\Exercise\SU25_PRN232_SE1731_ASM5_SE171916_DuongLNT\SmokeQuit.Leaderboards.Microservices.DuongLNT\obj\Debug\net8.0\SmokeQuit.Leaderboards.Microservices.DuongLNT.genruntimeconfig.cache
 E:\Github\PRNN\PRN232\Exercise\SU25_PRN232_SE1731_ASM5_SE171916_DuongLNT\SmokeQuit.Leaderboards.Microservices.DuongLNT\obj\Debug\net8.0\ref\SmokeQuit.Leaderboards.Microservices.DuongLNT.dll
-E:\Github\PRNN\PRN232\Exercise\SU25_PRN232_SE1731_ASM5_SE171916_DuongLNT\SmokeQuit.Leaderboards.Microservices.DuongLNT\bin\Debug\net8.0\SmokeQuit.Common.Shared.DuongLNT.deps.json
-E:\Github\PRNN\PRN232\Exercise\SU25_PRN232_SE1731_ASM5_SE171916_DuongLNT\SmokeQuit.Leaderboards.Microservices.DuongLNT\bin\Debug\net8.0\SmokeQuit.Common.Shared.DuongLNT.runtimeconfig.json
-E:\Github\PRNN\PRN232\Exercise\SU25_PRN232_SE1731_ASM5_SE171916_DuongLNT\SmokeQuit.Leaderboards.Microservices.DuongLNT\bin\Debug\net8.0\SmokeQuit.Common.Shared.DuongLNT.exe
-E:\Github\PRNN\PRN232\Exercise\SU25_PRN232_SE1731_ASM5_SE171916_DuongLNT\SmokeQuit.Leaderboards.Microservices.DuongLNT\bin\Debug\net8.0\SmokeQuit.Common.Shared.DuongLNT.dll
-E:\Github\PRNN\PRN232\Exercise\SU25_PRN232_SE1731_ASM5_SE171916_DuongLNT\SmokeQuit.Leaderboards.Microservices.DuongLNT\bin\Debug\net8.0\SmokeQuit.Common.Shared.DuongLNT.pdb

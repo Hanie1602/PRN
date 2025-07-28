@@ -1,0 +1,39 @@
+﻿namespace SmokeQuit.BusinessObject.Shared.Models.DuongLNT.Models
+{
+	public partial class QuitPlansAnhDtn
+	{
+		public int QuitPlansAnhDtnid { get; set; }
+
+		public int UserId { get; set; }
+
+		public int? MembershipPlanId { get; set; }
+
+		public string Reason { get; set; }
+
+		public DateTime StartDate { get; set; }
+
+		public DateTime? ExpectedQuitDate { get; set; }
+
+		public int? DailyCigaretteTarget { get; set; }
+
+		public int? WeeklyCheckinFrequency { get; set; }
+
+		public string MotivationalMessage { get; set; }
+
+		public string HealthGoals { get; set; }
+
+		public double? BudgetSavingGoal { get; set; }
+
+		public bool ReceiveMotivationReminder { get; set; }
+
+		public bool IsCustomizedPlan { get; set; }
+
+		public DateTime? CreatedAt { get; set; }
+
+		public DateTime? UpdatedAt { get; set; }
+
+
+		public virtual ICollection<LeaderboardsDuongLnt> LeaderboardsDuongLnts { get; set; } = new List<LeaderboardsDuongLnt>();
+
+	}
+}

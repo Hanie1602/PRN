@@ -1,7 +1,6 @@
 ﻿using MassTransit;
-using MassTransit.Transports;
 using Microsoft.AspNetCore.Mvc;
-using SmokeQuit.BussinessObject.Shared.Models.DuongLNT.Models;
+using SmokeQuit.BusinessObject.Shared.Models.DuongLNT.Models;
 using SmokeQuit.Common.Shared.DuongLNT;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
@@ -78,7 +77,7 @@ namespace SmokeQuit.Leaderboards.Microservices.DuongLNT.Controllers
 
 		// POST api/<LeaderboardsController>
 		[HttpPost]
-		public async Task<IActionResult> Post(LeaderboardsDuongLnt leaderboards)
+		public async Task<IActionResult> Post(LeaderboardsDuongLntPostModel leaderboards)
 		{
 			if (leaderboards != null)
 			{
@@ -101,8 +100,16 @@ namespace SmokeQuit.Leaderboards.Microservices.DuongLNT.Controllers
 
 		// PUT api/<LeaderboardsController>/5
 		[HttpPut("{id}")]
-		public void Put(int id, [FromBody] string value)
+		public ActionResult<LeaderboardsDuongLnt> Put(int id, [FromBody] LeaderboardsDuongLnt model)
 		{
+			var existing = Leaderboards.FirstOrDefault(r => r.LeaderboardsDuongLntid == id);
+			if (existing == null) return NotFound();
+
+			existing.LastUpdate = DateTime.Now;
+			existing.Note = model.Note;
+			// Update các field khác nếu cần
+
+			return Ok(existing);
 		}
 
 		// DELETE api/<LeaderboardsController>/5

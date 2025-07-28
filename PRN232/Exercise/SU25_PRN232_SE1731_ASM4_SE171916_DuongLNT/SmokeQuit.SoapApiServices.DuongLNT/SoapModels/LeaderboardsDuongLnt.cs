@@ -5,65 +5,69 @@ using System.Runtime.Serialization;
 
 namespace SmokeQuit.SoapApiServices.DuongLNT.SoapModels;
 
-[DataContract]
+[DataContract(Namespace = "http://schemas.datacontract.org/2004/07/SmokeQuit.SoapApiService.DuongLNT.SoapModels")]
+
 public partial class LeaderboardsDuongLnt
 {
-	[DataMember]
+	[DataMember(Name = "LeaderboardsDuongLntid", Order = 1)]
 	public int? LeaderboardsDuongLntid { get; set; }
 
-	[DataMember]
-	[Required(ErrorMessage = "User is required.")]
+	[DataMember(Name = "UserId", Order = 2)]
+	[Required(ErrorMessage = "UserId is required.")]
 	public int UserId { get; set; }
 
-	[DataMember]
+	[DataMember(Name = "PlanId", Order = 3)]
 	public int? PlanId { get; set; }
 
-	[DataMember]
-	[Range(0, int.MaxValue, ErrorMessage = "Days smoke-free cannot be negative.")]
+	[DataMember(Name = "DaySmokeFree", Order = 4)]
 	[Required(ErrorMessage = "DaySmokeFree is required.")]
+	[Range(0, int.MaxValue, ErrorMessage = "Days smoke-free cannot be negative.")]
 	public int? DaySmokeFree { get; set; }
 
-	[DataMember]
-	[Range(0, double.MaxValue, ErrorMessage = "Saved money cannot be negative")]
+	[DataMember(Name = "MoneySave", Order = 5)]
 	[Required(ErrorMessage = "MoneySave is required.")]
+	[Range(0, double.MaxValue, ErrorMessage = "Saved money cannot be negative.")]
 	public double? MoneySave { get; set; }
 
-	[DataMember]
-	[Range(1, int.MaxValue, ErrorMessage = "Rank position must be greater than 1.")]
+	[DataMember(Name = "RankPosition", Order = 6)]
 	[Required(ErrorMessage = "RankPosition is required.")]
+	[Range(1, int.MaxValue, ErrorMessage = "Rank position must be greater than or equal to 1.")]
 	public int? RankPosition { get; set; }
 
-	[DataMember]
-	[Range(0, int.MaxValue, ErrorMessage = "Total achievements cannot be negative")]
+	[DataMember(Name = "TotalAchievements", Order = 7)]
 	[Required(ErrorMessage = "TotalAchievements is required.")]
+	[Range(0, int.MaxValue, ErrorMessage = "Total achievements cannot be negative.")]
 	public int? TotalAchievements { get; set; }
 
-	[DataMember]
-	[Range(0, double.MaxValue, ErrorMessage = "Progress score cannot be negative")]
+	[DataMember(Name = "ProgressScore", Order = 8)]
+	[Range(0, double.MaxValue, ErrorMessage = "Progress score cannot be negative.")]
 	public double? ProgressScore { get; set; }
 
-	[DataMember]
-	[StringLength(255, ErrorMessage = "Note must not exceed 255 characters.")]
+	[DataMember(Name = "Note", Order = 9)]
 	[Required(ErrorMessage = "Note is required.")]
+	[StringLength(255, ErrorMessage = "Note must not exceed 255 characters.")]
 	public string Note { get; set; }
 
-	[DataMember]
+	[DataMember(Name = "StreakCount", Order = 10)]
 	[Range(0, int.MaxValue, ErrorMessage = "Streak count cannot be negative.")]
 	public int? StreakCount { get; set; }
 
-	[DataMember]
+	[DataMember(Name = "CommunityContribution", Order = 11)]
+	[Range(0, int.MaxValue, ErrorMessage = "Community contribution cannot be negative.")]
 	public int? CommunityContribution { get; set; }
 
-	[DataMember]
+	[DataMember(Name = "IsTopRanked", Order = 12)]
 	public bool IsTopRanked { get; set; }
 
-	[DataMember]
+	[DataMember(Name = "LastUpdate", Order = 13)]
 	public DateTime? LastUpdate { get; set; }
 
-	[DataMember]
+	[DataMember(Name = "CreatedTime", Order = 14)]
 	public DateTime? CreatedTime { get; set; }
 
+	[DataMember]
 	public virtual QuitPlansAnhDtn Plan { get; set; }
 
+	[DataMember]
 	public virtual SystemUserAccount User { get; set; }
 }

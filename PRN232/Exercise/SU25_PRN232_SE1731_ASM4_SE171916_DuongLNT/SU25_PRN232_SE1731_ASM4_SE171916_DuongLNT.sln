@@ -9,7 +9,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmokeQuit.Services.DuongLNT
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmokeQuit.SoapApiServices.DuongLNT", "SmokeQuit.SoapApiServices.DuongLNT\SmokeQuit.SoapApiServices.DuongLNT.csproj", "{BA0774D4-1A83-46C7-BCFC-8237E19F0A74}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmokeQuit.SoapClient.ConsoleApp.DuongLnt", "SmokeQuit.SoapClient.ConsoleApp.DuongLnt\SmokeQuit.SoapClient.ConsoleApp.DuongLnt.csproj", "{7A75433A-93AE-4106-813C-04FE2F611BE2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmokeQuit.SoapClient.ConsoleApp.DuongLnt", "SmokeQuit.SoapClient.ConsoleApp.DuongLnt\SmokeQuit.SoapClient.ConsoleApp.DuongLnt.csproj", "{FEFFB96A-33E5-4A02-9351-58B7E7B6A24F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,10 +29,10 @@ Global
 		{BA0774D4-1A83-46C7-BCFC-8237E19F0A74}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BA0774D4-1A83-46C7-BCFC-8237E19F0A74}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BA0774D4-1A83-46C7-BCFC-8237E19F0A74}.Release|Any CPU.Build.0 = Release|Any CPU
-		{7A75433A-93AE-4106-813C-04FE2F611BE2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{7A75433A-93AE-4106-813C-04FE2F611BE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{7A75433A-93AE-4106-813C-04FE2F611BE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{7A75433A-93AE-4106-813C-04FE2F611BE2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FEFFB96A-33E5-4A02-9351-58B7E7B6A24F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FEFFB96A-33E5-4A02-9351-58B7E7B6A24F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FEFFB96A-33E5-4A02-9351-58B7E7B6A24F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FEFFB96A-33E5-4A02-9351-58B7E7B6A24F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -14,7 +14,7 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <ProjectReference Include="..\SmokeQuit.BussinessObject.Shared.Models.DuongLNT\SmokeQuit.BussinessObject.Shared.Models.DuongLNT.csproj" />
+	  <ProjectReference Include="..\SmokeQuit.BusinessObject.Shared.Models.DuongLNT\SmokeQuit.BusinessObject.Shared.Models.DuongLNT.csproj" />
 	  <ProjectReference Include="..\SmokeQuit.Common.Shared.DuongLNT\SmokeQuit.Common.Shared.DuongLNT.csproj" />
 	</ItemGroup>
 

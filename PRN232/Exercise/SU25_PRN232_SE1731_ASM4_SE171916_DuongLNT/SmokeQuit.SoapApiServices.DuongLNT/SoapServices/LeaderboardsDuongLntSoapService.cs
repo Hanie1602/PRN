@@ -1,11 +1,11 @@
 ﻿using SmokeQuit.SoapApiServices.DuongLNT.SoapModels;
 using System.ServiceModel;
-using System.Text.Json.Serialization;
 using System.Text.Json;
+using System.Text.Json.Serialization;
 
 namespace SmokeQuit.SoapApiServices.DuongLNT.SoapServices
 {
-	[ServiceContract(Namespace = "http://tempuri.org/")]
+	[ServiceContract]
 	public interface ILeaderboardsDuongLntSoapService
 	{
 		[OperationContract]
@@ -74,16 +74,15 @@ namespace SmokeQuit.SoapApiServices.DuongLNT.SoapServices
 			try
 			{
 				var opt = new JsonSerializerOptions() { ReferenceHandler = ReferenceHandler.IgnoreCycles, DefaultIgnoreCondition = JsonIgnoreCondition.WhenWritingNull };
+
 				var leaderboardJsonString = JsonSerializer.Serialize(leaderboards, opt);
-				var leaderboardsRMO = JsonSerializer.Deserialize<Repositories.DuongLNT.Models.LeaderboardsDuongLnt>(leaderboardJsonString, opt);
+				Console.WriteLine("SOAP → JSON: " + leaderboardJsonString);
 
-				if (!await _serviceProviders.UserAccountService.ExistsAsync(leaderboards.UserId))
-				{
-					throw new Exception($"UserId {leaderboards.UserId} does not exist in table SystemUserAccount.");
-				}
-				Console.WriteLine(JsonSerializer.Serialize(leaderboards));
+				var leaderboardRMO = JsonSerializer.Deserialize<Repositories.DuongLNT.Models.LeaderboardsDuongLnt>(leaderboardJsonString, opt);
 
-				var result = await _serviceProviders.LeaderboardsDuongLntService.CreateAsync(leaderboardsRMO);
+				Console.WriteLine("JSON → RMO: " + JsonSerializer.Serialize(leaderboardRMO));
+
+				var result = await _serviceProviders.LeaderboardsDuongLntService.CreateAsync(leaderboardRMO);
 				return result;
 			}
 			catch (Exception ex)
@@ -95,15 +94,12 @@ namespace SmokeQuit.SoapApiServices.DuongLNT.SoapServices
 			return 0;
 		}
 		#endregion
-		
+
+		#region Update
 		public async Task<int> UpdateAsync(LeaderboardsDuongLnt leaderboards)
 		{
 			try
 			{
-				// XÓA navigation property
-				leaderboards.Plan = null;
-				leaderboards.User = null;
-
 				var opt = new JsonSerializerOptions() { ReferenceHandler = ReferenceHandler.IgnoreCycles, DefaultIgnoreCondition = JsonIgnoreCondition.WhenWritingNull };
 
 				var leaderboardJsonString = JsonSerializer.Serialize(leaderboards, opt);
@@ -122,6 +118,7 @@ namespace SmokeQuit.SoapApiServices.DuongLNT.SoapServices
 			}
 			return 0;
 		}
+		#endregion
 
 		public async Task<int> DeleteAsync(int id)
 		{

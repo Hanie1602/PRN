@@ -1,5 +1,6 @@
 E:\Github\PRNN\PRN232\Exercise\SU25_PRN232_SE1731_ASM5_SE171916_DuongLNT\SmokeQuit.OcelotAPIGateway.DuongLNT\bin\Debug\net8.0\appsettings.Development.json
 E:\Github\PRNN\PRN232\Exercise\SU25_PRN232_SE1731_ASM5_SE171916_DuongLNT\SmokeQuit.OcelotAPIGateway.DuongLNT\bin\Debug\net8.0\appsettings.json
+E:\Github\PRNN\PRN232\Exercise\SU25_PRN232_SE1731_ASM5_SE171916_DuongLNT\SmokeQuit.OcelotAPIGateway.DuongLNT\bin\Debug\net8.0\ocelot.json
 E:\Github\PRNN\PRN232\Exercise\SU25_PRN232_SE1731_ASM5_SE171916_DuongLNT\SmokeQuit.OcelotAPIGateway.DuongLNT\bin\Debug\net8.0\SmokeQuit.OcelotAPIGateway.DuongLNT.staticwebassets.endpoints.json
 E:\Github\PRNN\PRN232\Exercise\SU25_PRN232_SE1731_ASM5_SE171916_DuongLNT\SmokeQuit.OcelotAPIGateway.DuongLNT\bin\Debug\net8.0\SmokeQuit.OcelotAPIGateway.DuongLNT.exe
 E:\Github\PRNN\PRN232\Exercise\SU25_PRN232_SE1731_ASM5_SE171916_DuongLNT\SmokeQuit.OcelotAPIGateway.DuongLNT\bin\Debug\net8.0\SmokeQuit.OcelotAPIGateway.DuongLNT.deps.json

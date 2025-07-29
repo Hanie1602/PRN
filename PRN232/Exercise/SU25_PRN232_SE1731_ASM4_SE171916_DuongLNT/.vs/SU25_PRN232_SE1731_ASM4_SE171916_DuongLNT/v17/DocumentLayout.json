@@ -153,7 +153,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 11,
           "Children": [
             {
               "$type": "Document",
@@ -166,8 +166,7 @@
               "ViewState": "AgIAAAkAAAAAAAAAAAAxwAcAAABbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-27T07:25:28.218Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
@@ -180,47 +179,7 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-17T17:10:01.411Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Reference.cs",
-              "DocumentMoniker": "E:\\Github\\PRNN\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM4_SE171916_DuongLNT\\SmokeQuit.SoapClient.ConsoleApp.DuongLnt\\Connected Services\\LeaderboardsDuongLntWCFServiceRef\\Reference.cs",
-              "RelativeDocumentMoniker": "SmokeQuit.SoapClient.ConsoleApp.DuongLnt\\Connected Services\\LeaderboardsDuongLntWCFServiceRef\\Reference.cs",
-              "ToolTip": "E:\\Github\\PRNN\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM4_SE171916_DuongLNT\\SmokeQuit.SoapClient.ConsoleApp.DuongLnt\\Connected Services\\LeaderboardsDuongLntWCFServiceRef\\Reference.cs",
-              "RelativeToolTip": "SmokeQuit.SoapClient.ConsoleApp.DuongLnt\\Connected Services\\LeaderboardsDuongLntWCFServiceRef\\Reference.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAAAAwAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-28T15:00:57.667Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "SmokeQuit.SoapClient.ConsoleApp.DuongLnt",
-              "DocumentMoniker": "E:\\Github\\PRNN\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM4_SE171916_DuongLNT\\SmokeQuit.SoapClient.ConsoleApp.DuongLnt\\SmokeQuit.SoapClient.ConsoleApp.DuongLnt.csproj",
-              "RelativeDocumentMoniker": "SmokeQuit.SoapClient.ConsoleApp.DuongLnt\\SmokeQuit.SoapClient.ConsoleApp.DuongLnt.csproj",
-              "ToolTip": "E:\\Github\\PRNN\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM4_SE171916_DuongLNT\\SmokeQuit.SoapClient.ConsoleApp.DuongLnt\\SmokeQuit.SoapClient.ConsoleApp.DuongLnt.csproj",
-              "RelativeToolTip": "SmokeQuit.SoapClient.ConsoleApp.DuongLnt\\SmokeQuit.SoapClient.ConsoleApp.DuongLnt.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-07-28T14:02:22.351Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "E:\\Github\\PRNN\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM4_SE171916_DuongLNT\\SmokeQuit.SoapClient.ConsoleApp.DuongLnt\\Program.cs",
-              "RelativeDocumentMoniker": "SmokeQuit.SoapClient.ConsoleApp.DuongLnt\\Program.cs",
-              "ToolTip": "E:\\Github\\PRNN\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM4_SE171916_DuongLNT\\SmokeQuit.SoapClient.ConsoleApp.DuongLnt\\Program.cs",
-              "RelativeToolTip": "SmokeQuit.SoapClient.ConsoleApp.DuongLnt\\Program.cs",
-              "ViewState": "AgIAAMMAAAAAAAAAAADwv6wAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-28T14:01:36.955Z",
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Bookmark",
@@ -252,6 +211,43 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Reference.cs",
+              "DocumentMoniker": "E:\\Github\\PRNN\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM4_SE171916_DuongLNT\\SmokeQuit.SoapClient.ConsoleApp.DuongLnt\\Connected Services\\LeaderboardsDuongLntWCFServiceRef\\Reference.cs",
+              "RelativeDocumentMoniker": "SmokeQuit.SoapClient.ConsoleApp.DuongLnt\\Connected Services\\LeaderboardsDuongLntWCFServiceRef\\Reference.cs",
+              "ToolTip": "E:\\Github\\PRNN\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM4_SE171916_DuongLNT\\SmokeQuit.SoapClient.ConsoleApp.DuongLnt\\Connected Services\\LeaderboardsDuongLntWCFServiceRef\\Reference.cs",
+              "RelativeToolTip": "SmokeQuit.SoapClient.ConsoleApp.DuongLnt\\Connected Services\\LeaderboardsDuongLntWCFServiceRef\\Reference.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAAAwAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-28T15:00:57.667Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SmokeQuit.SoapClient.ConsoleApp.DuongLnt.csproj",
+              "DocumentMoniker": "E:\\Github\\PRNN\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM4_SE171916_DuongLNT\\SmokeQuit.SoapClient.ConsoleApp.DuongLnt\\SmokeQuit.SoapClient.ConsoleApp.DuongLnt.csproj",
+              "RelativeDocumentMoniker": "SmokeQuit.SoapClient.ConsoleApp.DuongLnt\\SmokeQuit.SoapClient.ConsoleApp.DuongLnt.csproj",
+              "ToolTip": "E:\\Github\\PRNN\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM4_SE171916_DuongLNT\\SmokeQuit.SoapClient.ConsoleApp.DuongLnt\\SmokeQuit.SoapClient.ConsoleApp.DuongLnt.csproj",
+              "RelativeToolTip": "SmokeQuit.SoapClient.ConsoleApp.DuongLnt\\SmokeQuit.SoapClient.ConsoleApp.DuongLnt.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-07-28T14:02:22.351Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\Github\\PRNN\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM4_SE171916_DuongLNT\\SmokeQuit.SoapClient.ConsoleApp.DuongLnt\\Program.cs",
+              "RelativeDocumentMoniker": "SmokeQuit.SoapClient.ConsoleApp.DuongLnt\\Program.cs",
+              "ToolTip": "E:\\Github\\PRNN\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM4_SE171916_DuongLNT\\SmokeQuit.SoapClient.ConsoleApp.DuongLnt\\Program.cs",
+              "RelativeToolTip": "SmokeQuit.SoapClient.ConsoleApp.DuongLnt\\Program.cs",
+              "ViewState": "AgIAAKwAAAAAAAAAAADwv6wAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-28T14:01:36.955Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 4,
               "Title": "LeaderboardsDuongLntService.cs",
               "DocumentMoniker": "E:\\Github\\PRNN\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM4_SE171916_DuongLNT\\SmokeQuit.Services.DuongLNT\\LeaderboardsDuongLntService.cs",
@@ -260,8 +256,7 @@
               "RelativeToolTip": "SmokeQuit.Services.DuongLNT\\LeaderboardsDuongLntService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAIBJwDQAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-27T07:02:36.425Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-27T07:02:36.425Z"
             },
             {
               "$type": "Document",
@@ -273,8 +268,7 @@
               "RelativeToolTip": "SmokeQuit.Services.DuongLNT\\QuitPlansAnhDtnDuongLNTService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-28T00:33:11.198Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-28T00:33:11.198Z"
             },
             {
               "$type": "Document",
@@ -286,8 +280,7 @@
               "RelativeToolTip": "SmokeQuit.Services.DuongLNT\\ServiceProviders.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-17T18:25:50.799Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-17T18:25:50.799Z"
             },
             {
               "$type": "Document",
@@ -299,8 +292,7 @@
               "RelativeToolTip": "SmokeQuit.Services.DuongLNT\\SystemUserAccountService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-17T17:28:18.203Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-17T17:28:18.203Z"
             },
             {
               "$type": "Document",
@@ -312,8 +304,7 @@
               "RelativeToolTip": "SmokeQuit.SoapApiServices.DuongLNT\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-27T07:53:15.033Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-27T07:53:15.033Z"
             },
             {
               "$type": "Document",
@@ -325,8 +316,7 @@
               "RelativeToolTip": "SmokeQuit.Repositories.DuongLNT\\SmokeQuit.Repositories.DuongLNT.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-07-28T09:51:19.54Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-28T09:51:19.54Z"
             },
             {
               "$type": "Document",
@@ -338,8 +328,7 @@
               "RelativeToolTip": "SmokeQuit.Repositories.DuongLNT\\Basic\\GenericRepository.cs",
               "ViewState": "AgIAABQAAAAAAAAAAADgvygAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-17T17:20:46.861Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-17T17:20:46.861Z"
             },
             {
               "$type": "Document",
@@ -351,8 +340,7 @@
               "RelativeToolTip": "SmokeQuit.SoapApiServices.DuongLNT\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-06-27T07:21:57.406Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-27T07:21:57.406Z"
             },
             {
               "$type": "Document",
@@ -364,8 +352,7 @@
               "RelativeToolTip": "SmokeQuit.Repositories.DuongLNT\\LeaderboardsDuongLNTRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-27T07:02:45.756Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-27T07:02:45.756Z"
             },
             {
               "$type": "Document",
@@ -377,8 +364,7 @@
               "RelativeToolTip": "SmokeQuit.Services.DuongLNT\\ILeaderboardsDuongLntService.cs",
               "ViewState": "AgIAAAgAAAAAAAAAAAAWwBEAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-27T07:02:34.037Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-27T07:02:34.037Z"
             },
             {
               "$type": "Document",
@@ -390,8 +376,7 @@
               "RelativeToolTip": "SmokeQuit.SoapApiServices.DuongLNT\\SoapModels\\CoachesLocDpx.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-27T07:25:24.231Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-27T07:25:24.231Z"
             },
             {
               "$type": "Document",
@@ -403,8 +388,7 @@
               "RelativeToolTip": "SmokeQuit.Repositories.DuongLNT\\Models\\MembershipPlansAnhDtn.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-28T00:56:32.81Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-28T00:56:32.81Z"
             },
             {
               "$type": "Document",
@@ -416,8 +400,7 @@
               "RelativeToolTip": "SmokeQuit.Repositories.DuongLNT\\Models\\AchievementNhuNq.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-28T00:55:44.613Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-28T00:55:44.613Z"
             },
             {
               "$type": "Document",
@@ -429,8 +412,7 @@
               "RelativeToolTip": "SmokeQuit.SoapApiServices.DuongLNT\\SoapModels\\ChatsLocDpx.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-27T07:25:12.542Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-27T07:25:12.542Z"
             },
             {
               "$type": "Document",
@@ -442,8 +424,7 @@
               "RelativeToolTip": "SmokeQuit.SoapApiServices.DuongLNT\\SoapModels\\AchievementNhuNq.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-27T07:23:57.977Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-27T07:23:57.977Z"
             },
             {
               "$type": "Document",
@@ -455,8 +436,7 @@
               "RelativeToolTip": "SmokeQuit.SoapApiServices.DuongLNT\\SoapModels\\QuitPlansAnhDtn.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-27T07:25:38.459Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-27T07:25:38.459Z"
             },
             {
               "$type": "Document",
@@ -468,8 +448,7 @@
               "RelativeToolTip": "SmokeQuit.Repositories.DuongLNT\\QuitPlansAnhDtnDuongLNTRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-27T07:02:44.985Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-27T07:02:44.985Z"
             },
             {
               "$type": "Document",
@@ -481,8 +460,7 @@
               "RelativeToolTip": "SmokeQuit.Repositories.DuongLNT\\SystemUserAccountRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-27T07:02:43.873Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-27T07:02:43.873Z"
             },
             {
               "$type": "Document",
@@ -494,8 +472,7 @@
               "RelativeToolTip": "SmokeQuit.SoapApiServices.DuongLNT\\SoapModels\\MembershipPlansAnhDtn.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-27T07:25:32.193Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-27T07:25:32.193Z"
             },
             {
               "$type": "Document",
@@ -507,8 +484,7 @@
               "RelativeToolTip": "SmokeQuit.Repositories.DuongLNT\\DBContext\\SU25_PRN232_SE1731_G6_SmokeQuitContext.cs",
               "ViewState": "AgIAAC0AAAAAAAAAAAArwDsAAABrAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-17T17:16:29.401Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-17T17:16:29.401Z"
             },
             {
               "$type": "Document",
@@ -520,8 +496,7 @@
               "RelativeToolTip": "SmokeQuit.SoapApiServices.DuongLNT\\SmokeQuit.SoapApiServices.DuongLNT.http",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
-              "WhenOpened": "2025-06-27T07:10:25.108Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-27T07:10:25.108Z"
             },
             {
               "$type": "Document",
@@ -533,8 +508,7 @@
               "RelativeToolTip": "SmokeQuit.SoapApiServices.DuongLNT\\SoapModels\\UserAchievementNhuNq.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-27T07:25:50.437Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-27T07:25:50.437Z"
             },
             {
               "$type": "Document",
@@ -546,8 +520,7 @@
               "RelativeToolTip": "SmokeQuit.SoapApiServices.DuongLNT\\SoapModels\\SystemUserAccount.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAABBwAsAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-27T07:25:44.264Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-27T07:25:44.264Z"
             },
             {
               "$type": "Document",
@@ -559,8 +532,7 @@
               "RelativeToolTip": "SmokeQuit.SoapApiServices.DuongLNT\\SoapModels\\SupportMethodsHoangPx.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-27T07:25:41.222Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-27T07:25:41.222Z"
             },
             {
               "$type": "Document",
@@ -572,8 +544,7 @@
               "RelativeToolTip": "SmokeQuit.SoapApiServices.DuongLNT\\SoapModels\\ProgressRecordsHoangPx.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-27T07:25:35.136Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-27T07:25:35.136Z"
             },
             {
               "$type": "Document",
@@ -585,8 +556,7 @@
               "RelativeToolTip": "SmokeQuit.SoapApiServices.DuongLNT\\SoapModels\\BlogPostsAnVt.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-27T07:25:00.166Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-27T07:25:00.166Z"
             },
             {
               "$type": "Document",
@@ -598,8 +568,7 @@
               "RelativeToolTip": "SmokeQuit.Services.DuongLNT\\SmokeQuit.Services.DuongLNT.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-07-17T16:13:43.896Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-17T16:13:43.896Z"
             },
             {
               "$type": "Document",
@@ -620,8 +589,7 @@
               "RelativeToolTip": "SmokeQuit.Repositories.DuongLNT\\Models\\SystemUserAccount.cs",
               "ViewState": "AgIAACIAAAAAAAAAAAAmwCsAAAB8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-17T17:19:00.952Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-17T17:19:00.952Z"
             },
             {
               "$type": "Document",
@@ -633,8 +601,7 @@
               "RelativeToolTip": "SmokeQuit.SoapApiServices.DuongLNT\\SmokeQuit.SoapApiServices.DuongLNT.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-06-27T07:21:03.142Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-27T07:21:03.142Z"
             },
             {
               "$type": "Document",
@@ -645,8 +612,7 @@
               "ToolTip": "E:\\Github\\PRNN\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM4_SE171916_DuongLNT\\SmokeQuit.SoapApiServices.DuongLNT\\SmokeQuit.SoapApiServices.DuongLNT.csproj",
               "RelativeToolTip": "SmokeQuit.SoapApiServices.DuongLNT\\SmokeQuit.SoapApiServices.DuongLNT.csproj",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-06-27T07:10:21.138Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-27T07:10:21.138Z"
             }
           ]
         },

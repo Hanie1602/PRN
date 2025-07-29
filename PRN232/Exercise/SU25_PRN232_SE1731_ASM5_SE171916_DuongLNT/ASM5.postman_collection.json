@@ -1,0 +1,48 @@
+{
+	"info": {
+		"_postman_id": "12425fb0-cbc1-49c8-9b86-a47597f48ce9",
+		"name": "ASM5",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "45232419"
+	},
+	"item": [
+		{
+			"name": "Get",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "text/xml; charset=utf-8",
+						"type": "text"
+					},
+					{
+						"key": "SOAPAction",
+						"value": "\"http://tempuri.org/ILeaderboardsDuongLntSoapService/Delete\"",
+						"type": "text"
+					}
+				],
+				"url": "https://localhost:7296/gateway/Leaderboards"
+			},
+			"response": []
+		},
+		{
+			"name": "Create",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"userId\": 999,\r\n  \"planId\": 1,\r\n  \"daySmokeFree\": 5,\r\n  \"moneySave\": 30,\r\n  \"rankPosition\": 99,\r\n  \"totalAchievements\": 1,\r\n  \"progressScore\": 50.0,\r\n  \"note\": \"Just started\",\r\n  \"streakCount\": 2,\r\n  \"communityContribution\": 10,\r\n  \"isTopRanked\": false\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "https://localhost:7296/gateway/Leaderboards"
+			},
+			"response": []
+		}
+	]
+}

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SmokeQuit.GraphQLClients.BlazorWAS.DuongLNT")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4ebe82b4a8c0bd6a048fd4c40371f5896578b33d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6cdf9830e4b5d7ea7889e5b6146fc7d678f1cedf")]
 [assembly: System.Reflection.AssemblyProductAttribute("SmokeQuit.GraphQLClients.BlazorWAS.DuongLNT")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SmokeQuit.GraphQLClients.BlazorWAS.DuongLNT")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -168,7 +168,7 @@
               "RelativeDocumentMoniker": "SmokeQuit.GrpcServices.DuongLNT\\Protos\\leaderboardsduonglnt.proto",
               "ToolTip": "E:\\Github\\PRNN\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM3_SE171916_DuongLNT\\SmokeQuit.GrpcServices.DuongLNT\\Protos\\leaderboardsduonglnt.proto",
               "RelativeToolTip": "SmokeQuit.GrpcServices.DuongLNT\\Protos\\leaderboardsduonglnt.proto",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAAB0AAAASAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003853|",
               "WhenOpened": "2025-06-24T06:23:02.99Z",
               "IsPinned": true,
@@ -185,21 +185,7 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAADEAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-24T06:27:45.282Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "leaderboardsduonglnt.proto",
-              "DocumentMoniker": "E:\\Github\\PRNN\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM3_SE171916_DuongLNT\\SmokeQuit.GrpcClient.ConsoleApp.DuongLNT\\Protos\\leaderboardsduonglnt.proto",
-              "RelativeDocumentMoniker": "SmokeQuit.GrpcClient.ConsoleApp.DuongLNT\\Protos\\leaderboardsduonglnt.proto",
-              "ToolTip": "E:\\Github\\PRNN\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM3_SE171916_DuongLNT\\SmokeQuit.GrpcClient.ConsoleApp.DuongLNT\\Protos\\leaderboardsduonglnt.proto",
-              "RelativeToolTip": "SmokeQuit.GrpcClient.ConsoleApp.DuongLNT\\Protos\\leaderboardsduonglnt.proto",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003853|",
-              "WhenOpened": "2025-07-18T07:31:48.13Z",
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Bookmark",
@@ -231,6 +217,18 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "leaderboardsduonglnt.proto",
+              "DocumentMoniker": "E:\\Github\\PRNN\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM3_SE171916_DuongLNT\\SmokeQuit.GrpcClient.ConsoleApp.DuongLNT\\Protos\\leaderboardsduonglnt.proto",
+              "RelativeDocumentMoniker": "SmokeQuit.GrpcClient.ConsoleApp.DuongLNT\\Protos\\leaderboardsduonglnt.proto",
+              "ToolTip": "E:\\Github\\PRNN\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM3_SE171916_DuongLNT\\SmokeQuit.GrpcClient.ConsoleApp.DuongLNT\\Protos\\leaderboardsduonglnt.proto",
+              "RelativeToolTip": "SmokeQuit.GrpcClient.ConsoleApp.DuongLNT\\Protos\\leaderboardsduonglnt.proto",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003853|",
+              "WhenOpened": "2025-07-18T07:31:48.13Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "E:\\Github\\PRNN\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM3_SE171916_DuongLNT\\SmokeQuit.GrpcServices.DuongLNT\\Program.cs",
@@ -239,8 +237,7 @@
               "RelativeToolTip": "SmokeQuit.GrpcServices.DuongLNT\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-24T06:20:59.981Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-24T06:20:59.981Z"
             },
             {
               "$type": "Document",
@@ -646,7 +643,7 @@
           "Children": [
             {
               "$type": "Bookmark",
-              "Name": "ST:1:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+              "Name": "ST:9:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
             }
           ]
         }

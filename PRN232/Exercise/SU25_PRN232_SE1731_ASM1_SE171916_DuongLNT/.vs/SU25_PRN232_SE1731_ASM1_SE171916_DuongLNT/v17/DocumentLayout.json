@@ -225,7 +225,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 12,
+          "SelectedChildIndex": 11,
           "Children": [
             {
               "$type": "Bookmark",
@@ -254,18 +254,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "E:\\Github\\PRNN\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM1_SE171916_DuongLNT\\SmokeQuit.MVCWebApp.FE.DuongLNT\\Views\\LeaderboardsDuongLnts\\Edit.cshtml",
-              "RelativeDocumentMoniker": "SmokeQuit.MVCWebApp.FE.DuongLNT\\Views\\LeaderboardsDuongLnts\\Edit.cshtml",
-              "ToolTip": "E:\\Github\\PRNN\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM1_SE171916_DuongLNT\\SmokeQuit.MVCWebApp.FE.DuongLNT\\Views\\LeaderboardsDuongLnts\\Edit.cshtml",
-              "RelativeToolTip": "SmokeQuit.MVCWebApp.FE.DuongLNT\\Views\\LeaderboardsDuongLnts\\Edit.cshtml",
-              "ViewState": "AgIAABEAAAAAAAAAAAAAABgAAABlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-30T02:46:54.072Z"
             },
             {
               "$type": "Document",
@@ -323,10 +311,22 @@
               "RelativeDocumentMoniker": "SmokeQuit.Repositories.DuongLNT\\Models\\LeaderboardsDuongLnt.cs",
               "ToolTip": "E:\\Github\\PRNN\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM1_SE171916_DuongLNT\\SmokeQuit.Repositories.DuongLNT\\Models\\LeaderboardsDuongLnt.cs",
               "RelativeToolTip": "SmokeQuit.Repositories.DuongLNT\\Models\\LeaderboardsDuongLnt.cs",
-              "ViewState": "AgIAACIAAAAAAAAAAAAAADMAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAuwCYAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-16T07:02:47.007Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "E:\\Github\\PRNN\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM1_SE171916_DuongLNT\\SmokeQuit.MVCWebApp.FE.DuongLNT\\Views\\LeaderboardsDuongLnts\\Edit.cshtml",
+              "RelativeDocumentMoniker": "SmokeQuit.MVCWebApp.FE.DuongLNT\\Views\\LeaderboardsDuongLnts\\Edit.cshtml",
+              "ToolTip": "E:\\Github\\PRNN\\PRN232\\Exercise\\SU25_PRN232_SE1731_ASM1_SE171916_DuongLNT\\SmokeQuit.MVCWebApp.FE.DuongLNT\\Views\\LeaderboardsDuongLnts\\Edit.cshtml",
+              "RelativeToolTip": "SmokeQuit.MVCWebApp.FE.DuongLNT\\Views\\LeaderboardsDuongLnts\\Edit.cshtml",
+              "ViewState": "AgIAABEAAAAAAAAAAAAAABgAAABlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-30T02:46:54.072Z"
             },
             {
               "$type": "Document",
@@ -909,7 +909,7 @@
           "Children": [
             {
               "$type": "Bookmark",
-              "Name": "ST:1:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+              "Name": "ST:9:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
             }
           ]
         }

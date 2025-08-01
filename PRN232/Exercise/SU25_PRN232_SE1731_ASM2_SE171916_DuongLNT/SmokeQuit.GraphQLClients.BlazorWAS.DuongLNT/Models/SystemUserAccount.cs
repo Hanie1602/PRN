@@ -39,8 +39,6 @@ public partial class SystemUserAccount
 
     public virtual ICollection<BlogPostsAnVt> BlogPostsAnVts { get; set; } = new List<BlogPostsAnVt>();
 
-    public virtual ICollection<ChatsLocDpx> ChatsLocDpxes { get; set; } = new List<ChatsLocDpx>();
-
     public virtual ICollection<LeaderboardsDuongLnt> LeaderboardsDuongLnts { get; set; } = new List<LeaderboardsDuongLnt>();
 
     public virtual ICollection<ProgressRecordsHoangPx> ProgressRecordsHoangPxes { get; set; } = new List<ProgressRecordsHoangPx>();

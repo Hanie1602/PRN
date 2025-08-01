@@ -17,4 +17,8 @@
     <ProjectReference Include="..\SmokeQuit.Services.DuongLNT\SmokeQuit.Services.DuongLNT.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Controllers\" />
+  </ItemGroup>
+
 </Project>
